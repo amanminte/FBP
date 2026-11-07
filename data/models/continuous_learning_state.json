@@ -1,13 +1,13 @@
 {
   "version": "2.0-online-learner",
-  "last_updated": "2026-11-07T20:27:05.607024",
-  "total_matches_learned": 30,
+  "last_updated": "2026-11-07T20:36:41.956872",
+  "total_matches_learned": 31,
   "team_elo_drifts": {
     "Everton": 5.21,
-    "Coventry City": -2.81,
+    "Coventry City": -2.41,
     "Hamburger SV": 6.24,
     "Borussia Mönchengladbach": -6.24,
-    "Arsenal": 3.94,
+    "Arsenal": 3.54,
     "Sevilla": -5.95,
     "Alaves": 5.95,
     "Venezia": 7.52,
@@ -34,10 +34,10 @@
   },
   "team_attack_drifts": {
     "Everton": 1.1343,
-    "Coventry City": 0.8681,
+    "Coventry City": 0.849,
     "Hamburger SV": 1.012,
     "Borussia Mönchengladbach": 0.998,
-    "Arsenal": 1.1888,
+    "Arsenal": 1.2268,
     "Sevilla": 0.972,
     "Alaves": 0.978,
     "Venezia": 1.012,
@@ -63,11 +63,11 @@
     "Lecce": 0.998
   },
   "team_defense_drifts": {
-    "Coventry City": 1.3704,
+    "Coventry City": 1.4143,
     "Everton": 0.992,
     "Borussia Mönchengladbach": 1.012,
     "Hamburger SV": 0.998,
-    "Arsenal": 0.837,
+    "Arsenal": 0.8186,
     "Alaves": 0.972,
     "Sevilla": 0.978,
     "Udinese": 1.012,
@@ -92,10 +92,19 @@
     "Lecce": 0.992,
     "Torino": 0.998
   },
-  "cumulative_brier_score": 13.0121,
-  "average_brier_score": 0.4337,
-  "temperature_adjustment": 0.988,
+  "cumulative_brier_score": 13.0946,
+  "average_brier_score": 0.4224,
+  "temperature_adjustment": 0.986,
   "recent_learning_log": [
+    {
+      "timestamp": "2026-11-07 20:36",
+      "fixture": "Arsenal vs Coventry City",
+      "score": "3 - 0",
+      "predicted": "90.0% H / 25.0% D / 10.0% A",
+      "actual": "Home Win",
+      "elo_delta": "-0.4 pts (Arsenal)",
+      "brier_loss": 0.0825
+    },
     {
       "timestamp": "2026-11-07 20:27",
       "fixture": "Arsenal vs Coventry City",

@@ -1605,8 +1605,65 @@ with tab5:
     conn.close()
 
     if len(ledger_df) > 0:
-        st.markdown("#### Immutable Prediction Ledger (Including Actual Scores & xG / xGA)")
-        st.dataframe(ledger_df, use_container_width=True)
+        # User-friendly filter controls
+        f_c1, f_c2 = st.columns([1.5, 3])
+        with f_c1:
+            view_filter = st.radio("Filter Ledger View:", ["All Bets", "Settled Only", "Pending Only"], horizontal=True)
+
+        filtered_df = ledger_df.copy()
+        if view_filter == "Settled Only":
+            filtered_df = filtered_df[filtered_df["status"] == "SETTLED"]
+        elif view_filter == "Pending Only":
+            filtered_df = filtered_df[filtered_df["status"] == "PENDING"]
+
+        # Human-readable format
+        def format_clean_ledger_row(r):
+            fix_str = f"{r['home_team']} vs {r['away_team']}"
+            dt_str = str(r['match_date'])
+            pick_str = str(r['predicted_pick'])
+            odds_val = f"@{r['opening_odds']:.2f}" if pd.notnull(r['opening_odds']) else "—"
+            prob_val = f"{r['calibrated_prob']*100:.1f}%" if pd.notnull(r['calibrated_prob']) else ""
+            odds_prob_str = f"{odds_val} ({prob_val})" if prob_val else odds_val
+            
+            # Final Score
+            if pd.notnull(r['actual_score']) and str(r['actual_score']).strip() not in ['', 'None']:
+                score_str = str(r['actual_score']).strip()
+            else:
+                score_str = "⏳ Scheduled"
+
+            # Result & PnL
+            if r['status'] == 'SETTLED':
+                if r['is_hit'] == 1:
+                    status_str = "🟢 HIT (WON)"
+                    pnl_str = f"+{float(r['pnl_flat']):.2f}u"
+                else:
+                    status_str = "🔴 MISSED (LOST)"
+                    pnl_str = f"{float(r['pnl_flat']):.2f}u"
+            else:
+                status_str = "⏳ Pending"
+                pnl_str = "—"
+
+            return {
+                "ID": int(r['id']),
+                "League": str(r.get('league', 'E0')),
+                "Match Fixture": fix_str,
+                "Date": dt_str,
+                "Predicted Pick": pick_str,
+                "Fair Odds (Prob)": odds_prob_str,
+                "Actual Score": score_str,
+                "Result": status_str,
+                "Profit / Loss": pnl_str
+            }
+
+        clean_rows = [format_clean_ledger_row(r) for _, r in filtered_df.iterrows()]
+        clean_display_df = pd.DataFrame(clean_rows)
+
+        st.markdown("#### 📋 Clean Prediction Ledger")
+        st.dataframe(clean_display_df, use_container_width=True, hide_index=True)
+
+        with st.expander("🔍 Advanced Quant Engine Details (Raw xG, Closing Odds & CLV)"):
+            st.caption("Underlying mathematical attributes used to train models and calibrate confidence:")
+            st.dataframe(filtered_df, use_container_width=True, hide_index=True)
 
         st.markdown("#### Manual Result Grader & Custom Simulator")
         pending = ledger_df[ledger_df["status"] == "PENDING"]
