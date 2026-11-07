@@ -138,8 +138,8 @@ def compute_all_market_probabilities(
     p_a_wtn = (1.0 - math.exp(-lambda_a)) * p_a_cs
 
     # Win Either Half
-    p_h_weh = 1.0 - (1.0 - 0.70 * (p_home / 100.0)) ** 2
-    p_a_weh = 1.0 - (1.0 - 0.70 * (p_away / 100.0)) ** 2
+    p_h_weh = 1.0 - (1.0 - 0.70 * p_home) ** 2
+    p_a_weh = 1.0 - (1.0 - 0.70 * p_away) ** 2
 
     return {
         "double_chance": {

@@ -306,7 +306,12 @@ def evaluate_penta_consensus(
             f"(Syndicate ML, Forebet, Understat, WhoScored, and FootballPredictor) converge unanimously on {dominant_team_pick}. "
             f"Statistically represents the highest safety grade achievable."
         )
-        recommended_diamond_bet = f"Double Chance: {home_team if dominant_pick=='Home Win' else away_team} or Draw (1X)" if dominant_pick != "Draw" else "Under 2.5 Total Match Goals"
+        if dominant_pick == "Home Win":
+            recommended_diamond_bet = f"Double Chance: {home_team} or Draw (1X)"
+        elif dominant_pick == "Away Win":
+            recommended_diamond_bet = f"Double Chance: {away_team} or Draw (X2)"
+        else:
+            recommended_diamond_bet = "Under 2.5 Total Match Goals"
         safe_lock_odds = "1.12 - 1.25"
         is_split = False
     elif consensus_count == 4:

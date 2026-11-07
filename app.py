@@ -579,6 +579,20 @@ with tab1:
                         <div class='safe-desc'>{p['why_plain_english']}</div>
                     </div>
                     """, unsafe_allow_html=True)
+                    if st.button(f"🔒 Lock #{i+1} to Ledger", key=f"btn_lck_safepick_{i}_{p['pick_type']}", use_container_width=True):
+                        rid_safe = record_live_prediction(
+                            match_date=datetime.now().strftime("%Y-%m-%d"),
+                            league=sel_lg,
+                            home_team=h_team,
+                            away_team=a_team,
+                            model_track="Top Safety Pick",
+                            predicted_pick=p['pick_type'],
+                            calibrated_prob=float(p['win_percentage']) / 100.0,
+                            opening_odds=float(p['fair_odds']),
+                            stake_units=8.0 if p['win_percentage'] >= 88.0 else 5.0,
+                            bet_category=p['safety_badge']
+                        )
+                        st.success(f"✅ Locked {p['pick_type']} (@{p['fair_odds']:.2f}) into ledger as ID #{rid_safe}!")
         else:
             st.info("Generating multi-market safety recommendations...")
 
@@ -631,6 +645,43 @@ with tab1:
                     </div>
                 </div>
                 """, unsafe_allow_html=True)
+
+            cg_market_name = cg_data.get("best_common_ground_market", "") if cg_data else ""
+            btn_cg_c1, btn_cg_c2 = st.columns(2)
+            with btn_cg_c1:
+                penta_rec = pc.get("recommended_diamond_bet", pc.get("dominant_team_pick", "Home Win"))
+                if st.button(f"🔒 Lock Consensus Bet ({penta_rec})", key="btn_lck_penta_consensus", use_container_width=True):
+                    rid_pc = record_live_prediction(
+                        match_date=datetime.now().strftime("%Y-%m-%d"),
+                        league=sel_lg,
+                        home_team=h_team,
+                        away_team=a_team,
+                        model_track="Penta-Consensus Lock",
+                        predicted_pick=penta_rec,
+                        calibrated_prob=float(pc.get("confidence_score", 90.0)) / 100.0,
+                        opening_odds=1.12,
+                        stake_units=10.0,
+                        bet_category=pc.get("consensus_tier", "Royal Diamond Lock")
+                    )
+                    st.success(f"✅ Locked {penta_rec} into ledger as ID #{rid_pc}!")
+            with btn_cg_c2:
+                if cg_market_name:
+                    cg_fair = float(cg_data.get("fair_odds", 1.10))
+                    cg_agr = float(cg_data.get("common_ground_agreement", 85.0))
+                    if st.button(f"🔒 Lock Universal Market ({cg_market_name})", key="btn_lck_cg_market", use_container_width=True):
+                        rid_cg = record_live_prediction(
+                            match_date=datetime.now().strftime("%Y-%m-%d"),
+                            league=sel_lg,
+                            home_team=h_team,
+                            away_team=a_team,
+                            model_track="Common Ground Arbitrage",
+                            predicted_pick=cg_market_name,
+                            calibrated_prob=cg_agr / 100.0,
+                            opening_odds=cg_fair,
+                            stake_units=10.0,
+                            bet_category="Universal Shared Market"
+                        )
+                        st.success(f"✅ Locked {cg_market_name} (@{cg_fair:.2f}) into ledger as ID #{rid_cg}!")
 
             # 5-Column Engine Comparison Grid
             q_cols = st.columns(5)
@@ -695,6 +746,20 @@ with tab1:
                         f"</div>",
                         unsafe_allow_html=True
                     )
+                    if st.button(f"🔒 Lock to Ledger", key=f"btn_lck_alt_{j}_{idea['title']}", use_container_width=True):
+                        rid_alt = record_live_prediction(
+                            match_date=datetime.now().strftime("%Y-%m-%d"),
+                            league=sel_lg,
+                            home_team=h_team,
+                            away_team=a_team,
+                            model_track=f"Alternative: {idea['category']}",
+                            predicted_pick=idea['title'],
+                            calibrated_prob=float(idea['win_pct']) / 100.0,
+                            opening_odds=float(idea['fair_odds']),
+                            stake_units=8.0 if idea['win_pct'] >= 75.0 else 5.0,
+                            bet_category=idea['category']
+                        )
+                        st.success(f"✅ Locked {idea['title']} (@{idea['fair_odds']:.2f}) into ledger as ID #{rid_alt}!")
 
         st.markdown("---")
 

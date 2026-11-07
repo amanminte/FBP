@@ -80,7 +80,12 @@ def evaluate_quad_consensus(
             f"(Syndicate ML, Forebet, Understat, and WhoScored) converge directly on {dominant_team_pick}. "
             f"Historically represents our highest-safety betting tier."
         )
-        recommended_diamond_bet = f"Double Chance: {home_team if dominant_pick=='Home Win' else away_team} or Draw (1X)" if dominant_pick != "Draw" else "Under 2.5 Total Match Goals"
+        if dominant_pick == "Home Win":
+            recommended_diamond_bet = f"Double Chance: {home_team} or Draw (1X)"
+        elif dominant_pick == "Away Win":
+            recommended_diamond_bet = f"Double Chance: {away_team} or Draw (X2)"
+        else:
+            recommended_diamond_bet = "Under 2.5 Total Match Goals"
         safe_lock_odds = "1.12 - 1.25"
     elif consensus_count == 3:
         consensus_tier = "🥇 TRIPLE-LOCK GOLD CONSENSUS (HIGH CONFIDENCE)"
