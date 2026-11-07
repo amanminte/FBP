@@ -933,9 +933,9 @@
       "away": "Tottenham",
       "kickoff": "Sat Nov 07 • 03:30 PM UTC",
       "raw_kickoff": "2026-11-07T15:30:00Z",
-      "finished": false,
-      "score_h": null,
-      "score_a": null,
+      "finished": true,
+      "score_h": 1,
+      "score_a": 0,
       "gameweek": 10
     },
     {
@@ -943,9 +943,9 @@
       "away": "Newcastle",
       "kickoff": "Sat Nov 07 • 06:00 PM UTC",
       "raw_kickoff": "2026-11-07T18:00:00Z",
-      "finished": false,
-      "score_h": null,
-      "score_a": null,
+      "finished": true,
+      "score_h": 1,
+      "score_a": 1,
       "gameweek": 10
     },
     {
@@ -953,9 +953,9 @@
       "away": "Hull City",
       "kickoff": "Sat Nov 07 • 06:00 PM UTC",
       "raw_kickoff": "2026-11-07T18:00:00Z",
-      "finished": false,
-      "score_h": null,
-      "score_a": null,
+      "finished": true,
+      "score_h": 1,
+      "score_a": 0,
       "gameweek": 10
     },
     {

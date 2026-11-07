@@ -1,44 +1,86 @@
 {
   "version": "2.0-online-learner",
-  "last_updated": "2026-11-07T13:39:31.308360",
-  "total_matches_learned": 8,
+  "last_updated": "2026-11-07T20:12:38.765062",
+  "total_matches_learned": 11,
   "team_elo_drifts": {
     "Everton": 4.4,
     "Coventry City": -2.8,
     "Hamburger SV": 6.24,
     "Borussia Mönchengladbach": -6.24,
-    "Arsenal": -1.6,
+    "Arsenal": -0.43,
     "Sevilla": -5.95,
     "Alaves": 5.95,
     "Venezia": 7.52,
-    "Udinese": -7.52
+    "Udinese": -7.52,
+    "Fulham": -10.0,
+    "Newcastle": 10.0,
+    "Hull City": -1.17,
+    "Leeds": 1.38,
+    "Tottenham": -1.38
   },
   "team_attack_drifts": {
     "Everton": 1.032,
     "Coventry City": 0.913,
     "Hamburger SV": 1.012,
     "Borussia Mönchengladbach": 0.998,
-    "Arsenal": 1.1343,
+    "Arsenal": 1.1252,
     "Sevilla": 0.972,
     "Alaves": 0.978,
     "Venezia": 1.012,
-    "Udinese": 0.998
+    "Udinese": 0.998,
+    "Fulham": 0.992,
+    "Newcastle": 0.998,
+    "Hull City": 0.978,
+    "Leeds": 0.992,
+    "Tottenham": 0.978
   },
   "team_defense_drifts": {
     "Coventry City": 1.1706,
     "Everton": 0.998,
     "Borussia Mönchengladbach": 1.012,
     "Hamburger SV": 0.998,
-    "Arsenal": 0.9149,
+    "Arsenal": 0.8948,
     "Alaves": 0.972,
     "Sevilla": 0.978,
     "Udinese": 1.012,
-    "Venezia": 0.998
+    "Venezia": 0.998,
+    "Newcastle": 0.992,
+    "Fulham": 0.998,
+    "Hull City": 0.992,
+    "Tottenham": 0.992,
+    "Leeds": 0.978
   },
-  "cumulative_brier_score": 2.7419,
-  "average_brier_score": 0.3427,
-  "temperature_adjustment": 0.996,
+  "cumulative_brier_score": 4.5968,
+  "average_brier_score": 0.4179,
+  "temperature_adjustment": 0.994,
   "recent_learning_log": [
+    {
+      "timestamp": "2026-11-07 20:12",
+      "fixture": "Leeds vs Tottenham",
+      "score": "1 - 0",
+      "predicted": "78.9% H / 25.0% D / 21.1% A",
+      "actual": "Home Win",
+      "elo_delta": "+1.4 pts (Leeds)",
+      "brier_loss": 0.1515
+    },
+    {
+      "timestamp": "2026-11-07 20:10",
+      "fixture": "Arsenal vs Hull City",
+      "score": "1 - 0",
+      "predicted": "80.2% H / 25.0% D / 19.8% A",
+      "actual": "Home Win",
+      "elo_delta": "+1.2 pts (Arsenal)",
+      "brier_loss": 0.1409
+    },
+    {
+      "timestamp": "2026-11-07 20:10",
+      "fixture": "Fulham vs Newcastle",
+      "score": "1 - 1",
+      "predicted": "100.0% H / 25.0% D / 0.0% A",
+      "actual": "Draw",
+      "elo_delta": "-10.0 pts (Fulham)",
+      "brier_loss": 1.5625
+    },
     {
       "timestamp": "2026-11-07 13:39",
       "fixture": "Arsenal vs Coventry City",

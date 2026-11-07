@@ -23,7 +23,7 @@
     "accuracy_pct": 53.82,
     "log_loss": 0.9702,
     "brier_score": 0.5764,
-    "train_time_sec": 0.73,
+    "train_time_sec": 0.55,
     "status": "Verified Leak-Free"
   },
   {
@@ -41,7 +41,7 @@
     "accuracy_pct": 53.48,
     "log_loss": 0.9843,
     "brier_score": 0.5848,
-    "train_time_sec": 1.1,
+    "train_time_sec": 1.35,
     "status": "Verified Leak-Free"
   },
   {
@@ -50,7 +50,7 @@
     "accuracy_pct": 53.88,
     "log_loss": 0.9892,
     "brier_score": 0.5765,
-    "train_time_sec": 0.15,
+    "train_time_sec": 0.17,
     "status": "Verified Leak-Free"
   },
   {
@@ -59,7 +59,7 @@
     "accuracy_pct": 52.74,
     "log_loss": 0.997,
     "brier_score": 0.5876,
-    "train_time_sec": 0.26,
+    "train_time_sec": 0.42,
     "status": "Verified Leak-Free"
   }
 ]

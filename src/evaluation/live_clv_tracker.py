@@ -282,9 +282,22 @@ def auto_grade_pending_predictions_from_live_feed(
 
     graded_items = []
 
-    # Optional override or live feed
+    # Live feed fetch if not explicitly supplied
     fpl_fixtures_data = fixtures_override or []
     fpl_teams_map = teams_map_override or {}
+    if fixtures_override is None:
+        try:
+            import urllib.request
+            req_b = urllib.request.Request("https://fantasy.premierleague.com/api/bootstrap-static/", headers={"User-Agent": "Mozilla/5.0"})
+            with urllib.request.urlopen(req_b, timeout=4) as rb:
+                boot = json.loads(rb.read().decode("utf-8"))
+            fpl_teams_map = {t["id"]: t["name"] for t in boot.get("teams", [])}
+            req_f = urllib.request.Request("https://fantasy.premierleague.com/api/fixtures/?event=10", headers={"User-Agent": "Mozilla/5.0"})
+            with urllib.request.urlopen(req_f, timeout=4) as rf:
+                fpl_fixtures_data = json.loads(rf.read().decode("utf-8"))
+        except Exception:
+            fpl_fixtures_data = []
+            fpl_teams_map = {}
 
     for row in pending_rows:
         p_id, m_date, p_lg, h_team, a_team, pred_pick, open_odds, cal_prob, stake = row
@@ -321,8 +334,8 @@ def auto_grade_pending_predictions_from_live_feed(
         # Priority 2: Check fixtures_override if supplied
         if not match_found_and_finished and fpl_fixtures_data:
             for f in fpl_fixtures_data:
-                f_h = fpl_teams_map.get(f.get("team_h", -1), "").lower().strip()
-                f_a = fpl_teams_map.get(f.get("team_a", -1), "").lower().strip()
+                f_h = standardize_team_name(fpl_teams_map.get(f.get("team_h", -1), "")).lower().strip()
+                f_a = standardize_team_name(fpl_teams_map.get(f.get("team_a", -1), "")).lower().strip()
                 if (h_std in f_h or f_h in h_std) and (a_std in f_a or f_a in a_std):
                     is_fin = bool(f.get("finished") is True or f.get("finished_provisional") is True)
                     r_sh = f.get("team_h_score")
