@@ -753,9 +753,9 @@
       "away": "Bayern München",
       "kickoff": "Sat Nov 07 • 05:30 PM",
       "raw_kickoff": "2026-11-07T17:30:00Z",
-      "finished": false,
-      "score_h": null,
-      "score_a": null,
+      "finished": true,
+      "score_h": 1,
+      "score_a": 2,
       "gameweek": 9
     },
     {
@@ -763,9 +763,9 @@
       "away": "SV Elversberg",
       "kickoff": "Sat Nov 07 • 05:30 PM",
       "raw_kickoff": "2026-11-07T17:30:00Z",
-      "finished": false,
-      "score_h": null,
-      "score_a": null,
+      "finished": true,
+      "score_h": 2,
+      "score_a": 1,
       "gameweek": 9
     },
     {
@@ -773,9 +773,9 @@
       "away": "FC Augsburg",
       "kickoff": "Sat Nov 07 • 05:30 PM",
       "raw_kickoff": "2026-11-07T17:30:00Z",
-      "finished": false,
-      "score_h": null,
-      "score_a": null,
+      "finished": true,
+      "score_h": 5,
+      "score_a": 2,
       "gameweek": 9
     },
     {

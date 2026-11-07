@@ -1139,9 +1139,9 @@
       "away": "Racing Santander",
       "kickoff": "Sat Nov 07 • 04:00 PM",
       "raw_kickoff": "2026-11-07T16:00:00Z",
-      "finished": false,
-      "score_h": null,
-      "score_a": null,
+      "finished": true,
+      "score_h": 1,
+      "score_a": 2,
       "gameweek": 12
     },
     {
@@ -1149,9 +1149,9 @@
       "away": "Deportivo La Coruna",
       "kickoff": "Sat Nov 07 • 06:15 PM",
       "raw_kickoff": "2026-11-07T18:15:00Z",
-      "finished": false,
-      "score_h": null,
-      "score_a": null,
+      "finished": true,
+      "score_h": 0,
+      "score_a": 0,
       "gameweek": 12
     },
     {
