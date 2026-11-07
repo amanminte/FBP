@@ -1,0 +1,65 @@
+[
+  {
+    "model_name": "Bookmaker Market Fair Ceiling",
+    "model_type": "Market Consensus",
+    "accuracy_pct": 53.71,
+    "log_loss": 0.9635,
+    "brier_score": 0.5728,
+    "train_time_sec": 0.0,
+    "status": "Market Standard"
+  },
+  {
+    "model_name": "Calibrated Logistic Regression",
+    "model_type": "LogisticRegression",
+    "accuracy_pct": 53.37,
+    "log_loss": 0.966,
+    "brier_score": 0.5747,
+    "train_time_sec": 0.02,
+    "status": "Verified Leak-Free"
+  },
+  {
+    "model_name": "Deep Neural Net (MLP 64x32)",
+    "model_type": "MLPClassifier",
+    "accuracy_pct": 53.82,
+    "log_loss": 0.9702,
+    "brier_score": 0.5764,
+    "train_time_sec": 0.73,
+    "status": "Verified Leak-Free"
+  },
+  {
+    "model_name": "Syndicate Leak-Free V2 Ensemble (Track C)",
+    "model_type": "Multi-Modal Hybrid (Fundamentals + Market + Lines)",
+    "accuracy_pct": 54.11,
+    "log_loss": 0.9715,
+    "brier_score": 0.5421,
+    "train_time_sec": 1.25,
+    "status": "\ud83c\udfc6 Active Tournament Champion"
+  },
+  {
+    "model_name": "Gradient Boosting Trees",
+    "model_type": "GradientBoostingClassifier",
+    "accuracy_pct": 53.48,
+    "log_loss": 0.9843,
+    "brier_score": 0.5848,
+    "train_time_sec": 1.1,
+    "status": "Verified Leak-Free"
+  },
+  {
+    "model_name": "Random Forest (100 Trees)",
+    "model_type": "RandomForestClassifier",
+    "accuracy_pct": 53.88,
+    "log_loss": 0.9892,
+    "brier_score": 0.5765,
+    "train_time_sec": 0.15,
+    "status": "Verified Leak-Free"
+  },
+  {
+    "model_name": "HistGradientBoosting (LightGBM Arch)",
+    "model_type": "HistGradientBoostingClassifier",
+    "accuracy_pct": 52.74,
+    "log_loss": 0.997,
+    "brier_score": 0.5876,
+    "train_time_sec": 0.26,
+    "status": "Verified Leak-Free"
+  }
+]

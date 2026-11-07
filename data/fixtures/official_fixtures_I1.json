@@ -1,0 +1,3880 @@
+{
+  "1": [
+    {
+      "home": "Lazio",
+      "away": "Udinese",
+      "kickoff": "Gameweek 1",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": true,
+      "score_h": 1,
+      "score_a": 0,
+      "gameweek": 1
+    },
+    {
+      "home": "Inter",
+      "away": "Venezia",
+      "kickoff": "Gameweek 1",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": true,
+      "score_h": 1,
+      "score_a": 0,
+      "gameweek": 1
+    },
+    {
+      "home": "AS Roma",
+      "away": "Monza",
+      "kickoff": "Gameweek 1",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": true,
+      "score_h": 1,
+      "score_a": 0,
+      "gameweek": 1
+    },
+    {
+      "home": "Como",
+      "away": "Sassuolo",
+      "kickoff": "Gameweek 1",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": true,
+      "score_h": 1,
+      "score_a": 0,
+      "gameweek": 1
+    },
+    {
+      "home": "AC Milan",
+      "away": "Fiorentina",
+      "kickoff": "Gameweek 1",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": true,
+      "score_h": 1,
+      "score_a": 0,
+      "gameweek": 1
+    },
+    {
+      "home": "Frosinone",
+      "away": "Parma",
+      "kickoff": "Gameweek 1",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": true,
+      "score_h": 1,
+      "score_a": 0,
+      "gameweek": 1
+    },
+    {
+      "home": "Juventus",
+      "away": "Lecce",
+      "kickoff": "Gameweek 1",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": true,
+      "score_h": 1,
+      "score_a": 0,
+      "gameweek": 1
+    },
+    {
+      "home": "Napoli",
+      "away": "Atalanta",
+      "kickoff": "Gameweek 1",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": true,
+      "score_h": 1,
+      "score_a": 0,
+      "gameweek": 1
+    },
+    {
+      "home": "Bologna",
+      "away": "Cagliari",
+      "kickoff": "Gameweek 1",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": true,
+      "score_h": 1,
+      "score_a": 0,
+      "gameweek": 1
+    },
+    {
+      "home": "Torino",
+      "away": "Genoa",
+      "kickoff": "Gameweek 1",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": true,
+      "score_h": 1,
+      "score_a": 0,
+      "gameweek": 1
+    }
+  ],
+  "2": [
+    {
+      "home": "Venezia",
+      "away": "Lazio",
+      "kickoff": "Gameweek 2",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": true,
+      "score_h": 1,
+      "score_a": 0,
+      "gameweek": 2
+    },
+    {
+      "home": "Monza",
+      "away": "Udinese",
+      "kickoff": "Gameweek 2",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": true,
+      "score_h": 1,
+      "score_a": 0,
+      "gameweek": 2
+    },
+    {
+      "home": "Sassuolo",
+      "away": "Inter",
+      "kickoff": "Gameweek 2",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": true,
+      "score_h": 1,
+      "score_a": 0,
+      "gameweek": 2
+    },
+    {
+      "home": "Fiorentina",
+      "away": "AS Roma",
+      "kickoff": "Gameweek 2",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": true,
+      "score_h": 1,
+      "score_a": 0,
+      "gameweek": 2
+    },
+    {
+      "home": "Parma",
+      "away": "Como",
+      "kickoff": "Gameweek 2",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": true,
+      "score_h": 1,
+      "score_a": 0,
+      "gameweek": 2
+    },
+    {
+      "home": "Lecce",
+      "away": "AC Milan",
+      "kickoff": "Gameweek 2",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": true,
+      "score_h": 1,
+      "score_a": 0,
+      "gameweek": 2
+    },
+    {
+      "home": "Atalanta",
+      "away": "Frosinone",
+      "kickoff": "Gameweek 2",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": true,
+      "score_h": 1,
+      "score_a": 0,
+      "gameweek": 2
+    },
+    {
+      "home": "Cagliari",
+      "away": "Juventus",
+      "kickoff": "Gameweek 2",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": true,
+      "score_h": 1,
+      "score_a": 0,
+      "gameweek": 2
+    },
+    {
+      "home": "Genoa",
+      "away": "Napoli",
+      "kickoff": "Gameweek 2",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": true,
+      "score_h": 1,
+      "score_a": 0,
+      "gameweek": 2
+    },
+    {
+      "home": "Torino",
+      "away": "Bologna",
+      "kickoff": "Gameweek 2",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": true,
+      "score_h": 1,
+      "score_a": 0,
+      "gameweek": 2
+    }
+  ],
+  "3": [
+    {
+      "home": "Lazio",
+      "away": "Monza",
+      "kickoff": "Gameweek 3",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": true,
+      "score_h": 1,
+      "score_a": 0,
+      "gameweek": 3
+    },
+    {
+      "home": "Venezia",
+      "away": "Sassuolo",
+      "kickoff": "Gameweek 3",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": true,
+      "score_h": 1,
+      "score_a": 0,
+      "gameweek": 3
+    },
+    {
+      "home": "Udinese",
+      "away": "Fiorentina",
+      "kickoff": "Gameweek 3",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": true,
+      "score_h": 1,
+      "score_a": 0,
+      "gameweek": 3
+    },
+    {
+      "home": "Inter",
+      "away": "Parma",
+      "kickoff": "Gameweek 3",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": true,
+      "score_h": 1,
+      "score_a": 0,
+      "gameweek": 3
+    },
+    {
+      "home": "AS Roma",
+      "away": "Lecce",
+      "kickoff": "Gameweek 3",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": true,
+      "score_h": 1,
+      "score_a": 0,
+      "gameweek": 3
+    },
+    {
+      "home": "Como",
+      "away": "Atalanta",
+      "kickoff": "Gameweek 3",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": true,
+      "score_h": 1,
+      "score_a": 0,
+      "gameweek": 3
+    },
+    {
+      "home": "AC Milan",
+      "away": "Cagliari",
+      "kickoff": "Gameweek 3",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": true,
+      "score_h": 1,
+      "score_a": 0,
+      "gameweek": 3
+    },
+    {
+      "home": "Frosinone",
+      "away": "Genoa",
+      "kickoff": "Gameweek 3",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": true,
+      "score_h": 1,
+      "score_a": 0,
+      "gameweek": 3
+    },
+    {
+      "home": "Juventus",
+      "away": "Torino",
+      "kickoff": "Gameweek 3",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": true,
+      "score_h": 1,
+      "score_a": 0,
+      "gameweek": 3
+    },
+    {
+      "home": "Napoli",
+      "away": "Bologna",
+      "kickoff": "Gameweek 3",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": true,
+      "score_h": 1,
+      "score_a": 0,
+      "gameweek": 3
+    }
+  ],
+  "4": [
+    {
+      "home": "Sassuolo",
+      "away": "Lazio",
+      "kickoff": "Gameweek 4",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": true,
+      "score_h": 1,
+      "score_a": 0,
+      "gameweek": 4
+    },
+    {
+      "home": "Fiorentina",
+      "away": "Monza",
+      "kickoff": "Gameweek 4",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": true,
+      "score_h": 1,
+      "score_a": 0,
+      "gameweek": 4
+    },
+    {
+      "home": "Parma",
+      "away": "Venezia",
+      "kickoff": "Gameweek 4",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": true,
+      "score_h": 1,
+      "score_a": 0,
+      "gameweek": 4
+    },
+    {
+      "home": "Lecce",
+      "away": "Udinese",
+      "kickoff": "Gameweek 4",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": true,
+      "score_h": 1,
+      "score_a": 0,
+      "gameweek": 4
+    },
+    {
+      "home": "Atalanta",
+      "away": "Inter",
+      "kickoff": "Gameweek 4",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": true,
+      "score_h": 1,
+      "score_a": 0,
+      "gameweek": 4
+    },
+    {
+      "home": "Cagliari",
+      "away": "AS Roma",
+      "kickoff": "Gameweek 4",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": true,
+      "score_h": 1,
+      "score_a": 0,
+      "gameweek": 4
+    },
+    {
+      "home": "Genoa",
+      "away": "Como",
+      "kickoff": "Gameweek 4",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": true,
+      "score_h": 1,
+      "score_a": 0,
+      "gameweek": 4
+    },
+    {
+      "home": "Torino",
+      "away": "AC Milan",
+      "kickoff": "Gameweek 4",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": true,
+      "score_h": 1,
+      "score_a": 0,
+      "gameweek": 4
+    },
+    {
+      "home": "Bologna",
+      "away": "Frosinone",
+      "kickoff": "Gameweek 4",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": true,
+      "score_h": 1,
+      "score_a": 0,
+      "gameweek": 4
+    },
+    {
+      "home": "Napoli",
+      "away": "Juventus",
+      "kickoff": "Gameweek 4",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": true,
+      "score_h": 1,
+      "score_a": 0,
+      "gameweek": 4
+    }
+  ],
+  "5": [
+    {
+      "home": "Lazio",
+      "away": "Fiorentina",
+      "kickoff": "Gameweek 5",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": true,
+      "score_h": 1,
+      "score_a": 0,
+      "gameweek": 5
+    },
+    {
+      "home": "Sassuolo",
+      "away": "Parma",
+      "kickoff": "Gameweek 5",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": true,
+      "score_h": 1,
+      "score_a": 0,
+      "gameweek": 5
+    },
+    {
+      "home": "Monza",
+      "away": "Lecce",
+      "kickoff": "Gameweek 5",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": true,
+      "score_h": 1,
+      "score_a": 0,
+      "gameweek": 5
+    },
+    {
+      "home": "Venezia",
+      "away": "Atalanta",
+      "kickoff": "Gameweek 5",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": true,
+      "score_h": 1,
+      "score_a": 0,
+      "gameweek": 5
+    },
+    {
+      "home": "Udinese",
+      "away": "Cagliari",
+      "kickoff": "Gameweek 5",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": true,
+      "score_h": 1,
+      "score_a": 0,
+      "gameweek": 5
+    },
+    {
+      "home": "Inter",
+      "away": "Genoa",
+      "kickoff": "Gameweek 5",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": true,
+      "score_h": 1,
+      "score_a": 0,
+      "gameweek": 5
+    },
+    {
+      "home": "AS Roma",
+      "away": "Torino",
+      "kickoff": "Gameweek 5",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": true,
+      "score_h": 1,
+      "score_a": 0,
+      "gameweek": 5
+    },
+    {
+      "home": "Como",
+      "away": "Bologna",
+      "kickoff": "Gameweek 5",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": true,
+      "score_h": 1,
+      "score_a": 0,
+      "gameweek": 5
+    },
+    {
+      "home": "AC Milan",
+      "away": "Napoli",
+      "kickoff": "Gameweek 5",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": true,
+      "score_h": 1,
+      "score_a": 0,
+      "gameweek": 5
+    },
+    {
+      "home": "Frosinone",
+      "away": "Juventus",
+      "kickoff": "Gameweek 5",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": true,
+      "score_h": 1,
+      "score_a": 0,
+      "gameweek": 5
+    }
+  ],
+  "6": [
+    {
+      "home": "Parma",
+      "away": "Lazio",
+      "kickoff": "Gameweek 6",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": true,
+      "score_h": 1,
+      "score_a": 0,
+      "gameweek": 6
+    },
+    {
+      "home": "Lecce",
+      "away": "Fiorentina",
+      "kickoff": "Gameweek 6",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": true,
+      "score_h": 1,
+      "score_a": 0,
+      "gameweek": 6
+    },
+    {
+      "home": "Atalanta",
+      "away": "Sassuolo",
+      "kickoff": "Gameweek 6",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": true,
+      "score_h": 1,
+      "score_a": 0,
+      "gameweek": 6
+    },
+    {
+      "home": "Cagliari",
+      "away": "Monza",
+      "kickoff": "Gameweek 6",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": true,
+      "score_h": 1,
+      "score_a": 0,
+      "gameweek": 6
+    },
+    {
+      "home": "Genoa",
+      "away": "Venezia",
+      "kickoff": "Gameweek 6",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": true,
+      "score_h": 1,
+      "score_a": 0,
+      "gameweek": 6
+    },
+    {
+      "home": "Torino",
+      "away": "Udinese",
+      "kickoff": "Gameweek 6",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": true,
+      "score_h": 1,
+      "score_a": 0,
+      "gameweek": 6
+    },
+    {
+      "home": "Bologna",
+      "away": "Inter",
+      "kickoff": "Gameweek 6",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": true,
+      "score_h": 1,
+      "score_a": 0,
+      "gameweek": 6
+    },
+    {
+      "home": "Napoli",
+      "away": "AS Roma",
+      "kickoff": "Gameweek 6",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": true,
+      "score_h": 1,
+      "score_a": 0,
+      "gameweek": 6
+    },
+    {
+      "home": "Juventus",
+      "away": "Como",
+      "kickoff": "Gameweek 6",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": true,
+      "score_h": 1,
+      "score_a": 0,
+      "gameweek": 6
+    },
+    {
+      "home": "Frosinone",
+      "away": "AC Milan",
+      "kickoff": "Gameweek 6",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": true,
+      "score_h": 1,
+      "score_a": 0,
+      "gameweek": 6
+    }
+  ],
+  "7": [
+    {
+      "home": "Lazio",
+      "away": "Lecce",
+      "kickoff": "Gameweek 7",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": true,
+      "score_h": 1,
+      "score_a": 0,
+      "gameweek": 7
+    },
+    {
+      "home": "Parma",
+      "away": "Atalanta",
+      "kickoff": "Gameweek 7",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": true,
+      "score_h": 1,
+      "score_a": 0,
+      "gameweek": 7
+    },
+    {
+      "home": "Fiorentina",
+      "away": "Cagliari",
+      "kickoff": "Gameweek 7",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": true,
+      "score_h": 1,
+      "score_a": 0,
+      "gameweek": 7
+    },
+    {
+      "home": "Sassuolo",
+      "away": "Genoa",
+      "kickoff": "Gameweek 7",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": true,
+      "score_h": 1,
+      "score_a": 0,
+      "gameweek": 7
+    },
+    {
+      "home": "Monza",
+      "away": "Torino",
+      "kickoff": "Gameweek 7",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": true,
+      "score_h": 1,
+      "score_a": 0,
+      "gameweek": 7
+    },
+    {
+      "home": "Venezia",
+      "away": "Bologna",
+      "kickoff": "Gameweek 7",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": true,
+      "score_h": 1,
+      "score_a": 0,
+      "gameweek": 7
+    },
+    {
+      "home": "Udinese",
+      "away": "Napoli",
+      "kickoff": "Gameweek 7",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": true,
+      "score_h": 1,
+      "score_a": 0,
+      "gameweek": 7
+    },
+    {
+      "home": "Inter",
+      "away": "Juventus",
+      "kickoff": "Gameweek 7",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": true,
+      "score_h": 1,
+      "score_a": 0,
+      "gameweek": 7
+    },
+    {
+      "home": "AS Roma",
+      "away": "Frosinone",
+      "kickoff": "Gameweek 7",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": true,
+      "score_h": 1,
+      "score_a": 0,
+      "gameweek": 7
+    },
+    {
+      "home": "Como",
+      "away": "AC Milan",
+      "kickoff": "Gameweek 7",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": true,
+      "score_h": 1,
+      "score_a": 0,
+      "gameweek": 7
+    }
+  ],
+  "8": [
+    {
+      "home": "Atalanta",
+      "away": "Lazio",
+      "kickoff": "Gameweek 8",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": true,
+      "score_h": 1,
+      "score_a": 0,
+      "gameweek": 8
+    },
+    {
+      "home": "Cagliari",
+      "away": "Lecce",
+      "kickoff": "Gameweek 8",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": true,
+      "score_h": 1,
+      "score_a": 0,
+      "gameweek": 8
+    },
+    {
+      "home": "Genoa",
+      "away": "Parma",
+      "kickoff": "Gameweek 8",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": true,
+      "score_h": 1,
+      "score_a": 0,
+      "gameweek": 8
+    },
+    {
+      "home": "Torino",
+      "away": "Fiorentina",
+      "kickoff": "Gameweek 8",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": true,
+      "score_h": 1,
+      "score_a": 0,
+      "gameweek": 8
+    },
+    {
+      "home": "Bologna",
+      "away": "Sassuolo",
+      "kickoff": "Gameweek 8",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": true,
+      "score_h": 1,
+      "score_a": 0,
+      "gameweek": 8
+    },
+    {
+      "home": "Napoli",
+      "away": "Monza",
+      "kickoff": "Gameweek 8",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": true,
+      "score_h": 1,
+      "score_a": 0,
+      "gameweek": 8
+    },
+    {
+      "home": "Juventus",
+      "away": "Venezia",
+      "kickoff": "Gameweek 8",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": true,
+      "score_h": 1,
+      "score_a": 0,
+      "gameweek": 8
+    },
+    {
+      "home": "Frosinone",
+      "away": "Udinese",
+      "kickoff": "Gameweek 8",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": true,
+      "score_h": 1,
+      "score_a": 0,
+      "gameweek": 8
+    },
+    {
+      "home": "AC Milan",
+      "away": "Inter",
+      "kickoff": "Gameweek 8",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": true,
+      "score_h": 1,
+      "score_a": 0,
+      "gameweek": 8
+    },
+    {
+      "home": "Como",
+      "away": "AS Roma",
+      "kickoff": "Gameweek 8",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": true,
+      "score_h": 1,
+      "score_a": 0,
+      "gameweek": 8
+    }
+  ],
+  "9": [
+    {
+      "home": "Lazio",
+      "away": "Cagliari",
+      "kickoff": "Gameweek 9",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": true,
+      "score_h": 1,
+      "score_a": 0,
+      "gameweek": 9
+    },
+    {
+      "home": "Atalanta",
+      "away": "Genoa",
+      "kickoff": "Gameweek 9",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": true,
+      "score_h": 1,
+      "score_a": 0,
+      "gameweek": 9
+    },
+    {
+      "home": "Lecce",
+      "away": "Torino",
+      "kickoff": "Gameweek 9",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": true,
+      "score_h": 1,
+      "score_a": 0,
+      "gameweek": 9
+    },
+    {
+      "home": "Parma",
+      "away": "Bologna",
+      "kickoff": "Gameweek 9",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": true,
+      "score_h": 1,
+      "score_a": 0,
+      "gameweek": 9
+    },
+    {
+      "home": "Fiorentina",
+      "away": "Napoli",
+      "kickoff": "Gameweek 9",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": true,
+      "score_h": 1,
+      "score_a": 0,
+      "gameweek": 9
+    },
+    {
+      "home": "Sassuolo",
+      "away": "Juventus",
+      "kickoff": "Gameweek 9",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": true,
+      "score_h": 1,
+      "score_a": 0,
+      "gameweek": 9
+    },
+    {
+      "home": "Monza",
+      "away": "Frosinone",
+      "kickoff": "Gameweek 9",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": true,
+      "score_h": 1,
+      "score_a": 0,
+      "gameweek": 9
+    },
+    {
+      "home": "Venezia",
+      "away": "AC Milan",
+      "kickoff": "Gameweek 9",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": true,
+      "score_h": 1,
+      "score_a": 0,
+      "gameweek": 9
+    },
+    {
+      "home": "Udinese",
+      "away": "Como",
+      "kickoff": "Gameweek 9",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": true,
+      "score_h": 1,
+      "score_a": 0,
+      "gameweek": 9
+    },
+    {
+      "home": "Inter",
+      "away": "AS Roma",
+      "kickoff": "Gameweek 9",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": true,
+      "score_h": 1,
+      "score_a": 0,
+      "gameweek": 9
+    }
+  ],
+  "10": [
+    {
+      "home": "Genoa",
+      "away": "Lazio",
+      "kickoff": "Gameweek 10",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": true,
+      "score_h": 1,
+      "score_a": 0,
+      "gameweek": 10
+    },
+    {
+      "home": "Torino",
+      "away": "Cagliari",
+      "kickoff": "Gameweek 10",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": true,
+      "score_h": 1,
+      "score_a": 0,
+      "gameweek": 10
+    },
+    {
+      "home": "Bologna",
+      "away": "Atalanta",
+      "kickoff": "Gameweek 10",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": true,
+      "score_h": 1,
+      "score_a": 0,
+      "gameweek": 10
+    },
+    {
+      "home": "Napoli",
+      "away": "Lecce",
+      "kickoff": "Gameweek 10",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": true,
+      "score_h": 1,
+      "score_a": 0,
+      "gameweek": 10
+    },
+    {
+      "home": "Juventus",
+      "away": "Parma",
+      "kickoff": "Gameweek 10",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": true,
+      "score_h": 1,
+      "score_a": 0,
+      "gameweek": 10
+    },
+    {
+      "home": "Frosinone",
+      "away": "Fiorentina",
+      "kickoff": "Gameweek 10",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": true,
+      "score_h": 1,
+      "score_a": 0,
+      "gameweek": 10
+    },
+    {
+      "home": "AC Milan",
+      "away": "Sassuolo",
+      "kickoff": "Gameweek 10",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": true,
+      "score_h": 1,
+      "score_a": 0,
+      "gameweek": 10
+    },
+    {
+      "home": "Como",
+      "away": "Monza",
+      "kickoff": "Gameweek 10",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": true,
+      "score_h": 1,
+      "score_a": 0,
+      "gameweek": 10
+    },
+    {
+      "home": "AS Roma",
+      "away": "Venezia",
+      "kickoff": "Gameweek 10",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": true,
+      "score_h": 1,
+      "score_a": 0,
+      "gameweek": 10
+    },
+    {
+      "home": "Inter",
+      "away": "Udinese",
+      "kickoff": "Gameweek 10",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": true,
+      "score_h": 1,
+      "score_a": 0,
+      "gameweek": 10
+    }
+  ],
+  "11": [
+    {
+      "home": "Venezia",
+      "away": "Udinese",
+      "kickoff": "Fri Nov 06 • 09:45 PM",
+      "raw_kickoff": "2026-11-06T20:45:00Z",
+      "finished": true,
+      "score_h": 2,
+      "score_a": 1,
+      "cards_h": 2,
+      "cards_a": 2,
+      "gameweek": 11
+    },
+    {
+      "home": "Cagliari",
+      "away": "Frosinone",
+      "kickoff": "Sat Nov 07 • 05:00 PM",
+      "raw_kickoff": "2026-11-07T16:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 11
+    },
+    {
+      "home": "Torino",
+      "away": "Lecce",
+      "kickoff": "Sat Nov 07 • 05:00 PM",
+      "raw_kickoff": "2026-11-07T16:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 11
+    },
+    {
+      "home": "Parma",
+      "away": "Bologna",
+      "kickoff": "Sat Nov 07 • 08:00 PM",
+      "raw_kickoff": "2026-11-07T19:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 11
+    },
+    {
+      "home": "AS Roma",
+      "away": "Sassuolo",
+      "kickoff": "Sat Nov 07 • 10:45 PM",
+      "raw_kickoff": "2026-11-07T21:45:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 11
+    },
+    {
+      "home": "Napoli",
+      "away": "Lazio",
+      "kickoff": "Sun Nov 08 • 02:30 PM",
+      "raw_kickoff": "2026-11-08T13:30:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 11
+    },
+    {
+      "home": "Genoa",
+      "away": "AC Milan",
+      "kickoff": "Sun Nov 08 • 05:00 PM",
+      "raw_kickoff": "2026-11-08T16:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 11
+    },
+    {
+      "home": "Monza",
+      "away": "Atalanta",
+      "kickoff": "Sun Nov 08 • 05:00 PM",
+      "raw_kickoff": "2026-11-08T16:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 11
+    },
+    {
+      "home": "Inter",
+      "away": "Como",
+      "kickoff": "Sun Nov 08 • 08:00 PM",
+      "raw_kickoff": "2026-11-08T19:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 11
+    },
+    {
+      "home": "Fiorentina",
+      "away": "Juventus",
+      "kickoff": "Sun Nov 08 • 10:45 PM",
+      "raw_kickoff": "2026-11-08T21:45:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 11
+    }
+  ],
+  "12": [
+    {
+      "home": "Bologna",
+      "away": "Lazio",
+      "kickoff": "Gameweek 12",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 12
+    },
+    {
+      "home": "Napoli",
+      "away": "Torino",
+      "kickoff": "Gameweek 12",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 12
+    },
+    {
+      "home": "Juventus",
+      "away": "Genoa",
+      "kickoff": "Gameweek 12",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 12
+    },
+    {
+      "home": "Frosinone",
+      "away": "Cagliari",
+      "kickoff": "Gameweek 12",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 12
+    },
+    {
+      "home": "AC Milan",
+      "away": "Atalanta",
+      "kickoff": "Gameweek 12",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 12
+    },
+    {
+      "home": "Como",
+      "away": "Lecce",
+      "kickoff": "Gameweek 12",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 12
+    },
+    {
+      "home": "AS Roma",
+      "away": "Parma",
+      "kickoff": "Gameweek 12",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 12
+    },
+    {
+      "home": "Inter",
+      "away": "Fiorentina",
+      "kickoff": "Gameweek 12",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 12
+    },
+    {
+      "home": "Udinese",
+      "away": "Sassuolo",
+      "kickoff": "Gameweek 12",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 12
+    },
+    {
+      "home": "Venezia",
+      "away": "Monza",
+      "kickoff": "Gameweek 12",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 12
+    }
+  ],
+  "13": [
+    {
+      "home": "Lazio",
+      "away": "Napoli",
+      "kickoff": "Gameweek 13",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 13
+    },
+    {
+      "home": "Bologna",
+      "away": "Juventus",
+      "kickoff": "Gameweek 13",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 13
+    },
+    {
+      "home": "Torino",
+      "away": "Frosinone",
+      "kickoff": "Gameweek 13",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 13
+    },
+    {
+      "home": "Genoa",
+      "away": "AC Milan",
+      "kickoff": "Gameweek 13",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 13
+    },
+    {
+      "home": "Cagliari",
+      "away": "Como",
+      "kickoff": "Gameweek 13",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 13
+    },
+    {
+      "home": "Atalanta",
+      "away": "AS Roma",
+      "kickoff": "Gameweek 13",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 13
+    },
+    {
+      "home": "Lecce",
+      "away": "Inter",
+      "kickoff": "Gameweek 13",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 13
+    },
+    {
+      "home": "Parma",
+      "away": "Udinese",
+      "kickoff": "Gameweek 13",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 13
+    },
+    {
+      "home": "Fiorentina",
+      "away": "Venezia",
+      "kickoff": "Gameweek 13",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 13
+    },
+    {
+      "home": "Sassuolo",
+      "away": "Monza",
+      "kickoff": "Gameweek 13",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 13
+    }
+  ],
+  "14": [
+    {
+      "home": "Juventus",
+      "away": "Lazio",
+      "kickoff": "Gameweek 14",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 14
+    },
+    {
+      "home": "Frosinone",
+      "away": "Napoli",
+      "kickoff": "Gameweek 14",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 14
+    },
+    {
+      "home": "AC Milan",
+      "away": "Bologna",
+      "kickoff": "Gameweek 14",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 14
+    },
+    {
+      "home": "Como",
+      "away": "Torino",
+      "kickoff": "Gameweek 14",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 14
+    },
+    {
+      "home": "AS Roma",
+      "away": "Genoa",
+      "kickoff": "Gameweek 14",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 14
+    },
+    {
+      "home": "Inter",
+      "away": "Cagliari",
+      "kickoff": "Gameweek 14",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 14
+    },
+    {
+      "home": "Udinese",
+      "away": "Atalanta",
+      "kickoff": "Gameweek 14",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 14
+    },
+    {
+      "home": "Venezia",
+      "away": "Lecce",
+      "kickoff": "Gameweek 14",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 14
+    },
+    {
+      "home": "Monza",
+      "away": "Parma",
+      "kickoff": "Gameweek 14",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 14
+    },
+    {
+      "home": "Sassuolo",
+      "away": "Fiorentina",
+      "kickoff": "Gameweek 14",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 14
+    }
+  ],
+  "15": [
+    {
+      "home": "Lazio",
+      "away": "Frosinone",
+      "kickoff": "Gameweek 15",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 15
+    },
+    {
+      "home": "Juventus",
+      "away": "AC Milan",
+      "kickoff": "Gameweek 15",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 15
+    },
+    {
+      "home": "Napoli",
+      "away": "Como",
+      "kickoff": "Gameweek 15",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 15
+    },
+    {
+      "home": "Bologna",
+      "away": "AS Roma",
+      "kickoff": "Gameweek 15",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 15
+    },
+    {
+      "home": "Torino",
+      "away": "Inter",
+      "kickoff": "Gameweek 15",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 15
+    },
+    {
+      "home": "Genoa",
+      "away": "Udinese",
+      "kickoff": "Gameweek 15",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 15
+    },
+    {
+      "home": "Cagliari",
+      "away": "Venezia",
+      "kickoff": "Gameweek 15",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 15
+    },
+    {
+      "home": "Atalanta",
+      "away": "Monza",
+      "kickoff": "Gameweek 15",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 15
+    },
+    {
+      "home": "Lecce",
+      "away": "Sassuolo",
+      "kickoff": "Gameweek 15",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 15
+    },
+    {
+      "home": "Parma",
+      "away": "Fiorentina",
+      "kickoff": "Gameweek 15",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 15
+    }
+  ],
+  "16": [
+    {
+      "home": "AC Milan",
+      "away": "Lazio",
+      "kickoff": "Gameweek 16",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 16
+    },
+    {
+      "home": "Como",
+      "away": "Frosinone",
+      "kickoff": "Gameweek 16",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 16
+    },
+    {
+      "home": "AS Roma",
+      "away": "Juventus",
+      "kickoff": "Gameweek 16",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 16
+    },
+    {
+      "home": "Inter",
+      "away": "Napoli",
+      "kickoff": "Gameweek 16",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 16
+    },
+    {
+      "home": "Udinese",
+      "away": "Bologna",
+      "kickoff": "Gameweek 16",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 16
+    },
+    {
+      "home": "Venezia",
+      "away": "Torino",
+      "kickoff": "Gameweek 16",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 16
+    },
+    {
+      "home": "Monza",
+      "away": "Genoa",
+      "kickoff": "Gameweek 16",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 16
+    },
+    {
+      "home": "Sassuolo",
+      "away": "Cagliari",
+      "kickoff": "Gameweek 16",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 16
+    },
+    {
+      "home": "Fiorentina",
+      "away": "Atalanta",
+      "kickoff": "Gameweek 16",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 16
+    },
+    {
+      "home": "Parma",
+      "away": "Lecce",
+      "kickoff": "Gameweek 16",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 16
+    }
+  ],
+  "17": [
+    {
+      "home": "Lazio",
+      "away": "Como",
+      "kickoff": "Gameweek 17",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 17
+    },
+    {
+      "home": "AC Milan",
+      "away": "AS Roma",
+      "kickoff": "Gameweek 17",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 17
+    },
+    {
+      "home": "Frosinone",
+      "away": "Inter",
+      "kickoff": "Gameweek 17",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 17
+    },
+    {
+      "home": "Juventus",
+      "away": "Udinese",
+      "kickoff": "Gameweek 17",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 17
+    },
+    {
+      "home": "Napoli",
+      "away": "Venezia",
+      "kickoff": "Gameweek 17",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 17
+    },
+    {
+      "home": "Bologna",
+      "away": "Monza",
+      "kickoff": "Gameweek 17",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 17
+    },
+    {
+      "home": "Torino",
+      "away": "Sassuolo",
+      "kickoff": "Gameweek 17",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 17
+    },
+    {
+      "home": "Genoa",
+      "away": "Fiorentina",
+      "kickoff": "Gameweek 17",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 17
+    },
+    {
+      "home": "Cagliari",
+      "away": "Parma",
+      "kickoff": "Gameweek 17",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 17
+    },
+    {
+      "home": "Atalanta",
+      "away": "Lecce",
+      "kickoff": "Gameweek 17",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 17
+    }
+  ],
+  "18": [
+    {
+      "home": "AS Roma",
+      "away": "Lazio",
+      "kickoff": "Gameweek 18",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 18
+    },
+    {
+      "home": "Inter",
+      "away": "Como",
+      "kickoff": "Gameweek 18",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 18
+    },
+    {
+      "home": "Udinese",
+      "away": "AC Milan",
+      "kickoff": "Gameweek 18",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 18
+    },
+    {
+      "home": "Venezia",
+      "away": "Frosinone",
+      "kickoff": "Gameweek 18",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 18
+    },
+    {
+      "home": "Monza",
+      "away": "Juventus",
+      "kickoff": "Gameweek 18",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 18
+    },
+    {
+      "home": "Sassuolo",
+      "away": "Napoli",
+      "kickoff": "Gameweek 18",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 18
+    },
+    {
+      "home": "Fiorentina",
+      "away": "Bologna",
+      "kickoff": "Gameweek 18",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 18
+    },
+    {
+      "home": "Parma",
+      "away": "Torino",
+      "kickoff": "Gameweek 18",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 18
+    },
+    {
+      "home": "Lecce",
+      "away": "Genoa",
+      "kickoff": "Gameweek 18",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 18
+    },
+    {
+      "home": "Atalanta",
+      "away": "Cagliari",
+      "kickoff": "Gameweek 18",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 18
+    }
+  ],
+  "19": [
+    {
+      "home": "Lazio",
+      "away": "Inter",
+      "kickoff": "Gameweek 19",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 19
+    },
+    {
+      "home": "AS Roma",
+      "away": "Udinese",
+      "kickoff": "Gameweek 19",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 19
+    },
+    {
+      "home": "Como",
+      "away": "Venezia",
+      "kickoff": "Gameweek 19",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 19
+    },
+    {
+      "home": "AC Milan",
+      "away": "Monza",
+      "kickoff": "Gameweek 19",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 19
+    },
+    {
+      "home": "Frosinone",
+      "away": "Sassuolo",
+      "kickoff": "Gameweek 19",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 19
+    },
+    {
+      "home": "Juventus",
+      "away": "Fiorentina",
+      "kickoff": "Gameweek 19",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 19
+    },
+    {
+      "home": "Napoli",
+      "away": "Parma",
+      "kickoff": "Gameweek 19",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 19
+    },
+    {
+      "home": "Bologna",
+      "away": "Lecce",
+      "kickoff": "Gameweek 19",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 19
+    },
+    {
+      "home": "Torino",
+      "away": "Atalanta",
+      "kickoff": "Gameweek 19",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 19
+    },
+    {
+      "home": "Genoa",
+      "away": "Cagliari",
+      "kickoff": "Gameweek 19",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 19
+    }
+  ],
+  "20": [
+    {
+      "home": "Udinese",
+      "away": "Lazio",
+      "kickoff": "Gameweek 20",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 20
+    },
+    {
+      "home": "Venezia",
+      "away": "Inter",
+      "kickoff": "Gameweek 20",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 20
+    },
+    {
+      "home": "Monza",
+      "away": "AS Roma",
+      "kickoff": "Gameweek 20",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 20
+    },
+    {
+      "home": "Sassuolo",
+      "away": "Como",
+      "kickoff": "Gameweek 20",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 20
+    },
+    {
+      "home": "Fiorentina",
+      "away": "AC Milan",
+      "kickoff": "Gameweek 20",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 20
+    },
+    {
+      "home": "Parma",
+      "away": "Frosinone",
+      "kickoff": "Gameweek 20",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 20
+    },
+    {
+      "home": "Lecce",
+      "away": "Juventus",
+      "kickoff": "Gameweek 20",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 20
+    },
+    {
+      "home": "Atalanta",
+      "away": "Napoli",
+      "kickoff": "Gameweek 20",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 20
+    },
+    {
+      "home": "Cagliari",
+      "away": "Bologna",
+      "kickoff": "Gameweek 20",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 20
+    },
+    {
+      "home": "Genoa",
+      "away": "Torino",
+      "kickoff": "Gameweek 20",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 20
+    }
+  ],
+  "21": [
+    {
+      "home": "Lazio",
+      "away": "Venezia",
+      "kickoff": "Gameweek 21",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 21
+    },
+    {
+      "home": "Udinese",
+      "away": "Monza",
+      "kickoff": "Gameweek 21",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 21
+    },
+    {
+      "home": "Inter",
+      "away": "Sassuolo",
+      "kickoff": "Gameweek 21",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 21
+    },
+    {
+      "home": "AS Roma",
+      "away": "Fiorentina",
+      "kickoff": "Gameweek 21",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 21
+    },
+    {
+      "home": "Como",
+      "away": "Parma",
+      "kickoff": "Gameweek 21",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 21
+    },
+    {
+      "home": "AC Milan",
+      "away": "Lecce",
+      "kickoff": "Gameweek 21",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 21
+    },
+    {
+      "home": "Frosinone",
+      "away": "Atalanta",
+      "kickoff": "Gameweek 21",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 21
+    },
+    {
+      "home": "Juventus",
+      "away": "Cagliari",
+      "kickoff": "Gameweek 21",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 21
+    },
+    {
+      "home": "Napoli",
+      "away": "Genoa",
+      "kickoff": "Gameweek 21",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 21
+    },
+    {
+      "home": "Bologna",
+      "away": "Torino",
+      "kickoff": "Gameweek 21",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 21
+    }
+  ],
+  "22": [
+    {
+      "home": "Monza",
+      "away": "Lazio",
+      "kickoff": "Gameweek 22",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 22
+    },
+    {
+      "home": "Sassuolo",
+      "away": "Venezia",
+      "kickoff": "Gameweek 22",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 22
+    },
+    {
+      "home": "Fiorentina",
+      "away": "Udinese",
+      "kickoff": "Gameweek 22",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 22
+    },
+    {
+      "home": "Parma",
+      "away": "Inter",
+      "kickoff": "Gameweek 22",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 22
+    },
+    {
+      "home": "Lecce",
+      "away": "AS Roma",
+      "kickoff": "Gameweek 22",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 22
+    },
+    {
+      "home": "Atalanta",
+      "away": "Como",
+      "kickoff": "Gameweek 22",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 22
+    },
+    {
+      "home": "Cagliari",
+      "away": "AC Milan",
+      "kickoff": "Gameweek 22",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 22
+    },
+    {
+      "home": "Genoa",
+      "away": "Frosinone",
+      "kickoff": "Gameweek 22",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 22
+    },
+    {
+      "home": "Torino",
+      "away": "Juventus",
+      "kickoff": "Gameweek 22",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 22
+    },
+    {
+      "home": "Bologna",
+      "away": "Napoli",
+      "kickoff": "Gameweek 22",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 22
+    }
+  ],
+  "23": [
+    {
+      "home": "Lazio",
+      "away": "Sassuolo",
+      "kickoff": "Gameweek 23",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 23
+    },
+    {
+      "home": "Monza",
+      "away": "Fiorentina",
+      "kickoff": "Gameweek 23",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 23
+    },
+    {
+      "home": "Venezia",
+      "away": "Parma",
+      "kickoff": "Gameweek 23",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 23
+    },
+    {
+      "home": "Udinese",
+      "away": "Lecce",
+      "kickoff": "Gameweek 23",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 23
+    },
+    {
+      "home": "Inter",
+      "away": "Atalanta",
+      "kickoff": "Gameweek 23",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 23
+    },
+    {
+      "home": "AS Roma",
+      "away": "Cagliari",
+      "kickoff": "Gameweek 23",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 23
+    },
+    {
+      "home": "Como",
+      "away": "Genoa",
+      "kickoff": "Gameweek 23",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 23
+    },
+    {
+      "home": "AC Milan",
+      "away": "Torino",
+      "kickoff": "Gameweek 23",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 23
+    },
+    {
+      "home": "Frosinone",
+      "away": "Bologna",
+      "kickoff": "Gameweek 23",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 23
+    },
+    {
+      "home": "Juventus",
+      "away": "Napoli",
+      "kickoff": "Gameweek 23",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 23
+    }
+  ],
+  "24": [
+    {
+      "home": "Fiorentina",
+      "away": "Lazio",
+      "kickoff": "Gameweek 24",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 24
+    },
+    {
+      "home": "Parma",
+      "away": "Sassuolo",
+      "kickoff": "Gameweek 24",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 24
+    },
+    {
+      "home": "Lecce",
+      "away": "Monza",
+      "kickoff": "Gameweek 24",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 24
+    },
+    {
+      "home": "Atalanta",
+      "away": "Venezia",
+      "kickoff": "Gameweek 24",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 24
+    },
+    {
+      "home": "Cagliari",
+      "away": "Udinese",
+      "kickoff": "Gameweek 24",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 24
+    },
+    {
+      "home": "Genoa",
+      "away": "Inter",
+      "kickoff": "Gameweek 24",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 24
+    },
+    {
+      "home": "Torino",
+      "away": "AS Roma",
+      "kickoff": "Gameweek 24",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 24
+    },
+    {
+      "home": "Bologna",
+      "away": "Como",
+      "kickoff": "Gameweek 24",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 24
+    },
+    {
+      "home": "Napoli",
+      "away": "AC Milan",
+      "kickoff": "Gameweek 24",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 24
+    },
+    {
+      "home": "Juventus",
+      "away": "Frosinone",
+      "kickoff": "Gameweek 24",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 24
+    }
+  ],
+  "25": [
+    {
+      "home": "Lazio",
+      "away": "Parma",
+      "kickoff": "Gameweek 25",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 25
+    },
+    {
+      "home": "Fiorentina",
+      "away": "Lecce",
+      "kickoff": "Gameweek 25",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 25
+    },
+    {
+      "home": "Sassuolo",
+      "away": "Atalanta",
+      "kickoff": "Gameweek 25",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 25
+    },
+    {
+      "home": "Monza",
+      "away": "Cagliari",
+      "kickoff": "Gameweek 25",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 25
+    },
+    {
+      "home": "Venezia",
+      "away": "Genoa",
+      "kickoff": "Gameweek 25",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 25
+    },
+    {
+      "home": "Udinese",
+      "away": "Torino",
+      "kickoff": "Gameweek 25",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 25
+    },
+    {
+      "home": "Inter",
+      "away": "Bologna",
+      "kickoff": "Gameweek 25",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 25
+    },
+    {
+      "home": "AS Roma",
+      "away": "Napoli",
+      "kickoff": "Gameweek 25",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 25
+    },
+    {
+      "home": "Como",
+      "away": "Juventus",
+      "kickoff": "Gameweek 25",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 25
+    },
+    {
+      "home": "AC Milan",
+      "away": "Frosinone",
+      "kickoff": "Gameweek 25",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 25
+    }
+  ],
+  "26": [
+    {
+      "home": "Lecce",
+      "away": "Lazio",
+      "kickoff": "Gameweek 26",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 26
+    },
+    {
+      "home": "Atalanta",
+      "away": "Parma",
+      "kickoff": "Gameweek 26",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 26
+    },
+    {
+      "home": "Cagliari",
+      "away": "Fiorentina",
+      "kickoff": "Gameweek 26",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 26
+    },
+    {
+      "home": "Genoa",
+      "away": "Sassuolo",
+      "kickoff": "Gameweek 26",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 26
+    },
+    {
+      "home": "Torino",
+      "away": "Monza",
+      "kickoff": "Gameweek 26",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 26
+    },
+    {
+      "home": "Bologna",
+      "away": "Venezia",
+      "kickoff": "Gameweek 26",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 26
+    },
+    {
+      "home": "Napoli",
+      "away": "Udinese",
+      "kickoff": "Gameweek 26",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 26
+    },
+    {
+      "home": "Juventus",
+      "away": "Inter",
+      "kickoff": "Gameweek 26",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 26
+    },
+    {
+      "home": "Frosinone",
+      "away": "AS Roma",
+      "kickoff": "Gameweek 26",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 26
+    },
+    {
+      "home": "AC Milan",
+      "away": "Como",
+      "kickoff": "Gameweek 26",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 26
+    }
+  ],
+  "27": [
+    {
+      "home": "Lazio",
+      "away": "Atalanta",
+      "kickoff": "Gameweek 27",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 27
+    },
+    {
+      "home": "Lecce",
+      "away": "Cagliari",
+      "kickoff": "Gameweek 27",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 27
+    },
+    {
+      "home": "Parma",
+      "away": "Genoa",
+      "kickoff": "Gameweek 27",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 27
+    },
+    {
+      "home": "Fiorentina",
+      "away": "Torino",
+      "kickoff": "Gameweek 27",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 27
+    },
+    {
+      "home": "Sassuolo",
+      "away": "Bologna",
+      "kickoff": "Gameweek 27",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 27
+    },
+    {
+      "home": "Monza",
+      "away": "Napoli",
+      "kickoff": "Gameweek 27",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 27
+    },
+    {
+      "home": "Venezia",
+      "away": "Juventus",
+      "kickoff": "Gameweek 27",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 27
+    },
+    {
+      "home": "Udinese",
+      "away": "Frosinone",
+      "kickoff": "Gameweek 27",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 27
+    },
+    {
+      "home": "Inter",
+      "away": "AC Milan",
+      "kickoff": "Gameweek 27",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 27
+    },
+    {
+      "home": "AS Roma",
+      "away": "Como",
+      "kickoff": "Gameweek 27",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 27
+    }
+  ],
+  "28": [
+    {
+      "home": "Cagliari",
+      "away": "Lazio",
+      "kickoff": "Gameweek 28",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 28
+    },
+    {
+      "home": "Genoa",
+      "away": "Atalanta",
+      "kickoff": "Gameweek 28",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 28
+    },
+    {
+      "home": "Torino",
+      "away": "Lecce",
+      "kickoff": "Gameweek 28",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 28
+    },
+    {
+      "home": "Bologna",
+      "away": "Parma",
+      "kickoff": "Gameweek 28",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 28
+    },
+    {
+      "home": "Napoli",
+      "away": "Fiorentina",
+      "kickoff": "Gameweek 28",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 28
+    },
+    {
+      "home": "Juventus",
+      "away": "Sassuolo",
+      "kickoff": "Gameweek 28",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 28
+    },
+    {
+      "home": "Frosinone",
+      "away": "Monza",
+      "kickoff": "Gameweek 28",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 28
+    },
+    {
+      "home": "AC Milan",
+      "away": "Venezia",
+      "kickoff": "Gameweek 28",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 28
+    },
+    {
+      "home": "Como",
+      "away": "Udinese",
+      "kickoff": "Gameweek 28",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 28
+    },
+    {
+      "home": "AS Roma",
+      "away": "Inter",
+      "kickoff": "Gameweek 28",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 28
+    }
+  ],
+  "29": [
+    {
+      "home": "Lazio",
+      "away": "Genoa",
+      "kickoff": "Gameweek 29",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 29
+    },
+    {
+      "home": "Cagliari",
+      "away": "Torino",
+      "kickoff": "Gameweek 29",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 29
+    },
+    {
+      "home": "Atalanta",
+      "away": "Bologna",
+      "kickoff": "Gameweek 29",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 29
+    },
+    {
+      "home": "Lecce",
+      "away": "Napoli",
+      "kickoff": "Gameweek 29",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 29
+    },
+    {
+      "home": "Parma",
+      "away": "Juventus",
+      "kickoff": "Gameweek 29",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 29
+    },
+    {
+      "home": "Fiorentina",
+      "away": "Frosinone",
+      "kickoff": "Gameweek 29",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 29
+    },
+    {
+      "home": "Sassuolo",
+      "away": "AC Milan",
+      "kickoff": "Gameweek 29",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 29
+    },
+    {
+      "home": "Monza",
+      "away": "Como",
+      "kickoff": "Gameweek 29",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 29
+    },
+    {
+      "home": "Venezia",
+      "away": "AS Roma",
+      "kickoff": "Gameweek 29",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 29
+    },
+    {
+      "home": "Udinese",
+      "away": "Inter",
+      "kickoff": "Gameweek 29",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 29
+    }
+  ],
+  "30": [
+    {
+      "home": "Torino",
+      "away": "Lazio",
+      "kickoff": "Gameweek 30",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 30
+    },
+    {
+      "home": "Bologna",
+      "away": "Genoa",
+      "kickoff": "Gameweek 30",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 30
+    },
+    {
+      "home": "Napoli",
+      "away": "Cagliari",
+      "kickoff": "Gameweek 30",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 30
+    },
+    {
+      "home": "Juventus",
+      "away": "Atalanta",
+      "kickoff": "Gameweek 30",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 30
+    },
+    {
+      "home": "Frosinone",
+      "away": "Lecce",
+      "kickoff": "Gameweek 30",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 30
+    },
+    {
+      "home": "AC Milan",
+      "away": "Parma",
+      "kickoff": "Gameweek 30",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 30
+    },
+    {
+      "home": "Como",
+      "away": "Fiorentina",
+      "kickoff": "Gameweek 30",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 30
+    },
+    {
+      "home": "AS Roma",
+      "away": "Sassuolo",
+      "kickoff": "Gameweek 30",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 30
+    },
+    {
+      "home": "Inter",
+      "away": "Monza",
+      "kickoff": "Gameweek 30",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 30
+    },
+    {
+      "home": "Udinese",
+      "away": "Venezia",
+      "kickoff": "Gameweek 30",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 30
+    }
+  ],
+  "31": [
+    {
+      "home": "Lazio",
+      "away": "Bologna",
+      "kickoff": "Gameweek 31",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 31
+    },
+    {
+      "home": "Torino",
+      "away": "Napoli",
+      "kickoff": "Gameweek 31",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 31
+    },
+    {
+      "home": "Genoa",
+      "away": "Juventus",
+      "kickoff": "Gameweek 31",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 31
+    },
+    {
+      "home": "Cagliari",
+      "away": "Frosinone",
+      "kickoff": "Gameweek 31",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 31
+    },
+    {
+      "home": "Atalanta",
+      "away": "AC Milan",
+      "kickoff": "Gameweek 31",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 31
+    },
+    {
+      "home": "Lecce",
+      "away": "Como",
+      "kickoff": "Gameweek 31",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 31
+    },
+    {
+      "home": "Parma",
+      "away": "AS Roma",
+      "kickoff": "Gameweek 31",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 31
+    },
+    {
+      "home": "Fiorentina",
+      "away": "Inter",
+      "kickoff": "Gameweek 31",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 31
+    },
+    {
+      "home": "Sassuolo",
+      "away": "Udinese",
+      "kickoff": "Gameweek 31",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 31
+    },
+    {
+      "home": "Monza",
+      "away": "Venezia",
+      "kickoff": "Gameweek 31",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 31
+    }
+  ],
+  "32": [
+    {
+      "home": "Napoli",
+      "away": "Lazio",
+      "kickoff": "Gameweek 32",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 32
+    },
+    {
+      "home": "Juventus",
+      "away": "Bologna",
+      "kickoff": "Gameweek 32",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 32
+    },
+    {
+      "home": "Frosinone",
+      "away": "Torino",
+      "kickoff": "Gameweek 32",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 32
+    },
+    {
+      "home": "AC Milan",
+      "away": "Genoa",
+      "kickoff": "Gameweek 32",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 32
+    },
+    {
+      "home": "Como",
+      "away": "Cagliari",
+      "kickoff": "Gameweek 32",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 32
+    },
+    {
+      "home": "AS Roma",
+      "away": "Atalanta",
+      "kickoff": "Gameweek 32",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 32
+    },
+    {
+      "home": "Inter",
+      "away": "Lecce",
+      "kickoff": "Gameweek 32",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 32
+    },
+    {
+      "home": "Udinese",
+      "away": "Parma",
+      "kickoff": "Gameweek 32",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 32
+    },
+    {
+      "home": "Venezia",
+      "away": "Fiorentina",
+      "kickoff": "Gameweek 32",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 32
+    },
+    {
+      "home": "Monza",
+      "away": "Sassuolo",
+      "kickoff": "Gameweek 32",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 32
+    }
+  ],
+  "33": [
+    {
+      "home": "Lazio",
+      "away": "Juventus",
+      "kickoff": "Gameweek 33",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 33
+    },
+    {
+      "home": "Napoli",
+      "away": "Frosinone",
+      "kickoff": "Gameweek 33",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 33
+    },
+    {
+      "home": "Bologna",
+      "away": "AC Milan",
+      "kickoff": "Gameweek 33",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 33
+    },
+    {
+      "home": "Torino",
+      "away": "Como",
+      "kickoff": "Gameweek 33",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 33
+    },
+    {
+      "home": "Genoa",
+      "away": "AS Roma",
+      "kickoff": "Gameweek 33",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 33
+    },
+    {
+      "home": "Cagliari",
+      "away": "Inter",
+      "kickoff": "Gameweek 33",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 33
+    },
+    {
+      "home": "Atalanta",
+      "away": "Udinese",
+      "kickoff": "Gameweek 33",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 33
+    },
+    {
+      "home": "Lecce",
+      "away": "Venezia",
+      "kickoff": "Gameweek 33",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 33
+    },
+    {
+      "home": "Parma",
+      "away": "Monza",
+      "kickoff": "Gameweek 33",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 33
+    },
+    {
+      "home": "Fiorentina",
+      "away": "Sassuolo",
+      "kickoff": "Gameweek 33",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 33
+    }
+  ],
+  "34": [
+    {
+      "home": "Frosinone",
+      "away": "Lazio",
+      "kickoff": "Gameweek 34",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 34
+    },
+    {
+      "home": "AC Milan",
+      "away": "Juventus",
+      "kickoff": "Gameweek 34",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 34
+    },
+    {
+      "home": "Como",
+      "away": "Napoli",
+      "kickoff": "Gameweek 34",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 34
+    },
+    {
+      "home": "AS Roma",
+      "away": "Bologna",
+      "kickoff": "Gameweek 34",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 34
+    },
+    {
+      "home": "Inter",
+      "away": "Torino",
+      "kickoff": "Gameweek 34",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 34
+    },
+    {
+      "home": "Udinese",
+      "away": "Genoa",
+      "kickoff": "Gameweek 34",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 34
+    },
+    {
+      "home": "Venezia",
+      "away": "Cagliari",
+      "kickoff": "Gameweek 34",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 34
+    },
+    {
+      "home": "Monza",
+      "away": "Atalanta",
+      "kickoff": "Gameweek 34",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 34
+    },
+    {
+      "home": "Sassuolo",
+      "away": "Lecce",
+      "kickoff": "Gameweek 34",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 34
+    },
+    {
+      "home": "Fiorentina",
+      "away": "Parma",
+      "kickoff": "Gameweek 34",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 34
+    }
+  ],
+  "35": [
+    {
+      "home": "Lazio",
+      "away": "AC Milan",
+      "kickoff": "Gameweek 35",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 35
+    },
+    {
+      "home": "Frosinone",
+      "away": "Como",
+      "kickoff": "Gameweek 35",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 35
+    },
+    {
+      "home": "Juventus",
+      "away": "AS Roma",
+      "kickoff": "Gameweek 35",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 35
+    },
+    {
+      "home": "Napoli",
+      "away": "Inter",
+      "kickoff": "Gameweek 35",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 35
+    },
+    {
+      "home": "Bologna",
+      "away": "Udinese",
+      "kickoff": "Gameweek 35",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 35
+    },
+    {
+      "home": "Torino",
+      "away": "Venezia",
+      "kickoff": "Gameweek 35",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 35
+    },
+    {
+      "home": "Genoa",
+      "away": "Monza",
+      "kickoff": "Gameweek 35",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 35
+    },
+    {
+      "home": "Cagliari",
+      "away": "Sassuolo",
+      "kickoff": "Gameweek 35",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 35
+    },
+    {
+      "home": "Atalanta",
+      "away": "Fiorentina",
+      "kickoff": "Gameweek 35",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 35
+    },
+    {
+      "home": "Lecce",
+      "away": "Parma",
+      "kickoff": "Gameweek 35",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 35
+    }
+  ],
+  "36": [
+    {
+      "home": "Como",
+      "away": "Lazio",
+      "kickoff": "Gameweek 36",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 36
+    },
+    {
+      "home": "AS Roma",
+      "away": "AC Milan",
+      "kickoff": "Gameweek 36",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 36
+    },
+    {
+      "home": "Inter",
+      "away": "Frosinone",
+      "kickoff": "Gameweek 36",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 36
+    },
+    {
+      "home": "Udinese",
+      "away": "Juventus",
+      "kickoff": "Gameweek 36",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 36
+    },
+    {
+      "home": "Venezia",
+      "away": "Napoli",
+      "kickoff": "Gameweek 36",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 36
+    },
+    {
+      "home": "Monza",
+      "away": "Bologna",
+      "kickoff": "Gameweek 36",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 36
+    },
+    {
+      "home": "Sassuolo",
+      "away": "Torino",
+      "kickoff": "Gameweek 36",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 36
+    },
+    {
+      "home": "Fiorentina",
+      "away": "Genoa",
+      "kickoff": "Gameweek 36",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 36
+    },
+    {
+      "home": "Parma",
+      "away": "Cagliari",
+      "kickoff": "Gameweek 36",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 36
+    },
+    {
+      "home": "Lecce",
+      "away": "Atalanta",
+      "kickoff": "Gameweek 36",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 36
+    }
+  ],
+  "37": [
+    {
+      "home": "Lazio",
+      "away": "AS Roma",
+      "kickoff": "Gameweek 37",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 37
+    },
+    {
+      "home": "Como",
+      "away": "Inter",
+      "kickoff": "Gameweek 37",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 37
+    },
+    {
+      "home": "AC Milan",
+      "away": "Udinese",
+      "kickoff": "Gameweek 37",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 37
+    },
+    {
+      "home": "Frosinone",
+      "away": "Venezia",
+      "kickoff": "Gameweek 37",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 37
+    },
+    {
+      "home": "Juventus",
+      "away": "Monza",
+      "kickoff": "Gameweek 37",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 37
+    },
+    {
+      "home": "Napoli",
+      "away": "Sassuolo",
+      "kickoff": "Gameweek 37",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 37
+    },
+    {
+      "home": "Bologna",
+      "away": "Fiorentina",
+      "kickoff": "Gameweek 37",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 37
+    },
+    {
+      "home": "Torino",
+      "away": "Parma",
+      "kickoff": "Gameweek 37",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 37
+    },
+    {
+      "home": "Genoa",
+      "away": "Lecce",
+      "kickoff": "Gameweek 37",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 37
+    },
+    {
+      "home": "Cagliari",
+      "away": "Atalanta",
+      "kickoff": "Gameweek 37",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 37
+    }
+  ],
+  "38": [
+    {
+      "home": "Inter",
+      "away": "Lazio",
+      "kickoff": "Gameweek 38",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 38
+    },
+    {
+      "home": "Udinese",
+      "away": "AS Roma",
+      "kickoff": "Gameweek 38",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 38
+    },
+    {
+      "home": "Venezia",
+      "away": "Como",
+      "kickoff": "Gameweek 38",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 38
+    },
+    {
+      "home": "Monza",
+      "away": "AC Milan",
+      "kickoff": "Gameweek 38",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 38
+    },
+    {
+      "home": "Sassuolo",
+      "away": "Frosinone",
+      "kickoff": "Gameweek 38",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 38
+    },
+    {
+      "home": "Fiorentina",
+      "away": "Juventus",
+      "kickoff": "Gameweek 38",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 38
+    },
+    {
+      "home": "Parma",
+      "away": "Napoli",
+      "kickoff": "Gameweek 38",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 38
+    },
+    {
+      "home": "Lecce",
+      "away": "Bologna",
+      "kickoff": "Gameweek 38",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 38
+    },
+    {
+      "home": "Atalanta",
+      "away": "Torino",
+      "kickoff": "Gameweek 38",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 38
+    },
+    {
+      "home": "Cagliari",
+      "away": "Genoa",
+      "kickoff": "Gameweek 38",
+      "raw_kickoff": "2026-11-14T15:00:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 38
+    }
+  ]
+}

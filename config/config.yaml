@@ -1,0 +1,69 @@
+# Configuration for Football Prediction & Decision-Support Engine
+
+project:
+  name: "football-prediction-ai"
+  random_state: 42
+  device: "cuda" # fallback to cpu if cuda unavailable
+
+leagues:
+  E0: "English Premier League"
+  SP1: "Spanish La Liga"
+  I1: "Italian Serie A"
+  D1: "German Bundesliga"
+  F1: "French Ligue 1"
+
+seasons:
+  - "1718"
+  - "1819"
+  - "1920"
+  - "2021"
+  - "2122"
+  - "2223"
+  - "2324"
+  - "2425"
+
+splits:
+  warmup_start: "2019-07-01"
+  warmup_end: "2021-06-30"
+  train_start: "2021-07-01"
+  train_end: "2023-12-31"
+  val_start: "2024-01-01"
+  val_end: "2024-05-31"
+  test_start: "2024-08-01"
+  test_end: "2025-05-31"
+
+data:
+  raw_dir: "data/raw"
+  processed_dir: "data/processed"
+  base_url: "https://www.football-data.co.uk/mmz4281"
+  timeout_seconds: 60
+  max_retries: 10
+  retry_backoff: 5
+
+features:
+  rolling_windows: [3, 5, 10, 20]
+  elo:
+    initial_rating: 1500.0
+    promoted_rating: 1350.0
+    k_factor: 20.0
+    home_advantage: 65.0
+  dixon_coles:
+    time_decay_xi: 0.003
+    max_goals: 7
+    window_days: 730
+  pi_ratings:
+    lambda_factor: 0.06
+    gamma_factor: 0.7
+
+modeling:
+  track_a:
+    name: "Pure Football Fundamentals (No Odds)"
+  track_b:
+    name: "Hybrid Market + Fundamentals"
+  optuna:
+    n_trials: 30
+    timeout: 300
+  decision_filter:
+    confidence_thresholds: [0.52, 0.55, 0.58, 0.60]
+    target_confidence: 0.55
+    min_ev: 0.03
