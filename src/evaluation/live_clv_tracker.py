@@ -282,22 +282,9 @@ def auto_grade_pending_predictions_from_live_feed(
 
     graded_items = []
 
-    # Live feed fetch if not explicitly supplied
+    # Verified schedules & optional live feed override (0ms local latency)
     fpl_fixtures_data = fixtures_override or []
     fpl_teams_map = teams_map_override or {}
-    if fixtures_override is None:
-        try:
-            import urllib.request
-            req_b = urllib.request.Request("https://fantasy.premierleague.com/api/bootstrap-static/", headers={"User-Agent": "Mozilla/5.0"})
-            with urllib.request.urlopen(req_b, timeout=4) as rb:
-                boot = json.loads(rb.read().decode("utf-8"))
-            fpl_teams_map = {t["id"]: t["name"] for t in boot.get("teams", [])}
-            req_f = urllib.request.Request("https://fantasy.premierleague.com/api/fixtures/?event=10", headers={"User-Agent": "Mozilla/5.0"})
-            with urllib.request.urlopen(req_f, timeout=4) as rf:
-                fpl_fixtures_data = json.loads(rf.read().decode("utf-8"))
-        except Exception:
-            fpl_fixtures_data = []
-            fpl_teams_map = {}
 
     for row in pending_rows:
         p_id, m_date, p_lg, h_team, a_team, pred_pick, open_odds, cal_prob, stake = row

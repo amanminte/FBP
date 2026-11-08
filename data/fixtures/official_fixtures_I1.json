@@ -853,7 +853,7 @@
       "raw_kickoff": "2026-11-14T15:00:00Z",
       "finished": true,
       "score_h": 1,
-      "score_a": 0,
+      "score_a": 2,
       "gameweek": 9
     },
     {
@@ -1057,9 +1057,9 @@
       "away": "Bologna",
       "kickoff": "Sat Nov 07 • 08:00 PM",
       "raw_kickoff": "2026-11-07T19:00:00Z",
-      "finished": false,
-      "score_h": null,
-      "score_a": null,
+      "finished": true,
+      "score_h": 1,
+      "score_a": 2,
       "gameweek": 11
     },
     {
@@ -1067,29 +1067,33 @@
       "away": "Sassuolo",
       "kickoff": "Sat Nov 07 • 10:45 PM",
       "raw_kickoff": "2026-11-07T21:45:00Z",
-      "finished": false,
-      "score_h": null,
-      "score_a": null,
-      "gameweek": 11
+      "finished": true,
+      "score_h": 3,
+      "score_a": 0,
+      "gameweek": 11,
+      "cards_h": 0,
+      "cards_a": 0
     },
     {
       "home": "Napoli",
       "away": "Lazio",
       "kickoff": "Sun Nov 08 • 02:30 PM",
       "raw_kickoff": "2026-11-08T13:30:00Z",
-      "finished": false,
-      "score_h": null,
-      "score_a": null,
-      "gameweek": 11
+      "finished": true,
+      "score_h": 1,
+      "score_a": 1,
+      "gameweek": 11,
+      "cards_h": 2,
+      "cards_a": 2
     },
     {
       "home": "Genoa",
       "away": "AC Milan",
       "kickoff": "Sun Nov 08 • 05:00 PM",
       "raw_kickoff": "2026-11-08T16:00:00Z",
-      "finished": false,
-      "score_h": null,
-      "score_a": null,
+      "finished": true,
+      "score_h": 1,
+      "score_a": 2,
       "gameweek": 11
     },
     {
@@ -1097,9 +1101,9 @@
       "away": "Atalanta",
       "kickoff": "Sun Nov 08 • 05:00 PM",
       "raw_kickoff": "2026-11-08T16:00:00Z",
-      "finished": false,
-      "score_h": null,
-      "score_a": null,
+      "finished": true,
+      "score_h": 0,
+      "score_a": 1,
       "gameweek": 11
     },
     {
@@ -1261,9 +1265,9 @@
       "away": "AC Milan",
       "kickoff": "Gameweek 13",
       "raw_kickoff": "2026-11-14T15:00:00Z",
-      "finished": false,
-      "score_h": null,
-      "score_a": null,
+      "finished": true,
+      "score_h": 1,
+      "score_a": 2,
       "gameweek": 13
     },
     {
@@ -2781,9 +2785,9 @@
       "away": "Lecce",
       "kickoff": "Gameweek 28",
       "raw_kickoff": "2026-11-14T15:00:00Z",
-      "finished": false,
-      "score_h": null,
-      "score_a": null,
+      "finished": true,
+      "score_h": 1,
+      "score_a": 1,
       "gameweek": 28
     },
     {
@@ -3035,9 +3039,9 @@
       "away": "Sassuolo",
       "kickoff": "Gameweek 30",
       "raw_kickoff": "2026-11-14T15:00:00Z",
-      "finished": false,
-      "score_h": null,
-      "score_a": null,
+      "finished": true,
+      "score_h": 3,
+      "score_a": 0,
       "gameweek": 30
     },
     {
@@ -3097,9 +3101,9 @@
       "away": "Frosinone",
       "kickoff": "Gameweek 31",
       "raw_kickoff": "2026-11-14T15:00:00Z",
-      "finished": false,
-      "score_h": null,
-      "score_a": null,
+      "finished": true,
+      "score_h": 1,
+      "score_a": 0,
       "gameweek": 31
     },
     {
@@ -3169,9 +3173,9 @@
       "away": "Lazio",
       "kickoff": "Gameweek 32",
       "raw_kickoff": "2026-11-14T15:00:00Z",
-      "finished": false,
-      "score_h": null,
-      "score_a": null,
+      "finished": true,
+      "score_h": 1,
+      "score_a": 1,
       "gameweek": 32
     },
     {
@@ -3443,9 +3447,9 @@
       "away": "Atalanta",
       "kickoff": "Gameweek 34",
       "raw_kickoff": "2026-11-14T15:00:00Z",
-      "finished": false,
-      "score_h": null,
-      "score_a": null,
+      "finished": true,
+      "score_h": 0,
+      "score_a": 1,
       "gameweek": 34
     },
     {

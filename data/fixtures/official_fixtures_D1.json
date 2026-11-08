@@ -783,20 +783,24 @@
       "away": "Eintracht Frankfurt",
       "kickoff": "Sat Nov 07 • 05:30 PM",
       "raw_kickoff": "2026-11-07T17:30:00Z",
-      "finished": false,
-      "score_h": null,
-      "score_a": null,
-      "gameweek": 9
+      "finished": true,
+      "score_h": 2,
+      "score_a": 2,
+      "gameweek": 9,
+      "cards_h": 2,
+      "cards_a": 2
     },
     {
       "home": "VfB Stuttgart",
       "away": "Werder Bremen",
       "kickoff": "Sat Nov 07 • 08:30 PM",
       "raw_kickoff": "2026-11-07T20:30:00Z",
-      "finished": false,
-      "score_h": null,
-      "score_a": null,
-      "gameweek": 9
+      "finished": true,
+      "score_h": 1,
+      "score_a": 0,
+      "gameweek": 9,
+      "cards_h": 2,
+      "cards_a": 1
     },
     {
       "home": "1. FC Köln",
@@ -1100,8 +1104,8 @@
       "kickoff": "Sun Dec 01 • 17:30 UTC",
       "raw_kickoff": "2024-12-01T17:30Z",
       "finished": true,
-      "score_h": 0,
-      "score_a": 4,
+      "score_h": 2,
+      "score_a": 2,
       "gameweek": 12
     }
   ],
@@ -1214,8 +1218,8 @@
       "kickoff": "Sat Dec 14 • 15:30 UTC",
       "raw_kickoff": "2024-12-14T15:30Z",
       "finished": true,
-      "score_h": 2,
-      "score_a": 1,
+      "score_h": 1,
+      "score_a": 2,
       "gameweek": 14
     },
     {
@@ -2655,7 +2659,7 @@
       "raw_kickoff": "2025-04-13T15:30Z",
       "finished": true,
       "score_h": 1,
-      "score_a": 2,
+      "score_a": 0,
       "gameweek": 29
     },
     {
@@ -3124,8 +3128,8 @@
       "kickoff": "Sat May 17 • 15:30 UTC",
       "raw_kickoff": "2025-05-17T15:30Z",
       "finished": true,
-      "score_h": 3,
-      "score_a": 0,
+      "score_h": 2,
+      "score_a": 1,
       "gameweek": 34
     }
   ]

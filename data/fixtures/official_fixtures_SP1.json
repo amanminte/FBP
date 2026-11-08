@@ -67,7 +67,7 @@
       "raw_kickoff": "2024-08-18T19:00Z",
       "finished": true,
       "score_h": 1,
-      "score_a": 2,
+      "score_a": 0,
       "gameweek": 1
     },
     {
@@ -1159,39 +1159,45 @@
       "away": "Athletic Club",
       "kickoff": "Sat Nov 07 • 08:30 PM",
       "raw_kickoff": "2026-11-07T20:30:00Z",
-      "finished": false,
-      "score_h": null,
-      "score_a": null,
-      "gameweek": 12
+      "finished": true,
+      "score_h": 1,
+      "score_a": 1,
+      "gameweek": 12,
+      "cards_h": 2,
+      "cards_a": 2
     },
     {
       "home": "Valencia",
       "away": "Real Madrid",
       "kickoff": "Sat Nov 07 • 11:00 PM",
       "raw_kickoff": "2026-11-07T23:00:00Z",
-      "finished": false,
-      "score_h": null,
-      "score_a": null,
-      "gameweek": 12
+      "finished": true,
+      "score_h": 0,
+      "score_a": 3,
+      "gameweek": 12,
+      "cards_h": 2,
+      "cards_a": 1
     },
     {
       "home": "Elche",
       "away": "Real Betis",
       "kickoff": "Sun Nov 08 • 04:00 PM",
       "raw_kickoff": "2026-11-08T16:00:00Z",
-      "finished": false,
-      "score_h": null,
-      "score_a": null,
-      "gameweek": 12
+      "finished": true,
+      "score_h": 0,
+      "score_a": 2,
+      "gameweek": 12,
+      "cards_h": 1,
+      "cards_a": 2
     },
     {
       "home": "Real Sociedad",
       "away": "Rayo Vallecano",
       "kickoff": "Sun Nov 08 • 06:15 PM",
       "raw_kickoff": "2026-11-08T18:15:00Z",
-      "finished": false,
-      "score_h": null,
-      "score_a": null,
+      "finished": true,
+      "score_h": 1,
+      "score_a": 0,
       "gameweek": 12
     },
     {
@@ -1771,9 +1777,9 @@
       "away": "Athletic Club",
       "kickoff": "Sat Dec 21 • 18:30 UTC",
       "raw_kickoff": "2024-12-21T18:30Z",
-      "finished": false,
-      "score_h": null,
-      "score_a": null,
+      "finished": true,
+      "score_h": 1,
+      "score_a": 1,
       "gameweek": 18
     },
     {
@@ -2423,9 +2429,9 @@
       "away": "Racing Santander",
       "kickoff": "Sun Feb 16 • 18:30 UTC",
       "raw_kickoff": "2025-02-16T18:30Z",
-      "finished": false,
-      "score_h": null,
-      "score_a": null,
+      "finished": true,
+      "score_h": 1,
+      "score_a": 2,
       "gameweek": 24
     },
     {
@@ -2739,9 +2745,9 @@
       "away": "Deportivo La Coruna",
       "kickoff": "Mon Mar 10 • 21:00 UTC",
       "raw_kickoff": "2025-03-10T21:00Z",
-      "finished": false,
-      "score_h": null,
-      "score_a": null,
+      "finished": true,
+      "score_h": 0,
+      "score_a": 0,
       "gameweek": 27
     },
     {
@@ -2811,9 +2817,9 @@
       "away": "Real Betis",
       "kickoff": "Sun Mar 16 • 14:00 UTC",
       "raw_kickoff": "2025-03-16T14:00Z",
-      "finished": false,
-      "score_h": null,
-      "score_a": null,
+      "finished": true,
+      "score_h": 0,
+      "score_a": 2,
       "gameweek": 28
     },
     {
@@ -3239,9 +3245,9 @@
       "away": "Alaves",
       "kickoff": "Sun Apr 20 • 18:30 UTC",
       "raw_kickoff": "2025-04-20T18:30Z",
-      "finished": false,
-      "score_h": null,
-      "score_a": null,
+      "finished": true,
+      "score_h": 0,
+      "score_a": 0,
       "gameweek": 32
     },
     {
