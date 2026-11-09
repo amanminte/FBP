@@ -1,0 +1,188 @@
+import React, { useState, useEffect } from 'react';
+import { Zap, ShieldCheck, Plus, Sparkles, Filter, RefreshCw } from 'lucide-react';
+import type { BetSlipItem } from '../types';
+import { fetchGameweekScan } from '../api';
+
+interface MegaScannerProps {
+  onAddToSlip: (item: BetSlipItem) => void;
+  slipItems: BetSlipItem[];
+}
+
+export const MegaScanner: React.FC<MegaScannerProps> = ({ onAddToSlip, slipItems }) => {
+  const [selectedLeague, setSelectedLeague] = useState<string>('E0');
+  const [scanData, setScanData] = useState<any>(null);
+  const [loading, setLoading] = useState<boolean>(true);
+  const [filterSafeOnly, setFilterSafeOnly] = useState<boolean>(false);
+
+  const loadScan = (league: string) => {
+    setLoading(true);
+    fetchGameweekScan(league)
+      .then((data) => setScanData(data))
+      .catch((err) => console.error('Scan error:', err))
+      .finally(() => setLoading(false));
+  };
+
+  useEffect(() => {
+    loadScan(selectedLeague);
+  }, [selectedLeague]);
+
+  const matches = scanData?.matches || scanData?.scanned_matches || [];
+  const filteredMatches = filterSafeOnly
+    ? matches.filter((m: any) => (m.safety_probability || m.calibrated_prob || 0) >= 80)
+    : matches;
+
+  const handleBuildTopMulti = () => {
+    const sorted = [...matches].sort(
+      (a: any, b: any) => (b.safety_probability || b.calibrated_prob || 0) - (a.safety_probability || a.calibrated_prob || 0)
+    );
+    const top3 = sorted.slice(0, 3);
+    top3.forEach((m: any) => {
+      onAddToSlip({
+        id: `${m.home_team}_${m.away_team}_${m.safest_market || m.predicted_pick}_${Date.now()}`,
+        fixture: `${m.home_team} vs ${m.away_team}`,
+        home_team: m.home_team,
+        away_team: m.away_team,
+        league: m.league || selectedLeague,
+        pick: m.safest_market || m.predicted_pick || 'Double Chance (1X)',
+        odds: m.market_odds || m.fair_odds || 1.15,
+        prob: m.safety_probability || m.calibrated_prob || 88.0,
+        category: 'Mega Scanner Multi Pick',
+      });
+    });
+  };
+
+  return (
+    <div className="space-y-6 pb-20">
+      {/* Header & Controls */}
+      <div className="glass-panel p-6 rounded-3xl flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
+        <div>
+          <div className="flex items-center gap-2 mb-1">
+            <Zap className="w-5 h-5 text-brand-amber" />
+            <h2 className="text-xl font-black text-white tracking-tight">Gameweek Mega Scanner</h2>
+          </div>
+          <p className="text-xs text-slate-400">
+            Automatically parses all fixtures across the round and identifies mathematically optimal derivative markets.
+          </p>
+        </div>
+
+        <div className="flex flex-wrap items-center gap-3">
+          {/* League Selector */}
+          <select
+            value={selectedLeague}
+            onChange={(e) => setSelectedLeague(e.target.value)}
+            className="bg-surface-card border border-border-medium text-white text-xs font-semibold rounded-xl px-3 py-2 outline-none focus:border-brand-amber transition-colors"
+          >
+            <option value="E0">🏴󠁧󠁢󠁥󠁮󠁧󠁿 Premier League</option>
+            <option value="SP1">🇪🇸 La Liga</option>
+            <option value="I1">🇮🇹 Serie A</option>
+            <option value="D1">🇩🇪 Bundesliga</option>
+            <option value="F1">🇫🇷 Ligue 1</option>
+          </select>
+
+          {/* Safe Filter Toggle */}
+          <button
+            onClick={() => setFilterSafeOnly(!filterSafeOnly)}
+            className={`flex items-center gap-2 px-3.5 py-2 rounded-xl text-xs font-bold border transition-all ${
+              filterSafeOnly
+                ? 'bg-brand-emerald/20 text-brand-emerald border-brand-emerald/40'
+                : 'bg-surface-card text-slate-400 border-border-subtle hover:text-white'
+            }`}
+          >
+            <Filter className="w-3.5 h-3.5" />
+            <span>Ultra Safe Only (&ge;80%)</span>
+          </button>
+
+          {/* Quick 1-Click Multi Builder */}
+          <button
+            onClick={handleBuildTopMulti}
+            className="flex items-center gap-2 px-4 py-2 rounded-xl bg-gradient-to-r from-brand-amber to-amber-600 hover:from-amber-400 hover:to-amber-500 text-black text-xs font-black tracking-wide shadow-md active:scale-95 transition-all"
+          >
+            <Sparkles className="w-3.5 h-3.5 text-black" />
+            <span>AUTO-BUILD TOP 3 MULTI</span>
+          </button>
+        </div>
+      </div>
+
+      {loading ? (
+        <div className="py-20 flex flex-col items-center justify-center gap-3">
+          <RefreshCw className="w-7 h-7 text-brand-amber animate-spin" />
+          <p className="text-xs font-mono text-slate-400">Scanning full gameweek schedule...</p>
+        </div>
+      ) : (
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+          {filteredMatches.map((m: any, idx: number) => {
+            const prob = m.safety_probability || m.calibrated_prob || 85.0;
+            const pick = m.safest_market || m.predicted_pick || 'Match Derivative Pick';
+            const odds = m.market_odds || m.fair_odds || 1.15;
+            const inSlip = slipItems.some(
+              (it) => it.home_team === m.home_team && it.away_team === m.away_team && it.pick === pick
+            );
+
+            return (
+              <div
+                key={idx}
+                className="glass-card p-5 rounded-2xl flex flex-col justify-between border border-border-subtle hover:border-brand-amber/30 transition-all"
+              >
+                <div>
+                  <div className="flex items-center justify-between text-xs text-slate-400 font-mono mb-2">
+                    <span className="uppercase px-1.5 py-0.5 rounded bg-white/5 border border-white/10 text-[10px]">
+                      {m.kickoff || 'Gameweek Fixture'}
+                    </span>
+                    <span className="text-brand-amber font-bold">Rank #{idx + 1}</span>
+                  </div>
+
+                  <h3 className="text-base font-extrabold text-white tracking-tight">
+                    {m.home_team} <span className="text-slate-500 font-normal">vs</span> {m.away_team}
+                  </h3>
+
+                  <div className="p-3 my-3 rounded-xl bg-surface-card border border-border-subtle flex items-center justify-between">
+                    <div>
+                      <span className="text-[10px] uppercase font-bold text-slate-400 tracking-wider block">
+                        Algorithm Pick
+                      </span>
+                      <span className="text-sm font-bold text-white">{pick}</span>
+                    </div>
+                    <span className="font-mono text-xs font-black text-brand-emerald px-2 py-1 rounded bg-brand-emerald/10 border border-brand-emerald/20">
+                      {odds.toFixed(2)}
+                    </span>
+                  </div>
+
+                  <div className="flex items-center gap-2 text-xs font-mono text-slate-400">
+                    <ShieldCheck className="w-3.5 h-3.5 text-brand-emerald" />
+                    <span>Confidence: {prob.toFixed(1)}%</span>
+                  </div>
+                </div>
+
+                <div className="pt-4 mt-2 border-t border-border-subtle">
+                  <button
+                    onClick={() =>
+                      onAddToSlip({
+                        id: `${m.home_team}_${m.away_team}_${pick}_${Date.now()}`,
+                        fixture: `${m.home_team} vs ${m.away_team}`,
+                        home_team: m.home_team,
+                        away_team: m.away_team,
+                        league: selectedLeague,
+                        pick,
+                        odds,
+                        prob,
+                        category: 'Gameweek Scanner',
+                      })
+                    }
+                    className={`w-full py-2 px-3 rounded-xl text-xs font-bold flex items-center justify-center gap-1.5 transition-all ${
+                      inSlip
+                        ? 'bg-brand-emerald/20 text-brand-emerald border border-brand-emerald/30'
+                        : 'bg-surface-elevated hover:bg-white/10 text-white border border-border-medium'
+                    }`}
+                  >
+                    <Plus className="w-3.5 h-3.5" />
+                    <span>{inSlip ? 'IN SLIP' : 'ADD TO SLIP'}</span>
+                  </button>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      )}
+    </div>
+  );
+};
