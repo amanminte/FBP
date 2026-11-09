@@ -464,8 +464,8 @@
       "kickoff": "Sun Sep 15 • 14:00 UTC",
       "raw_kickoff": "2024-09-15T14:00Z",
       "finished": true,
-      "score_h": 3,
-      "score_a": 1,
+      "score_h": 0,
+      "score_a": 0,
       "gameweek": 5
     },
     {
@@ -993,9 +993,9 @@
       "away": "Getafe",
       "kickoff": "Sun Oct 20 • 18:30 UTC",
       "raw_kickoff": "2024-10-20T18:30Z",
-      "finished": false,
-      "score_h": null,
-      "score_a": null,
+      "finished": true,
+      "score_h": 2,
+      "score_a": 0,
       "gameweek": 10
     },
     {
@@ -1205,9 +1205,9 @@
       "away": "Getafe",
       "kickoff": "Sun Nov 08 • 08:30 PM",
       "raw_kickoff": "2026-11-08T20:30:00Z",
-      "finished": false,
-      "score_h": null,
-      "score_a": null,
+      "finished": true,
+      "score_h": 2,
+      "score_a": 0,
       "gameweek": 12
     },
     {
@@ -1215,9 +1215,9 @@
       "away": "Levante",
       "kickoff": "Sun Nov 08 • 08:30 PM",
       "raw_kickoff": "2026-11-08T20:30:00Z",
-      "finished": false,
-      "score_h": null,
-      "score_a": null,
+      "finished": true,
+      "score_h": 0,
+      "score_a": 0,
       "gameweek": 12
     },
     {
@@ -1225,9 +1225,9 @@
       "away": "Barcelona",
       "kickoff": "Sun Nov 08 • 11:00 PM",
       "raw_kickoff": "2026-11-08T23:00:00Z",
-      "finished": false,
-      "score_h": null,
-      "score_a": null,
+      "finished": true,
+      "score_h": 1,
+      "score_a": 2,
       "gameweek": 12
     }
   ],
@@ -2857,9 +2857,9 @@
       "away": "Barcelona",
       "kickoff": "Sun Mar 16 • 21:00 UTC",
       "raw_kickoff": "2025-03-16T21:00Z",
-      "finished": false,
-      "score_h": null,
-      "score_a": null,
+      "finished": true,
+      "score_h": 1,
+      "score_a": 2,
       "gameweek": 28
     }
   ],

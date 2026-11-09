@@ -1,13 +1,13 @@
 {
   "version": "2.0-online-learner",
-  "last_updated": "2026-11-08T20:43:06.561356",
-  "total_matches_learned": 71,
+  "last_updated": "2026-11-09T22:04:32.078638",
+  "total_matches_learned": 88,
   "team_elo_drifts": {
     "Everton": 5.21,
-    "Coventry City": -2.01,
+    "Coventry City": -1.61,
     "Hamburger SV": 6.24,
     "Borussia Mönchengladbach": -6.24,
-    "Arsenal": 3.14,
+    "Arsenal": 2.74,
     "Sevilla": -7.39,
     "Alaves": 7.39,
     "Venezia": 7.52,
@@ -62,14 +62,32 @@
     "Sunderland": 6.56,
     "Chelsea": -6.56,
     "SC Paderborn 07": -1.44,
-    "Eintracht Frankfurt": 1.44
+    "Eintracht Frankfurt": 1.44,
+    "Celta Vigo": -2.88,
+    "Levante": 2.88,
+    "Villarreal": 13.12,
+    "Getafe": -13.12,
+    "Atletico Madrid": -18.88,
+    "Barcelona": 18.88,
+    "Inter": 13.12,
+    "Como": -13.12,
+    "Fiorentina": -2.88,
+    "Juventus": 2.88,
+    "Manchester United": -2.88,
+    "Aston Villa": 2.88,
+    "1. FC Köln": -9.44,
+    "Bayer Leverkusen": 9.44,
+    "SC Freiburg": 13.12,
+    "Union Berlin": -13.12,
+    "1899 Hoffenheim": 6.56,
+    "FC Schalke 04": -6.56
   },
   "team_attack_drifts": {
     "Everton": 1.1343,
-    "Coventry City": 0.8303,
+    "Coventry City": 0.812,
     "Hamburger SV": 1.012,
     "Borussia Mönchengladbach": 0.998,
-    "Arsenal": 1.2661,
+    "Arsenal": 1.3066,
     "Sevilla": 0.9448,
     "Alaves": 0.9565,
     "Venezia": 1.012,
@@ -124,14 +142,32 @@
     "Sunderland": 0.992,
     "Chelsea": 0.978,
     "SC Paderborn 07": 1.012,
-    "Eintracht Frankfurt": 1.018
+    "Eintracht Frankfurt": 1.018,
+    "Celta Vigo": 0.9448,
+    "Levante": 0.9565,
+    "Villarreal": 1.0241,
+    "Getafe": 0.9565,
+    "Atletico Madrid": 0.9841,
+    "Barcelona": 1.0363,
+    "Inter": 1.0241,
+    "Como": 0.9565,
+    "Fiorentina": 1.0241,
+    "Juventus": 1.0363,
+    "Manchester United": 1.1067,
+    "Aston Villa": 1.1194,
+    "1. FC Köln": 0.992,
+    "Bayer Leverkusen": 1.018,
+    "SC Freiburg": 1.0241,
+    "Union Berlin": 0.9565,
+    "1899 Hoffenheim": 1.012,
+    "FC Schalke 04": 0.998
   },
   "team_defense_drifts": {
-    "Coventry City": 1.4596,
+    "Coventry City": 1.5063,
     "Everton": 0.992,
     "Borussia Mönchengladbach": 1.012,
     "Hamburger SV": 0.998,
-    "Arsenal": 0.8006,
+    "Arsenal": 0.783,
     "Alaves": 0.9448,
     "Sevilla": 0.9565,
     "Udinese": 1.012,
@@ -186,12 +222,183 @@
     "Chelsea": 0.992,
     "Sunderland": 0.978,
     "Eintracht Frankfurt": 1.012,
-    "SC Paderborn 07": 1.018
+    "SC Paderborn 07": 1.018,
+    "Levante": 0.9448,
+    "Celta Vigo": 0.9565,
+    "Getafe": 1.0241,
+    "Villarreal": 0.9565,
+    "Barcelona": 0.9841,
+    "Atletico Madrid": 1.0363,
+    "Como": 1.0241,
+    "Inter": 0.9565,
+    "Juventus": 1.0241,
+    "Fiorentina": 1.0363,
+    "Aston Villa": 1.1067,
+    "Manchester United": 1.1194,
+    "Bayer Leverkusen": 0.992,
+    "1. FC Köln": 1.018,
+    "Union Berlin": 1.0241,
+    "SC Freiburg": 0.9565,
+    "FC Schalke 04": 1.012,
+    "1899 Hoffenheim": 0.998
   },
-  "cumulative_brier_score": 43.1147,
-  "average_brier_score": 0.6072,
-  "temperature_adjustment": 1.047,
+  "cumulative_brier_score": 53.6788,
+  "average_brier_score": 0.61,
+  "temperature_adjustment": 1.0778,
   "recent_learning_log": [
+    {
+      "timestamp": "2026-11-09 22:04",
+      "fixture": "Arsenal vs Coventry City",
+      "score": "3 - 0",
+      "predicted": "90.0% H / 25.0% D / 10.0% A",
+      "actual": "Home Win",
+      "elo_delta": "-0.4 pts (Arsenal)",
+      "brier_loss": 0.0825
+    },
+    {
+      "timestamp": "2026-11-09 22:02",
+      "fixture": "SC Freiburg vs Union Berlin",
+      "score": "2 - 0",
+      "predicted": "46.0% H / 26.0% D / 28.0% A",
+      "actual": "Home Win",
+      "elo_delta": "+6.6 pts (SC Freiburg)",
+      "brier_loss": 0.4376
+    },
+    {
+      "timestamp": "2026-11-09 22:02",
+      "fixture": "1899 Hoffenheim vs FC Schalke 04",
+      "score": "2 - 1",
+      "predicted": "46.0% H / 26.0% D / 28.0% A",
+      "actual": "Home Win",
+      "elo_delta": "+6.6 pts (1899 Hoffenheim)",
+      "brier_loss": 0.4376
+    },
+    {
+      "timestamp": "2026-11-09 22:02",
+      "fixture": "SC Freiburg vs Union Berlin",
+      "score": "2 - 0",
+      "predicted": "46.0% H / 26.0% D / 28.0% A",
+      "actual": "Home Win",
+      "elo_delta": "+6.6 pts (SC Freiburg)",
+      "brier_loss": 0.4376
+    },
+    {
+      "timestamp": "2026-11-09 22:02",
+      "fixture": "1. FC Köln vs Bayer Leverkusen",
+      "score": "1 - 2",
+      "predicted": "46.0% H / 26.0% D / 28.0% A",
+      "actual": "Away Win",
+      "elo_delta": "-9.4 pts (1. FC Köln)",
+      "brier_loss": 0.7976
+    },
+    {
+      "timestamp": "2026-11-09 22:02",
+      "fixture": "Manchester United vs Aston Villa",
+      "score": "4 - 4",
+      "predicted": "46.0% H / 26.0% D / 28.0% A",
+      "actual": "Draw",
+      "elo_delta": "-1.4 pts (Manchester United)",
+      "brier_loss": 0.8376
+    },
+    {
+      "timestamp": "2026-11-09 22:02",
+      "fixture": "Manchester United vs Aston Villa",
+      "score": "4 - 4",
+      "predicted": "46.0% H / 26.0% D / 28.0% A",
+      "actual": "Draw",
+      "elo_delta": "-1.4 pts (Manchester United)",
+      "brier_loss": 0.8376
+    },
+    {
+      "timestamp": "2026-11-09 22:02",
+      "fixture": "Fiorentina vs Juventus",
+      "score": "2 - 2",
+      "predicted": "46.0% H / 26.0% D / 28.0% A",
+      "actual": "Draw",
+      "elo_delta": "-1.4 pts (Fiorentina)",
+      "brier_loss": 0.8376
+    },
+    {
+      "timestamp": "2026-11-09 22:02",
+      "fixture": "Inter vs Como",
+      "score": "2 - 0",
+      "predicted": "46.0% H / 26.0% D / 28.0% A",
+      "actual": "Home Win",
+      "elo_delta": "+6.6 pts (Inter)",
+      "brier_loss": 0.4376
+    },
+    {
+      "timestamp": "2026-11-09 22:02",
+      "fixture": "Fiorentina vs Juventus",
+      "score": "2 - 2",
+      "predicted": "46.0% H / 26.0% D / 28.0% A",
+      "actual": "Draw",
+      "elo_delta": "-1.4 pts (Fiorentina)",
+      "brier_loss": 0.8376
+    },
+    {
+      "timestamp": "2026-11-09 22:02",
+      "fixture": "Inter vs Como",
+      "score": "2 - 0",
+      "predicted": "46.0% H / 26.0% D / 28.0% A",
+      "actual": "Home Win",
+      "elo_delta": "+6.6 pts (Inter)",
+      "brier_loss": 0.4376
+    },
+    {
+      "timestamp": "2026-11-09 22:02",
+      "fixture": "Atletico Madrid vs Barcelona",
+      "score": "1 - 2",
+      "predicted": "46.0% H / 26.0% D / 28.0% A",
+      "actual": "Away Win",
+      "elo_delta": "-9.4 pts (Atletico Madrid)",
+      "brier_loss": 0.7976
+    },
+    {
+      "timestamp": "2026-11-09 22:02",
+      "fixture": "Atletico Madrid vs Barcelona",
+      "score": "1 - 2",
+      "predicted": "46.0% H / 26.0% D / 28.0% A",
+      "actual": "Away Win",
+      "elo_delta": "-9.4 pts (Atletico Madrid)",
+      "brier_loss": 0.7976
+    },
+    {
+      "timestamp": "2026-11-09 22:02",
+      "fixture": "Celta Vigo vs Levante",
+      "score": "0 - 0",
+      "predicted": "46.0% H / 26.0% D / 28.0% A",
+      "actual": "Draw",
+      "elo_delta": "-1.4 pts (Celta Vigo)",
+      "brier_loss": 0.8376
+    },
+    {
+      "timestamp": "2026-11-09 22:02",
+      "fixture": "Villarreal vs Getafe",
+      "score": "2 - 0",
+      "predicted": "46.0% H / 26.0% D / 28.0% A",
+      "actual": "Home Win",
+      "elo_delta": "+6.6 pts (Villarreal)",
+      "brier_loss": 0.4376
+    },
+    {
+      "timestamp": "2026-11-09 22:02",
+      "fixture": "Villarreal vs Getafe",
+      "score": "2 - 0",
+      "predicted": "46.0% H / 26.0% D / 28.0% A",
+      "actual": "Home Win",
+      "elo_delta": "+6.6 pts (Villarreal)",
+      "brier_loss": 0.4376
+    },
+    {
+      "timestamp": "2026-11-09 22:02",
+      "fixture": "Celta Vigo vs Levante",
+      "score": "0 - 0",
+      "predicted": "46.0% H / 26.0% D / 28.0% A",
+      "actual": "Draw",
+      "elo_delta": "-1.4 pts (Celta Vigo)",
+      "brier_loss": 0.8376
+    },
     {
       "timestamp": "2026-11-08 20:43",
       "fixture": "Arsenal vs Coventry City",
@@ -488,159 +695,6 @@
       "actual": "Away Win",
       "elo_delta": "-17.0 pts (Valencia)",
       "brier_loss": 1.8147
-    },
-    {
-      "timestamp": "2026-11-08 20:35",
-      "fixture": "Elche vs Real Betis",
-      "score": "0 - 2",
-      "predicted": "91.5% H / 25.0% D / 8.5% A",
-      "actual": "Away Win",
-      "elo_delta": "-16.6 pts (Elche)",
-      "brier_loss": 1.737
-    },
-    {
-      "timestamp": "2026-11-08 20:35",
-      "fixture": "Napoli vs Lazio",
-      "score": "1 - 1",
-      "predicted": "88.4% H / 25.0% D / 11.6% A",
-      "actual": "Draw",
-      "elo_delta": "-8.1 pts (Napoli)",
-      "brier_loss": 1.3574
-    },
-    {
-      "timestamp": "2026-11-08 20:35",
-      "fixture": "AS Roma vs Sassuolo",
-      "score": "3 - 0",
-      "predicted": "78.7% H / 25.0% D / 21.3% A",
-      "actual": "Home Win",
-      "elo_delta": "+1.4 pts (AS Roma)",
-      "brier_loss": 0.1532
-    },
-    {
-      "timestamp": "2026-11-08 20:33",
-      "fixture": "Nottingham Forest vs Manchester City",
-      "score": "3 - 1",
-      "predicted": "93.1% H / 25.0% D / 6.9% A",
-      "actual": "Home Win",
-      "elo_delta": "-0.9 pts (Nottingham Forest)",
-      "brier_loss": 0.072
-    },
-    {
-      "timestamp": "2026-11-08 20:33",
-      "fixture": "Nottingham Forest vs Manchester City",
-      "score": "3 - 1",
-      "predicted": "93.1% H / 25.0% D / 6.9% A",
-      "actual": "Home Win",
-      "elo_delta": "-0.9 pts (Nottingham Forest)",
-      "brier_loss": 0.072
-    },
-    {
-      "timestamp": "2026-11-08 20:33",
-      "fixture": "Ipswich Town vs Bournemouth",
-      "score": "1 - 2",
-      "predicted": "88.4% H / 25.0% D / 11.6% A",
-      "actual": "Away Win",
-      "elo_delta": "-16.1 pts (Ipswich Town)",
-      "brier_loss": 1.6254
-    },
-    {
-      "timestamp": "2026-11-08 20:33",
-      "fixture": "Crystal Palace vs Liverpool",
-      "score": "1 - 3",
-      "predicted": "78.9% H / 25.0% D / 21.1% A",
-      "actual": "Away Win",
-      "elo_delta": "-14.6 pts (Crystal Palace)",
-      "brier_loss": 1.3075
-    },
-    {
-      "timestamp": "2026-11-07 20:36",
-      "fixture": "Arsenal vs Coventry City",
-      "score": "3 - 0",
-      "predicted": "90.0% H / 25.0% D / 10.0% A",
-      "actual": "Home Win",
-      "elo_delta": "-0.4 pts (Arsenal)",
-      "brier_loss": 0.0825
-    },
-    {
-      "timestamp": "2026-11-07 20:27",
-      "fixture": "Arsenal vs Coventry City",
-      "score": "3 - 0",
-      "predicted": "90.0% H / 25.0% D / 10.0% A",
-      "actual": "Home Win",
-      "elo_delta": "-0.4 pts (Arsenal)",
-      "brier_loss": 0.0825
-    },
-    {
-      "timestamp": "2026-11-07 20:19",
-      "fixture": "Arsenal vs Hull City",
-      "score": "1 - 0",
-      "predicted": "55.2% H / 25.0% D / 44.8% A",
-      "actual": "Home Win",
-      "elo_delta": "+5.2 pts (Arsenal)",
-      "brier_loss": 0.4639
-    },
-    {
-      "timestamp": "2026-11-07 20:19",
-      "fixture": "Arsenal vs Coventry City",
-      "score": "3 - 0",
-      "predicted": "90.0% H / 25.0% D / 10.0% A",
-      "actual": "Home Win",
-      "elo_delta": "-0.4 pts (Arsenal)",
-      "brier_loss": 0.0825
-    },
-    {
-      "timestamp": "2026-11-07 20:17",
-      "fixture": "Torino vs Lecce",
-      "score": "1 - 1",
-      "predicted": "50.0% H / 28.0% D / 22.0% A",
-      "actual": "Draw",
-      "elo_delta": "-2.2 pts (Torino)",
-      "brier_loss": 0.8168
-    },
-    {
-      "timestamp": "2026-11-07 20:17",
-      "fixture": "Cagliari vs Frosinone",
-      "score": "1 - 0",
-      "predicted": "42.0% H / 32.0% D / 26.0% A",
-      "actual": "Home Win",
-      "elo_delta": "+6.7 pts (Cagliari)",
-      "brier_loss": 0.5064
-    },
-    {
-      "timestamp": "2026-11-07 20:17",
-      "fixture": "Espanyol vs Deportivo La Coruna",
-      "score": "0 - 0",
-      "predicted": "45.0% H / 30.0% D / 25.0% A",
-      "actual": "Draw",
-      "elo_delta": "-1.6 pts (Espanyol)",
-      "brier_loss": 0.755
-    },
-    {
-      "timestamp": "2026-11-07 20:17",
-      "fixture": "Malaga vs Racing Santander",
-      "score": "1 - 2",
-      "predicted": "33.0% H / 35.0% D / 32.0% A",
-      "actual": "Away Win",
-      "elo_delta": "-8.1 pts (Malaga)",
-      "brier_loss": 0.6938
-    },
-    {
-      "timestamp": "2026-11-07 20:17",
-      "fixture": "RB Leipzig vs FC Augsburg",
-      "score": "5 - 2",
-      "predicted": "72.0% H / 17.0% D / 11.0% A",
-      "actual": "Home Win",
-      "elo_delta": "+3.1 pts (RB Leipzig)",
-      "brier_loss": 0.1194
-    },
-    {
-      "timestamp": "2026-11-07 20:17",
-      "fixture": "Borussia Dortmund vs SV Elversberg",
-      "score": "2 - 1",
-      "predicted": "70.0% H / 18.0% D / 12.0% A",
-      "actual": "Home Win",
-      "elo_delta": "+3.4 pts (Borussia Dortmund)",
-      "brier_loss": 0.1368
     }
   ]
 }

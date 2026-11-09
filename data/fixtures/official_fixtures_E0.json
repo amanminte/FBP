@@ -1019,9 +1019,9 @@
       "away": "Aston Villa",
       "kickoff": "Sun Nov 08 • 07:30 PM UTC",
       "raw_kickoff": "2026-11-08T19:30:00Z",
-      "finished": false,
-      "score_h": null,
-      "score_a": null,
+      "finished": true,
+      "score_h": 4,
+      "score_a": 4,
       "gameweek": 10
     }
   ],
@@ -3826,8 +3826,8 @@
       "kickoff": "Sun May 25 • 16:00 UTC",
       "raw_kickoff": "2025-05-25T16:00Z",
       "finished": true,
-      "score_h": 2,
-      "score_a": 0,
+      "score_h": 4,
+      "score_a": 4,
       "gameweek": 38
     },
     {

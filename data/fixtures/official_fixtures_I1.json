@@ -1111,9 +1111,9 @@
       "away": "Como",
       "kickoff": "Sun Nov 08 • 08:00 PM",
       "raw_kickoff": "2026-11-08T19:00:00Z",
-      "finished": false,
-      "score_h": null,
-      "score_a": null,
+      "finished": true,
+      "score_h": 2,
+      "score_a": 0,
       "gameweek": 11
     },
     {
@@ -1121,9 +1121,9 @@
       "away": "Juventus",
       "kickoff": "Sun Nov 08 • 10:45 PM",
       "raw_kickoff": "2026-11-08T21:45:00Z",
-      "finished": false,
-      "score_h": null,
-      "score_a": null,
+      "finished": true,
+      "score_h": 2,
+      "score_a": 2,
       "gameweek": 11
     }
   ],
@@ -1755,9 +1755,9 @@
       "away": "Como",
       "kickoff": "Gameweek 18",
       "raw_kickoff": "2026-11-14T15:00:00Z",
-      "finished": false,
-      "score_h": null,
-      "score_a": null,
+      "finished": true,
+      "score_h": 2,
+      "score_a": 0,
       "gameweek": 18
     },
     {
@@ -3835,9 +3835,9 @@
       "away": "Juventus",
       "kickoff": "Gameweek 38",
       "raw_kickoff": "2026-11-14T15:00:00Z",
-      "finished": false,
-      "score_h": null,
-      "score_a": null,
+      "finished": true,
+      "score_h": 2,
+      "score_a": 2,
       "gameweek": 38
     },
     {

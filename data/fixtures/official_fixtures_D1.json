@@ -807,9 +807,9 @@
       "away": "Bayer Leverkusen",
       "kickoff": "Sun Nov 08 • 05:30 PM",
       "raw_kickoff": "2026-11-08T17:30:00Z",
-      "finished": false,
-      "score_h": null,
-      "score_a": null,
+      "finished": true,
+      "score_h": 1,
+      "score_a": 2,
       "gameweek": 9
     },
     {
@@ -817,9 +817,9 @@
       "away": "Union Berlin",
       "kickoff": "Sun Nov 08 • 07:30 PM",
       "raw_kickoff": "2026-11-08T19:30:00Z",
-      "finished": false,
-      "score_h": null,
-      "score_a": null,
+      "finished": true,
+      "score_h": 2,
+      "score_a": 0,
       "gameweek": 9
     },
     {
@@ -827,9 +827,9 @@
       "away": "FC Schalke 04",
       "kickoff": "Sun Nov 08 • 09:30 PM",
       "raw_kickoff": "2026-11-08T21:30:00Z",
-      "finished": false,
-      "score_h": null,
-      "score_a": null,
+      "finished": true,
+      "score_h": 2,
+      "score_a": 1,
       "gameweek": 9
     }
   ],
@@ -2474,8 +2474,8 @@
       "kickoff": "Sun Mar 30 • 15:30 UTC",
       "raw_kickoff": "2025-03-30T15:30Z",
       "finished": true,
-      "score_h": 1,
-      "score_a": 2,
+      "score_h": 2,
+      "score_a": 0,
       "gameweek": 27
     },
     {
