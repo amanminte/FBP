@@ -241,7 +241,7 @@ export const LedgerHub: React.FC = () => {
 
                         {/* Odds & Win Prob */}
                         <td className="py-3 px-3 font-mono">
-                          <span className="text-white font-bold">{b.opening_odds.toFixed(2)}</span>{' '}
+                          <span className="text-white font-bold">{Number(b.opening_odds || 1.0).toFixed(2)}</span>{' '}
                           <span className="text-slate-500 text-[11px]">({b.calibrated_prob}%)</span>
                         </td>
 
@@ -253,9 +253,9 @@ export const LedgerHub: React.FC = () => {
                         {/* PnL */}
                         <td className="py-3 px-4 text-right font-mono font-bold">
                           {b.is_hit === 1 ? (
-                            <span className="text-emerald-400">+{b.pnl.toFixed(2)}u</span>
+                            <span className="text-emerald-400">+{Number(b.pnl || 0).toFixed(2)}u</span>
                           ) : b.is_hit === 0 ? (
-                            <span className="text-rose-400">{b.pnl.toFixed(2)}u</span>
+                            <span className="text-rose-400">{Number(b.pnl || 0).toFixed(2)}u</span>
                           ) : (
                             <span className="text-slate-500">—</span>
                           )}

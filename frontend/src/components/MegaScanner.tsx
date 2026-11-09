@@ -111,9 +111,9 @@ export const MegaScanner: React.FC<MegaScannerProps> = ({ onAddToSlip, slipItems
       ) : (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           {filteredMatches.map((m: any, idx: number) => {
-            const prob = m.safety_probability || m.calibrated_prob || 85.0;
+            const prob = Number(m.safety_probability || m.calibrated_prob || 85.0);
             const pick = m.safest_market || m.predicted_pick || 'Match Derivative Pick';
-            const odds = m.market_odds || m.fair_odds || 1.15;
+            const odds = Number(m.market_odds || m.fair_odds || 1.15);
             const inSlip = slipItems.some(
               (it) => it.home_team === m.home_team && it.away_team === m.away_team && it.pick === pick
             );

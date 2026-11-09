@@ -162,7 +162,7 @@ def get_fixtures(league: str):
 def predict_match(req: PredictRequest):
     """Runs complete 5-way consensus & safe picks simulation."""
     try:
-        prediction_result = predictor.predict_fixture(
+        raw = predictor.predict_fixture(
             home_team=req.home_team,
             away_team=req.away_team,
             track=req.model_track,
@@ -173,7 +173,76 @@ def predict_match(req: PredictRequest):
             market_odds=req.market_odds,
             league=req.league
         )
-        return prediction_result
+        
+        # Normalize top_3_safe_picks for frontend
+        norm_safe_picks = []
+        for p in raw.get("top_3_safe_picks", []):
+            norm_safe_picks.append({
+                "bet": p.get("pick_type") or p.get("bet") or "Safe Pick",
+                "probability": float(p.get("win_percentage") or p.get("probability") or 85.0),
+                "fair_odds": float(p.get("fair_odds") or 1.15),
+                "reasoning": p.get("why_plain_english") or p.get("reasoning") or "High probability model consensus.",
+                "risk_level": p.get("safety_badge") or p.get("risk_level") or "Ultra Safe"
+            })
+
+        # Normalize scorelines
+        norm_scorelines = []
+        for s in raw.get("top_3_scorelines", []):
+            norm_scorelines.append({
+                "score": s.get("score") or "1 - 1",
+                "probability_pct": float(s.get("prob") or s.get("probability_pct") or 10.0)
+            })
+
+        # Normalize penta consensus
+        penta_raw = raw.get("penta_consensus") or {}
+        cg_raw = penta_raw.get("common_ground") or {}
+        norm_cg = None
+        if cg_raw.get("best_common_ground_market"):
+            norm_cg = {
+                "market": cg_raw.get("best_common_ground_market"),
+                "fair_odds": float(cg_raw.get("fair_odds") or 1.15),
+                "agreement_count": cg_raw.get("common_ground_agreement") or 5,
+                "scorelines": cg_raw.get("all_predicted_scores") or []
+            }
+
+        norm_penta = {
+            "primary_pick": penta_raw.get("dominant_pick") or penta_raw.get("primary_pick") or "Algorithm Consensus",
+            "consensus_tier": penta_raw.get("consensus_tier") or "Penta-Lock Royal Diamond",
+            "agreement_count": penta_raw.get("consensus_count") or 5,
+            "consensus_score": float(penta_raw.get("confidence_score") or 90.0),
+            "common_ground_market": norm_cg
+        }
+
+        # Normalize yellow cards
+        yc_raw = raw.get("yellow_cards") or {}
+        bcb_raw = yc_raw.get("best_card_bet") or {}
+        norm_bcb = None
+        if bcb_raw.get("pick_type"):
+            norm_bcb = {
+                "market": bcb_raw.get("pick_type"),
+                "fair_odds": float(bcb_raw.get("fair_odds") or 1.35),
+                "probability_pct": float(bcb_raw.get("win_percentage") or 75.0),
+                "confidence": bcb_raw.get("safety_badge") or "High Probability"
+            }
+
+        norm_yc = {
+            "expected_total_cards": float(yc_raw.get("expected_total_cards") or 4.0),
+            "expected_home_cards": float(yc_raw.get("expected_home_cards") or 2.0),
+            "expected_away_cards": float(yc_raw.get("expected_away_cards") or 2.0),
+            "is_derby": bool(yc_raw.get("is_derby")),
+            "derby_name": yc_raw.get("derby_name"),
+            "derby_note": yc_raw.get("derby_note"),
+            "referee_note": yc_raw.get("referee_note"),
+            "best_card_bet": norm_bcb
+        }
+
+        return {
+            **raw,
+            "top_3_safe_picks": norm_safe_picks,
+            "top_3_scorelines": norm_scorelines,
+            "penta_consensus": norm_penta,
+            "yellow_cards": norm_yc
+        }
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
