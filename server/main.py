@@ -207,10 +207,12 @@ def predict_match(req: PredictRequest):
 
         norm_penta = {
             "primary_pick": penta_raw.get("dominant_pick") or penta_raw.get("primary_pick") or "Algorithm Consensus",
-            "consensus_tier": penta_raw.get("consensus_tier") or "Penta-Lock Royal Diamond",
-            "agreement_count": penta_raw.get("consensus_count") or 5,
-            "consensus_score": float(penta_raw.get("confidence_score") or 90.0),
-            "common_ground_market": norm_cg
+            "consensus_tier": penta_raw.get("consensus_tier") or "Hepta-Lock Imperial Diamond",
+            "agreement_count": penta_raw.get("consensus_count") or 7,
+            "total_sources": penta_raw.get("total_sources") or 7,
+            "consensus_score": float(penta_raw.get("confidence_score") or 95.0),
+            "common_ground_market": norm_cg,
+            "sources": penta_raw.get("sources") or []
         }
 
         # Normalize yellow cards

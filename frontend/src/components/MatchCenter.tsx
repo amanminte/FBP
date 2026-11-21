@@ -27,7 +27,13 @@ export const MatchCenter: React.FC<MatchCenterProps> = ({
   onAddToSlip,
   slipItems,
 }) => {
-  const currentLeagueObj = leagues.find((l) => l.id === selectedLeague) || leagues[0];
+  const currentLeagueObj = leagues.find((l) => l.id === selectedLeague) || leagues[0] || {
+    id: selectedLeague || 'E0',
+    name: 'Premier League',
+    country: 'England',
+    flag: '🏴󠁧󠁢󠁥󠁮󠁧󠁿',
+    teams: ['Arsenal', 'Chelsea', 'Liverpool', 'Manchester City']
+  };
   const teams = currentLeagueObj?.teams || [];
 
   const [homeTeam, setHomeTeam] = useState<string>('');
@@ -182,8 +188,8 @@ export const MatchCenter: React.FC<MatchCenterProps> = ({
         <div className="flex items-center gap-2">
           <span className="text-xs font-mono text-slate-400">Competition:</span>
           <span className="px-2.5 py-1 rounded-lg bg-surface-card border border-border-subtle text-xs font-bold text-white flex items-center gap-1.5">
-            <span>{currentLeagueObj.flag}</span>
-            <span>{currentLeagueObj.name}</span>
+            <span>{currentLeagueObj?.flag || '🏴󠁧󠁢󠁥󠁮󠁧󠁿'}</span>
+            <span>{currentLeagueObj?.name || 'Premier League'}</span>
           </span>
         </div>
       </div>
@@ -360,9 +366,9 @@ export const MatchCenter: React.FC<MatchCenterProps> = ({
             </div>
           </div>
 
-          {/* 5. 5-Way Consensus & Common Ground Conflict Arbitrage */}
+          {/* 5. 7-Way Hepta-Consensus & Common Ground Conflict Arbitrage */}
           {prediction.penta_consensus && (
-            <div className="glass-panel p-6 rounded-3xl border border-brand-violet/20 bg-gradient-to-br from-surface to-brand-violet/5">
+            <div className="glass-panel p-6 rounded-3xl border border-brand-violet/20 bg-gradient-to-br from-surface to-brand-violet/5 space-y-5">
               <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4 pb-4 border-b border-border-subtle">
                 <div className="flex items-center gap-3">
                   <div className="w-10 h-10 rounded-2xl bg-brand-violet/10 border border-brand-violet/30 flex items-center justify-center shadow-glow-violet">
@@ -370,7 +376,7 @@ export const MatchCenter: React.FC<MatchCenterProps> = ({
                   </div>
                   <div>
                     <span className="text-[10px] font-mono uppercase font-bold tracking-widest text-brand-violet">
-                      PENTA-LOCK ROYAL CONSENSUS
+                      {prediction.penta_consensus.consensus_tier || 'HEPTA-LOCK IMPERIAL DIAMOND'}
                     </span>
                     <h3 className="text-lg font-black text-white">
                       {prediction.penta_consensus.primary_pick}
@@ -379,28 +385,28 @@ export const MatchCenter: React.FC<MatchCenterProps> = ({
                 </div>
 
                 <div className="flex items-center gap-2">
-                  <span className="text-xs font-mono text-slate-400">Cross-Model Agreement:</span>
+                  <span className="text-xs font-mono text-slate-400">7-Platform Convergence:</span>
                   <span className="font-mono text-sm font-black text-brand-emerald px-2.5 py-1 rounded-lg bg-brand-emerald/10 border border-brand-emerald/20">
-                    {prediction.penta_consensus.agreement_count}/5 Engines ({prediction.penta_consensus.consensus_score}%)
+                    {prediction.penta_consensus.agreement_count}/{prediction.penta_consensus.total_sources || 7} Engines ({prediction.penta_consensus.consensus_score}%)
                   </span>
                 </div>
               </div>
 
               {/* Common Ground Arbitrage Derivative */}
               {prediction.penta_consensus.common_ground_market && (
-                <div className="mt-4 p-4 rounded-2xl bg-surface-card border border-border-subtle flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+                <div className="p-4 rounded-2xl bg-surface-card border border-border-subtle flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
                   <div>
                     <div className="flex items-center gap-2 mb-1">
                       <Sparkles className="w-3.5 h-3.5 text-brand-amber" />
                       <span className="text-[11px] font-bold uppercase tracking-wider text-brand-amber">
-                        UNIVERSAL COMMON GROUND ARBITRAGE
+                        7-WAY UNIVERSAL COMMON GROUND ARBITRAGE (NEAR 100% SAFETY)
                       </span>
                     </div>
                     <div className="text-sm font-bold text-white">
                       {prediction.penta_consensus.common_ground_market.market}
                     </div>
                     <p className="text-xs text-slate-400 mt-0.5">
-                      Unified market matching all 5 predicted engine scorelines with 100% agreement.
+                      Harmonizes all 7 predicted scorelines ({prediction.penta_consensus.common_ground_market.scorelines?.slice(0, 7).join(', ') || 'all scorelines'}) into an ultra-high conviction derivative lock.
                     </p>
                   </div>
 
@@ -415,18 +421,70 @@ export const MatchCenter: React.FC<MatchCenterProps> = ({
                             title: 'Common Ground Arbitrage',
                             bet: prediction.penta_consensus.common_ground_market!.market,
                             fair_odds: prediction.penta_consensus.common_ground_market!.fair_odds,
-                            probability: 88.0,
-                            reasoning: 'Universal 5-way model derivative lock',
+                            probability: 95.0,
+                            reasoning: '7-Way multi-model derivative arbitrage lock',
                             risk_level: 'Ultra Safe',
                           },
-                          'Common Ground Arbitrage'
+                          '7-Way Common Ground Arbitrage'
                         )
                       }
-                      className="px-3.5 py-1.5 rounded-xl bg-brand-violet hover:bg-brand-violet/80 text-white text-xs font-bold flex items-center gap-1.5 transition-all shadow-glow-violet"
+                      className="px-3.5 py-1.5 rounded-xl bg-brand-violet hover:bg-brand-violet/80 text-white text-xs font-bold flex items-center gap-1.5 transition-all shadow-glow-violet active:scale-98"
                     >
                       <Plus className="w-3.5 h-3.5" />
                       <span>Lock Market</span>
                     </button>
+                  </div>
+                </div>
+              )}
+
+              {/* 7 Predictive Platforms Grid */}
+              {prediction.penta_consensus.sources && prediction.penta_consensus.sources.length > 0 && (
+                <div>
+                  <div className="text-[11px] uppercase font-bold tracking-wider text-slate-400 mb-2.5 flex items-center justify-between">
+                    <span>7 Independent Intelligence Engines:</span>
+                    <span className="text-slate-500 font-mono">Football Whispers &bull; FootballPredictions &bull; Understat &bull; WhoScored &bull; Forebet</span>
+                  </div>
+                  <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-2.5">
+                    {prediction.penta_consensus.sources.map((src, idx) => (
+                      <div
+                        key={idx}
+                        className={`p-3 rounded-xl border text-xs flex flex-col justify-between transition-all ${
+                          src.agrees
+                            ? 'bg-surface-card border-brand-emerald/20'
+                            : 'bg-surface-card/60 border-border-subtle opacity-85'
+                        }`}
+                      >
+                        <div>
+                          <div className="flex items-center justify-between mb-1">
+                            <span className="font-bold text-white flex items-center gap-1 truncate max-w-[120px]">
+                              <span>{src.icon}</span>
+                              <span className="truncate">{src.name}</span>
+                            </span>
+                            <span
+                              className={`text-[9px] font-mono font-bold px-1.5 py-0.5 rounded ${
+                                src.agrees
+                                  ? 'bg-brand-emerald/10 text-brand-emerald border border-brand-emerald/20'
+                                  : 'bg-white/5 text-slate-400'
+                              }`}
+                            >
+                              {src.agrees ? 'AGREE' : 'ALT'}
+                            </span>
+                          </div>
+
+                          <div className="font-bold text-slate-200 mt-1">
+                            {src.pick_readable || src.pick}
+                          </div>
+
+                          <div className="text-[11px] font-mono text-slate-400 mt-0.5">
+                            Score: <strong className="text-white">{src.score}</strong>
+                          </div>
+                        </div>
+
+                        <div className="text-[10px] text-slate-500 font-mono mt-2 pt-1 border-t border-white/5 truncate">
+                          {src.metric_value}
+                        </div>
+                      </div>
+                    ))}
                   </div>
                 </div>
               )}

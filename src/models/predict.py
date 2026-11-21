@@ -25,7 +25,9 @@ from src.models.forebet_fusion import compute_forebet_prediction, fuse_model_wit
 from src.models.understat_whoscored import compute_understat_metrics, compute_whoscored_metrics
 from src.models.quad_consensus import evaluate_quad_consensus
 from src.models.football_predictor import compute_football_predictor
-from src.models.consensus_engine import evaluate_penta_consensus
+from src.models.football_whispers import compute_football_whispers
+from src.models.football_predictions_com import compute_football_predictions_com
+from src.models.consensus_engine import evaluate_penta_consensus, evaluate_hepta_consensus
 from src.features.league_tables import LeagueManager
 
 sys.modules['__main__'].ModelBundleV2 = ModelBundleV2
@@ -483,7 +485,35 @@ class FootballPredictorV2:
             lambda_a=lambda_a
         )
 
-        # 4-Way & 5-Way Consensus Convergence Engine + Conflict Arbitrage
+        # Football Whispers (footballwhispers.com/us/) Tactical Betting Angle
+        whispers_pred = compute_football_whispers(
+            home_team=home_team,
+            away_team=away_team,
+            rank_h=h_st["rank"],
+            pts_h=h_st["points"],
+            gd_h=h_st["gd"],
+            rank_a=a_st["rank"],
+            pts_a=a_st["points"],
+            gd_a=a_st["gd"],
+            lambda_h=lambda_h,
+            lambda_a=lambda_a
+        )
+
+        # FootballPredictions.com (footballpredictions.com) Algorithmic Model
+        fpc_pred = compute_football_predictions_com(
+            home_team=home_team,
+            away_team=away_team,
+            rank_h=h_st["rank"],
+            pts_h=h_st["points"],
+            gd_h=h_st["gd"],
+            rank_a=a_st["rank"],
+            pts_a=a_st["points"],
+            gd_a=a_st["gd"],
+            lambda_h=lambda_h,
+            lambda_a=lambda_a
+        )
+
+        # 4-Way Consensus Convergence Engine
         quad_consensus = evaluate_quad_consensus(
             home_team=home_team,
             away_team=away_team,
@@ -497,7 +527,8 @@ class FootballPredictorV2:
         # Predicted scoreline from ML top score
         best_ml_score = top_scores[0]["score"] if top_scores else f"{int(round(lambda_h))} - {int(round(lambda_a))}"
 
-        penta_consensus = evaluate_penta_consensus(
+        # 7-Way Hepta-Consensus (Syndicate + Forebet + Understat + WhoScored + FootballPredictor + Whispers + FootballPredictions)
+        hepta_consensus = evaluate_hepta_consensus(
             home_team=home_team,
             away_team=away_team,
             ml_prediction=pred_outcome,
@@ -507,6 +538,8 @@ class FootballPredictorV2:
             understat_data=understat_pred,
             whoscored_data=whoscored_pred,
             football_predictor_data=football_pred,
+            football_whispers_data=whispers_pred,
+            football_predictions_com_data=fpc_pred,
             lambda_h=lambda_h,
             lambda_a=lambda_a
         )
@@ -527,8 +560,11 @@ class FootballPredictorV2:
             "understat_prediction": understat_pred,
             "whoscored_prediction": whoscored_pred,
             "football_predictor_prediction": football_pred,
+            "football_whispers_prediction": whispers_pred,
+            "football_predictions_com_prediction": fpc_pred,
             "quad_consensus": quad_consensus,
-            "penta_consensus": penta_consensus,
+            "penta_consensus": hepta_consensus,
+            "hepta_consensus": hepta_consensus,
             "calibrated_probabilities": {
                 "home_win": round(p_h * 100.0, 1),
                 "draw": round(p_d * 100.0, 1),

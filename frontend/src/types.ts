@@ -27,10 +27,24 @@ export interface SafePick {
   badge?: string;
 }
 
+export interface ConsensusSource {
+  name: string;
+  icon: string;
+  url?: string;
+  pick: string;
+  pick_readable?: string;
+  score: string;
+  metric_label: string;
+  metric_value: string;
+  secondary: string;
+  agrees: boolean;
+}
+
 export interface PentaConsensus {
   primary_pick: string;
   consensus_tier: string;
   agreement_count: number;
+  total_sources?: number;
   consensus_score: number;
   safest_recommended_market?: string;
   common_ground_market?: {
@@ -39,6 +53,7 @@ export interface PentaConsensus {
     agreement_count: number;
     scorelines: string[];
   };
+  sources?: ConsensusSource[];
   individual_predictions?: Record<string, any>;
 }
 
