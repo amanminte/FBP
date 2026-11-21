@@ -13,6 +13,7 @@ export const MegaScanner: React.FC<MegaScannerProps> = ({ onAddToSlip, slipItems
   const [scanData, setScanData] = useState<any>(null);
   const [loading, setLoading] = useState<boolean>(true);
   const [filterSafeOnly, setFilterSafeOnly] = useState<boolean>(false);
+  const [categoryFilter, setCategoryFilter] = useState<string>('ALL');
 
   const loadScan = (league: string) => {
     setLoading(true);
@@ -27,9 +28,49 @@ export const MegaScanner: React.FC<MegaScannerProps> = ({ onAddToSlip, slipItems
   }, [selectedLeague]);
 
   const matches = scanData?.matches || scanData?.scanned_matches || scanData?.ranked_fixtures || [];
-  const filteredMatches = filterSafeOnly
-    ? matches.filter((m: any) => (m.safety_probability || m.calibrated_prob || m.win_probability || 0) >= 80)
-    : matches;
+  
+  const filteredMatches = matches.filter((m: any) => {
+    if (filterSafeOnly) {
+      const p = Number(m.safety_probability || m.calibrated_prob || m.win_probability || 0);
+      if (p < 75) return false;
+    }
+    const cat = m.category || '';
+    const pick = m.safest_market || m.predicted_pick || m.best_weekly_pick || '';
+    if (categoryFilter === 'DNB_DC') {
+      return cat.includes('Double Chance') || cat.includes('Draw No Bet') || pick.includes('Double Chance') || pick.includes('Draw No Bet');
+    }
+    if (categoryFilter === 'TEAM') {
+      return cat.includes('Team Goals') || pick.includes('to Score');
+    }
+    if (categoryFilter === 'OVERS_UNDERS') {
+      return cat.includes('Goals') || pick.includes('Match Goals');
+    }
+    if (categoryFilter === 'CARDS_BTTS') {
+      return cat.includes('Yellow Cards') || cat.includes('BTTS') || pick.includes('Card') || pick.includes('BTTS');
+    }
+    return true;
+  });
+
+  const getCategoryColor = (cat: string) => {
+    switch (cat) {
+      case 'Double Chance':
+        return 'bg-blue-500/10 border-blue-500/30 text-blue-400';
+      case 'Draw No Bet':
+        return 'bg-purple-500/10 border-purple-500/30 text-purple-400';
+      case 'Team Goals':
+        return 'bg-emerald-500/10 border-emerald-500/30 text-emerald-400';
+      case 'Goals Over':
+        return 'bg-amber-500/10 border-amber-500/30 text-amber-400';
+      case 'Goals Under':
+        return 'bg-cyan-500/10 border-cyan-500/30 text-cyan-400';
+      case 'Yellow Cards':
+        return 'bg-yellow-500/10 border-yellow-500/30 text-yellow-300';
+      case 'BTTS':
+        return 'bg-rose-500/10 border-rose-500/30 text-rose-400';
+      default:
+        return 'bg-brand-cyan/10 border-brand-cyan/20 text-brand-cyan';
+    }
+  };
 
   const handleBuildTopMulti = () => {
     const sorted = [...matches].sort(
@@ -108,6 +149,29 @@ export const MegaScanner: React.FC<MegaScannerProps> = ({ onAddToSlip, slipItems
         </div>
       </div>
 
+      {/* Category Filter Chips */}
+      <div className="flex flex-wrap items-center gap-2">
+        {[
+          { id: 'ALL', label: 'All Diverse Picks' },
+          { id: 'DNB_DC', label: '🛡️ Double Chance & DNB' },
+          { id: 'TEAM', label: '🥅 Team Goals' },
+          { id: 'OVERS_UNDERS', label: '📈 Overs & 📉 Unders' },
+          { id: 'CARDS_BTTS', label: '🟨 Cards & Derbies' },
+        ].map((f) => (
+          <button
+            key={f.id}
+            onClick={() => setCategoryFilter(f.id)}
+            className={`px-3 py-1.5 rounded-xl text-xs font-bold border transition-all ${
+              categoryFilter === f.id
+                ? 'bg-brand-amber/15 text-brand-amber border-brand-amber/40 shadow-glow-amber'
+                : 'bg-surface-card border-border-subtle text-slate-400 hover:text-white hover:border-border-medium'
+            }`}
+          >
+            {f.label}
+          </button>
+        ))}
+      </div>
+
       {loading ? (
         <div className="py-20 flex flex-col items-center justify-center gap-3">
           <RefreshCw className="w-7 h-7 text-brand-amber animate-spin" />
@@ -135,7 +199,7 @@ export const MegaScanner: React.FC<MegaScannerProps> = ({ onAddToSlip, slipItems
                     </span>
                     <div className="flex items-center gap-2">
                       {m.category && (
-                        <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-brand-cyan/10 border border-brand-cyan/20 text-brand-cyan">
+                        <span className={`text-[10px] font-bold px-2 py-0.5 rounded-full border ${getCategoryColor(m.category)}`}>
                           {m.category}
                         </span>
                       )}
@@ -163,6 +227,12 @@ export const MegaScanner: React.FC<MegaScannerProps> = ({ onAddToSlip, slipItems
                     <ShieldCheck className="w-3.5 h-3.5 text-brand-emerald" />
                     <span>Confidence: {prob.toFixed(1)}%</span>
                   </div>
+
+                  {m.reason && (
+                    <p className="text-[11px] text-slate-400 mt-2.5 line-clamp-2 leading-relaxed bg-surface-card/50 p-2 rounded-lg border border-border-subtle/50">
+                      {m.reason}
+                    </p>
+                  )}
                 </div>
 
                 <div className="pt-4 mt-2 border-t border-border-subtle">
