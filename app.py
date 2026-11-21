@@ -297,7 +297,7 @@ with tab1:
         sel_lg = st.selectbox("🏆 Select Competition / League", list(league_map.keys()), format_func=lambda x: league_map[x], key="t1_lg")
 
     # Fetch official matches for selected league to enable 1-click loading
-    active_gw_num = 9 if sel_lg == "D1" else (12 if sel_lg == "SP1" else (11 if sel_lg == "I1" else 10))
+    active_gw_num = 10 if sel_lg in ("D1", "F1") else (13 if sel_lg == "SP1" else (12 if sel_lg == "I1" else 11))
     off_sch = fetch_official_league_fixtures(league=sel_lg, gameweek=active_gw_num)
     avail_fixes = off_sch.get("fixtures", [])
     fix_labels = ["-- Choose Confirmed Fixture (or select teams manually below) --"] + [
@@ -1168,7 +1168,7 @@ with tab_gw:
             sel_gw_lg = st.selectbox("Select Competition / League", list(league_map.keys()), format_func=lambda x: league_map[x], key="gw_lg")
 
         max_gw = 34 if sel_gw_lg in ["D1", "F1"] else 38
-        default_gw_num = 9 if sel_gw_lg == "D1" else 10
+        default_gw_num = 10 if sel_gw_lg in ["D1", "F1"] else (13 if sel_gw_lg == "SP1" else (12 if sel_gw_lg == "I1" else 11))
         default_gw_idx = min(default_gw_num - 1, max_gw - 1)
         with gw_c2:
             sel_gw_num = st.selectbox(

@@ -3,7 +3,7 @@
     {
       "home": "Le Havre",
       "away": "Paris SG",
-      "kickoff": "Fri Aug 16 • 20:45 UTC",
+      "kickoff": "Fri Aug 16 \u2022 20:45 UTC",
       "raw_kickoff": "2024-08-16T20:45Z",
       "finished": true,
       "score_h": 1,
@@ -13,7 +13,7 @@
     {
       "home": "Brest",
       "away": "Marseille",
-      "kickoff": "Sat Aug 17 • 17:00 UTC",
+      "kickoff": "Sat Aug 17 \u2022 17:00 UTC",
       "raw_kickoff": "2024-08-17T17:00Z",
       "finished": true,
       "score_h": 1,
@@ -23,7 +23,7 @@
     {
       "home": "Reims",
       "away": "Lille",
-      "kickoff": "Sat Aug 17 • 19:00 UTC",
+      "kickoff": "Sat Aug 17 \u2022 19:00 UTC",
       "raw_kickoff": "2024-08-17T19:00Z",
       "finished": true,
       "score_h": 0,
@@ -33,7 +33,7 @@
     {
       "home": "Monaco",
       "away": "Saint-Etienne",
-      "kickoff": "Sat Aug 17 • 21:00 UTC",
+      "kickoff": "Sat Aug 17 \u2022 21:00 UTC",
       "raw_kickoff": "2024-08-17T21:00Z",
       "finished": true,
       "score_h": 1,
@@ -43,7 +43,7 @@
     {
       "home": "Auxerre",
       "away": "Nice",
-      "kickoff": "Sun Aug 18 • 15:00 UTC",
+      "kickoff": "Sun Aug 18 \u2022 15:00 UTC",
       "raw_kickoff": "2024-08-18T15:00Z",
       "finished": true,
       "score_h": 2,
@@ -53,7 +53,7 @@
     {
       "home": "Montpellier",
       "away": "Strasbourg",
-      "kickoff": "Sun Aug 18 • 17:00 UTC",
+      "kickoff": "Sun Aug 18 \u2022 17:00 UTC",
       "raw_kickoff": "2024-08-18T17:00Z",
       "finished": true,
       "score_h": 1,
@@ -63,7 +63,7 @@
     {
       "home": "Toulouse",
       "away": "Nantes",
-      "kickoff": "Sun Aug 18 • 17:00 UTC",
+      "kickoff": "Sun Aug 18 \u2022 17:00 UTC",
       "raw_kickoff": "2024-08-18T17:00Z",
       "finished": true,
       "score_h": 0,
@@ -73,7 +73,7 @@
     {
       "home": "Angers",
       "away": "Lens",
-      "kickoff": "Sun Aug 18 • 17:00 UTC",
+      "kickoff": "Sun Aug 18 \u2022 17:00 UTC",
       "raw_kickoff": "2024-08-18T17:00Z",
       "finished": true,
       "score_h": 0,
@@ -83,7 +83,7 @@
     {
       "home": "Rennes",
       "away": "Lyon",
-      "kickoff": "Sun Aug 18 • 20:45 UTC",
+      "kickoff": "Sun Aug 18 \u2022 20:45 UTC",
       "raw_kickoff": "2024-08-18T20:45Z",
       "finished": true,
       "score_h": 3,
@@ -95,7 +95,7 @@
     {
       "home": "Paris SG",
       "away": "Montpellier",
-      "kickoff": "Fri Aug 23 • 20:45 UTC",
+      "kickoff": "Fri Aug 23 \u2022 20:45 UTC",
       "raw_kickoff": "2024-08-23T20:45Z",
       "finished": true,
       "score_h": 6,
@@ -105,7 +105,7 @@
     {
       "home": "Lyon",
       "away": "Monaco",
-      "kickoff": "Sat Aug 24 • 17:00 UTC",
+      "kickoff": "Sat Aug 24 \u2022 17:00 UTC",
       "raw_kickoff": "2024-08-24T17:00Z",
       "finished": true,
       "score_h": 0,
@@ -115,7 +115,7 @@
     {
       "home": "Lille",
       "away": "Angers",
-      "kickoff": "Sat Aug 24 • 19:00 UTC",
+      "kickoff": "Sat Aug 24 \u2022 19:00 UTC",
       "raw_kickoff": "2024-08-24T19:00Z",
       "finished": true,
       "score_h": 2,
@@ -125,7 +125,7 @@
     {
       "home": "Saint-Etienne",
       "away": "Le Havre",
-      "kickoff": "Sat Aug 24 • 21:00 UTC",
+      "kickoff": "Sat Aug 24 \u2022 21:00 UTC",
       "raw_kickoff": "2024-08-24T21:00Z",
       "finished": true,
       "score_h": 0,
@@ -135,7 +135,7 @@
     {
       "home": "Lens",
       "away": "Brest",
-      "kickoff": "Sun Aug 25 • 15:00 UTC",
+      "kickoff": "Sun Aug 25 \u2022 15:00 UTC",
       "raw_kickoff": "2024-08-25T15:00Z",
       "finished": true,
       "score_h": 2,
@@ -145,7 +145,7 @@
     {
       "home": "Strasbourg",
       "away": "Rennes",
-      "kickoff": "Sun Aug 25 • 17:00 UTC",
+      "kickoff": "Sun Aug 25 \u2022 17:00 UTC",
       "raw_kickoff": "2024-08-25T17:00Z",
       "finished": true,
       "score_h": 3,
@@ -155,7 +155,7 @@
     {
       "home": "Nantes",
       "away": "Auxerre",
-      "kickoff": "Sun Aug 25 • 17:00 UTC",
+      "kickoff": "Sun Aug 25 \u2022 17:00 UTC",
       "raw_kickoff": "2024-08-25T17:00Z",
       "finished": true,
       "score_h": 2,
@@ -165,7 +165,7 @@
     {
       "home": "Nice",
       "away": "Toulouse",
-      "kickoff": "Sun Aug 25 • 17:00 UTC",
+      "kickoff": "Sun Aug 25 \u2022 17:00 UTC",
       "raw_kickoff": "2024-08-25T17:00Z",
       "finished": true,
       "score_h": 1,
@@ -175,7 +175,7 @@
     {
       "home": "Marseille",
       "away": "Reims",
-      "kickoff": "Sun Aug 25 • 20:45 UTC",
+      "kickoff": "Sun Aug 25 \u2022 20:45 UTC",
       "raw_kickoff": "2024-08-25T20:45Z",
       "finished": true,
       "score_h": 2,
@@ -187,7 +187,7 @@
     {
       "home": "Lyon",
       "away": "Strasbourg",
-      "kickoff": "Fri Aug 30 • 20:45 UTC",
+      "kickoff": "Fri Aug 30 \u2022 20:45 UTC",
       "raw_kickoff": "2024-08-30T20:45Z",
       "finished": true,
       "score_h": 4,
@@ -197,7 +197,7 @@
     {
       "home": "Brest",
       "away": "Saint-Etienne",
-      "kickoff": "Sat Aug 31 • 17:00 UTC",
+      "kickoff": "Sat Aug 31 \u2022 17:00 UTC",
       "raw_kickoff": "2024-08-31T17:00Z",
       "finished": true,
       "score_h": 4,
@@ -207,7 +207,7 @@
     {
       "home": "Montpellier",
       "away": "Nantes",
-      "kickoff": "Sat Aug 31 • 19:00 UTC",
+      "kickoff": "Sat Aug 31 \u2022 19:00 UTC",
       "raw_kickoff": "2024-08-31T19:00Z",
       "finished": true,
       "score_h": 1,
@@ -217,7 +217,7 @@
     {
       "home": "Toulouse",
       "away": "Marseille",
-      "kickoff": "Sat Aug 31 • 21:00 UTC",
+      "kickoff": "Sat Aug 31 \u2022 21:00 UTC",
       "raw_kickoff": "2024-08-31T21:00Z",
       "finished": true,
       "score_h": 1,
@@ -227,7 +227,7 @@
     {
       "home": "Monaco",
       "away": "Lens",
-      "kickoff": "Sun Sep 01 • 15:00 UTC",
+      "kickoff": "Sun Sep 01 \u2022 15:00 UTC",
       "raw_kickoff": "2024-09-01T15:00Z",
       "finished": true,
       "score_h": 1,
@@ -237,7 +237,7 @@
     {
       "home": "Angers",
       "away": "Nice",
-      "kickoff": "Sun Sep 01 • 17:00 UTC",
+      "kickoff": "Sun Sep 01 \u2022 17:00 UTC",
       "raw_kickoff": "2024-09-01T17:00Z",
       "finished": true,
       "score_h": 1,
@@ -247,7 +247,7 @@
     {
       "home": "Le Havre",
       "away": "Auxerre",
-      "kickoff": "Sun Sep 01 • 17:00 UTC",
+      "kickoff": "Sun Sep 01 \u2022 17:00 UTC",
       "raw_kickoff": "2024-09-01T17:00Z",
       "finished": true,
       "score_h": 3,
@@ -257,7 +257,7 @@
     {
       "home": "Reims",
       "away": "Rennes",
-      "kickoff": "Sun Sep 01 • 17:00 UTC",
+      "kickoff": "Sun Sep 01 \u2022 17:00 UTC",
       "raw_kickoff": "2024-09-01T17:00Z",
       "finished": true,
       "score_h": 2,
@@ -267,7 +267,7 @@
     {
       "home": "Lille",
       "away": "Paris SG",
-      "kickoff": "Sun Sep 01 • 20:45 UTC",
+      "kickoff": "Sun Sep 01 \u2022 20:45 UTC",
       "raw_kickoff": "2024-09-01T20:45Z",
       "finished": true,
       "score_h": 1,
@@ -279,7 +279,7 @@
     {
       "home": "Saint-Etienne",
       "away": "Lille",
-      "kickoff": "Fri Sep 13 • 20:45 UTC",
+      "kickoff": "Fri Sep 13 \u2022 20:45 UTC",
       "raw_kickoff": "2024-09-13T20:45Z",
       "finished": true,
       "score_h": 1,
@@ -289,7 +289,7 @@
     {
       "home": "Marseille",
       "away": "Nice",
-      "kickoff": "Sat Sep 14 • 17:00 UTC",
+      "kickoff": "Sat Sep 14 \u2022 17:00 UTC",
       "raw_kickoff": "2024-09-14T17:00Z",
       "finished": true,
       "score_h": 2,
@@ -299,7 +299,7 @@
     {
       "home": "Auxerre",
       "away": "Monaco",
-      "kickoff": "Sat Sep 14 • 19:00 UTC",
+      "kickoff": "Sat Sep 14 \u2022 19:00 UTC",
       "raw_kickoff": "2024-09-14T19:00Z",
       "finished": true,
       "score_h": 0,
@@ -309,7 +309,7 @@
     {
       "home": "Paris SG",
       "away": "Brest",
-      "kickoff": "Sat Sep 14 • 21:00 UTC",
+      "kickoff": "Sat Sep 14 \u2022 21:00 UTC",
       "raw_kickoff": "2024-09-14T21:00Z",
       "finished": true,
       "score_h": 3,
@@ -319,7 +319,7 @@
     {
       "home": "Rennes",
       "away": "Montpellier",
-      "kickoff": "Sun Sep 15 • 15:00 UTC",
+      "kickoff": "Sun Sep 15 \u2022 15:00 UTC",
       "raw_kickoff": "2024-09-15T15:00Z",
       "finished": true,
       "score_h": 3,
@@ -329,7 +329,7 @@
     {
       "home": "Nantes",
       "away": "Reims",
-      "kickoff": "Sun Sep 15 • 17:00 UTC",
+      "kickoff": "Sun Sep 15 \u2022 17:00 UTC",
       "raw_kickoff": "2024-09-15T17:00Z",
       "finished": true,
       "score_h": 1,
@@ -339,7 +339,7 @@
     {
       "home": "Toulouse",
       "away": "Le Havre",
-      "kickoff": "Sun Sep 15 • 17:00 UTC",
+      "kickoff": "Sun Sep 15 \u2022 17:00 UTC",
       "raw_kickoff": "2024-09-15T17:00Z",
       "finished": true,
       "score_h": 2,
@@ -349,7 +349,7 @@
     {
       "home": "Strasbourg",
       "away": "Angers",
-      "kickoff": "Sun Sep 15 • 17:00 UTC",
+      "kickoff": "Sun Sep 15 \u2022 17:00 UTC",
       "raw_kickoff": "2024-09-15T17:00Z",
       "finished": true,
       "score_h": 1,
@@ -359,7 +359,7 @@
     {
       "home": "Lens",
       "away": "Lyon",
-      "kickoff": "Sun Sep 15 • 20:45 UTC",
+      "kickoff": "Sun Sep 15 \u2022 20:45 UTC",
       "raw_kickoff": "2024-09-15T20:45Z",
       "finished": true,
       "score_h": 0,
@@ -371,7 +371,7 @@
     {
       "home": "Nice",
       "away": "Saint-Etienne",
-      "kickoff": "Fri Sep 20 • 20:45 UTC",
+      "kickoff": "Fri Sep 20 \u2022 20:45 UTC",
       "raw_kickoff": "2024-09-20T20:45Z",
       "finished": true,
       "score_h": 8,
@@ -381,7 +381,7 @@
     {
       "home": "Lille",
       "away": "Strasbourg",
-      "kickoff": "Sat Sep 21 • 17:00 UTC",
+      "kickoff": "Sat Sep 21 \u2022 17:00 UTC",
       "raw_kickoff": "2024-09-21T17:00Z",
       "finished": true,
       "score_h": 3,
@@ -391,7 +391,7 @@
     {
       "home": "Rennes",
       "away": "Lens",
-      "kickoff": "Sat Sep 21 • 19:00 UTC",
+      "kickoff": "Sat Sep 21 \u2022 19:00 UTC",
       "raw_kickoff": "2024-09-21T19:00Z",
       "finished": true,
       "score_h": 1,
@@ -401,7 +401,7 @@
     {
       "home": "Reims",
       "away": "Paris SG",
-      "kickoff": "Sat Sep 21 • 21:00 UTC",
+      "kickoff": "Sat Sep 21 \u2022 21:00 UTC",
       "raw_kickoff": "2024-09-21T21:00Z",
       "finished": true,
       "score_h": 1,
@@ -411,7 +411,7 @@
     {
       "home": "Monaco",
       "away": "Le Havre",
-      "kickoff": "Sun Sep 22 • 15:00 UTC",
+      "kickoff": "Sun Sep 22 \u2022 15:00 UTC",
       "raw_kickoff": "2024-09-22T15:00Z",
       "finished": true,
       "score_h": 3,
@@ -421,7 +421,7 @@
     {
       "home": "Brest",
       "away": "Toulouse",
-      "kickoff": "Sun Sep 22 • 17:00 UTC",
+      "kickoff": "Sun Sep 22 \u2022 17:00 UTC",
       "raw_kickoff": "2024-09-22T17:00Z",
       "finished": true,
       "score_h": 2,
@@ -431,7 +431,7 @@
     {
       "home": "Angers",
       "away": "Nantes",
-      "kickoff": "Sun Sep 22 • 17:00 UTC",
+      "kickoff": "Sun Sep 22 \u2022 17:00 UTC",
       "raw_kickoff": "2024-09-22T17:00Z",
       "finished": true,
       "score_h": 1,
@@ -441,7 +441,7 @@
     {
       "home": "Montpellier",
       "away": "Auxerre",
-      "kickoff": "Sun Sep 22 • 17:00 UTC",
+      "kickoff": "Sun Sep 22 \u2022 17:00 UTC",
       "raw_kickoff": "2024-09-22T17:00Z",
       "finished": true,
       "score_h": 3,
@@ -451,7 +451,7 @@
     {
       "home": "Lyon",
       "away": "Marseille",
-      "kickoff": "Sun Sep 22 • 20:45 UTC",
+      "kickoff": "Sun Sep 22 \u2022 20:45 UTC",
       "raw_kickoff": "2024-09-22T20:45Z",
       "finished": true,
       "score_h": 2,
@@ -463,7 +463,7 @@
     {
       "home": "Auxerre",
       "away": "Brest",
-      "kickoff": "Fri Sep 27 • 19:00 UTC",
+      "kickoff": "Fri Sep 27 \u2022 19:00 UTC",
       "raw_kickoff": "2024-09-27T19:00Z",
       "finished": true,
       "score_h": 3,
@@ -473,7 +473,7 @@
     {
       "home": "Paris SG",
       "away": "Rennes",
-      "kickoff": "Fri Sep 27 • 21:00 UTC",
+      "kickoff": "Fri Sep 27 \u2022 21:00 UTC",
       "raw_kickoff": "2024-09-27T21:00Z",
       "finished": true,
       "score_h": 3,
@@ -483,7 +483,7 @@
     {
       "home": "Lens",
       "away": "Nice",
-      "kickoff": "Sat Sep 28 • 17:00 UTC",
+      "kickoff": "Sat Sep 28 \u2022 17:00 UTC",
       "raw_kickoff": "2024-09-28T17:00Z",
       "finished": true,
       "score_h": 0,
@@ -493,7 +493,7 @@
     {
       "home": "Le Havre",
       "away": "Lille",
-      "kickoff": "Sat Sep 28 • 19:00 UTC",
+      "kickoff": "Sat Sep 28 \u2022 19:00 UTC",
       "raw_kickoff": "2024-09-28T19:00Z",
       "finished": true,
       "score_h": 0,
@@ -503,7 +503,7 @@
     {
       "home": "Monaco",
       "away": "Montpellier",
-      "kickoff": "Sat Sep 28 • 21:00 UTC",
+      "kickoff": "Sat Sep 28 \u2022 21:00 UTC",
       "raw_kickoff": "2024-09-28T21:00Z",
       "finished": true,
       "score_h": 2,
@@ -513,7 +513,7 @@
     {
       "home": "Toulouse",
       "away": "Lyon",
-      "kickoff": "Sun Sep 29 • 15:00 UTC",
+      "kickoff": "Sun Sep 29 \u2022 15:00 UTC",
       "raw_kickoff": "2024-09-29T15:00Z",
       "finished": true,
       "score_h": 1,
@@ -523,7 +523,7 @@
     {
       "home": "Nantes",
       "away": "Saint-Etienne",
-      "kickoff": "Sun Sep 29 • 17:00 UTC",
+      "kickoff": "Sun Sep 29 \u2022 17:00 UTC",
       "raw_kickoff": "2024-09-29T17:00Z",
       "finished": true,
       "score_h": 2,
@@ -533,7 +533,7 @@
     {
       "home": "Angers",
       "away": "Reims",
-      "kickoff": "Sun Sep 29 • 17:00 UTC",
+      "kickoff": "Sun Sep 29 \u2022 17:00 UTC",
       "raw_kickoff": "2024-09-29T17:00Z",
       "finished": true,
       "score_h": 1,
@@ -543,7 +543,7 @@
     {
       "home": "Strasbourg",
       "away": "Marseille",
-      "kickoff": "Sun Sep 29 • 20:45 UTC",
+      "kickoff": "Sun Sep 29 \u2022 20:45 UTC",
       "raw_kickoff": "2024-09-29T20:45Z",
       "finished": true,
       "score_h": 1,
@@ -555,7 +555,7 @@
     {
       "home": "Marseille",
       "away": "Angers",
-      "kickoff": "Fri Oct 04 • 20:45 UTC",
+      "kickoff": "Fri Oct 04 \u2022 20:45 UTC",
       "raw_kickoff": "2024-10-04T20:45Z",
       "finished": true,
       "score_h": 1,
@@ -565,7 +565,7 @@
     {
       "home": "Saint-Etienne",
       "away": "Auxerre",
-      "kickoff": "Sat Oct 05 • 17:00 UTC",
+      "kickoff": "Sat Oct 05 \u2022 17:00 UTC",
       "raw_kickoff": "2024-10-05T17:00Z",
       "finished": true,
       "score_h": 3,
@@ -575,7 +575,7 @@
     {
       "home": "Lille",
       "away": "Toulouse",
-      "kickoff": "Sat Oct 05 • 19:00 UTC",
+      "kickoff": "Sat Oct 05 \u2022 19:00 UTC",
       "raw_kickoff": "2024-10-05T19:00Z",
       "finished": true,
       "score_h": 2,
@@ -585,7 +585,7 @@
     {
       "home": "Rennes",
       "away": "Monaco",
-      "kickoff": "Sat Oct 05 • 21:00 UTC",
+      "kickoff": "Sat Oct 05 \u2022 21:00 UTC",
       "raw_kickoff": "2024-10-05T21:00Z",
       "finished": true,
       "score_h": 1,
@@ -595,7 +595,7 @@
     {
       "home": "Lyon",
       "away": "Nantes",
-      "kickoff": "Sun Oct 06 • 15:00 UTC",
+      "kickoff": "Sun Oct 06 \u2022 15:00 UTC",
       "raw_kickoff": "2024-10-06T15:00Z",
       "finished": true,
       "score_h": 2,
@@ -605,7 +605,7 @@
     {
       "home": "Brest",
       "away": "Le Havre",
-      "kickoff": "Sun Oct 06 • 17:00 UTC",
+      "kickoff": "Sun Oct 06 \u2022 17:00 UTC",
       "raw_kickoff": "2024-10-06T17:00Z",
       "finished": true,
       "score_h": 2,
@@ -615,7 +615,7 @@
     {
       "home": "Strasbourg",
       "away": "Lens",
-      "kickoff": "Sun Oct 06 • 17:00 UTC",
+      "kickoff": "Sun Oct 06 \u2022 17:00 UTC",
       "raw_kickoff": "2024-10-06T17:00Z",
       "finished": true,
       "score_h": 2,
@@ -625,7 +625,7 @@
     {
       "home": "Reims",
       "away": "Montpellier",
-      "kickoff": "Sun Oct 06 • 17:00 UTC",
+      "kickoff": "Sun Oct 06 \u2022 17:00 UTC",
       "raw_kickoff": "2024-10-06T17:00Z",
       "finished": true,
       "score_h": 4,
@@ -635,7 +635,7 @@
     {
       "home": "Nice",
       "away": "Paris SG",
-      "kickoff": "Sun Oct 06 • 20:45 UTC",
+      "kickoff": "Sun Oct 06 \u2022 20:45 UTC",
       "raw_kickoff": "2024-10-06T20:45Z",
       "finished": true,
       "score_h": 1,
@@ -647,7 +647,7 @@
     {
       "home": "Monaco",
       "away": "Lille",
-      "kickoff": "Fri Oct 18 • 20:45 UTC",
+      "kickoff": "Fri Oct 18 \u2022 20:45 UTC",
       "raw_kickoff": "2024-10-18T20:45Z",
       "finished": true,
       "score_h": 0,
@@ -657,7 +657,7 @@
     {
       "home": "Brest",
       "away": "Rennes",
-      "kickoff": "Sat Oct 19 • 17:00 UTC",
+      "kickoff": "Sat Oct 19 \u2022 17:00 UTC",
       "raw_kickoff": "2024-10-19T17:00Z",
       "finished": true,
       "score_h": 1,
@@ -667,7 +667,7 @@
     {
       "home": "Saint-Etienne",
       "away": "Lens",
-      "kickoff": "Sat Oct 19 • 19:00 UTC",
+      "kickoff": "Sat Oct 19 \u2022 19:00 UTC",
       "raw_kickoff": "2024-10-19T19:00Z",
       "finished": true,
       "score_h": 0,
@@ -677,7 +677,7 @@
     {
       "home": "Paris SG",
       "away": "Strasbourg",
-      "kickoff": "Sat Oct 19 • 21:00 UTC",
+      "kickoff": "Sat Oct 19 \u2022 21:00 UTC",
       "raw_kickoff": "2024-10-19T21:00Z",
       "finished": true,
       "score_h": 4,
@@ -687,7 +687,7 @@
     {
       "home": "Le Havre",
       "away": "Lyon",
-      "kickoff": "Sun Oct 20 • 15:00 UTC",
+      "kickoff": "Sun Oct 20 \u2022 15:00 UTC",
       "raw_kickoff": "2024-10-20T15:00Z",
       "finished": true,
       "score_h": 0,
@@ -697,7 +697,7 @@
     {
       "home": "Auxerre",
       "away": "Reims",
-      "kickoff": "Sun Oct 20 • 17:00 UTC",
+      "kickoff": "Sun Oct 20 \u2022 17:00 UTC",
       "raw_kickoff": "2024-10-20T17:00Z",
       "finished": true,
       "score_h": 2,
@@ -707,7 +707,7 @@
     {
       "home": "Toulouse",
       "away": "Angers",
-      "kickoff": "Sun Oct 20 • 17:00 UTC",
+      "kickoff": "Sun Oct 20 \u2022 17:00 UTC",
       "raw_kickoff": "2024-10-20T17:00Z",
       "finished": true,
       "score_h": 1,
@@ -717,7 +717,7 @@
     {
       "home": "Nantes",
       "away": "Nice",
-      "kickoff": "Sun Oct 20 • 17:00 UTC",
+      "kickoff": "Sun Oct 20 \u2022 17:00 UTC",
       "raw_kickoff": "2024-10-20T17:00Z",
       "finished": true,
       "score_h": 1,
@@ -727,7 +727,7 @@
     {
       "home": "Montpellier",
       "away": "Marseille",
-      "kickoff": "Sun Oct 20 • 20:45 UTC",
+      "kickoff": "Sun Oct 20 \u2022 20:45 UTC",
       "raw_kickoff": "2024-10-20T20:45Z",
       "finished": true,
       "score_h": 0,
@@ -739,7 +739,7 @@
     {
       "home": "Rennes",
       "away": "Le Havre",
-      "kickoff": "Fri Oct 25 • 20:45 UTC",
+      "kickoff": "Fri Oct 25 \u2022 20:45 UTC",
       "raw_kickoff": "2024-10-25T20:45Z",
       "finished": true,
       "score_h": 1,
@@ -749,7 +749,7 @@
     {
       "home": "Angers",
       "away": "Saint-Etienne",
-      "kickoff": "Sat Oct 26 • 17:00 UTC",
+      "kickoff": "Sat Oct 26 \u2022 17:00 UTC",
       "raw_kickoff": "2024-10-26T17:00Z",
       "finished": true,
       "score_h": 4,
@@ -759,7 +759,7 @@
     {
       "home": "Reims",
       "away": "Brest",
-      "kickoff": "Sat Oct 26 • 19:00 UTC",
+      "kickoff": "Sat Oct 26 \u2022 19:00 UTC",
       "raw_kickoff": "2024-10-26T19:00Z",
       "finished": true,
       "score_h": 1,
@@ -769,7 +769,7 @@
     {
       "home": "Lens",
       "away": "Lille",
-      "kickoff": "Sat Oct 26 • 21:00 UTC",
+      "kickoff": "Sat Oct 26 \u2022 21:00 UTC",
       "raw_kickoff": "2024-10-26T21:00Z",
       "finished": true,
       "score_h": 0,
@@ -779,7 +779,7 @@
     {
       "home": "Lyon",
       "away": "Auxerre",
-      "kickoff": "Sun Oct 27 • 15:00 UTC",
+      "kickoff": "Sun Oct 27 \u2022 15:00 UTC",
       "raw_kickoff": "2024-10-27T15:00Z",
       "finished": true,
       "score_h": 2,
@@ -789,7 +789,7 @@
     {
       "home": "Nice",
       "away": "Monaco",
-      "kickoff": "Sun Oct 27 • 17:00 UTC",
+      "kickoff": "Sun Oct 27 \u2022 17:00 UTC",
       "raw_kickoff": "2024-10-27T17:00Z",
       "finished": true,
       "score_h": 2,
@@ -799,7 +799,7 @@
     {
       "home": "Montpellier",
       "away": "Toulouse",
-      "kickoff": "Sun Oct 27 • 17:00 UTC",
+      "kickoff": "Sun Oct 27 \u2022 17:00 UTC",
       "raw_kickoff": "2024-10-27T17:00Z",
       "finished": true,
       "score_h": 0,
@@ -809,7 +809,7 @@
     {
       "home": "Strasbourg",
       "away": "Nantes",
-      "kickoff": "Sun Oct 27 • 17:00 UTC",
+      "kickoff": "Sun Oct 27 \u2022 17:00 UTC",
       "raw_kickoff": "2024-10-27T17:00Z",
       "finished": true,
       "score_h": 3,
@@ -819,7 +819,7 @@
     {
       "home": "Marseille",
       "away": "Paris SG",
-      "kickoff": "Sun Oct 27 • 20:45 UTC",
+      "kickoff": "Sun Oct 27 \u2022 20:45 UTC",
       "raw_kickoff": "2024-10-27T20:45Z",
       "finished": true,
       "score_h": 0,
@@ -829,10 +829,30 @@
   ],
   "10": [
     {
+      "home": "Troyes",
+      "away": "Le Havre",
+      "kickoff": "Fri Nov 20 \u2022 FT",
+      "raw_kickoff": "2026-11-20T20:00Z",
+      "finished": true,
+      "score_h": 3,
+      "score_a": 1,
+      "gameweek": 10
+    },
+    {
+      "home": "Nice",
+      "away": "PSG",
+      "kickoff": "Sat Nov 21 \u2022 19:15",
+      "raw_kickoff": "2026-11-21T19:15Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 10
+    },
+    {
       "home": "Monaco",
-      "away": "Angers",
-      "kickoff": "Fri Nov 01 • 19:00 UTC",
-      "raw_kickoff": "2024-11-01T19:00Z",
+      "away": "Auxerre",
+      "kickoff": "Sat Nov 21 \u2022 22:45",
+      "raw_kickoff": "2026-11-21T22:45Z",
       "finished": false,
       "score_h": null,
       "score_a": null,
@@ -841,78 +861,58 @@
     {
       "home": "Lille",
       "away": "Lyon",
-      "kickoff": "Fri Nov 01 • 21:00 UTC",
-      "raw_kickoff": "2024-11-01T21:00Z",
+      "kickoff": "Sat Nov 21 \u2022 22:45",
+      "raw_kickoff": "2026-11-21T22:45Z",
       "finished": false,
       "score_h": null,
       "score_a": null,
       "gameweek": 10
     },
     {
-      "home": "Paris SG",
-      "away": "Lens",
-      "kickoff": "Sat Nov 02 • 17:00 UTC",
-      "raw_kickoff": "2024-11-02T17:00Z",
+      "home": "Lens",
+      "away": "Toulouse",
+      "kickoff": "Sat Nov 21 \u2022 22:45",
+      "raw_kickoff": "2026-11-21T22:45Z",
       "finished": false,
       "score_h": null,
       "score_a": null,
       "gameweek": 10
     },
     {
-      "home": "Brest",
-      "away": "Nice",
-      "kickoff": "Sat Nov 02 • 19:00 UTC",
-      "raw_kickoff": "2024-11-02T19:00Z",
+      "home": "Strasbourg",
+      "away": "Brest",
+      "kickoff": "Sat Nov 21 \u2022 22:45",
+      "raw_kickoff": "2026-11-21T22:45Z",
       "finished": false,
       "score_h": null,
       "score_a": null,
       "gameweek": 10
     },
     {
-      "home": "Saint-Etienne",
-      "away": "Strasbourg",
-      "kickoff": "Sat Nov 02 • 21:00 UTC",
-      "raw_kickoff": "2024-11-02T21:00Z",
+      "home": "Paris",
+      "away": "Angers",
+      "kickoff": "Sun Nov 22 \u2022 17:00",
+      "raw_kickoff": "2026-11-22T17:00Z",
       "finished": false,
       "score_h": null,
       "score_a": null,
       "gameweek": 10
     },
     {
-      "home": "Toulouse",
-      "away": "Reims",
-      "kickoff": "Sun Nov 03 • 15:00 UTC",
-      "raw_kickoff": "2024-11-03T15:00Z",
-      "finished": false,
-      "score_h": null,
-      "score_a": null,
-      "gameweek": 10
-    },
-    {
-      "home": "Auxerre",
+      "home": "Lorient",
       "away": "Rennes",
-      "kickoff": "Sun Nov 03 • 17:00 UTC",
-      "raw_kickoff": "2024-11-03T17:00Z",
+      "kickoff": "Sun Nov 22 \u2022 19:15",
+      "raw_kickoff": "2026-11-22T19:15Z",
       "finished": false,
       "score_h": null,
       "score_a": null,
       "gameweek": 10
     },
     {
-      "home": "Le Havre",
-      "away": "Montpellier",
-      "kickoff": "Sun Nov 03 • 17:00 UTC",
-      "raw_kickoff": "2024-11-03T17:00Z",
-      "finished": false,
-      "score_h": null,
-      "score_a": null,
-      "gameweek": 10
-    },
-    {
-      "home": "Nantes",
-      "away": "Marseille",
-      "kickoff": "Sun Nov 03 • 20:45 UTC",
-      "raw_kickoff": "2024-11-03T20:45Z",
+      "home": "Marseille",
+      "away": "Le Mans",
+      "kickoff": "Sun Nov 22 \u2022 22:45",
+      "raw_kickoff": "2026-11-22T22:45Z",
       "finished": false,
       "score_h": null,
       "score_a": null,
@@ -923,7 +923,7 @@
     {
       "home": "Marseille",
       "away": "Auxerre",
-      "kickoff": "Fri Nov 08 • 20:45 UTC",
+      "kickoff": "Fri Nov 08 \u2022 20:45 UTC",
       "raw_kickoff": "2024-11-08T20:45Z",
       "finished": true,
       "score_h": 1,
@@ -933,7 +933,7 @@
     {
       "home": "Strasbourg",
       "away": "Monaco",
-      "kickoff": "Sat Nov 09 • 17:00 UTC",
+      "kickoff": "Sat Nov 09 \u2022 17:00 UTC",
       "raw_kickoff": "2024-11-09T17:00Z",
       "finished": true,
       "score_h": 1,
@@ -943,7 +943,7 @@
     {
       "home": "Lens",
       "away": "Nantes",
-      "kickoff": "Sat Nov 09 • 19:00 UTC",
+      "kickoff": "Sat Nov 09 \u2022 19:00 UTC",
       "raw_kickoff": "2024-11-09T19:00Z",
       "finished": true,
       "score_h": 3,
@@ -953,7 +953,7 @@
     {
       "home": "Angers",
       "away": "Paris SG",
-      "kickoff": "Sat Nov 09 • 21:00 UTC",
+      "kickoff": "Sat Nov 09 \u2022 21:00 UTC",
       "raw_kickoff": "2024-11-09T21:00Z",
       "finished": true,
       "score_h": 2,
@@ -963,7 +963,7 @@
     {
       "home": "Nice",
       "away": "Lille",
-      "kickoff": "Sun Nov 10 • 15:00 UTC",
+      "kickoff": "Sun Nov 10 \u2022 15:00 UTC",
       "raw_kickoff": "2024-11-10T15:00Z",
       "finished": true,
       "score_h": 2,
@@ -973,7 +973,7 @@
     {
       "home": "Montpellier",
       "away": "Brest",
-      "kickoff": "Sun Nov 10 • 17:00 UTC",
+      "kickoff": "Sun Nov 10 \u2022 17:00 UTC",
       "raw_kickoff": "2024-11-10T17:00Z",
       "finished": true,
       "score_h": 3,
@@ -983,7 +983,7 @@
     {
       "home": "Le Havre",
       "away": "Reims",
-      "kickoff": "Sun Nov 10 • 17:00 UTC",
+      "kickoff": "Sun Nov 10 \u2022 17:00 UTC",
       "raw_kickoff": "2024-11-10T17:00Z",
       "finished": true,
       "score_h": 0,
@@ -993,7 +993,7 @@
     {
       "home": "Rennes",
       "away": "Toulouse",
-      "kickoff": "Sun Nov 10 • 17:00 UTC",
+      "kickoff": "Sun Nov 10 \u2022 17:00 UTC",
       "raw_kickoff": "2024-11-10T17:00Z",
       "finished": true,
       "score_h": 0,
@@ -1003,7 +1003,7 @@
     {
       "home": "Lyon",
       "away": "Saint-Etienne",
-      "kickoff": "Sun Nov 10 • 20:45 UTC",
+      "kickoff": "Sun Nov 10 \u2022 20:45 UTC",
       "raw_kickoff": "2024-11-10T20:45Z",
       "finished": true,
       "score_h": 1,
@@ -1015,7 +1015,7 @@
     {
       "home": "Monaco",
       "away": "Brest",
-      "kickoff": "Fri Nov 22 • 19:00 UTC",
+      "kickoff": "Fri Nov 22 \u2022 19:00 UTC",
       "raw_kickoff": "2024-11-22T19:00Z",
       "finished": true,
       "score_h": 3,
@@ -1025,7 +1025,7 @@
     {
       "home": "Paris SG",
       "away": "Toulouse",
-      "kickoff": "Fri Nov 22 • 21:00 UTC",
+      "kickoff": "Fri Nov 22 \u2022 21:00 UTC",
       "raw_kickoff": "2024-11-22T21:00Z",
       "finished": true,
       "score_h": 3,
@@ -1035,7 +1035,7 @@
     {
       "home": "Lens",
       "away": "Marseille",
-      "kickoff": "Sat Nov 23 • 17:00 UTC",
+      "kickoff": "Sat Nov 23 \u2022 17:00 UTC",
       "raw_kickoff": "2024-11-23T17:00Z",
       "finished": true,
       "score_h": 1,
@@ -1045,7 +1045,7 @@
     {
       "home": "Saint-Etienne",
       "away": "Montpellier",
-      "kickoff": "Sat Nov 23 • 19:00 UTC",
+      "kickoff": "Sat Nov 23 \u2022 19:00 UTC",
       "raw_kickoff": "2024-11-23T19:00Z",
       "finished": true,
       "score_h": 1,
@@ -1055,7 +1055,7 @@
     {
       "home": "Reims",
       "away": "Lyon",
-      "kickoff": "Sat Nov 23 • 21:00 UTC",
+      "kickoff": "Sat Nov 23 \u2022 21:00 UTC",
       "raw_kickoff": "2024-11-23T21:00Z",
       "finished": true,
       "score_h": 1,
@@ -1065,7 +1065,7 @@
     {
       "home": "Lille",
       "away": "Rennes",
-      "kickoff": "Sun Nov 24 • 15:00 UTC",
+      "kickoff": "Sun Nov 24 \u2022 15:00 UTC",
       "raw_kickoff": "2024-11-24T15:00Z",
       "finished": true,
       "score_h": 1,
@@ -1075,7 +1075,7 @@
     {
       "home": "Nantes",
       "away": "Le Havre",
-      "kickoff": "Sun Nov 24 • 17:00 UTC",
+      "kickoff": "Sun Nov 24 \u2022 17:00 UTC",
       "raw_kickoff": "2024-11-24T17:00Z",
       "finished": true,
       "score_h": 0,
@@ -1085,7 +1085,7 @@
     {
       "home": "Auxerre",
       "away": "Angers",
-      "kickoff": "Sun Nov 24 • 17:00 UTC",
+      "kickoff": "Sun Nov 24 \u2022 17:00 UTC",
       "raw_kickoff": "2024-11-24T17:00Z",
       "finished": true,
       "score_h": 1,
@@ -1095,7 +1095,7 @@
     {
       "home": "Nice",
       "away": "Strasbourg",
-      "kickoff": "Sun Nov 24 • 20:45 UTC",
+      "kickoff": "Sun Nov 24 \u2022 20:45 UTC",
       "raw_kickoff": "2024-11-24T20:45Z",
       "finished": true,
       "score_h": 2,
@@ -1107,7 +1107,7 @@
     {
       "home": "Reims",
       "away": "Lens",
-      "kickoff": "Fri Nov 29 • 20:45 UTC",
+      "kickoff": "Fri Nov 29 \u2022 20:45 UTC",
       "raw_kickoff": "2024-11-29T20:45Z",
       "finished": true,
       "score_h": 0,
@@ -1117,7 +1117,7 @@
     {
       "home": "Rennes",
       "away": "Saint-Etienne",
-      "kickoff": "Sat Nov 30 • 17:00 UTC",
+      "kickoff": "Sat Nov 30 \u2022 17:00 UTC",
       "raw_kickoff": "2024-11-30T17:00Z",
       "finished": true,
       "score_h": 5,
@@ -1127,7 +1127,7 @@
     {
       "home": "Brest",
       "away": "Strasbourg",
-      "kickoff": "Sat Nov 30 • 19:00 UTC",
+      "kickoff": "Sat Nov 30 \u2022 19:00 UTC",
       "raw_kickoff": "2024-11-30T19:00Z",
       "finished": true,
       "score_h": 3,
@@ -1137,7 +1137,7 @@
     {
       "home": "Paris SG",
       "away": "Nantes",
-      "kickoff": "Sat Nov 30 • 21:00 UTC",
+      "kickoff": "Sat Nov 30 \u2022 21:00 UTC",
       "raw_kickoff": "2024-11-30T21:00Z",
       "finished": true,
       "score_h": 1,
@@ -1147,7 +1147,7 @@
     {
       "home": "Montpellier",
       "away": "Lille",
-      "kickoff": "Sun Dec 01 • 15:00 UTC",
+      "kickoff": "Sun Dec 01 \u2022 15:00 UTC",
       "raw_kickoff": "2024-12-01T15:00Z",
       "finished": true,
       "score_h": 2,
@@ -1157,7 +1157,7 @@
     {
       "home": "Le Havre",
       "away": "Angers",
-      "kickoff": "Sun Dec 01 • 17:00 UTC",
+      "kickoff": "Sun Dec 01 \u2022 17:00 UTC",
       "raw_kickoff": "2024-12-01T17:00Z",
       "finished": true,
       "score_h": 0,
@@ -1167,7 +1167,7 @@
     {
       "home": "Toulouse",
       "away": "Auxerre",
-      "kickoff": "Sun Dec 01 • 17:00 UTC",
+      "kickoff": "Sun Dec 01 \u2022 17:00 UTC",
       "raw_kickoff": "2024-12-01T17:00Z",
       "finished": true,
       "score_h": 2,
@@ -1177,7 +1177,7 @@
     {
       "home": "Lyon",
       "away": "Nice",
-      "kickoff": "Sun Dec 01 • 17:00 UTC",
+      "kickoff": "Sun Dec 01 \u2022 17:00 UTC",
       "raw_kickoff": "2024-12-01T17:00Z",
       "finished": true,
       "score_h": 4,
@@ -1187,7 +1187,7 @@
     {
       "home": "Marseille",
       "away": "Monaco",
-      "kickoff": "Sun Dec 01 • 20:45 UTC",
+      "kickoff": "Sun Dec 01 \u2022 20:45 UTC",
       "raw_kickoff": "2024-12-01T20:45Z",
       "finished": true,
       "score_h": 2,
@@ -1199,7 +1199,7 @@
     {
       "home": "Lille",
       "away": "Brest",
-      "kickoff": "Fri Dec 06 • 19:00 UTC",
+      "kickoff": "Fri Dec 06 \u2022 19:00 UTC",
       "raw_kickoff": "2024-12-06T19:00Z",
       "finished": true,
       "score_h": 3,
@@ -1209,7 +1209,7 @@
     {
       "home": "Auxerre",
       "away": "Paris SG",
-      "kickoff": "Fri Dec 06 • 21:00 UTC",
+      "kickoff": "Fri Dec 06 \u2022 21:00 UTC",
       "raw_kickoff": "2024-12-06T21:00Z",
       "finished": true,
       "score_h": 0,
@@ -1219,7 +1219,7 @@
     {
       "home": "Monaco",
       "away": "Toulouse",
-      "kickoff": "Sat Dec 07 • 17:00 UTC",
+      "kickoff": "Sat Dec 07 \u2022 17:00 UTC",
       "raw_kickoff": "2024-12-07T17:00Z",
       "finished": true,
       "score_h": 2,
@@ -1229,7 +1229,7 @@
     {
       "home": "Nice",
       "away": "Le Havre",
-      "kickoff": "Sat Dec 07 • 19:00 UTC",
+      "kickoff": "Sat Dec 07 \u2022 19:00 UTC",
       "raw_kickoff": "2024-12-07T19:00Z",
       "finished": true,
       "score_h": 2,
@@ -1239,7 +1239,7 @@
     {
       "home": "Angers",
       "away": "Lyon",
-      "kickoff": "Sat Dec 07 • 21:00 UTC",
+      "kickoff": "Sat Dec 07 \u2022 21:00 UTC",
       "raw_kickoff": "2024-12-07T21:00Z",
       "finished": true,
       "score_h": 0,
@@ -1249,7 +1249,7 @@
     {
       "home": "Lens",
       "away": "Montpellier",
-      "kickoff": "Sun Dec 08 • 15:00 UTC",
+      "kickoff": "Sun Dec 08 \u2022 15:00 UTC",
       "raw_kickoff": "2024-12-08T15:00Z",
       "finished": true,
       "score_h": 2,
@@ -1259,7 +1259,7 @@
     {
       "home": "Strasbourg",
       "away": "Reims",
-      "kickoff": "Sun Dec 08 • 17:00 UTC",
+      "kickoff": "Sun Dec 08 \u2022 17:00 UTC",
       "raw_kickoff": "2024-12-08T17:00Z",
       "finished": true,
       "score_h": 0,
@@ -1269,7 +1269,7 @@
     {
       "home": "Nantes",
       "away": "Rennes",
-      "kickoff": "Sun Dec 08 • 17:00 UTC",
+      "kickoff": "Sun Dec 08 \u2022 17:00 UTC",
       "raw_kickoff": "2024-12-08T17:00Z",
       "finished": true,
       "score_h": 1,
@@ -1279,7 +1279,7 @@
     {
       "home": "Saint-Etienne",
       "away": "Marseille",
-      "kickoff": "Sun Dec 08 • 20:45 UTC",
+      "kickoff": "Sun Dec 08 \u2022 20:45 UTC",
       "raw_kickoff": "2024-12-08T20:45Z",
       "finished": true,
       "score_h": 0,
@@ -1291,7 +1291,7 @@
     {
       "home": "Toulouse",
       "away": "Saint-Etienne",
-      "kickoff": "Fri Dec 13 • 20:45 UTC",
+      "kickoff": "Fri Dec 13 \u2022 20:45 UTC",
       "raw_kickoff": "2024-12-13T20:45Z",
       "finished": true,
       "score_h": 2,
@@ -1301,7 +1301,7 @@
     {
       "home": "Marseille",
       "away": "Lille",
-      "kickoff": "Sat Dec 14 • 17:00 UTC",
+      "kickoff": "Sat Dec 14 \u2022 17:00 UTC",
       "raw_kickoff": "2024-12-14T17:00Z",
       "finished": true,
       "score_h": 1,
@@ -1311,7 +1311,7 @@
     {
       "home": "Auxerre",
       "away": "Lens",
-      "kickoff": "Sat Dec 14 • 19:00 UTC",
+      "kickoff": "Sat Dec 14 \u2022 19:00 UTC",
       "raw_kickoff": "2024-12-14T19:00Z",
       "finished": true,
       "score_h": 2,
@@ -1321,7 +1321,7 @@
     {
       "home": "Reims",
       "away": "Monaco",
-      "kickoff": "Sat Dec 14 • 21:00 UTC",
+      "kickoff": "Sat Dec 14 \u2022 21:00 UTC",
       "raw_kickoff": "2024-12-14T21:00Z",
       "finished": true,
       "score_h": 0,
@@ -1331,7 +1331,7 @@
     {
       "home": "Montpellier",
       "away": "Nice",
-      "kickoff": "Sun Dec 15 • 15:00 UTC",
+      "kickoff": "Sun Dec 15 \u2022 15:00 UTC",
       "raw_kickoff": "2024-12-15T15:00Z",
       "finished": true,
       "score_h": 2,
@@ -1341,7 +1341,7 @@
     {
       "home": "Rennes",
       "away": "Angers",
-      "kickoff": "Sun Dec 15 • 17:00 UTC",
+      "kickoff": "Sun Dec 15 \u2022 17:00 UTC",
       "raw_kickoff": "2024-12-15T17:00Z",
       "finished": true,
       "score_h": 2,
@@ -1351,7 +1351,7 @@
     {
       "home": "Le Havre",
       "away": "Strasbourg",
-      "kickoff": "Sun Dec 15 • 17:00 UTC",
+      "kickoff": "Sun Dec 15 \u2022 17:00 UTC",
       "raw_kickoff": "2024-12-15T17:00Z",
       "finished": true,
       "score_h": 0,
@@ -1361,7 +1361,7 @@
     {
       "home": "Brest",
       "away": "Nantes",
-      "kickoff": "Sun Dec 15 • 17:00 UTC",
+      "kickoff": "Sun Dec 15 \u2022 17:00 UTC",
       "raw_kickoff": "2024-12-15T17:00Z",
       "finished": true,
       "score_h": 4,
@@ -1371,7 +1371,7 @@
     {
       "home": "Paris SG",
       "away": "Lyon",
-      "kickoff": "Sun Dec 15 • 20:45 UTC",
+      "kickoff": "Sun Dec 15 \u2022 20:45 UTC",
       "raw_kickoff": "2024-12-15T20:45Z",
       "finished": true,
       "score_h": 3,
@@ -1383,7 +1383,7 @@
     {
       "home": "Monaco",
       "away": "Paris SG",
-      "kickoff": "Wed Dec 18 • 21:00 UTC",
+      "kickoff": "Wed Dec 18 \u2022 21:00 UTC",
       "raw_kickoff": "2024-12-18T21:00Z",
       "finished": true,
       "score_h": 2,
@@ -1393,7 +1393,7 @@
     {
       "home": "Nice",
       "away": "Rennes",
-      "kickoff": "Fri Jan 03 • 21:00 UTC",
+      "kickoff": "Fri Jan 03 \u2022 21:00 UTC",
       "raw_kickoff": "2025-01-03T21:00Z",
       "finished": true,
       "score_h": 3,
@@ -1403,7 +1403,7 @@
     {
       "home": "Saint-Etienne",
       "away": "Reims",
-      "kickoff": "Sat Jan 04 • 17:00 UTC",
+      "kickoff": "Sat Jan 04 \u2022 17:00 UTC",
       "raw_kickoff": "2025-01-04T17:00Z",
       "finished": true,
       "score_h": 3,
@@ -1413,7 +1413,7 @@
     {
       "home": "Lille",
       "away": "Nantes",
-      "kickoff": "Sat Jan 04 • 19:00 UTC",
+      "kickoff": "Sat Jan 04 \u2022 19:00 UTC",
       "raw_kickoff": "2025-01-04T19:00Z",
       "finished": true,
       "score_h": 1,
@@ -1423,7 +1423,7 @@
     {
       "home": "Lyon",
       "away": "Montpellier",
-      "kickoff": "Sat Jan 04 • 21:00 UTC",
+      "kickoff": "Sat Jan 04 \u2022 21:00 UTC",
       "raw_kickoff": "2025-01-04T21:00Z",
       "finished": true,
       "score_h": 1,
@@ -1433,7 +1433,7 @@
     {
       "home": "Lens",
       "away": "Toulouse",
-      "kickoff": "Sun Jan 05 • 15:00 UTC",
+      "kickoff": "Sun Jan 05 \u2022 15:00 UTC",
       "raw_kickoff": "2025-01-05T15:00Z",
       "finished": true,
       "score_h": 0,
@@ -1443,7 +1443,7 @@
     {
       "home": "Angers",
       "away": "Brest",
-      "kickoff": "Sun Jan 05 • 15:00 UTC",
+      "kickoff": "Sun Jan 05 \u2022 15:00 UTC",
       "raw_kickoff": "2025-01-05T15:00Z",
       "finished": true,
       "score_h": 2,
@@ -1453,7 +1453,7 @@
     {
       "home": "Strasbourg",
       "away": "Auxerre",
-      "kickoff": "Sun Jan 05 • 15:00 UTC",
+      "kickoff": "Sun Jan 05 \u2022 15:00 UTC",
       "raw_kickoff": "2025-01-05T15:00Z",
       "finished": true,
       "score_h": 3,
@@ -1463,7 +1463,7 @@
     {
       "home": "Marseille",
       "away": "Le Havre",
-      "kickoff": "Sun Jan 05 • 20:45 UTC",
+      "kickoff": "Sun Jan 05 \u2022 20:45 UTC",
       "raw_kickoff": "2025-01-05T20:45Z",
       "finished": true,
       "score_h": 5,
@@ -1475,7 +1475,7 @@
     {
       "home": "Nantes",
       "away": "Monaco",
-      "kickoff": "Fri Jan 10 • 19:00 UTC",
+      "kickoff": "Fri Jan 10 \u2022 19:00 UTC",
       "raw_kickoff": "2025-01-10T19:00Z",
       "finished": true,
       "score_h": 2,
@@ -1485,7 +1485,7 @@
     {
       "home": "Auxerre",
       "away": "Lille",
-      "kickoff": "Fri Jan 10 • 21:05 UTC",
+      "kickoff": "Fri Jan 10 \u2022 21:05 UTC",
       "raw_kickoff": "2025-01-10T21:05Z",
       "finished": true,
       "score_h": 0,
@@ -1495,7 +1495,7 @@
     {
       "home": "Brest",
       "away": "Lyon",
-      "kickoff": "Sat Jan 11 • 17:00 UTC",
+      "kickoff": "Sat Jan 11 \u2022 17:00 UTC",
       "raw_kickoff": "2025-01-11T17:00Z",
       "finished": true,
       "score_h": 2,
@@ -1505,7 +1505,7 @@
     {
       "home": "Reims",
       "away": "Nice",
-      "kickoff": "Sat Jan 11 • 19:00 UTC",
+      "kickoff": "Sat Jan 11 \u2022 19:00 UTC",
       "raw_kickoff": "2025-01-11T19:00Z",
       "finished": true,
       "score_h": 2,
@@ -1515,7 +1515,7 @@
     {
       "home": "Rennes",
       "away": "Marseille",
-      "kickoff": "Sat Jan 11 • 21:05 UTC",
+      "kickoff": "Sat Jan 11 \u2022 21:05 UTC",
       "raw_kickoff": "2025-01-11T21:05Z",
       "finished": true,
       "score_h": 1,
@@ -1525,7 +1525,7 @@
     {
       "home": "Le Havre",
       "away": "Lens",
-      "kickoff": "Sun Jan 12 • 15:00 UTC",
+      "kickoff": "Sun Jan 12 \u2022 15:00 UTC",
       "raw_kickoff": "2025-01-12T15:00Z",
       "finished": true,
       "score_h": 1,
@@ -1535,7 +1535,7 @@
     {
       "home": "Toulouse",
       "away": "Strasbourg",
-      "kickoff": "Sun Jan 12 • 17:15 UTC",
+      "kickoff": "Sun Jan 12 \u2022 17:15 UTC",
       "raw_kickoff": "2025-01-12T17:15Z",
       "finished": true,
       "score_h": 1,
@@ -1545,7 +1545,7 @@
     {
       "home": "Montpellier",
       "away": "Angers",
-      "kickoff": "Sun Jan 12 • 17:15 UTC",
+      "kickoff": "Sun Jan 12 \u2022 17:15 UTC",
       "raw_kickoff": "2025-01-12T17:15Z",
       "finished": true,
       "score_h": 1,
@@ -1555,7 +1555,7 @@
     {
       "home": "Paris SG",
       "away": "Saint-Etienne",
-      "kickoff": "Sun Jan 12 • 20:45 UTC",
+      "kickoff": "Sun Jan 12 \u2022 20:45 UTC",
       "raw_kickoff": "2025-01-12T20:45Z",
       "finished": true,
       "score_h": 2,
@@ -1567,7 +1567,7 @@
     {
       "home": "Montpellier",
       "away": "Monaco",
-      "kickoff": "Fri Jan 17 • 19:00 UTC",
+      "kickoff": "Fri Jan 17 \u2022 19:00 UTC",
       "raw_kickoff": "2025-01-17T19:00Z",
       "finished": true,
       "score_h": 2,
@@ -1577,7 +1577,7 @@
     {
       "home": "Lille",
       "away": "Nice",
-      "kickoff": "Fri Jan 17 • 21:05 UTC",
+      "kickoff": "Fri Jan 17 \u2022 21:05 UTC",
       "raw_kickoff": "2025-01-17T21:05Z",
       "finished": true,
       "score_h": 2,
@@ -1587,7 +1587,7 @@
     {
       "home": "Lens",
       "away": "Paris SG",
-      "kickoff": "Sat Jan 18 • 17:00 UTC",
+      "kickoff": "Sat Jan 18 \u2022 17:00 UTC",
       "raw_kickoff": "2025-01-18T17:00Z",
       "finished": true,
       "score_h": 1,
@@ -1597,7 +1597,7 @@
     {
       "home": "Rennes",
       "away": "Brest",
-      "kickoff": "Sat Jan 18 • 19:00 UTC",
+      "kickoff": "Sat Jan 18 \u2022 19:00 UTC",
       "raw_kickoff": "2025-01-18T19:00Z",
       "finished": true,
       "score_h": 1,
@@ -1607,7 +1607,7 @@
     {
       "home": "Lyon",
       "away": "Toulouse",
-      "kickoff": "Sat Jan 18 • 21:05 UTC",
+      "kickoff": "Sat Jan 18 \u2022 21:05 UTC",
       "raw_kickoff": "2025-01-18T21:05Z",
       "finished": true,
       "score_h": 0,
@@ -1617,7 +1617,7 @@
     {
       "home": "Saint-Etienne",
       "away": "Nantes",
-      "kickoff": "Sun Jan 19 • 15:00 UTC",
+      "kickoff": "Sun Jan 19 \u2022 15:00 UTC",
       "raw_kickoff": "2025-01-19T15:00Z",
       "finished": true,
       "score_h": 1,
@@ -1627,7 +1627,7 @@
     {
       "home": "Reims",
       "away": "Le Havre",
-      "kickoff": "Sun Jan 19 • 17:15 UTC",
+      "kickoff": "Sun Jan 19 \u2022 17:15 UTC",
       "raw_kickoff": "2025-01-19T17:15Z",
       "finished": true,
       "score_h": 1,
@@ -1637,7 +1637,7 @@
     {
       "home": "Angers",
       "away": "Auxerre",
-      "kickoff": "Sun Jan 19 • 17:15 UTC",
+      "kickoff": "Sun Jan 19 \u2022 17:15 UTC",
       "raw_kickoff": "2025-01-19T17:15Z",
       "finished": true,
       "score_h": 2,
@@ -1647,7 +1647,7 @@
     {
       "home": "Marseille",
       "away": "Strasbourg",
-      "kickoff": "Sun Jan 19 • 20:45 UTC",
+      "kickoff": "Sun Jan 19 \u2022 20:45 UTC",
       "raw_kickoff": "2025-01-19T20:45Z",
       "finished": true,
       "score_h": 1,
@@ -1659,7 +1659,7 @@
     {
       "home": "Auxerre",
       "away": "Saint-Etienne",
-      "kickoff": "Fri Jan 24 • 20:45 UTC",
+      "kickoff": "Fri Jan 24 \u2022 20:45 UTC",
       "raw_kickoff": "2025-01-24T20:45Z",
       "finished": true,
       "score_h": 1,
@@ -1669,7 +1669,7 @@
     {
       "home": "Monaco",
       "away": "Rennes",
-      "kickoff": "Sat Jan 25 • 17:00 UTC",
+      "kickoff": "Sat Jan 25 \u2022 17:00 UTC",
       "raw_kickoff": "2025-01-25T17:00Z",
       "finished": true,
       "score_h": 3,
@@ -1679,7 +1679,7 @@
     {
       "home": "Strasbourg",
       "away": "Lille",
-      "kickoff": "Sat Jan 25 • 19:00 UTC",
+      "kickoff": "Sat Jan 25 \u2022 19:00 UTC",
       "raw_kickoff": "2025-01-25T19:00Z",
       "finished": true,
       "score_h": 2,
@@ -1689,7 +1689,7 @@
     {
       "home": "Paris SG",
       "away": "Reims",
-      "kickoff": "Sat Jan 25 • 21:05 UTC",
+      "kickoff": "Sat Jan 25 \u2022 21:05 UTC",
       "raw_kickoff": "2025-01-25T21:05Z",
       "finished": true,
       "score_h": 1,
@@ -1699,7 +1699,7 @@
     {
       "home": "Le Havre",
       "away": "Brest",
-      "kickoff": "Sun Jan 26 • 15:00 UTC",
+      "kickoff": "Sun Jan 26 \u2022 15:00 UTC",
       "raw_kickoff": "2025-01-26T15:00Z",
       "finished": true,
       "score_h": 0,
@@ -1709,7 +1709,7 @@
     {
       "home": "Nantes",
       "away": "Lyon",
-      "kickoff": "Sun Jan 26 • 17:15 UTC",
+      "kickoff": "Sun Jan 26 \u2022 17:15 UTC",
       "raw_kickoff": "2025-01-26T17:15Z",
       "finished": true,
       "score_h": 1,
@@ -1719,7 +1719,7 @@
     {
       "home": "Toulouse",
       "away": "Montpellier",
-      "kickoff": "Sun Jan 26 • 17:15 UTC",
+      "kickoff": "Sun Jan 26 \u2022 17:15 UTC",
       "raw_kickoff": "2025-01-26T17:15Z",
       "finished": true,
       "score_h": 1,
@@ -1729,7 +1729,7 @@
     {
       "home": "Lens",
       "away": "Angers",
-      "kickoff": "Sun Jan 26 • 17:15 UTC",
+      "kickoff": "Sun Jan 26 \u2022 17:15 UTC",
       "raw_kickoff": "2025-01-26T17:15Z",
       "finished": true,
       "score_h": 1,
@@ -1739,7 +1739,7 @@
     {
       "home": "Nice",
       "away": "Marseille",
-      "kickoff": "Sun Jan 26 • 20:45 UTC",
+      "kickoff": "Sun Jan 26 \u2022 20:45 UTC",
       "raw_kickoff": "2025-01-26T20:45Z",
       "finished": true,
       "score_h": 2,
@@ -1751,7 +1751,7 @@
     {
       "home": "Montpellier",
       "away": "Lens",
-      "kickoff": "Fri Jan 31 • 20:45 UTC",
+      "kickoff": "Fri Jan 31 \u2022 20:45 UTC",
       "raw_kickoff": "2025-01-31T20:45Z",
       "finished": true,
       "score_h": 0,
@@ -1761,7 +1761,7 @@
     {
       "home": "Brest",
       "away": "Paris SG",
-      "kickoff": "Sat Feb 01 • 17:00 UTC",
+      "kickoff": "Sat Feb 01 \u2022 17:00 UTC",
       "raw_kickoff": "2025-02-01T17:00Z",
       "finished": true,
       "score_h": 2,
@@ -1771,7 +1771,7 @@
     {
       "home": "Monaco",
       "away": "Auxerre",
-      "kickoff": "Sat Feb 01 • 19:00 UTC",
+      "kickoff": "Sat Feb 01 \u2022 19:00 UTC",
       "raw_kickoff": "2025-02-01T19:00Z",
       "finished": true,
       "score_h": 4,
@@ -1781,7 +1781,7 @@
     {
       "home": "Lille",
       "away": "Saint-Etienne",
-      "kickoff": "Sat Feb 01 • 21:05 UTC",
+      "kickoff": "Sat Feb 01 \u2022 21:05 UTC",
       "raw_kickoff": "2025-02-01T21:05Z",
       "finished": true,
       "score_h": 4,
@@ -1791,7 +1791,7 @@
     {
       "home": "Toulouse",
       "away": "Nice",
-      "kickoff": "Sun Feb 02 • 15:00 UTC",
+      "kickoff": "Sun Feb 02 \u2022 15:00 UTC",
       "raw_kickoff": "2025-02-02T15:00Z",
       "finished": true,
       "score_h": 1,
@@ -1801,7 +1801,7 @@
     {
       "home": "Reims",
       "away": "Nantes",
-      "kickoff": "Sun Feb 02 • 17:15 UTC",
+      "kickoff": "Sun Feb 02 \u2022 17:15 UTC",
       "raw_kickoff": "2025-02-02T17:15Z",
       "finished": true,
       "score_h": 1,
@@ -1811,7 +1811,7 @@
     {
       "home": "Angers",
       "away": "Le Havre",
-      "kickoff": "Sun Feb 02 • 17:15 UTC",
+      "kickoff": "Sun Feb 02 \u2022 17:15 UTC",
       "raw_kickoff": "2025-02-02T17:15Z",
       "finished": true,
       "score_h": 1,
@@ -1821,7 +1821,7 @@
     {
       "home": "Rennes",
       "away": "Strasbourg",
-      "kickoff": "Sun Feb 02 • 17:15 UTC",
+      "kickoff": "Sun Feb 02 \u2022 17:15 UTC",
       "raw_kickoff": "2025-02-02T17:15Z",
       "finished": true,
       "score_h": 1,
@@ -1831,7 +1831,7 @@
     {
       "home": "Marseille",
       "away": "Lyon",
-      "kickoff": "Sun Feb 02 • 20:45 UTC",
+      "kickoff": "Sun Feb 02 \u2022 20:45 UTC",
       "raw_kickoff": "2025-02-02T20:45Z",
       "finished": true,
       "score_h": 3,
@@ -1843,7 +1843,7 @@
     {
       "home": "Nantes",
       "away": "Brest",
-      "kickoff": "Fri Feb 07 • 19:00 UTC",
+      "kickoff": "Fri Feb 07 \u2022 19:00 UTC",
       "raw_kickoff": "2025-02-07T19:00Z",
       "finished": true,
       "score_h": 0,
@@ -1853,7 +1853,7 @@
     {
       "home": "Paris SG",
       "away": "Monaco",
-      "kickoff": "Fri Feb 07 • 21:05 UTC",
+      "kickoff": "Fri Feb 07 \u2022 21:05 UTC",
       "raw_kickoff": "2025-02-07T21:05Z",
       "finished": true,
       "score_h": 4,
@@ -1863,7 +1863,7 @@
     {
       "home": "Nice",
       "away": "Lens",
-      "kickoff": "Sat Feb 08 • 17:00 UTC",
+      "kickoff": "Sat Feb 08 \u2022 17:00 UTC",
       "raw_kickoff": "2025-02-08T17:00Z",
       "finished": true,
       "score_h": 2,
@@ -1873,7 +1873,7 @@
     {
       "home": "Lille",
       "away": "Le Havre",
-      "kickoff": "Sat Feb 08 • 19:00 UTC",
+      "kickoff": "Sat Feb 08 \u2022 19:00 UTC",
       "raw_kickoff": "2025-02-08T19:00Z",
       "finished": true,
       "score_h": 1,
@@ -1883,7 +1883,7 @@
     {
       "home": "Saint-Etienne",
       "away": "Rennes",
-      "kickoff": "Sat Feb 08 • 21:05 UTC",
+      "kickoff": "Sat Feb 08 \u2022 21:05 UTC",
       "raw_kickoff": "2025-02-08T21:05Z",
       "finished": true,
       "score_h": 0,
@@ -1893,7 +1893,7 @@
     {
       "home": "Lyon",
       "away": "Reims",
-      "kickoff": "Sun Feb 09 • 15:00 UTC",
+      "kickoff": "Sun Feb 09 \u2022 15:00 UTC",
       "raw_kickoff": "2025-02-09T15:00Z",
       "finished": true,
       "score_h": 4,
@@ -1903,7 +1903,7 @@
     {
       "home": "Auxerre",
       "away": "Toulouse",
-      "kickoff": "Sun Feb 09 • 17:15 UTC",
+      "kickoff": "Sun Feb 09 \u2022 17:15 UTC",
       "raw_kickoff": "2025-02-09T17:15Z",
       "finished": true,
       "score_h": 2,
@@ -1913,7 +1913,7 @@
     {
       "home": "Strasbourg",
       "away": "Montpellier",
-      "kickoff": "Sun Feb 09 • 17:15 UTC",
+      "kickoff": "Sun Feb 09 \u2022 17:15 UTC",
       "raw_kickoff": "2025-02-09T17:15Z",
       "finished": true,
       "score_h": 2,
@@ -1923,7 +1923,7 @@
     {
       "home": "Angers",
       "away": "Marseille",
-      "kickoff": "Sun Feb 09 • 20:45 UTC",
+      "kickoff": "Sun Feb 09 \u2022 20:45 UTC",
       "raw_kickoff": "2025-02-09T20:45Z",
       "finished": true,
       "score_h": 0,
@@ -1935,7 +1935,7 @@
     {
       "home": "Brest",
       "away": "Auxerre",
-      "kickoff": "Fri Feb 14 • 20:45 UTC",
+      "kickoff": "Fri Feb 14 \u2022 20:45 UTC",
       "raw_kickoff": "2025-02-14T20:45Z",
       "finished": true,
       "score_h": 2,
@@ -1945,7 +1945,7 @@
     {
       "home": "Marseille",
       "away": "Saint-Etienne",
-      "kickoff": "Sat Feb 15 • 17:00 UTC",
+      "kickoff": "Sat Feb 15 \u2022 17:00 UTC",
       "raw_kickoff": "2025-02-15T17:00Z",
       "finished": true,
       "score_h": 5,
@@ -1955,7 +1955,7 @@
     {
       "home": "Monaco",
       "away": "Nantes",
-      "kickoff": "Sat Feb 15 • 19:00 UTC",
+      "kickoff": "Sat Feb 15 \u2022 19:00 UTC",
       "raw_kickoff": "2025-02-15T19:00Z",
       "finished": true,
       "score_h": 7,
@@ -1965,7 +1965,7 @@
     {
       "home": "Toulouse",
       "away": "Paris SG",
-      "kickoff": "Sat Feb 15 • 21:05 UTC",
+      "kickoff": "Sat Feb 15 \u2022 21:05 UTC",
       "raw_kickoff": "2025-02-15T21:05Z",
       "finished": true,
       "score_h": 0,
@@ -1975,7 +1975,7 @@
     {
       "home": "Montpellier",
       "away": "Lyon",
-      "kickoff": "Sun Feb 16 • 15:00 UTC",
+      "kickoff": "Sun Feb 16 \u2022 15:00 UTC",
       "raw_kickoff": "2025-02-16T15:00Z",
       "finished": true,
       "score_h": 1,
@@ -1985,7 +1985,7 @@
     {
       "home": "Lens",
       "away": "Strasbourg",
-      "kickoff": "Sun Feb 16 • 17:15 UTC",
+      "kickoff": "Sun Feb 16 \u2022 17:15 UTC",
       "raw_kickoff": "2025-02-16T17:15Z",
       "finished": true,
       "score_h": 0,
@@ -1995,7 +1995,7 @@
     {
       "home": "Reims",
       "away": "Angers",
-      "kickoff": "Sun Feb 16 • 17:15 UTC",
+      "kickoff": "Sun Feb 16 \u2022 17:15 UTC",
       "raw_kickoff": "2025-02-16T17:15Z",
       "finished": true,
       "score_h": 0,
@@ -2005,7 +2005,7 @@
     {
       "home": "Le Havre",
       "away": "Nice",
-      "kickoff": "Sun Feb 16 • 17:15 UTC",
+      "kickoff": "Sun Feb 16 \u2022 17:15 UTC",
       "raw_kickoff": "2025-02-16T17:15Z",
       "finished": true,
       "score_h": 1,
@@ -2015,7 +2015,7 @@
     {
       "home": "Rennes",
       "away": "Lille",
-      "kickoff": "Sun Feb 16 • 20:45 UTC",
+      "kickoff": "Sun Feb 16 \u2022 20:45 UTC",
       "raw_kickoff": "2025-02-16T20:45Z",
       "finished": true,
       "score_h": 0,
@@ -2027,7 +2027,7 @@
     {
       "home": "Rennes",
       "away": "Reims",
-      "kickoff": "Fri Feb 21 • 20:45 UTC",
+      "kickoff": "Fri Feb 21 \u2022 20:45 UTC",
       "raw_kickoff": "2025-02-21T20:45Z",
       "finished": true,
       "score_h": 1,
@@ -2037,7 +2037,7 @@
     {
       "home": "Lille",
       "away": "Monaco",
-      "kickoff": "Sat Feb 22 • 17:00 UTC",
+      "kickoff": "Sat Feb 22 \u2022 17:00 UTC",
       "raw_kickoff": "2025-02-22T17:00Z",
       "finished": true,
       "score_h": 2,
@@ -2047,7 +2047,7 @@
     {
       "home": "Saint-Etienne",
       "away": "Angers",
-      "kickoff": "Sat Feb 22 • 19:00 UTC",
+      "kickoff": "Sat Feb 22 \u2022 19:00 UTC",
       "raw_kickoff": "2025-02-22T19:00Z",
       "finished": true,
       "score_h": 3,
@@ -2057,7 +2057,7 @@
     {
       "home": "Auxerre",
       "away": "Marseille",
-      "kickoff": "Sat Feb 22 • 21:05 UTC",
+      "kickoff": "Sat Feb 22 \u2022 21:05 UTC",
       "raw_kickoff": "2025-02-22T21:05Z",
       "finished": true,
       "score_h": 3,
@@ -2067,7 +2067,7 @@
     {
       "home": "Nantes",
       "away": "Lens",
-      "kickoff": "Sun Feb 23 • 15:00 UTC",
+      "kickoff": "Sun Feb 23 \u2022 15:00 UTC",
       "raw_kickoff": "2025-02-23T15:00Z",
       "finished": true,
       "score_h": 3,
@@ -2077,7 +2077,7 @@
     {
       "home": "Le Havre",
       "away": "Toulouse",
-      "kickoff": "Sun Feb 23 • 17:15 UTC",
+      "kickoff": "Sun Feb 23 \u2022 17:15 UTC",
       "raw_kickoff": "2025-02-23T17:15Z",
       "finished": true,
       "score_h": 1,
@@ -2087,7 +2087,7 @@
     {
       "home": "Strasbourg",
       "away": "Brest",
-      "kickoff": "Sun Feb 23 • 17:15 UTC",
+      "kickoff": "Sun Feb 23 \u2022 17:15 UTC",
       "raw_kickoff": "2025-02-23T17:15Z",
       "finished": true,
       "score_h": 0,
@@ -2097,7 +2097,7 @@
     {
       "home": "Nice",
       "away": "Montpellier",
-      "kickoff": "Sun Feb 23 • 17:15 UTC",
+      "kickoff": "Sun Feb 23 \u2022 17:15 UTC",
       "raw_kickoff": "2025-02-23T17:15Z",
       "finished": true,
       "score_h": 2,
@@ -2107,7 +2107,7 @@
     {
       "home": "Lyon",
       "away": "Paris SG",
-      "kickoff": "Sun Feb 23 • 20:45 UTC",
+      "kickoff": "Sun Feb 23 \u2022 20:45 UTC",
       "raw_kickoff": "2025-02-23T20:45Z",
       "finished": true,
       "score_h": 2,
@@ -2119,7 +2119,7 @@
     {
       "home": "Monaco",
       "away": "Reims",
-      "kickoff": "Fri Feb 28 • 20:45 UTC",
+      "kickoff": "Fri Feb 28 \u2022 20:45 UTC",
       "raw_kickoff": "2025-02-28T20:45Z",
       "finished": true,
       "score_h": 3,
@@ -2129,7 +2129,7 @@
     {
       "home": "Saint-Etienne",
       "away": "Nice",
-      "kickoff": "Sat Mar 01 • 17:00 UTC",
+      "kickoff": "Sat Mar 01 \u2022 17:00 UTC",
       "raw_kickoff": "2025-03-01T17:00Z",
       "finished": true,
       "score_h": 1,
@@ -2139,7 +2139,7 @@
     {
       "home": "Lens",
       "away": "Le Havre",
-      "kickoff": "Sat Mar 01 • 19:00 UTC",
+      "kickoff": "Sat Mar 01 \u2022 19:00 UTC",
       "raw_kickoff": "2025-03-01T19:00Z",
       "finished": true,
       "score_h": 3,
@@ -2149,7 +2149,7 @@
     {
       "home": "Paris SG",
       "away": "Lille",
-      "kickoff": "Sat Mar 01 • 21:05 UTC",
+      "kickoff": "Sat Mar 01 \u2022 21:05 UTC",
       "raw_kickoff": "2025-03-01T21:05Z",
       "finished": true,
       "score_h": 4,
@@ -2159,7 +2159,7 @@
     {
       "home": "Lyon",
       "away": "Brest",
-      "kickoff": "Sun Mar 02 • 15:00 UTC",
+      "kickoff": "Sun Mar 02 \u2022 15:00 UTC",
       "raw_kickoff": "2025-03-02T15:00Z",
       "finished": true,
       "score_h": 2,
@@ -2169,7 +2169,7 @@
     {
       "home": "Montpellier",
       "away": "Rennes",
-      "kickoff": "Sun Mar 02 • 17:15 UTC",
+      "kickoff": "Sun Mar 02 \u2022 17:15 UTC",
       "raw_kickoff": "2025-03-02T17:15Z",
       "finished": true,
       "score_h": 0,
@@ -2179,7 +2179,7 @@
     {
       "home": "Auxerre",
       "away": "Strasbourg",
-      "kickoff": "Sun Mar 02 • 17:15 UTC",
+      "kickoff": "Sun Mar 02 \u2022 17:15 UTC",
       "raw_kickoff": "2025-03-02T17:15Z",
       "finished": true,
       "score_h": 0,
@@ -2189,7 +2189,7 @@
     {
       "home": "Angers",
       "away": "Toulouse",
-      "kickoff": "Sun Mar 02 • 17:15 UTC",
+      "kickoff": "Sun Mar 02 \u2022 17:15 UTC",
       "raw_kickoff": "2025-03-02T17:15Z",
       "finished": true,
       "score_h": 0,
@@ -2199,7 +2199,7 @@
     {
       "home": "Marseille",
       "away": "Nantes",
-      "kickoff": "Sun Mar 02 • 20:45 UTC",
+      "kickoff": "Sun Mar 02 \u2022 20:45 UTC",
       "raw_kickoff": "2025-03-02T20:45Z",
       "finished": true,
       "score_h": 2,
@@ -2211,7 +2211,7 @@
     {
       "home": "Toulouse",
       "away": "Monaco",
-      "kickoff": "Fri Mar 07 • 20:45 UTC",
+      "kickoff": "Fri Mar 07 \u2022 20:45 UTC",
       "raw_kickoff": "2025-03-07T20:45Z",
       "finished": true,
       "score_h": 1,
@@ -2221,7 +2221,7 @@
     {
       "home": "Rennes",
       "away": "Paris SG",
-      "kickoff": "Sat Mar 08 • 17:00 UTC",
+      "kickoff": "Sat Mar 08 \u2022 17:00 UTC",
       "raw_kickoff": "2025-03-08T17:00Z",
       "finished": true,
       "score_h": 1,
@@ -2231,7 +2231,7 @@
     {
       "home": "Lille",
       "away": "Montpellier",
-      "kickoff": "Sat Mar 08 • 19:00 UTC",
+      "kickoff": "Sat Mar 08 \u2022 19:00 UTC",
       "raw_kickoff": "2025-03-08T19:00Z",
       "finished": true,
       "score_h": 1,
@@ -2241,7 +2241,7 @@
     {
       "home": "Marseille",
       "away": "Lens",
-      "kickoff": "Sat Mar 08 • 21:05 UTC",
+      "kickoff": "Sat Mar 08 \u2022 21:05 UTC",
       "raw_kickoff": "2025-03-08T21:05Z",
       "finished": true,
       "score_h": 0,
@@ -2251,7 +2251,7 @@
     {
       "home": "Brest",
       "away": "Angers",
-      "kickoff": "Sun Mar 09 • 15:00 UTC",
+      "kickoff": "Sun Mar 09 \u2022 15:00 UTC",
       "raw_kickoff": "2025-03-09T15:00Z",
       "finished": true,
       "score_h": 2,
@@ -2261,7 +2261,7 @@
     {
       "home": "Le Havre",
       "away": "Saint-Etienne",
-      "kickoff": "Sun Mar 09 • 17:15 UTC",
+      "kickoff": "Sun Mar 09 \u2022 17:15 UTC",
       "raw_kickoff": "2025-03-09T17:15Z",
       "finished": true,
       "score_h": 1,
@@ -2271,7 +2271,7 @@
     {
       "home": "Reims",
       "away": "Auxerre",
-      "kickoff": "Sun Mar 09 • 17:15 UTC",
+      "kickoff": "Sun Mar 09 \u2022 17:15 UTC",
       "raw_kickoff": "2025-03-09T17:15Z",
       "finished": true,
       "score_h": 0,
@@ -2281,7 +2281,7 @@
     {
       "home": "Nantes",
       "away": "Strasbourg",
-      "kickoff": "Sun Mar 09 • 17:15 UTC",
+      "kickoff": "Sun Mar 09 \u2022 17:15 UTC",
       "raw_kickoff": "2025-03-09T17:15Z",
       "finished": true,
       "score_h": 0,
@@ -2291,7 +2291,7 @@
     {
       "home": "Nice",
       "away": "Lyon",
-      "kickoff": "Sun Mar 09 • 20:45 UTC",
+      "kickoff": "Sun Mar 09 \u2022 20:45 UTC",
       "raw_kickoff": "2025-03-09T20:45Z",
       "finished": true,
       "score_h": 0,
@@ -2303,7 +2303,7 @@
     {
       "home": "Nice",
       "away": "Auxerre",
-      "kickoff": "Fri Mar 14 • 20:45 UTC",
+      "kickoff": "Fri Mar 14 \u2022 20:45 UTC",
       "raw_kickoff": "2025-03-14T20:45Z",
       "finished": true,
       "score_h": 1,
@@ -2313,7 +2313,7 @@
     {
       "home": "Nantes",
       "away": "Lille",
-      "kickoff": "Sat Mar 15 • 17:00 UTC",
+      "kickoff": "Sat Mar 15 \u2022 17:00 UTC",
       "raw_kickoff": "2025-03-15T17:00Z",
       "finished": true,
       "score_h": 1,
@@ -2323,7 +2323,7 @@
     {
       "home": "Angers",
       "away": "Monaco",
-      "kickoff": "Sat Mar 15 • 19:00 UTC",
+      "kickoff": "Sat Mar 15 \u2022 19:00 UTC",
       "raw_kickoff": "2025-03-15T19:00Z",
       "finished": true,
       "score_h": 0,
@@ -2333,7 +2333,7 @@
     {
       "home": "Lens",
       "away": "Rennes",
-      "kickoff": "Sat Mar 15 • 21:05 UTC",
+      "kickoff": "Sat Mar 15 \u2022 21:05 UTC",
       "raw_kickoff": "2025-03-15T21:05Z",
       "finished": true,
       "score_h": 1,
@@ -2343,7 +2343,7 @@
     {
       "home": "Lyon",
       "away": "Le Havre",
-      "kickoff": "Sun Mar 16 • 15:00 UTC",
+      "kickoff": "Sun Mar 16 \u2022 15:00 UTC",
       "raw_kickoff": "2025-03-16T15:00Z",
       "finished": true,
       "score_h": 4,
@@ -2353,7 +2353,7 @@
     {
       "home": "Montpellier",
       "away": "Saint-Etienne",
-      "kickoff": "Sun Mar 16 • 17:15 UTC",
+      "kickoff": "Sun Mar 16 \u2022 17:15 UTC",
       "raw_kickoff": "2025-03-16T17:15Z",
       "finished": true,
       "score_h": 0,
@@ -2363,7 +2363,7 @@
     {
       "home": "Brest",
       "away": "Reims",
-      "kickoff": "Sun Mar 16 • 17:15 UTC",
+      "kickoff": "Sun Mar 16 \u2022 17:15 UTC",
       "raw_kickoff": "2025-03-16T17:15Z",
       "finished": true,
       "score_h": 0,
@@ -2373,7 +2373,7 @@
     {
       "home": "Strasbourg",
       "away": "Toulouse",
-      "kickoff": "Sun Mar 16 • 17:15 UTC",
+      "kickoff": "Sun Mar 16 \u2022 17:15 UTC",
       "raw_kickoff": "2025-03-16T17:15Z",
       "finished": true,
       "score_h": 2,
@@ -2383,7 +2383,7 @@
     {
       "home": "Paris SG",
       "away": "Marseille",
-      "kickoff": "Sun Mar 16 • 20:45 UTC",
+      "kickoff": "Sun Mar 16 \u2022 20:45 UTC",
       "raw_kickoff": "2025-03-16T20:45Z",
       "finished": true,
       "score_h": 3,
@@ -2395,7 +2395,7 @@
     {
       "home": "Strasbourg",
       "away": "Lyon",
-      "kickoff": "Fri Mar 28 • 20:45 UTC",
+      "kickoff": "Fri Mar 28 \u2022 20:45 UTC",
       "raw_kickoff": "2025-03-28T20:45Z",
       "finished": true,
       "score_h": 4,
@@ -2405,7 +2405,7 @@
     {
       "home": "Reims",
       "away": "Marseille",
-      "kickoff": "Sat Mar 29 • 17:00 UTC",
+      "kickoff": "Sat Mar 29 \u2022 17:00 UTC",
       "raw_kickoff": "2025-03-29T17:00Z",
       "finished": true,
       "score_h": 3,
@@ -2415,7 +2415,7 @@
     {
       "home": "Saint-Etienne",
       "away": "Paris SG",
-      "kickoff": "Sat Mar 29 • 19:00 UTC",
+      "kickoff": "Sat Mar 29 \u2022 19:00 UTC",
       "raw_kickoff": "2025-03-29T19:00Z",
       "finished": true,
       "score_h": 1,
@@ -2425,7 +2425,7 @@
     {
       "home": "Monaco",
       "away": "Nice",
-      "kickoff": "Sat Mar 29 • 21:05 UTC",
+      "kickoff": "Sat Mar 29 \u2022 21:05 UTC",
       "raw_kickoff": "2025-03-29T21:05Z",
       "finished": true,
       "score_h": 2,
@@ -2435,7 +2435,7 @@
     {
       "home": "Toulouse",
       "away": "Brest",
-      "kickoff": "Sun Mar 30 • 15:00 UTC",
+      "kickoff": "Sun Mar 30 \u2022 15:00 UTC",
       "raw_kickoff": "2025-03-30T15:00Z",
       "finished": true,
       "score_h": 2,
@@ -2445,7 +2445,7 @@
     {
       "home": "Angers",
       "away": "Rennes",
-      "kickoff": "Sun Mar 30 • 17:15 UTC",
+      "kickoff": "Sun Mar 30 \u2022 17:15 UTC",
       "raw_kickoff": "2025-03-30T17:15Z",
       "finished": true,
       "score_h": 0,
@@ -2455,7 +2455,7 @@
     {
       "home": "Auxerre",
       "away": "Montpellier",
-      "kickoff": "Sun Mar 30 • 17:15 UTC",
+      "kickoff": "Sun Mar 30 \u2022 17:15 UTC",
       "raw_kickoff": "2025-03-30T17:15Z",
       "finished": true,
       "score_h": 1,
@@ -2465,7 +2465,7 @@
     {
       "home": "Le Havre",
       "away": "Nantes",
-      "kickoff": "Sun Mar 30 • 17:15 UTC",
+      "kickoff": "Sun Mar 30 \u2022 17:15 UTC",
       "raw_kickoff": "2025-03-30T17:15Z",
       "finished": true,
       "score_h": 3,
@@ -2475,7 +2475,7 @@
     {
       "home": "Lille",
       "away": "Lens",
-      "kickoff": "Sun Mar 30 • 20:45 UTC",
+      "kickoff": "Sun Mar 30 \u2022 20:45 UTC",
       "raw_kickoff": "2025-03-30T20:45Z",
       "finished": true,
       "score_h": 1,
@@ -2487,7 +2487,7 @@
     {
       "home": "Nice",
       "away": "Nantes",
-      "kickoff": "Fri Apr 04 • 20:45 UTC",
+      "kickoff": "Fri Apr 04 \u2022 20:45 UTC",
       "raw_kickoff": "2025-04-04T20:45Z",
       "finished": true,
       "score_h": 1,
@@ -2497,7 +2497,7 @@
     {
       "home": "Paris SG",
       "away": "Angers",
-      "kickoff": "Sat Apr 05 • 17:00 UTC",
+      "kickoff": "Sat Apr 05 \u2022 17:00 UTC",
       "raw_kickoff": "2025-04-05T17:00Z",
       "finished": true,
       "score_h": 1,
@@ -2507,7 +2507,7 @@
     {
       "home": "Brest",
       "away": "Monaco",
-      "kickoff": "Sat Apr 05 • 19:00 UTC",
+      "kickoff": "Sat Apr 05 \u2022 19:00 UTC",
       "raw_kickoff": "2025-04-05T19:00Z",
       "finished": true,
       "score_h": 2,
@@ -2517,7 +2517,7 @@
     {
       "home": "Lyon",
       "away": "Lille",
-      "kickoff": "Sat Apr 05 • 21:05 UTC",
+      "kickoff": "Sat Apr 05 \u2022 21:05 UTC",
       "raw_kickoff": "2025-04-05T21:05Z",
       "finished": true,
       "score_h": 2,
@@ -2527,7 +2527,7 @@
     {
       "home": "Lens",
       "away": "Saint-Etienne",
-      "kickoff": "Sun Apr 06 • 15:00 UTC",
+      "kickoff": "Sun Apr 06 \u2022 15:00 UTC",
       "raw_kickoff": "2025-04-06T15:00Z",
       "finished": true,
       "score_h": 1,
@@ -2537,7 +2537,7 @@
     {
       "home": "Montpellier",
       "away": "Le Havre",
-      "kickoff": "Sun Apr 06 • 17:15 UTC",
+      "kickoff": "Sun Apr 06 \u2022 17:15 UTC",
       "raw_kickoff": "2025-04-06T17:15Z",
       "finished": true,
       "score_h": 0,
@@ -2547,7 +2547,7 @@
     {
       "home": "Reims",
       "away": "Strasbourg",
-      "kickoff": "Sun Apr 06 • 17:15 UTC",
+      "kickoff": "Sun Apr 06 \u2022 17:15 UTC",
       "raw_kickoff": "2025-04-06T17:15Z",
       "finished": true,
       "score_h": 0,
@@ -2557,7 +2557,7 @@
     {
       "home": "Rennes",
       "away": "Auxerre",
-      "kickoff": "Sun Apr 06 • 17:15 UTC",
+      "kickoff": "Sun Apr 06 \u2022 17:15 UTC",
       "raw_kickoff": "2025-04-06T17:15Z",
       "finished": true,
       "score_h": 0,
@@ -2567,7 +2567,7 @@
     {
       "home": "Marseille",
       "away": "Toulouse",
-      "kickoff": "Sun Apr 06 • 20:45 UTC",
+      "kickoff": "Sun Apr 06 \u2022 20:45 UTC",
       "raw_kickoff": "2025-04-06T20:45Z",
       "finished": true,
       "score_h": 3,
@@ -2579,7 +2579,7 @@
     {
       "home": "Lens",
       "away": "Reims",
-      "kickoff": "Fri Apr 11 • 20:45 UTC",
+      "kickoff": "Fri Apr 11 \u2022 20:45 UTC",
       "raw_kickoff": "2025-04-11T20:45Z",
       "finished": true,
       "score_h": 0,
@@ -2589,7 +2589,7 @@
     {
       "home": "Monaco",
       "away": "Marseille",
-      "kickoff": "Sat Apr 12 • 17:00 UTC",
+      "kickoff": "Sat Apr 12 \u2022 17:00 UTC",
       "raw_kickoff": "2025-04-12T17:00Z",
       "finished": true,
       "score_h": 3,
@@ -2599,7 +2599,7 @@
     {
       "home": "Toulouse",
       "away": "Lille",
-      "kickoff": "Sat Apr 12 • 19:00 UTC",
+      "kickoff": "Sat Apr 12 \u2022 19:00 UTC",
       "raw_kickoff": "2025-04-12T19:00Z",
       "finished": true,
       "score_h": 1,
@@ -2609,7 +2609,7 @@
     {
       "home": "Strasbourg",
       "away": "Nice",
-      "kickoff": "Sat Apr 12 • 21:05 UTC",
+      "kickoff": "Sat Apr 12 \u2022 21:05 UTC",
       "raw_kickoff": "2025-04-12T21:05Z",
       "finished": true,
       "score_h": 2,
@@ -2619,7 +2619,7 @@
     {
       "home": "Saint-Etienne",
       "away": "Brest",
-      "kickoff": "Sun Apr 13 • 15:00 UTC",
+      "kickoff": "Sun Apr 13 \u2022 15:00 UTC",
       "raw_kickoff": "2025-04-13T15:00Z",
       "finished": true,
       "score_h": 3,
@@ -2629,7 +2629,7 @@
     {
       "home": "Le Havre",
       "away": "Rennes",
-      "kickoff": "Sun Apr 13 • 17:15 UTC",
+      "kickoff": "Sun Apr 13 \u2022 17:15 UTC",
       "raw_kickoff": "2025-04-13T17:15Z",
       "finished": true,
       "score_h": 1,
@@ -2639,7 +2639,7 @@
     {
       "home": "Angers",
       "away": "Montpellier",
-      "kickoff": "Sun Apr 13 • 17:15 UTC",
+      "kickoff": "Sun Apr 13 \u2022 17:15 UTC",
       "raw_kickoff": "2025-04-13T17:15Z",
       "finished": true,
       "score_h": 2,
@@ -2649,7 +2649,7 @@
     {
       "home": "Auxerre",
       "away": "Lyon",
-      "kickoff": "Sun Apr 13 • 20:45 UTC",
+      "kickoff": "Sun Apr 13 \u2022 20:45 UTC",
       "raw_kickoff": "2025-04-13T20:45Z",
       "finished": true,
       "score_h": 1,
@@ -2659,7 +2659,7 @@
     {
       "home": "Nantes",
       "away": "Paris SG",
-      "kickoff": "Tue Apr 22 • 20:45 UTC",
+      "kickoff": "Tue Apr 22 \u2022 20:45 UTC",
       "raw_kickoff": "2025-04-22T20:45Z",
       "finished": true,
       "score_h": 1,
@@ -2671,7 +2671,7 @@
     {
       "home": "Rennes",
       "away": "Nantes",
-      "kickoff": "Fri Apr 18 • 20:45 UTC",
+      "kickoff": "Fri Apr 18 \u2022 20:45 UTC",
       "raw_kickoff": "2025-04-18T20:45Z",
       "finished": true,
       "score_h": 2,
@@ -2681,7 +2681,7 @@
     {
       "home": "Paris SG",
       "away": "Le Havre",
-      "kickoff": "Sat Apr 19 • 17:00 UTC",
+      "kickoff": "Sat Apr 19 \u2022 17:00 UTC",
       "raw_kickoff": "2025-04-19T17:00Z",
       "finished": true,
       "score_h": 2,
@@ -2691,7 +2691,7 @@
     {
       "home": "Monaco",
       "away": "Strasbourg",
-      "kickoff": "Sat Apr 19 • 19:00 UTC",
+      "kickoff": "Sat Apr 19 \u2022 19:00 UTC",
       "raw_kickoff": "2025-04-19T19:00Z",
       "finished": true,
       "score_h": 0,
@@ -2701,7 +2701,7 @@
     {
       "home": "Marseille",
       "away": "Montpellier",
-      "kickoff": "Sat Apr 19 • 21:05 UTC",
+      "kickoff": "Sat Apr 19 \u2022 21:05 UTC",
       "raw_kickoff": "2025-04-19T21:05Z",
       "finished": true,
       "score_h": 5,
@@ -2711,7 +2711,7 @@
     {
       "home": "Lille",
       "away": "Auxerre",
-      "kickoff": "Sun Apr 20 • 15:00 UTC",
+      "kickoff": "Sun Apr 20 \u2022 15:00 UTC",
       "raw_kickoff": "2025-04-20T15:00Z",
       "finished": true,
       "score_h": 3,
@@ -2721,7 +2721,7 @@
     {
       "home": "Nice",
       "away": "Angers",
-      "kickoff": "Sun Apr 20 • 17:15 UTC",
+      "kickoff": "Sun Apr 20 \u2022 17:15 UTC",
       "raw_kickoff": "2025-04-20T17:15Z",
       "finished": true,
       "score_h": 2,
@@ -2731,7 +2731,7 @@
     {
       "home": "Brest",
       "away": "Lens",
-      "kickoff": "Sun Apr 20 • 17:15 UTC",
+      "kickoff": "Sun Apr 20 \u2022 17:15 UTC",
       "raw_kickoff": "2025-04-20T17:15Z",
       "finished": true,
       "score_h": 1,
@@ -2741,7 +2741,7 @@
     {
       "home": "Reims",
       "away": "Toulouse",
-      "kickoff": "Sun Apr 20 • 17:15 UTC",
+      "kickoff": "Sun Apr 20 \u2022 17:15 UTC",
       "raw_kickoff": "2025-04-20T17:15Z",
       "finished": true,
       "score_h": 1,
@@ -2751,7 +2751,7 @@
     {
       "home": "Saint-Etienne",
       "away": "Lyon",
-      "kickoff": "Sun Apr 20 • 20:45 UTC",
+      "kickoff": "Sun Apr 20 \u2022 20:45 UTC",
       "raw_kickoff": "2025-04-20T20:45Z",
       "finished": true,
       "score_h": 2,
@@ -2763,7 +2763,7 @@
     {
       "home": "Paris SG",
       "away": "Nice",
-      "kickoff": "Fri Apr 25 • 20:45 UTC",
+      "kickoff": "Fri Apr 25 \u2022 20:45 UTC",
       "raw_kickoff": "2025-04-25T20:45Z",
       "finished": true,
       "score_h": 1,
@@ -2773,7 +2773,7 @@
     {
       "home": "Strasbourg",
       "away": "Saint-Etienne",
-      "kickoff": "Sat Apr 26 • 17:00 UTC",
+      "kickoff": "Sat Apr 26 \u2022 17:00 UTC",
       "raw_kickoff": "2025-04-26T17:00Z",
       "finished": true,
       "score_h": 3,
@@ -2783,7 +2783,7 @@
     {
       "home": "Le Havre",
       "away": "Monaco",
-      "kickoff": "Sat Apr 26 • 19:00 UTC",
+      "kickoff": "Sat Apr 26 \u2022 19:00 UTC",
       "raw_kickoff": "2025-04-26T19:00Z",
       "finished": true,
       "score_h": 1,
@@ -2793,7 +2793,7 @@
     {
       "home": "Lyon",
       "away": "Rennes",
-      "kickoff": "Sat Apr 26 • 21:05 UTC",
+      "kickoff": "Sat Apr 26 \u2022 21:05 UTC",
       "raw_kickoff": "2025-04-26T21:05Z",
       "finished": true,
       "score_h": 4,
@@ -2803,7 +2803,7 @@
     {
       "home": "Angers",
       "away": "Lille",
-      "kickoff": "Sun Apr 27 • 15:00 UTC",
+      "kickoff": "Sun Apr 27 \u2022 15:00 UTC",
       "raw_kickoff": "2025-04-27T15:00Z",
       "finished": true,
       "score_h": 0,
@@ -2813,7 +2813,7 @@
     {
       "home": "Nantes",
       "away": "Toulouse",
-      "kickoff": "Sun Apr 27 • 17:15 UTC",
+      "kickoff": "Sun Apr 27 \u2022 17:15 UTC",
       "raw_kickoff": "2025-04-27T17:15Z",
       "finished": true,
       "score_h": 0,
@@ -2823,7 +2823,7 @@
     {
       "home": "Montpellier",
       "away": "Reims",
-      "kickoff": "Sun Apr 27 • 17:15 UTC",
+      "kickoff": "Sun Apr 27 \u2022 17:15 UTC",
       "raw_kickoff": "2025-04-27T17:15Z",
       "finished": true,
       "score_h": 0,
@@ -2833,7 +2833,7 @@
     {
       "home": "Lens",
       "away": "Auxerre",
-      "kickoff": "Sun Apr 27 • 17:15 UTC",
+      "kickoff": "Sun Apr 27 \u2022 17:15 UTC",
       "raw_kickoff": "2025-04-27T17:15Z",
       "finished": true,
       "score_h": 0,
@@ -2843,7 +2843,7 @@
     {
       "home": "Marseille",
       "away": "Brest",
-      "kickoff": "Sun Apr 27 • 20:45 UTC",
+      "kickoff": "Sun Apr 27 \u2022 20:45 UTC",
       "raw_kickoff": "2025-04-27T20:45Z",
       "finished": true,
       "score_h": 4,
@@ -2855,7 +2855,7 @@
     {
       "home": "Nice",
       "away": "Reims",
-      "kickoff": "Fri May 02 • 20:45 UTC",
+      "kickoff": "Fri May 02 \u2022 20:45 UTC",
       "raw_kickoff": "2025-05-02T20:45Z",
       "finished": true,
       "score_h": 1,
@@ -2865,7 +2865,7 @@
     {
       "home": "Strasbourg",
       "away": "Paris SG",
-      "kickoff": "Sat May 03 • 17:00 UTC",
+      "kickoff": "Sat May 03 \u2022 17:00 UTC",
       "raw_kickoff": "2025-05-03T17:00Z",
       "finished": true,
       "score_h": 2,
@@ -2875,7 +2875,7 @@
     {
       "home": "Toulouse",
       "away": "Rennes",
-      "kickoff": "Sat May 03 • 19:00 UTC",
+      "kickoff": "Sat May 03 \u2022 19:00 UTC",
       "raw_kickoff": "2025-05-03T19:00Z",
       "finished": true,
       "score_h": 2,
@@ -2885,7 +2885,7 @@
     {
       "home": "Saint-Etienne",
       "away": "Monaco",
-      "kickoff": "Sat May 03 • 21:05 UTC",
+      "kickoff": "Sat May 03 \u2022 21:05 UTC",
       "raw_kickoff": "2025-05-03T21:05Z",
       "finished": true,
       "score_h": 1,
@@ -2895,7 +2895,7 @@
     {
       "home": "Nantes",
       "away": "Angers",
-      "kickoff": "Sun May 04 • 15:00 UTC",
+      "kickoff": "Sun May 04 \u2022 15:00 UTC",
       "raw_kickoff": "2025-05-04T15:00Z",
       "finished": true,
       "score_h": 0,
@@ -2905,7 +2905,7 @@
     {
       "home": "Lyon",
       "away": "Lens",
-      "kickoff": "Sun May 04 • 17:15 UTC",
+      "kickoff": "Sun May 04 \u2022 17:15 UTC",
       "raw_kickoff": "2025-05-04T17:15Z",
       "finished": true,
       "score_h": 1,
@@ -2915,7 +2915,7 @@
     {
       "home": "Brest",
       "away": "Montpellier",
-      "kickoff": "Sun May 04 • 17:15 UTC",
+      "kickoff": "Sun May 04 \u2022 17:15 UTC",
       "raw_kickoff": "2025-05-04T17:15Z",
       "finished": true,
       "score_h": 1,
@@ -2925,7 +2925,7 @@
     {
       "home": "Auxerre",
       "away": "Le Havre",
-      "kickoff": "Sun May 04 • 17:15 UTC",
+      "kickoff": "Sun May 04 \u2022 17:15 UTC",
       "raw_kickoff": "2025-05-04T17:15Z",
       "finished": true,
       "score_h": 1,
@@ -2935,7 +2935,7 @@
     {
       "home": "Lille",
       "away": "Marseille",
-      "kickoff": "Sun May 04 • 20:45 UTC",
+      "kickoff": "Sun May 04 \u2022 20:45 UTC",
       "raw_kickoff": "2025-05-04T20:45Z",
       "finished": true,
       "score_h": 1,
@@ -2947,7 +2947,7 @@
     {
       "home": "Reims",
       "away": "Saint-Etienne",
-      "kickoff": "Sat May 10 • 21:00 UTC",
+      "kickoff": "Sat May 10 \u2022 21:00 UTC",
       "raw_kickoff": "2025-05-10T21:00Z",
       "finished": true,
       "score_h": 0,
@@ -2957,7 +2957,7 @@
     {
       "home": "Auxerre",
       "away": "Nantes",
-      "kickoff": "Sat May 10 • 21:00 UTC",
+      "kickoff": "Sat May 10 \u2022 21:00 UTC",
       "raw_kickoff": "2025-05-10T21:00Z",
       "finished": true,
       "score_h": 1,
@@ -2967,7 +2967,7 @@
     {
       "home": "Angers",
       "away": "Strasbourg",
-      "kickoff": "Sat May 10 • 21:00 UTC",
+      "kickoff": "Sat May 10 \u2022 21:00 UTC",
       "raw_kickoff": "2025-05-10T21:00Z",
       "finished": true,
       "score_h": 2,
@@ -2977,7 +2977,7 @@
     {
       "home": "Le Havre",
       "away": "Marseille",
-      "kickoff": "Sat May 10 • 21:00 UTC",
+      "kickoff": "Sat May 10 \u2022 21:00 UTC",
       "raw_kickoff": "2025-05-10T21:00Z",
       "finished": true,
       "score_h": 1,
@@ -2987,7 +2987,7 @@
     {
       "home": "Rennes",
       "away": "Nice",
-      "kickoff": "Sat May 10 • 21:00 UTC",
+      "kickoff": "Sat May 10 \u2022 21:00 UTC",
       "raw_kickoff": "2025-05-10T21:00Z",
       "finished": true,
       "score_h": 2,
@@ -2997,7 +2997,7 @@
     {
       "home": "Montpellier",
       "away": "Paris SG",
-      "kickoff": "Sat May 10 • 21:00 UTC",
+      "kickoff": "Sat May 10 \u2022 21:00 UTC",
       "raw_kickoff": "2025-05-10T21:00Z",
       "finished": true,
       "score_h": 1,
@@ -3007,7 +3007,7 @@
     {
       "home": "Toulouse",
       "away": "Lens",
-      "kickoff": "Sat May 10 • 21:00 UTC",
+      "kickoff": "Sat May 10 \u2022 21:00 UTC",
       "raw_kickoff": "2025-05-10T21:00Z",
       "finished": true,
       "score_h": 1,
@@ -3017,7 +3017,7 @@
     {
       "home": "Brest",
       "away": "Lille",
-      "kickoff": "Sat May 10 • 21:00 UTC",
+      "kickoff": "Sat May 10 \u2022 21:00 UTC",
       "raw_kickoff": "2025-05-10T21:00Z",
       "finished": true,
       "score_h": 2,
@@ -3027,7 +3027,7 @@
     {
       "home": "Monaco",
       "away": "Lyon",
-      "kickoff": "Sat May 10 • 21:00 UTC",
+      "kickoff": "Sat May 10 \u2022 21:00 UTC",
       "raw_kickoff": "2025-05-10T21:00Z",
       "finished": true,
       "score_h": 2,
@@ -3039,7 +3039,7 @@
     {
       "home": "Marseille",
       "away": "Rennes",
-      "kickoff": "Sat May 17 • 21:00 UTC",
+      "kickoff": "Sat May 17 \u2022 21:00 UTC",
       "raw_kickoff": "2025-05-17T21:00Z",
       "finished": true,
       "score_h": 4,
@@ -3049,7 +3049,7 @@
     {
       "home": "Lyon",
       "away": "Angers",
-      "kickoff": "Sat May 17 • 21:00 UTC",
+      "kickoff": "Sat May 17 \u2022 21:00 UTC",
       "raw_kickoff": "2025-05-17T21:00Z",
       "finished": true,
       "score_h": 2,
@@ -3059,7 +3059,7 @@
     {
       "home": "Nice",
       "away": "Brest",
-      "kickoff": "Sat May 17 • 21:00 UTC",
+      "kickoff": "Sat May 17 \u2022 21:00 UTC",
       "raw_kickoff": "2025-05-17T21:00Z",
       "finished": true,
       "score_h": 6,
@@ -3069,7 +3069,7 @@
     {
       "home": "Saint-Etienne",
       "away": "Toulouse",
-      "kickoff": "Sat May 17 • 21:00 UTC",
+      "kickoff": "Sat May 17 \u2022 21:00 UTC",
       "raw_kickoff": "2025-05-17T21:00Z",
       "finished": true,
       "score_h": 2,
@@ -3079,7 +3079,7 @@
     {
       "home": "Lille",
       "away": "Reims",
-      "kickoff": "Sat May 17 • 21:00 UTC",
+      "kickoff": "Sat May 17 \u2022 21:00 UTC",
       "raw_kickoff": "2025-05-17T21:00Z",
       "finished": true,
       "score_h": 2,
@@ -3089,7 +3089,7 @@
     {
       "home": "Strasbourg",
       "away": "Le Havre",
-      "kickoff": "Sat May 17 • 21:00 UTC",
+      "kickoff": "Sat May 17 \u2022 21:00 UTC",
       "raw_kickoff": "2025-05-17T21:00Z",
       "finished": true,
       "score_h": 2,
@@ -3099,7 +3099,7 @@
     {
       "home": "Nantes",
       "away": "Montpellier",
-      "kickoff": "Sat May 17 • 21:00 UTC",
+      "kickoff": "Sat May 17 \u2022 21:00 UTC",
       "raw_kickoff": "2025-05-17T21:00Z",
       "finished": true,
       "score_h": 3,
@@ -3109,7 +3109,7 @@
     {
       "home": "Lens",
       "away": "Monaco",
-      "kickoff": "Sat May 17 • 21:00 UTC",
+      "kickoff": "Sat May 17 \u2022 21:00 UTC",
       "raw_kickoff": "2025-05-17T21:00Z",
       "finished": true,
       "score_h": 4,
@@ -3119,7 +3119,7 @@
     {
       "home": "Paris SG",
       "away": "Auxerre",
-      "kickoff": "Sat May 17 • 21:00 UTC",
+      "kickoff": "Sat May 17 \u2022 21:00 UTC",
       "raw_kickoff": "2025-05-17T21:00Z",
       "finished": true,
       "score_h": 3,

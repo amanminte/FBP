@@ -185,10 +185,10 @@ def scan_weekly_gameweek(predictor, league: str = "E0", gameweek: Optional[int] 
     }
 
 EUROPEAN_LEAGUES_CONFIG = [
-    {"code": "E0", "name": "Premier League", "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿", "gameweek": 10},
-    {"code": "SP1", "name": "La Liga", "flag": "🇪🇸", "gameweek": 12},
-    {"code": "I1", "name": "Serie A", "flag": "🇮🇹", "gameweek": 11},
-    {"code": "D1", "name": "Bundesliga", "flag": "🇩🇪", "gameweek": 9},
+    {"code": "E0", "name": "Premier League", "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿", "gameweek": 11},
+    {"code": "SP1", "name": "La Liga", "flag": "🇪🇸", "gameweek": 13},
+    {"code": "I1", "name": "Serie A", "flag": "🇮🇹", "gameweek": 12},
+    {"code": "D1", "name": "Bundesliga", "flag": "🇩🇪", "gameweek": 10},
     {"code": "F1", "name": "Ligue 1", "flag": "🇫🇷", "gameweek": 10},
 ]
 

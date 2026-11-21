@@ -3,7 +3,7 @@
     {
       "home": "Athletic Club",
       "away": "Getafe",
-      "kickoff": "Thu Aug 15 • 19:00 UTC",
+      "kickoff": "Thu Aug 15 \u2022 19:00 UTC",
       "raw_kickoff": "2024-08-15T19:00Z",
       "finished": true,
       "score_h": 1,
@@ -13,7 +13,7 @@
     {
       "home": "Real Betis",
       "away": "Deportivo La Coruna",
-      "kickoff": "Thu Aug 15 • 21:30 UTC",
+      "kickoff": "Thu Aug 15 \u2022 21:30 UTC",
       "raw_kickoff": "2024-08-15T21:30Z",
       "finished": true,
       "score_h": 1,
@@ -23,7 +23,7 @@
     {
       "home": "Celta Vigo",
       "away": "Alaves",
-      "kickoff": "Fri Aug 16 • 19:00 UTC",
+      "kickoff": "Fri Aug 16 \u2022 19:00 UTC",
       "raw_kickoff": "2024-08-16T19:00Z",
       "finished": true,
       "score_h": 2,
@@ -33,7 +33,7 @@
     {
       "home": "Racing Santander",
       "away": "Sevilla",
-      "kickoff": "Fri Aug 16 • 21:30 UTC",
+      "kickoff": "Fri Aug 16 \u2022 21:30 UTC",
       "raw_kickoff": "2024-08-16T21:30Z",
       "finished": true,
       "score_h": 2,
@@ -43,7 +43,7 @@
     {
       "home": "Osasuna",
       "away": "Elche",
-      "kickoff": "Sat Aug 17 • 19:00 UTC",
+      "kickoff": "Sat Aug 17 \u2022 19:00 UTC",
       "raw_kickoff": "2024-08-17T19:00Z",
       "finished": true,
       "score_h": 1,
@@ -53,7 +53,7 @@
     {
       "home": "Valencia",
       "away": "Barcelona",
-      "kickoff": "Sat Aug 17 • 21:30 UTC",
+      "kickoff": "Sat Aug 17 \u2022 21:30 UTC",
       "raw_kickoff": "2024-08-17T21:30Z",
       "finished": true,
       "score_h": 1,
@@ -63,7 +63,7 @@
     {
       "home": "Real Sociedad",
       "away": "Rayo Vallecano",
-      "kickoff": "Sun Aug 18 • 19:00 UTC",
+      "kickoff": "Sun Aug 18 \u2022 19:00 UTC",
       "raw_kickoff": "2024-08-18T19:00Z",
       "finished": true,
       "score_h": 1,
@@ -73,7 +73,7 @@
     {
       "home": "Malaga",
       "away": "Real Madrid",
-      "kickoff": "Sun Aug 18 • 21:30 UTC",
+      "kickoff": "Sun Aug 18 \u2022 21:30 UTC",
       "raw_kickoff": "2024-08-18T21:30Z",
       "finished": true,
       "score_h": 1,
@@ -83,7 +83,7 @@
     {
       "home": "Levante",
       "away": "Espanyol",
-      "kickoff": "Mon Aug 19 • 19:00 UTC",
+      "kickoff": "Mon Aug 19 \u2022 19:00 UTC",
       "raw_kickoff": "2024-08-19T19:00Z",
       "finished": true,
       "score_h": 1,
@@ -93,7 +93,7 @@
     {
       "home": "Villarreal",
       "away": "Atletico Madrid",
-      "kickoff": "Mon Aug 19 • 21:30 UTC",
+      "kickoff": "Mon Aug 19 \u2022 21:30 UTC",
       "raw_kickoff": "2024-08-19T21:30Z",
       "finished": true,
       "score_h": 2,
@@ -105,7 +105,7 @@
     {
       "home": "Celta Vigo",
       "away": "Valencia",
-      "kickoff": "Fri Aug 23 • 19:00 UTC",
+      "kickoff": "Fri Aug 23 \u2022 19:00 UTC",
       "raw_kickoff": "2024-08-23T19:00Z",
       "finished": true,
       "score_h": 3,
@@ -115,7 +115,7 @@
     {
       "home": "Sevilla",
       "away": "Villarreal",
-      "kickoff": "Fri Aug 23 • 21:30 UTC",
+      "kickoff": "Fri Aug 23 \u2022 21:30 UTC",
       "raw_kickoff": "2024-08-23T21:30Z",
       "finished": true,
       "score_h": 1,
@@ -125,7 +125,7 @@
     {
       "home": "Osasuna",
       "away": "Malaga",
-      "kickoff": "Sat Aug 24 • 17:00 UTC",
+      "kickoff": "Sat Aug 24 \u2022 17:00 UTC",
       "raw_kickoff": "2024-08-24T17:00Z",
       "finished": true,
       "score_h": 1,
@@ -135,7 +135,7 @@
     {
       "home": "Barcelona",
       "away": "Athletic Club",
-      "kickoff": "Sat Aug 24 • 19:00 UTC",
+      "kickoff": "Sat Aug 24 \u2022 19:00 UTC",
       "raw_kickoff": "2024-08-24T19:00Z",
       "finished": true,
       "score_h": 2,
@@ -145,7 +145,7 @@
     {
       "home": "Getafe",
       "away": "Rayo Vallecano",
-      "kickoff": "Sat Aug 24 • 21:30 UTC",
+      "kickoff": "Sat Aug 24 \u2022 21:30 UTC",
       "raw_kickoff": "2024-08-24T21:30Z",
       "finished": true,
       "score_h": 0,
@@ -155,7 +155,7 @@
     {
       "home": "Espanyol",
       "away": "Real Sociedad",
-      "kickoff": "Sat Aug 24 • 21:30 UTC",
+      "kickoff": "Sat Aug 24 \u2022 21:30 UTC",
       "raw_kickoff": "2024-08-24T21:30Z",
       "finished": true,
       "score_h": 0,
@@ -165,7 +165,7 @@
     {
       "home": "Real Madrid",
       "away": "Levante",
-      "kickoff": "Sun Aug 25 • 17:00 UTC",
+      "kickoff": "Sun Aug 25 \u2022 17:00 UTC",
       "raw_kickoff": "2024-08-25T17:00Z",
       "finished": true,
       "score_h": 3,
@@ -175,7 +175,7 @@
     {
       "home": "Elche",
       "away": "Racing Santander",
-      "kickoff": "Sun Aug 25 • 19:00 UTC",
+      "kickoff": "Sun Aug 25 \u2022 19:00 UTC",
       "raw_kickoff": "2024-08-25T19:00Z",
       "finished": true,
       "score_h": 2,
@@ -185,7 +185,7 @@
     {
       "home": "Alaves",
       "away": "Real Betis",
-      "kickoff": "Sun Aug 25 • 19:15 UTC",
+      "kickoff": "Sun Aug 25 \u2022 19:15 UTC",
       "raw_kickoff": "2024-08-25T19:15Z",
       "finished": true,
       "score_h": 0,
@@ -195,7 +195,7 @@
     {
       "home": "Atletico Madrid",
       "away": "Deportivo La Coruna",
-      "kickoff": "Sun Aug 25 • 21:30 UTC",
+      "kickoff": "Sun Aug 25 \u2022 21:30 UTC",
       "raw_kickoff": "2024-08-25T21:30Z",
       "finished": true,
       "score_h": 3,
@@ -207,7 +207,7 @@
     {
       "home": "Villarreal",
       "away": "Celta Vigo",
-      "kickoff": "Mon Aug 26 • 21:30 UTC",
+      "kickoff": "Mon Aug 26 \u2022 21:30 UTC",
       "raw_kickoff": "2024-08-26T21:30Z",
       "finished": true,
       "score_h": 4,
@@ -217,7 +217,7 @@
     {
       "home": "Malaga",
       "away": "Sevilla",
-      "kickoff": "Tue Aug 27 • 19:00 UTC",
+      "kickoff": "Tue Aug 27 \u2022 19:00 UTC",
       "raw_kickoff": "2024-08-27T19:00Z",
       "finished": true,
       "score_h": 0,
@@ -227,7 +227,7 @@
     {
       "home": "Rayo Vallecano",
       "away": "Barcelona",
-      "kickoff": "Tue Aug 27 • 21:30 UTC",
+      "kickoff": "Tue Aug 27 \u2022 21:30 UTC",
       "raw_kickoff": "2024-08-27T21:30Z",
       "finished": true,
       "score_h": 1,
@@ -237,7 +237,7 @@
     {
       "home": "Athletic Club",
       "away": "Valencia",
-      "kickoff": "Wed Aug 28 • 19:00 UTC",
+      "kickoff": "Wed Aug 28 \u2022 19:00 UTC",
       "raw_kickoff": "2024-08-28T19:00Z",
       "finished": true,
       "score_h": 1,
@@ -247,7 +247,7 @@
     {
       "home": "Levante",
       "away": "Elche",
-      "kickoff": "Wed Aug 28 • 19:00 UTC",
+      "kickoff": "Wed Aug 28 \u2022 19:00 UTC",
       "raw_kickoff": "2024-08-28T19:00Z",
       "finished": true,
       "score_h": 0,
@@ -257,7 +257,7 @@
     {
       "home": "Real Sociedad",
       "away": "Alaves",
-      "kickoff": "Wed Aug 28 • 21:30 UTC",
+      "kickoff": "Wed Aug 28 \u2022 21:30 UTC",
       "raw_kickoff": "2024-08-28T21:30Z",
       "finished": true,
       "score_h": 1,
@@ -267,7 +267,7 @@
     {
       "home": "Atletico Madrid",
       "away": "Espanyol",
-      "kickoff": "Wed Aug 28 • 21:30 UTC",
+      "kickoff": "Wed Aug 28 \u2022 21:30 UTC",
       "raw_kickoff": "2024-08-28T21:30Z",
       "finished": true,
       "score_h": 0,
@@ -277,7 +277,7 @@
     {
       "home": "Deportivo La Coruna",
       "away": "Osasuna",
-      "kickoff": "Thu Aug 29 • 19:00 UTC",
+      "kickoff": "Thu Aug 29 \u2022 19:00 UTC",
       "raw_kickoff": "2024-08-29T19:00Z",
       "finished": true,
       "score_h": 4,
@@ -287,7 +287,7 @@
     {
       "home": "Racing Santander",
       "away": "Real Madrid",
-      "kickoff": "Thu Aug 29 • 21:30 UTC",
+      "kickoff": "Thu Aug 29 \u2022 21:30 UTC",
       "raw_kickoff": "2024-08-29T21:30Z",
       "finished": true,
       "score_h": 1,
@@ -297,7 +297,7 @@
     {
       "home": "Real Betis",
       "away": "Getafe",
-      "kickoff": "Wed Sep 18 • 19:00 UTC",
+      "kickoff": "Wed Sep 18 \u2022 19:00 UTC",
       "raw_kickoff": "2024-09-18T19:00Z",
       "finished": true,
       "score_h": 2,
@@ -309,7 +309,7 @@
     {
       "home": "Barcelona",
       "away": "Levante",
-      "kickoff": "Sat Aug 31 • 17:00 UTC",
+      "kickoff": "Sat Aug 31 \u2022 17:00 UTC",
       "raw_kickoff": "2024-08-31T17:00Z",
       "finished": true,
       "score_h": 7,
@@ -319,7 +319,7 @@
     {
       "home": "Athletic Club",
       "away": "Atletico Madrid",
-      "kickoff": "Sat Aug 31 • 19:00 UTC",
+      "kickoff": "Sat Aug 31 \u2022 19:00 UTC",
       "raw_kickoff": "2024-08-31T19:00Z",
       "finished": true,
       "score_h": 0,
@@ -329,7 +329,7 @@
     {
       "home": "Espanyol",
       "away": "Rayo Vallecano",
-      "kickoff": "Sat Aug 31 • 19:15 UTC",
+      "kickoff": "Sat Aug 31 \u2022 19:15 UTC",
       "raw_kickoff": "2024-08-31T19:15Z",
       "finished": true,
       "score_h": 2,
@@ -339,7 +339,7 @@
     {
       "home": "Elche",
       "away": "Malaga",
-      "kickoff": "Sat Aug 31 • 21:30 UTC",
+      "kickoff": "Sat Aug 31 \u2022 21:30 UTC",
       "raw_kickoff": "2024-08-31T21:30Z",
       "finished": true,
       "score_h": 0,
@@ -349,7 +349,7 @@
     {
       "home": "Valencia",
       "away": "Villarreal",
-      "kickoff": "Sat Aug 31 • 21:30 UTC",
+      "kickoff": "Sat Aug 31 \u2022 21:30 UTC",
       "raw_kickoff": "2024-08-31T21:30Z",
       "finished": true,
       "score_h": 1,
@@ -359,7 +359,7 @@
     {
       "home": "Osasuna",
       "away": "Celta Vigo",
-      "kickoff": "Sun Sep 01 • 17:00 UTC",
+      "kickoff": "Sun Sep 01 \u2022 17:00 UTC",
       "raw_kickoff": "2024-09-01T17:00Z",
       "finished": true,
       "score_h": 3,
@@ -369,7 +369,7 @@
     {
       "home": "Alaves",
       "away": "Racing Santander",
-      "kickoff": "Sun Sep 01 • 17:00 UTC",
+      "kickoff": "Sun Sep 01 \u2022 17:00 UTC",
       "raw_kickoff": "2024-09-01T17:00Z",
       "finished": true,
       "score_h": 2,
@@ -379,7 +379,7 @@
     {
       "home": "Sevilla",
       "away": "Deportivo La Coruna",
-      "kickoff": "Sun Sep 01 • 19:00 UTC",
+      "kickoff": "Sun Sep 01 \u2022 19:00 UTC",
       "raw_kickoff": "2024-09-01T19:00Z",
       "finished": true,
       "score_h": 0,
@@ -389,7 +389,7 @@
     {
       "home": "Getafe",
       "away": "Real Sociedad",
-      "kickoff": "Sun Sep 01 • 19:15 UTC",
+      "kickoff": "Sun Sep 01 \u2022 19:15 UTC",
       "raw_kickoff": "2024-09-01T19:15Z",
       "finished": true,
       "score_h": 0,
@@ -399,7 +399,7 @@
     {
       "home": "Real Madrid",
       "away": "Real Betis",
-      "kickoff": "Sun Sep 01 • 21:30 UTC",
+      "kickoff": "Sun Sep 01 \u2022 21:30 UTC",
       "raw_kickoff": "2024-09-01T21:30Z",
       "finished": true,
       "score_h": 2,
@@ -411,7 +411,7 @@
     {
       "home": "Real Betis",
       "away": "Elche",
-      "kickoff": "Fri Sep 13 • 21:00 UTC",
+      "kickoff": "Fri Sep 13 \u2022 21:00 UTC",
       "raw_kickoff": "2024-09-13T21:00Z",
       "finished": true,
       "score_h": 2,
@@ -421,7 +421,7 @@
     {
       "home": "Malaga",
       "away": "Villarreal",
-      "kickoff": "Sat Sep 14 • 14:00 UTC",
+      "kickoff": "Sat Sep 14 \u2022 14:00 UTC",
       "raw_kickoff": "2024-09-14T14:00Z",
       "finished": true,
       "score_h": 1,
@@ -431,7 +431,7 @@
     {
       "home": "Espanyol",
       "away": "Alaves",
-      "kickoff": "Sat Sep 14 • 16:15 UTC",
+      "kickoff": "Sat Sep 14 \u2022 16:15 UTC",
       "raw_kickoff": "2024-09-14T16:15Z",
       "finished": true,
       "score_h": 3,
@@ -441,7 +441,7 @@
     {
       "home": "Sevilla",
       "away": "Getafe",
-      "kickoff": "Sat Sep 14 • 18:30 UTC",
+      "kickoff": "Sat Sep 14 \u2022 18:30 UTC",
       "raw_kickoff": "2024-09-14T18:30Z",
       "finished": true,
       "score_h": 1,
@@ -451,7 +451,7 @@
     {
       "home": "Real Sociedad",
       "away": "Real Madrid",
-      "kickoff": "Sat Sep 14 • 21:00 UTC",
+      "kickoff": "Sat Sep 14 \u2022 21:00 UTC",
       "raw_kickoff": "2024-09-14T21:00Z",
       "finished": true,
       "score_h": 0,
@@ -461,7 +461,7 @@
     {
       "home": "Celta Vigo",
       "away": "Levante",
-      "kickoff": "Sun Sep 15 • 14:00 UTC",
+      "kickoff": "Sun Sep 15 \u2022 14:00 UTC",
       "raw_kickoff": "2024-09-15T14:00Z",
       "finished": true,
       "score_h": 0,
@@ -471,7 +471,7 @@
     {
       "home": "Deportivo La Coruna",
       "away": "Barcelona",
-      "kickoff": "Sun Sep 15 • 16:15 UTC",
+      "kickoff": "Sun Sep 15 \u2022 16:15 UTC",
       "raw_kickoff": "2024-09-15T16:15Z",
       "finished": true,
       "score_h": 1,
@@ -481,7 +481,7 @@
     {
       "home": "Racing Santander",
       "away": "Athletic Club",
-      "kickoff": "Sun Sep 15 • 18:30 UTC",
+      "kickoff": "Sun Sep 15 \u2022 18:30 UTC",
       "raw_kickoff": "2024-09-15T18:30Z",
       "finished": true,
       "score_h": 2,
@@ -491,7 +491,7 @@
     {
       "home": "Atletico Madrid",
       "away": "Valencia",
-      "kickoff": "Sun Sep 15 • 21:00 UTC",
+      "kickoff": "Sun Sep 15 \u2022 21:00 UTC",
       "raw_kickoff": "2024-09-15T21:00Z",
       "finished": true,
       "score_h": 3,
@@ -501,7 +501,7 @@
     {
       "home": "Rayo Vallecano",
       "away": "Osasuna",
-      "kickoff": "Mon Sep 16 • 21:00 UTC",
+      "kickoff": "Mon Sep 16 \u2022 21:00 UTC",
       "raw_kickoff": "2024-09-16T21:00Z",
       "finished": true,
       "score_h": 3,
@@ -513,7 +513,7 @@
     {
       "home": "Alaves",
       "away": "Sevilla",
-      "kickoff": "Fri Sep 20 • 21:00 UTC",
+      "kickoff": "Fri Sep 20 \u2022 21:00 UTC",
       "raw_kickoff": "2024-09-20T21:00Z",
       "finished": true,
       "score_h": 2,
@@ -523,7 +523,7 @@
     {
       "home": "Levante",
       "away": "Real Sociedad",
-      "kickoff": "Sat Sep 21 • 14:00 UTC",
+      "kickoff": "Sat Sep 21 \u2022 14:00 UTC",
       "raw_kickoff": "2024-09-21T14:00Z",
       "finished": true,
       "score_h": 0,
@@ -533,7 +533,7 @@
     {
       "home": "Osasuna",
       "away": "Racing Santander",
-      "kickoff": "Sat Sep 21 • 16:15 UTC",
+      "kickoff": "Sat Sep 21 \u2022 16:15 UTC",
       "raw_kickoff": "2024-09-21T16:15Z",
       "finished": true,
       "score_h": 2,
@@ -543,7 +543,7 @@
     {
       "home": "Valencia",
       "away": "Deportivo La Coruna",
-      "kickoff": "Sat Sep 21 • 18:30 UTC",
+      "kickoff": "Sat Sep 21 \u2022 18:30 UTC",
       "raw_kickoff": "2024-09-21T18:30Z",
       "finished": true,
       "score_h": 2,
@@ -553,7 +553,7 @@
     {
       "home": "Real Madrid",
       "away": "Espanyol",
-      "kickoff": "Sat Sep 21 • 21:00 UTC",
+      "kickoff": "Sat Sep 21 \u2022 21:00 UTC",
       "raw_kickoff": "2024-09-21T21:00Z",
       "finished": true,
       "score_h": 4,
@@ -563,7 +563,7 @@
     {
       "home": "Getafe",
       "away": "Elche",
-      "kickoff": "Sun Sep 22 • 14:00 UTC",
+      "kickoff": "Sun Sep 22 \u2022 14:00 UTC",
       "raw_kickoff": "2024-09-22T14:00Z",
       "finished": true,
       "score_h": 1,
@@ -573,7 +573,7 @@
     {
       "home": "Athletic Club",
       "away": "Celta Vigo",
-      "kickoff": "Sun Sep 22 • 16:15 UTC",
+      "kickoff": "Sun Sep 22 \u2022 16:15 UTC",
       "raw_kickoff": "2024-09-22T16:15Z",
       "finished": true,
       "score_h": 3,
@@ -583,7 +583,7 @@
     {
       "home": "Villarreal",
       "away": "Barcelona",
-      "kickoff": "Sun Sep 22 • 18:30 UTC",
+      "kickoff": "Sun Sep 22 \u2022 18:30 UTC",
       "raw_kickoff": "2024-09-22T18:30Z",
       "finished": true,
       "score_h": 1,
@@ -593,7 +593,7 @@
     {
       "home": "Rayo Vallecano",
       "away": "Atletico Madrid",
-      "kickoff": "Sun Sep 22 • 21:00 UTC",
+      "kickoff": "Sun Sep 22 \u2022 21:00 UTC",
       "raw_kickoff": "2024-09-22T21:00Z",
       "finished": true,
       "score_h": 1,
@@ -603,7 +603,7 @@
     {
       "home": "Real Betis",
       "away": "Malaga",
-      "kickoff": "Mon Sep 23 • 21:00 UTC",
+      "kickoff": "Mon Sep 23 \u2022 21:00 UTC",
       "raw_kickoff": "2024-09-23T21:00Z",
       "finished": true,
       "score_h": 1,
@@ -615,7 +615,7 @@
     {
       "home": "Malaga",
       "away": "Real Sociedad",
-      "kickoff": "Tue Sep 17 • 19:00 UTC",
+      "kickoff": "Tue Sep 17 \u2022 19:00 UTC",
       "raw_kickoff": "2024-09-17T19:00Z",
       "finished": true,
       "score_h": 1,
@@ -625,7 +625,7 @@
     {
       "home": "Elche",
       "away": "Athletic Club",
-      "kickoff": "Thu Sep 19 • 19:00 UTC",
+      "kickoff": "Thu Sep 19 \u2022 19:00 UTC",
       "raw_kickoff": "2024-09-19T19:00Z",
       "finished": true,
       "score_h": 0,
@@ -635,7 +635,7 @@
     {
       "home": "Sevilla",
       "away": "Levante",
-      "kickoff": "Tue Sep 24 • 19:00 UTC",
+      "kickoff": "Tue Sep 24 \u2022 19:00 UTC",
       "raw_kickoff": "2024-09-24T19:00Z",
       "finished": true,
       "score_h": 2,
@@ -645,7 +645,7 @@
     {
       "home": "Valencia",
       "away": "Osasuna",
-      "kickoff": "Tue Sep 24 • 19:00 UTC",
+      "kickoff": "Tue Sep 24 \u2022 19:00 UTC",
       "raw_kickoff": "2024-09-24T19:00Z",
       "finished": true,
       "score_h": 0,
@@ -655,7 +655,7 @@
     {
       "home": "Real Madrid",
       "away": "Alaves",
-      "kickoff": "Tue Sep 24 • 21:00 UTC",
+      "kickoff": "Tue Sep 24 \u2022 21:00 UTC",
       "raw_kickoff": "2024-09-24T21:00Z",
       "finished": true,
       "score_h": 3,
@@ -665,7 +665,7 @@
     {
       "home": "Deportivo La Coruna",
       "away": "Rayo Vallecano",
-      "kickoff": "Wed Sep 25 • 19:00 UTC",
+      "kickoff": "Wed Sep 25 \u2022 19:00 UTC",
       "raw_kickoff": "2024-09-25T19:00Z",
       "finished": true,
       "score_h": 0,
@@ -675,7 +675,7 @@
     {
       "home": "Barcelona",
       "away": "Getafe",
-      "kickoff": "Wed Sep 25 • 21:00 UTC",
+      "kickoff": "Wed Sep 25 \u2022 21:00 UTC",
       "raw_kickoff": "2024-09-25T21:00Z",
       "finished": true,
       "score_h": 1,
@@ -685,7 +685,7 @@
     {
       "home": "Racing Santander",
       "away": "Real Betis",
-      "kickoff": "Thu Sep 26 • 19:00 UTC",
+      "kickoff": "Thu Sep 26 \u2022 19:00 UTC",
       "raw_kickoff": "2024-09-26T19:00Z",
       "finished": true,
       "score_h": 1,
@@ -695,7 +695,7 @@
     {
       "home": "Espanyol",
       "away": "Villarreal",
-      "kickoff": "Thu Sep 26 • 19:00 UTC",
+      "kickoff": "Thu Sep 26 \u2022 19:00 UTC",
       "raw_kickoff": "2024-09-26T19:00Z",
       "finished": true,
       "score_h": 1,
@@ -705,7 +705,7 @@
     {
       "home": "Celta Vigo",
       "away": "Atletico Madrid",
-      "kickoff": "Thu Sep 26 • 21:00 UTC",
+      "kickoff": "Thu Sep 26 \u2022 21:00 UTC",
       "raw_kickoff": "2024-09-26T21:00Z",
       "finished": true,
       "score_h": 0,
@@ -717,7 +717,7 @@
     {
       "home": "Levante",
       "away": "Malaga",
-      "kickoff": "Fri Sep 27 • 21:00 UTC",
+      "kickoff": "Fri Sep 27 \u2022 21:00 UTC",
       "raw_kickoff": "2024-09-27T21:00Z",
       "finished": true,
       "score_h": 1,
@@ -727,7 +727,7 @@
     {
       "home": "Getafe",
       "away": "Alaves",
-      "kickoff": "Sat Sep 28 • 14:00 UTC",
+      "kickoff": "Sat Sep 28 \u2022 14:00 UTC",
       "raw_kickoff": "2024-09-28T14:00Z",
       "finished": true,
       "score_h": 2,
@@ -737,7 +737,7 @@
     {
       "home": "Rayo Vallecano",
       "away": "Elche",
-      "kickoff": "Sat Sep 28 • 16:15 UTC",
+      "kickoff": "Sat Sep 28 \u2022 16:15 UTC",
       "raw_kickoff": "2024-09-28T16:15Z",
       "finished": true,
       "score_h": 1,
@@ -747,7 +747,7 @@
     {
       "home": "Real Sociedad",
       "away": "Valencia",
-      "kickoff": "Sat Sep 28 • 18:30 UTC",
+      "kickoff": "Sat Sep 28 \u2022 18:30 UTC",
       "raw_kickoff": "2024-09-28T18:30Z",
       "finished": true,
       "score_h": 3,
@@ -757,7 +757,7 @@
     {
       "home": "Osasuna",
       "away": "Barcelona",
-      "kickoff": "Sat Sep 28 • 21:00 UTC",
+      "kickoff": "Sat Sep 28 \u2022 21:00 UTC",
       "raw_kickoff": "2024-09-28T21:00Z",
       "finished": true,
       "score_h": 4,
@@ -767,7 +767,7 @@
     {
       "home": "Celta Vigo",
       "away": "Deportivo La Coruna",
-      "kickoff": "Sun Sep 29 • 14:00 UTC",
+      "kickoff": "Sun Sep 29 \u2022 14:00 UTC",
       "raw_kickoff": "2024-09-29T14:00Z",
       "finished": true,
       "score_h": 1,
@@ -777,7 +777,7 @@
     {
       "home": "Athletic Club",
       "away": "Sevilla",
-      "kickoff": "Sun Sep 29 • 16:15 UTC",
+      "kickoff": "Sun Sep 29 \u2022 16:15 UTC",
       "raw_kickoff": "2024-09-29T16:15Z",
       "finished": true,
       "score_h": 1,
@@ -787,7 +787,7 @@
     {
       "home": "Real Betis",
       "away": "Espanyol",
-      "kickoff": "Sun Sep 29 • 18:30 UTC",
+      "kickoff": "Sun Sep 29 \u2022 18:30 UTC",
       "raw_kickoff": "2024-09-29T18:30Z",
       "finished": true,
       "score_h": 1,
@@ -797,7 +797,7 @@
     {
       "home": "Atletico Madrid",
       "away": "Real Madrid",
-      "kickoff": "Sun Sep 29 • 21:00 UTC",
+      "kickoff": "Sun Sep 29 \u2022 21:00 UTC",
       "raw_kickoff": "2024-09-29T21:00Z",
       "finished": true,
       "score_h": 1,
@@ -807,7 +807,7 @@
     {
       "home": "Villarreal",
       "away": "Racing Santander",
-      "kickoff": "Mon Sep 30 • 21:00 UTC",
+      "kickoff": "Mon Sep 30 \u2022 21:00 UTC",
       "raw_kickoff": "2024-09-30T21:00Z",
       "finished": true,
       "score_h": 3,
@@ -819,7 +819,7 @@
     {
       "home": "Elche",
       "away": "Valencia",
-      "kickoff": "Fri Oct 04 • 21:00 UTC",
+      "kickoff": "Fri Oct 04 \u2022 21:00 UTC",
       "raw_kickoff": "2024-10-04T21:00Z",
       "finished": true,
       "score_h": 0,
@@ -829,7 +829,7 @@
     {
       "home": "Espanyol",
       "away": "Malaga",
-      "kickoff": "Sat Oct 05 • 14:00 UTC",
+      "kickoff": "Sat Oct 05 \u2022 14:00 UTC",
       "raw_kickoff": "2024-10-05T14:00Z",
       "finished": true,
       "score_h": 2,
@@ -839,7 +839,7 @@
     {
       "home": "Getafe",
       "away": "Osasuna",
-      "kickoff": "Sat Oct 05 • 16:15 UTC",
+      "kickoff": "Sat Oct 05 \u2022 16:15 UTC",
       "raw_kickoff": "2024-10-05T16:15Z",
       "finished": true,
       "score_h": 1,
@@ -849,7 +849,7 @@
     {
       "home": "Levante",
       "away": "Rayo Vallecano",
-      "kickoff": "Sat Oct 05 • 18:30 UTC",
+      "kickoff": "Sat Oct 05 \u2022 18:30 UTC",
       "raw_kickoff": "2024-10-05T18:30Z",
       "finished": true,
       "score_h": 1,
@@ -859,7 +859,7 @@
     {
       "home": "Racing Santander",
       "away": "Celta Vigo",
-      "kickoff": "Sat Oct 05 • 18:30 UTC",
+      "kickoff": "Sat Oct 05 \u2022 18:30 UTC",
       "raw_kickoff": "2024-10-05T18:30Z",
       "finished": true,
       "score_h": 0,
@@ -869,7 +869,7 @@
     {
       "home": "Real Madrid",
       "away": "Villarreal",
-      "kickoff": "Sat Oct 05 • 21:00 UTC",
+      "kickoff": "Sat Oct 05 \u2022 21:00 UTC",
       "raw_kickoff": "2024-10-05T21:00Z",
       "finished": true,
       "score_h": 2,
@@ -879,7 +879,7 @@
     {
       "home": "Deportivo La Coruna",
       "away": "Athletic Club",
-      "kickoff": "Sun Oct 06 • 14:00 UTC",
+      "kickoff": "Sun Oct 06 \u2022 14:00 UTC",
       "raw_kickoff": "2024-10-06T14:00Z",
       "finished": true,
       "score_h": 2,
@@ -889,7 +889,7 @@
     {
       "home": "Alaves",
       "away": "Barcelona",
-      "kickoff": "Sun Oct 06 • 16:15 UTC",
+      "kickoff": "Sun Oct 06 \u2022 16:15 UTC",
       "raw_kickoff": "2024-10-06T16:15Z",
       "finished": true,
       "score_h": 0,
@@ -899,7 +899,7 @@
     {
       "home": "Sevilla",
       "away": "Real Betis",
-      "kickoff": "Sun Oct 06 • 18:30 UTC",
+      "kickoff": "Sun Oct 06 \u2022 18:30 UTC",
       "raw_kickoff": "2024-10-06T18:30Z",
       "finished": true,
       "score_h": 1,
@@ -909,7 +909,7 @@
     {
       "home": "Real Sociedad",
       "away": "Atletico Madrid",
-      "kickoff": "Sun Oct 06 • 21:00 UTC",
+      "kickoff": "Sun Oct 06 \u2022 21:00 UTC",
       "raw_kickoff": "2024-10-06T21:00Z",
       "finished": true,
       "score_h": 1,
@@ -921,7 +921,7 @@
     {
       "home": "Alaves",
       "away": "Levante",
-      "kickoff": "Fri Oct 18 • 21:00 UTC",
+      "kickoff": "Fri Oct 18 \u2022 21:00 UTC",
       "raw_kickoff": "2024-10-18T21:00Z",
       "finished": false,
       "score_h": null,
@@ -931,7 +931,7 @@
     {
       "home": "Athletic Club",
       "away": "Espanyol",
-      "kickoff": "Sat Oct 19 • 14:00 UTC",
+      "kickoff": "Sat Oct 19 \u2022 14:00 UTC",
       "raw_kickoff": "2024-10-19T14:00Z",
       "finished": false,
       "score_h": null,
@@ -941,7 +941,7 @@
     {
       "home": "Osasuna",
       "away": "Real Betis",
-      "kickoff": "Sat Oct 19 • 16:15 UTC",
+      "kickoff": "Sat Oct 19 \u2022 16:15 UTC",
       "raw_kickoff": "2024-10-19T16:15Z",
       "finished": false,
       "score_h": null,
@@ -951,7 +951,7 @@
     {
       "home": "Deportivo La Coruna",
       "away": "Real Sociedad",
-      "kickoff": "Sat Oct 19 • 18:30 UTC",
+      "kickoff": "Sat Oct 19 \u2022 18:30 UTC",
       "raw_kickoff": "2024-10-19T18:30Z",
       "finished": false,
       "score_h": null,
@@ -961,7 +961,7 @@
     {
       "home": "Celta Vigo",
       "away": "Real Madrid",
-      "kickoff": "Sat Oct 19 • 21:00 UTC",
+      "kickoff": "Sat Oct 19 \u2022 21:00 UTC",
       "raw_kickoff": "2024-10-19T21:00Z",
       "finished": false,
       "score_h": null,
@@ -971,7 +971,7 @@
     {
       "home": "Malaga",
       "away": "Rayo Vallecano",
-      "kickoff": "Sun Oct 20 • 14:00 UTC",
+      "kickoff": "Sun Oct 20 \u2022 14:00 UTC",
       "raw_kickoff": "2024-10-20T14:00Z",
       "finished": false,
       "score_h": null,
@@ -981,7 +981,7 @@
     {
       "home": "Atletico Madrid",
       "away": "Elche",
-      "kickoff": "Sun Oct 20 • 16:15 UTC",
+      "kickoff": "Sun Oct 20 \u2022 16:15 UTC",
       "raw_kickoff": "2024-10-20T16:15Z",
       "finished": false,
       "score_h": null,
@@ -991,7 +991,7 @@
     {
       "home": "Villarreal",
       "away": "Getafe",
-      "kickoff": "Sun Oct 20 • 18:30 UTC",
+      "kickoff": "Sun Oct 20 \u2022 18:30 UTC",
       "raw_kickoff": "2024-10-20T18:30Z",
       "finished": true,
       "score_h": 2,
@@ -1001,7 +1001,7 @@
     {
       "home": "Barcelona",
       "away": "Sevilla",
-      "kickoff": "Sun Oct 20 • 21:00 UTC",
+      "kickoff": "Sun Oct 20 \u2022 21:00 UTC",
       "raw_kickoff": "2024-10-20T21:00Z",
       "finished": false,
       "score_h": null,
@@ -1011,7 +1011,7 @@
     {
       "home": "Valencia",
       "away": "Racing Santander",
-      "kickoff": "Mon Oct 21 • 21:00 UTC",
+      "kickoff": "Mon Oct 21 \u2022 21:00 UTC",
       "raw_kickoff": "2024-10-21T21:00Z",
       "finished": false,
       "score_h": null,
@@ -1023,7 +1023,7 @@
     {
       "home": "Espanyol",
       "away": "Sevilla",
-      "kickoff": "Fri Oct 25 • 21:00 UTC",
+      "kickoff": "Fri Oct 25 \u2022 21:00 UTC",
       "raw_kickoff": "2024-10-25T21:00Z",
       "finished": false,
       "score_h": null,
@@ -1033,7 +1033,7 @@
     {
       "home": "Levante",
       "away": "Villarreal",
-      "kickoff": "Sat Oct 26 • 14:00 UTC",
+      "kickoff": "Sat Oct 26 \u2022 14:00 UTC",
       "raw_kickoff": "2024-10-26T14:00Z",
       "finished": false,
       "score_h": null,
@@ -1043,7 +1043,7 @@
     {
       "home": "Rayo Vallecano",
       "away": "Alaves",
-      "kickoff": "Sat Oct 26 • 16:15 UTC",
+      "kickoff": "Sat Oct 26 \u2022 16:15 UTC",
       "raw_kickoff": "2024-10-26T16:15Z",
       "finished": false,
       "score_h": null,
@@ -1053,7 +1053,7 @@
     {
       "home": "Racing Santander",
       "away": "Deportivo La Coruna",
-      "kickoff": "Sat Oct 26 • 18:30 UTC",
+      "kickoff": "Sat Oct 26 \u2022 18:30 UTC",
       "raw_kickoff": "2024-10-26T18:30Z",
       "finished": false,
       "score_h": null,
@@ -1063,7 +1063,7 @@
     {
       "home": "Real Madrid",
       "away": "Barcelona",
-      "kickoff": "Sat Oct 26 • 21:00 UTC",
+      "kickoff": "Sat Oct 26 \u2022 21:00 UTC",
       "raw_kickoff": "2024-10-26T21:00Z",
       "finished": false,
       "score_h": null,
@@ -1073,7 +1073,7 @@
     {
       "home": "Elche",
       "away": "Celta Vigo",
-      "kickoff": "Sun Oct 27 • 14:00 UTC",
+      "kickoff": "Sun Oct 27 \u2022 14:00 UTC",
       "raw_kickoff": "2024-10-27T14:00Z",
       "finished": false,
       "score_h": null,
@@ -1083,7 +1083,7 @@
     {
       "home": "Getafe",
       "away": "Valencia",
-      "kickoff": "Sun Oct 27 • 16:15 UTC",
+      "kickoff": "Sun Oct 27 \u2022 16:15 UTC",
       "raw_kickoff": "2024-10-27T16:15Z",
       "finished": false,
       "score_h": null,
@@ -1093,7 +1093,7 @@
     {
       "home": "Real Betis",
       "away": "Atletico Madrid",
-      "kickoff": "Sun Oct 27 • 18:30 UTC",
+      "kickoff": "Sun Oct 27 \u2022 18:30 UTC",
       "raw_kickoff": "2024-10-27T18:30Z",
       "finished": false,
       "score_h": null,
@@ -1103,7 +1103,7 @@
     {
       "home": "Real Sociedad",
       "away": "Osasuna",
-      "kickoff": "Sun Oct 27 • 21:00 UTC",
+      "kickoff": "Sun Oct 27 \u2022 21:00 UTC",
       "raw_kickoff": "2024-10-27T21:00Z",
       "finished": false,
       "score_h": null,
@@ -1113,7 +1113,7 @@
     {
       "home": "Malaga",
       "away": "Athletic Club",
-      "kickoff": "Mon Oct 28 • 21:00 UTC",
+      "kickoff": "Mon Oct 28 \u2022 21:00 UTC",
       "raw_kickoff": "2024-10-28T21:00Z",
       "finished": false,
       "score_h": null,
@@ -1125,7 +1125,7 @@
     {
       "home": "Sevilla",
       "away": "Alaves",
-      "kickoff": "Fri Nov 06 • 11:00 PM",
+      "kickoff": "Fri Nov 06 \u2022 11:00 PM",
       "raw_kickoff": "2026-11-06T21:00:00Z",
       "finished": true,
       "score_h": 0,
@@ -1137,7 +1137,7 @@
     {
       "home": "Malaga",
       "away": "Racing Santander",
-      "kickoff": "Sat Nov 07 • 04:00 PM",
+      "kickoff": "Sat Nov 07 \u2022 04:00 PM",
       "raw_kickoff": "2026-11-07T16:00:00Z",
       "finished": true,
       "score_h": 1,
@@ -1147,7 +1147,7 @@
     {
       "home": "Espanyol",
       "away": "Deportivo La Coruna",
-      "kickoff": "Sat Nov 07 • 06:15 PM",
+      "kickoff": "Sat Nov 07 \u2022 06:15 PM",
       "raw_kickoff": "2026-11-07T18:15:00Z",
       "finished": true,
       "score_h": 0,
@@ -1157,7 +1157,7 @@
     {
       "home": "Osasuna",
       "away": "Athletic Club",
-      "kickoff": "Sat Nov 07 • 08:30 PM",
+      "kickoff": "Sat Nov 07 \u2022 08:30 PM",
       "raw_kickoff": "2026-11-07T20:30:00Z",
       "finished": true,
       "score_h": 1,
@@ -1169,7 +1169,7 @@
     {
       "home": "Valencia",
       "away": "Real Madrid",
-      "kickoff": "Sat Nov 07 • 11:00 PM",
+      "kickoff": "Sat Nov 07 \u2022 11:00 PM",
       "raw_kickoff": "2026-11-07T23:00:00Z",
       "finished": true,
       "score_h": 0,
@@ -1181,7 +1181,7 @@
     {
       "home": "Elche",
       "away": "Real Betis",
-      "kickoff": "Sun Nov 08 • 04:00 PM",
+      "kickoff": "Sun Nov 08 \u2022 04:00 PM",
       "raw_kickoff": "2026-11-08T16:00:00Z",
       "finished": true,
       "score_h": 0,
@@ -1193,7 +1193,7 @@
     {
       "home": "Real Sociedad",
       "away": "Rayo Vallecano",
-      "kickoff": "Sun Nov 08 • 06:15 PM",
+      "kickoff": "Sun Nov 08 \u2022 06:15 PM",
       "raw_kickoff": "2026-11-08T18:15:00Z",
       "finished": true,
       "score_h": 1,
@@ -1203,7 +1203,7 @@
     {
       "home": "Villarreal",
       "away": "Getafe",
-      "kickoff": "Sun Nov 08 • 08:30 PM",
+      "kickoff": "Sun Nov 08 \u2022 08:30 PM",
       "raw_kickoff": "2026-11-08T20:30:00Z",
       "finished": true,
       "score_h": 2,
@@ -1213,7 +1213,7 @@
     {
       "home": "Celta Vigo",
       "away": "Levante",
-      "kickoff": "Sun Nov 08 • 08:30 PM",
+      "kickoff": "Sun Nov 08 \u2022 08:30 PM",
       "raw_kickoff": "2026-11-08T20:30:00Z",
       "finished": true,
       "score_h": 0,
@@ -1223,7 +1223,7 @@
     {
       "home": "Atletico Madrid",
       "away": "Barcelona",
-      "kickoff": "Sun Nov 08 • 11:00 PM",
+      "kickoff": "Sun Nov 08 \u2022 11:00 PM",
       "raw_kickoff": "2026-11-08T23:00:00Z",
       "finished": true,
       "score_h": 1,
@@ -1235,18 +1235,18 @@
     {
       "home": "Athletic Club",
       "away": "Espanyol",
-      "kickoff": "Fri Nov 20 • 20:00 UTC",
+      "kickoff": "Fri Nov 20 \u2022 FT",
       "raw_kickoff": "2026-11-20T20:00Z",
-      "finished": false,
-      "score_h": null,
-      "score_a": null,
+      "finished": true,
+      "score_h": 0,
+      "score_a": 1,
       "gameweek": 13
     },
     {
-      "home": "Alaves",
-      "away": "Deportivo La Coruna",
-      "kickoff": "Sat Nov 21 • 13:00 UTC",
-      "raw_kickoff": "2026-11-21T13:00Z",
+      "home": "Alav\u00e9s",
+      "away": "Deportivo",
+      "kickoff": "Sat Nov 21 \u2022 16:00",
+      "raw_kickoff": "2026-11-21T16:00Z",
       "finished": false,
       "score_h": null,
       "score_a": null,
@@ -1255,8 +1255,8 @@
     {
       "home": "Rayo Vallecano",
       "away": "Valencia",
-      "kickoff": "Sat Nov 21 • 15:15 UTC",
-      "raw_kickoff": "2026-11-21T15:15Z",
+      "kickoff": "Sat Nov 21 \u2022 18:15",
+      "raw_kickoff": "2026-11-21T18:15Z",
       "finished": false,
       "score_h": null,
       "score_a": null,
@@ -1265,8 +1265,8 @@
     {
       "home": "Sevilla",
       "away": "Real Betis",
-      "kickoff": "Sat Nov 21 • 17:30 UTC",
-      "raw_kickoff": "2026-11-21T17:30Z",
+      "kickoff": "Sat Nov 21 \u2022 20:30",
+      "raw_kickoff": "2026-11-21T20:30Z",
       "finished": false,
       "score_h": null,
       "score_a": null,
@@ -1274,9 +1274,9 @@
     },
     {
       "home": "Real Madrid",
-      "away": "Celta Vigo",
-      "kickoff": "Sat Nov 21 • 20:00 UTC",
-      "raw_kickoff": "2026-11-21T20:00Z",
+      "away": "Celta",
+      "kickoff": "Sat Nov 21 \u2022 23:00",
+      "raw_kickoff": "2026-11-21T23:00Z",
       "finished": false,
       "score_h": null,
       "score_a": null,
@@ -1285,8 +1285,18 @@
     {
       "home": "Barcelona",
       "away": "Villarreal",
-      "kickoff": "Sun Nov 22 • 13:00 UTC",
-      "raw_kickoff": "2026-11-22T13:00Z",
+      "kickoff": "Sun Nov 22 \u2022 16:00",
+      "raw_kickoff": "2026-11-22T16:00Z",
+      "finished": false,
+      "score_h": null,
+      "score_a": null,
+      "gameweek": 13
+    },
+    {
+      "home": "Racing Club",
+      "away": "Real Sociedad",
+      "kickoff": "Sun Nov 22 \u2022 18:15",
+      "raw_kickoff": "2026-11-22T18:15Z",
       "finished": false,
       "score_h": null,
       "score_a": null,
@@ -1294,9 +1304,9 @@
     },
     {
       "home": "Osasuna",
-      "away": "Malaga",
-      "kickoff": "Sun Nov 22 • 15:15 UTC",
-      "raw_kickoff": "2026-11-22T15:15Z",
+      "away": "M\u00e1laga",
+      "kickoff": "Sun Nov 22 \u2022 20:30",
+      "raw_kickoff": "2026-11-22T20:30Z",
       "finished": false,
       "score_h": null,
       "score_a": null,
@@ -1304,29 +1314,19 @@
     },
     {
       "home": "Getafe",
-      "away": "Atletico Madrid",
-      "kickoff": "Sun Nov 22 • 17:30 UTC",
-      "raw_kickoff": "2026-11-22T17:30Z",
+      "away": "Atl\u00e9tico Madrid",
+      "kickoff": "Sun Nov 22 \u2022 23:00",
+      "raw_kickoff": "2026-11-22T23:00Z",
       "finished": false,
       "score_h": null,
       "score_a": null,
       "gameweek": 13
     },
     {
-      "home": "Racing Santander",
+      "home": "Levante",
       "away": "Elche",
-      "kickoff": "Sun Nov 22 • 17:30 UTC",
-      "raw_kickoff": "2026-11-22T17:30Z",
-      "finished": false,
-      "score_h": null,
-      "score_a": null,
-      "gameweek": 13
-    },
-    {
-      "home": "Real Sociedad",
-      "away": "Levante",
-      "kickoff": "Sun Nov 22 • 20:00 UTC",
-      "raw_kickoff": "2026-11-22T20:00Z",
+      "kickoff": "Mon Nov 23 \u2022 23:00",
+      "raw_kickoff": "2026-11-23T23:00Z",
       "finished": false,
       "score_h": null,
       "score_a": null,
@@ -1337,7 +1337,7 @@
     {
       "home": "Getafe",
       "away": "Levante",
-      "kickoff": "Fri Nov 22 • 21:00 UTC",
+      "kickoff": "Fri Nov 22 \u2022 21:00 UTC",
       "raw_kickoff": "2024-11-22T21:00Z",
       "finished": false,
       "score_h": null,
@@ -1347,7 +1347,7 @@
     {
       "home": "Valencia",
       "away": "Real Betis",
-      "kickoff": "Sat Nov 23 • 14:00 UTC",
+      "kickoff": "Sat Nov 23 \u2022 14:00 UTC",
       "raw_kickoff": "2024-11-23T14:00Z",
       "finished": false,
       "score_h": null,
@@ -1357,7 +1357,7 @@
     {
       "home": "Atletico Madrid",
       "away": "Alaves",
-      "kickoff": "Sat Nov 23 • 16:15 UTC",
+      "kickoff": "Sat Nov 23 \u2022 16:15 UTC",
       "raw_kickoff": "2024-11-23T16:15Z",
       "finished": false,
       "score_h": null,
@@ -1367,7 +1367,7 @@
     {
       "home": "Racing Santander",
       "away": "Malaga",
-      "kickoff": "Sat Nov 23 • 18:30 UTC",
+      "kickoff": "Sat Nov 23 \u2022 18:30 UTC",
       "raw_kickoff": "2024-11-23T18:30Z",
       "finished": false,
       "score_h": null,
@@ -1377,7 +1377,7 @@
     {
       "home": "Deportivo La Coruna",
       "away": "Espanyol",
-      "kickoff": "Sat Nov 23 • 18:30 UTC",
+      "kickoff": "Sat Nov 23 \u2022 18:30 UTC",
       "raw_kickoff": "2024-11-23T18:30Z",
       "finished": false,
       "score_h": null,
@@ -1387,7 +1387,7 @@
     {
       "home": "Celta Vigo",
       "away": "Barcelona",
-      "kickoff": "Sat Nov 23 • 21:00 UTC",
+      "kickoff": "Sat Nov 23 \u2022 21:00 UTC",
       "raw_kickoff": "2024-11-23T21:00Z",
       "finished": false,
       "score_h": null,
@@ -1397,7 +1397,7 @@
     {
       "home": "Osasuna",
       "away": "Villarreal",
-      "kickoff": "Sun Nov 24 • 14:00 UTC",
+      "kickoff": "Sun Nov 24 \u2022 14:00 UTC",
       "raw_kickoff": "2024-11-24T14:00Z",
       "finished": false,
       "score_h": null,
@@ -1407,7 +1407,7 @@
     {
       "home": "Sevilla",
       "away": "Rayo Vallecano",
-      "kickoff": "Sun Nov 24 • 16:15 UTC",
+      "kickoff": "Sun Nov 24 \u2022 16:15 UTC",
       "raw_kickoff": "2024-11-24T16:15Z",
       "finished": false,
       "score_h": null,
@@ -1417,7 +1417,7 @@
     {
       "home": "Elche",
       "away": "Real Madrid",
-      "kickoff": "Sun Nov 24 • 18:30 UTC",
+      "kickoff": "Sun Nov 24 \u2022 18:30 UTC",
       "raw_kickoff": "2024-11-24T18:30Z",
       "finished": false,
       "score_h": null,
@@ -1427,7 +1427,7 @@
     {
       "home": "Athletic Club",
       "away": "Real Sociedad",
-      "kickoff": "Sun Nov 24 • 21:00 UTC",
+      "kickoff": "Sun Nov 24 \u2022 21:00 UTC",
       "raw_kickoff": "2024-11-24T21:00Z",
       "finished": false,
       "score_h": null,
@@ -1439,7 +1439,7 @@
     {
       "home": "Malaga",
       "away": "Valencia",
-      "kickoff": "Fri Nov 29 • 21:00 UTC",
+      "kickoff": "Fri Nov 29 \u2022 21:00 UTC",
       "raw_kickoff": "2024-11-29T21:00Z",
       "finished": false,
       "score_h": null,
@@ -1449,7 +1449,7 @@
     {
       "home": "Barcelona",
       "away": "Racing Santander",
-      "kickoff": "Sat Nov 30 • 14:00 UTC",
+      "kickoff": "Sat Nov 30 \u2022 14:00 UTC",
       "raw_kickoff": "2024-11-30T14:00Z",
       "finished": false,
       "score_h": null,
@@ -1459,7 +1459,7 @@
     {
       "home": "Alaves",
       "away": "Elche",
-      "kickoff": "Sat Nov 30 • 16:15 UTC",
+      "kickoff": "Sat Nov 30 \u2022 16:15 UTC",
       "raw_kickoff": "2024-11-30T16:15Z",
       "finished": false,
       "score_h": null,
@@ -1469,7 +1469,7 @@
     {
       "home": "Espanyol",
       "away": "Celta Vigo",
-      "kickoff": "Sat Nov 30 • 18:30 UTC",
+      "kickoff": "Sat Nov 30 \u2022 18:30 UTC",
       "raw_kickoff": "2024-11-30T18:30Z",
       "finished": false,
       "score_h": null,
@@ -1479,7 +1479,7 @@
     {
       "home": "Levante",
       "away": "Atletico Madrid",
-      "kickoff": "Sat Nov 30 • 21:00 UTC",
+      "kickoff": "Sat Nov 30 \u2022 21:00 UTC",
       "raw_kickoff": "2024-11-30T21:00Z",
       "finished": false,
       "score_h": null,
@@ -1489,7 +1489,7 @@
     {
       "home": "Villarreal",
       "away": "Deportivo La Coruna",
-      "kickoff": "Sun Dec 01 • 14:00 UTC",
+      "kickoff": "Sun Dec 01 \u2022 14:00 UTC",
       "raw_kickoff": "2024-12-01T14:00Z",
       "finished": false,
       "score_h": null,
@@ -1499,7 +1499,7 @@
     {
       "home": "Real Madrid",
       "away": "Getafe",
-      "kickoff": "Sun Dec 01 • 16:15 UTC",
+      "kickoff": "Sun Dec 01 \u2022 16:15 UTC",
       "raw_kickoff": "2024-12-01T16:15Z",
       "finished": false,
       "score_h": null,
@@ -1509,7 +1509,7 @@
     {
       "home": "Rayo Vallecano",
       "away": "Athletic Club",
-      "kickoff": "Sun Dec 01 • 18:30 UTC",
+      "kickoff": "Sun Dec 01 \u2022 18:30 UTC",
       "raw_kickoff": "2024-12-01T18:30Z",
       "finished": false,
       "score_h": null,
@@ -1519,7 +1519,7 @@
     {
       "home": "Real Sociedad",
       "away": "Real Betis",
-      "kickoff": "Sun Dec 01 • 21:00 UTC",
+      "kickoff": "Sun Dec 01 \u2022 21:00 UTC",
       "raw_kickoff": "2024-12-01T21:00Z",
       "finished": false,
       "score_h": null,
@@ -1529,7 +1529,7 @@
     {
       "home": "Sevilla",
       "away": "Osasuna",
-      "kickoff": "Mon Dec 02 • 21:00 UTC",
+      "kickoff": "Mon Dec 02 \u2022 21:00 UTC",
       "raw_kickoff": "2024-12-02T21:00Z",
       "finished": false,
       "score_h": null,
@@ -1541,7 +1541,7 @@
     {
       "home": "Celta Vigo",
       "away": "Malaga",
-      "kickoff": "Fri Dec 06 • 21:00 UTC",
+      "kickoff": "Fri Dec 06 \u2022 21:00 UTC",
       "raw_kickoff": "2024-12-06T21:00Z",
       "finished": false,
       "score_h": null,
@@ -1551,7 +1551,7 @@
     {
       "home": "Racing Santander",
       "away": "Levante",
-      "kickoff": "Sat Dec 07 • 14:00 UTC",
+      "kickoff": "Sat Dec 07 \u2022 14:00 UTC",
       "raw_kickoff": "2024-12-07T14:00Z",
       "finished": false,
       "score_h": null,
@@ -1561,7 +1561,7 @@
     {
       "home": "Real Betis",
       "away": "Barcelona",
-      "kickoff": "Sat Dec 07 • 16:15 UTC",
+      "kickoff": "Sat Dec 07 \u2022 16:15 UTC",
       "raw_kickoff": "2024-12-07T16:15Z",
       "finished": false,
       "score_h": null,
@@ -1571,7 +1571,7 @@
     {
       "home": "Valencia",
       "away": "Rayo Vallecano",
-      "kickoff": "Sat Dec 07 • 18:30 UTC",
+      "kickoff": "Sat Dec 07 \u2022 18:30 UTC",
       "raw_kickoff": "2024-12-07T18:30Z",
       "finished": false,
       "score_h": null,
@@ -1581,7 +1581,7 @@
     {
       "home": "Deportivo La Coruna",
       "away": "Real Madrid",
-      "kickoff": "Sat Dec 07 • 21:00 UTC",
+      "kickoff": "Sat Dec 07 \u2022 21:00 UTC",
       "raw_kickoff": "2024-12-07T21:00Z",
       "finished": false,
       "score_h": null,
@@ -1591,7 +1591,7 @@
     {
       "home": "Elche",
       "away": "Real Sociedad",
-      "kickoff": "Sun Dec 08 • 14:00 UTC",
+      "kickoff": "Sun Dec 08 \u2022 14:00 UTC",
       "raw_kickoff": "2024-12-08T14:00Z",
       "finished": false,
       "score_h": null,
@@ -1601,7 +1601,7 @@
     {
       "home": "Athletic Club",
       "away": "Villarreal",
-      "kickoff": "Sun Dec 08 • 16:15 UTC",
+      "kickoff": "Sun Dec 08 \u2022 16:15 UTC",
       "raw_kickoff": "2024-12-08T16:15Z",
       "finished": false,
       "score_h": null,
@@ -1611,7 +1611,7 @@
     {
       "home": "Osasuna",
       "away": "Alaves",
-      "kickoff": "Sun Dec 08 • 18:30 UTC",
+      "kickoff": "Sun Dec 08 \u2022 18:30 UTC",
       "raw_kickoff": "2024-12-08T18:30Z",
       "finished": false,
       "score_h": null,
@@ -1621,7 +1621,7 @@
     {
       "home": "Atletico Madrid",
       "away": "Sevilla",
-      "kickoff": "Sun Dec 08 • 21:00 UTC",
+      "kickoff": "Sun Dec 08 \u2022 21:00 UTC",
       "raw_kickoff": "2024-12-08T21:00Z",
       "finished": false,
       "score_h": null,
@@ -1631,7 +1631,7 @@
     {
       "home": "Getafe",
       "away": "Espanyol",
-      "kickoff": "Mon Dec 09 • 21:00 UTC",
+      "kickoff": "Mon Dec 09 \u2022 21:00 UTC",
       "raw_kickoff": "2024-12-09T21:00Z",
       "finished": false,
       "score_h": null,
@@ -1643,7 +1643,7 @@
     {
       "home": "Levante",
       "away": "Valencia",
-      "kickoff": "Fri Dec 13 • 21:00 UTC",
+      "kickoff": "Fri Dec 13 \u2022 21:00 UTC",
       "raw_kickoff": "2024-12-13T21:00Z",
       "finished": false,
       "score_h": null,
@@ -1653,7 +1653,7 @@
     {
       "home": "Espanyol",
       "away": "Osasuna",
-      "kickoff": "Sat Dec 14 • 14:00 UTC",
+      "kickoff": "Sat Dec 14 \u2022 14:00 UTC",
       "raw_kickoff": "2024-12-14T14:00Z",
       "finished": false,
       "score_h": null,
@@ -1663,7 +1663,7 @@
     {
       "home": "Malaga",
       "away": "Deportivo La Coruna",
-      "kickoff": "Sat Dec 14 • 16:15 UTC",
+      "kickoff": "Sat Dec 14 \u2022 16:15 UTC",
       "raw_kickoff": "2024-12-14T16:15Z",
       "finished": false,
       "score_h": null,
@@ -1673,7 +1673,7 @@
     {
       "home": "Sevilla",
       "away": "Celta Vigo",
-      "kickoff": "Sat Dec 14 • 18:30 UTC",
+      "kickoff": "Sat Dec 14 \u2022 18:30 UTC",
       "raw_kickoff": "2024-12-14T18:30Z",
       "finished": false,
       "score_h": null,
@@ -1683,7 +1683,7 @@
     {
       "home": "Rayo Vallecano",
       "away": "Real Madrid",
-      "kickoff": "Sat Dec 14 • 21:00 UTC",
+      "kickoff": "Sat Dec 14 \u2022 21:00 UTC",
       "raw_kickoff": "2024-12-14T21:00Z",
       "finished": false,
       "score_h": null,
@@ -1693,7 +1693,7 @@
     {
       "home": "Atletico Madrid",
       "away": "Getafe",
-      "kickoff": "Sun Dec 15 • 14:00 UTC",
+      "kickoff": "Sun Dec 15 \u2022 14:00 UTC",
       "raw_kickoff": "2024-12-15T14:00Z",
       "finished": false,
       "score_h": null,
@@ -1703,7 +1703,7 @@
     {
       "home": "Alaves",
       "away": "Athletic Club",
-      "kickoff": "Sun Dec 15 • 16:15 UTC",
+      "kickoff": "Sun Dec 15 \u2022 16:15 UTC",
       "raw_kickoff": "2024-12-15T16:15Z",
       "finished": false,
       "score_h": null,
@@ -1713,7 +1713,7 @@
     {
       "home": "Villarreal",
       "away": "Real Betis",
-      "kickoff": "Sun Dec 15 • 18:30 UTC",
+      "kickoff": "Sun Dec 15 \u2022 18:30 UTC",
       "raw_kickoff": "2024-12-15T18:30Z",
       "finished": false,
       "score_h": null,
@@ -1723,7 +1723,7 @@
     {
       "home": "Real Sociedad",
       "away": "Racing Santander",
-      "kickoff": "Sun Dec 15 • 18:30 UTC",
+      "kickoff": "Sun Dec 15 \u2022 18:30 UTC",
       "raw_kickoff": "2024-12-15T18:30Z",
       "finished": false,
       "score_h": null,
@@ -1733,7 +1733,7 @@
     {
       "home": "Barcelona",
       "away": "Elche",
-      "kickoff": "Sun Dec 15 • 21:00 UTC",
+      "kickoff": "Sun Dec 15 \u2022 21:00 UTC",
       "raw_kickoff": "2024-12-15T21:00Z",
       "finished": false,
       "score_h": null,
@@ -1745,7 +1745,7 @@
     {
       "home": "Deportivo La Coruna",
       "away": "Levante",
-      "kickoff": "Fri Dec 20 • 21:00 UTC",
+      "kickoff": "Fri Dec 20 \u2022 21:00 UTC",
       "raw_kickoff": "2024-12-20T21:00Z",
       "finished": false,
       "score_h": null,
@@ -1755,7 +1755,7 @@
     {
       "home": "Getafe",
       "away": "Malaga",
-      "kickoff": "Sat Dec 21 • 14:00 UTC",
+      "kickoff": "Sat Dec 21 \u2022 14:00 UTC",
       "raw_kickoff": "2024-12-21T14:00Z",
       "finished": false,
       "score_h": null,
@@ -1765,7 +1765,7 @@
     {
       "home": "Celta Vigo",
       "away": "Real Sociedad",
-      "kickoff": "Sat Dec 21 • 16:15 UTC",
+      "kickoff": "Sat Dec 21 \u2022 16:15 UTC",
       "raw_kickoff": "2024-12-21T16:15Z",
       "finished": false,
       "score_h": null,
@@ -1775,7 +1775,7 @@
     {
       "home": "Osasuna",
       "away": "Athletic Club",
-      "kickoff": "Sat Dec 21 • 18:30 UTC",
+      "kickoff": "Sat Dec 21 \u2022 18:30 UTC",
       "raw_kickoff": "2024-12-21T18:30Z",
       "finished": true,
       "score_h": 1,
@@ -1785,7 +1785,7 @@
     {
       "home": "Barcelona",
       "away": "Atletico Madrid",
-      "kickoff": "Sat Dec 21 • 21:00 UTC",
+      "kickoff": "Sat Dec 21 \u2022 21:00 UTC",
       "raw_kickoff": "2024-12-21T21:00Z",
       "finished": false,
       "score_h": null,
@@ -1795,7 +1795,7 @@
     {
       "home": "Valencia",
       "away": "Alaves",
-      "kickoff": "Sun Dec 22 • 14:00 UTC",
+      "kickoff": "Sun Dec 22 \u2022 14:00 UTC",
       "raw_kickoff": "2024-12-22T14:00Z",
       "finished": false,
       "score_h": null,
@@ -1805,7 +1805,7 @@
     {
       "home": "Real Madrid",
       "away": "Sevilla",
-      "kickoff": "Sun Dec 22 • 16:15 UTC",
+      "kickoff": "Sun Dec 22 \u2022 16:15 UTC",
       "raw_kickoff": "2024-12-22T16:15Z",
       "finished": false,
       "score_h": null,
@@ -1815,7 +1815,7 @@
     {
       "home": "Elche",
       "away": "Villarreal",
-      "kickoff": "Sun Dec 22 • 18:30 UTC",
+      "kickoff": "Sun Dec 22 \u2022 18:30 UTC",
       "raw_kickoff": "2024-12-22T18:30Z",
       "finished": false,
       "score_h": null,
@@ -1825,7 +1825,7 @@
     {
       "home": "Racing Santander",
       "away": "Espanyol",
-      "kickoff": "Sun Dec 22 • 18:30 UTC",
+      "kickoff": "Sun Dec 22 \u2022 18:30 UTC",
       "raw_kickoff": "2024-12-22T18:30Z",
       "finished": false,
       "score_h": null,
@@ -1835,7 +1835,7 @@
     {
       "home": "Real Betis",
       "away": "Rayo Vallecano",
-      "kickoff": "Sun Dec 22 • 21:00 UTC",
+      "kickoff": "Sun Dec 22 \u2022 21:00 UTC",
       "raw_kickoff": "2024-12-22T21:00Z",
       "finished": false,
       "score_h": null,
@@ -1847,7 +1847,7 @@
     {
       "home": "Malaga",
       "away": "Barcelona",
-      "kickoff": "Tue Dec 03 • 19:00 UTC",
+      "kickoff": "Tue Dec 03 \u2022 19:00 UTC",
       "raw_kickoff": "2024-12-03T19:00Z",
       "finished": false,
       "score_h": null,
@@ -1857,7 +1857,7 @@
     {
       "home": "Athletic Club",
       "away": "Real Madrid",
-      "kickoff": "Wed Dec 04 • 21:00 UTC",
+      "kickoff": "Wed Dec 04 \u2022 21:00 UTC",
       "raw_kickoff": "2024-12-04T21:00Z",
       "finished": false,
       "score_h": null,
@@ -1867,7 +1867,7 @@
     {
       "home": "Rayo Vallecano",
       "away": "Celta Vigo",
-      "kickoff": "Fri Jan 10 • 21:00 UTC",
+      "kickoff": "Fri Jan 10 \u2022 21:00 UTC",
       "raw_kickoff": "2025-01-10T21:00Z",
       "finished": false,
       "score_h": null,
@@ -1877,7 +1877,7 @@
     {
       "home": "Alaves",
       "away": "Deportivo La Coruna",
-      "kickoff": "Sat Jan 11 • 14:00 UTC",
+      "kickoff": "Sat Jan 11 \u2022 14:00 UTC",
       "raw_kickoff": "2025-01-11T14:00Z",
       "finished": false,
       "score_h": null,
@@ -1887,7 +1887,7 @@
     {
       "home": "Levante",
       "away": "Real Betis",
-      "kickoff": "Sat Jan 11 • 16:15 UTC",
+      "kickoff": "Sat Jan 11 \u2022 16:15 UTC",
       "raw_kickoff": "2025-01-11T16:15Z",
       "finished": false,
       "score_h": null,
@@ -1897,7 +1897,7 @@
     {
       "home": "Espanyol",
       "away": "Elche",
-      "kickoff": "Sat Jan 11 • 18:30 UTC",
+      "kickoff": "Sat Jan 11 \u2022 18:30 UTC",
       "raw_kickoff": "2025-01-11T18:30Z",
       "finished": false,
       "score_h": null,
@@ -1907,7 +1907,7 @@
     {
       "home": "Sevilla",
       "away": "Valencia",
-      "kickoff": "Sat Jan 11 • 21:00 UTC",
+      "kickoff": "Sat Jan 11 \u2022 21:00 UTC",
       "raw_kickoff": "2025-01-11T21:00Z",
       "finished": false,
       "score_h": null,
@@ -1917,7 +1917,7 @@
     {
       "home": "Racing Santander",
       "away": "Getafe",
-      "kickoff": "Sun Jan 12 • 14:00 UTC",
+      "kickoff": "Sun Jan 12 \u2022 14:00 UTC",
       "raw_kickoff": "2025-01-12T14:00Z",
       "finished": false,
       "score_h": null,
@@ -1927,7 +1927,7 @@
     {
       "home": "Atletico Madrid",
       "away": "Osasuna",
-      "kickoff": "Sun Jan 12 • 16:15 UTC",
+      "kickoff": "Sun Jan 12 \u2022 16:15 UTC",
       "raw_kickoff": "2025-01-12T16:15Z",
       "finished": false,
       "score_h": null,
@@ -1937,7 +1937,7 @@
     {
       "home": "Real Sociedad",
       "away": "Villarreal",
-      "kickoff": "Mon Jan 13 • 21:00 UTC",
+      "kickoff": "Mon Jan 13 \u2022 21:00 UTC",
       "raw_kickoff": "2025-01-13T21:00Z",
       "finished": false,
       "score_h": null,
@@ -1949,7 +1949,7 @@
     {
       "home": "Espanyol",
       "away": "Levante",
-      "kickoff": "Fri Jan 17 • 21:00 UTC",
+      "kickoff": "Fri Jan 17 \u2022 21:00 UTC",
       "raw_kickoff": "2025-01-17T21:00Z",
       "finished": false,
       "score_h": null,
@@ -1959,7 +1959,7 @@
     {
       "home": "Deportivo La Coruna",
       "away": "Sevilla",
-      "kickoff": "Sat Jan 18 • 14:00 UTC",
+      "kickoff": "Sat Jan 18 \u2022 14:00 UTC",
       "raw_kickoff": "2025-01-18T14:00Z",
       "finished": false,
       "score_h": null,
@@ -1969,7 +1969,7 @@
     {
       "home": "Elche",
       "away": "Atletico Madrid",
-      "kickoff": "Sat Jan 18 • 16:15 UTC",
+      "kickoff": "Sat Jan 18 \u2022 16:15 UTC",
       "raw_kickoff": "2025-01-18T16:15Z",
       "finished": false,
       "score_h": null,
@@ -1979,7 +1979,7 @@
     {
       "home": "Real Betis",
       "away": "Alaves",
-      "kickoff": "Sat Jan 18 • 18:30 UTC",
+      "kickoff": "Sat Jan 18 \u2022 18:30 UTC",
       "raw_kickoff": "2025-01-18T18:30Z",
       "finished": false,
       "score_h": null,
@@ -1989,7 +1989,7 @@
     {
       "home": "Getafe",
       "away": "Barcelona",
-      "kickoff": "Sat Jan 18 • 21:00 UTC",
+      "kickoff": "Sat Jan 18 \u2022 21:00 UTC",
       "raw_kickoff": "2025-01-18T21:00Z",
       "finished": false,
       "score_h": null,
@@ -1999,7 +1999,7 @@
     {
       "home": "Celta Vigo",
       "away": "Athletic Club",
-      "kickoff": "Sun Jan 19 • 14:00 UTC",
+      "kickoff": "Sun Jan 19 \u2022 14:00 UTC",
       "raw_kickoff": "2025-01-19T14:00Z",
       "finished": false,
       "score_h": null,
@@ -2009,7 +2009,7 @@
     {
       "home": "Real Madrid",
       "away": "Racing Santander",
-      "kickoff": "Sun Jan 19 • 16:15 UTC",
+      "kickoff": "Sun Jan 19 \u2022 16:15 UTC",
       "raw_kickoff": "2025-01-19T16:15Z",
       "finished": false,
       "score_h": null,
@@ -2019,7 +2019,7 @@
     {
       "home": "Osasuna",
       "away": "Rayo Vallecano",
-      "kickoff": "Sun Jan 19 • 18:30 UTC",
+      "kickoff": "Sun Jan 19 \u2022 18:30 UTC",
       "raw_kickoff": "2025-01-19T18:30Z",
       "finished": false,
       "score_h": null,
@@ -2029,7 +2029,7 @@
     {
       "home": "Valencia",
       "away": "Real Sociedad",
-      "kickoff": "Sun Jan 19 • 21:00 UTC",
+      "kickoff": "Sun Jan 19 \u2022 21:00 UTC",
       "raw_kickoff": "2025-01-19T21:00Z",
       "finished": false,
       "score_h": null,
@@ -2039,7 +2039,7 @@
     {
       "home": "Villarreal",
       "away": "Malaga",
-      "kickoff": "Mon Jan 20 • 21:00 UTC",
+      "kickoff": "Mon Jan 20 \u2022 21:00 UTC",
       "raw_kickoff": "2025-01-20T21:00Z",
       "finished": false,
       "score_h": null,
@@ -2051,7 +2051,7 @@
     {
       "home": "Racing Santander",
       "away": "Osasuna",
-      "kickoff": "Fri Jan 24 • 21:00 UTC",
+      "kickoff": "Fri Jan 24 \u2022 21:00 UTC",
       "raw_kickoff": "2025-01-24T21:00Z",
       "finished": false,
       "score_h": null,
@@ -2061,7 +2061,7 @@
     {
       "home": "Malaga",
       "away": "Real Betis",
-      "kickoff": "Sat Jan 25 • 14:00 UTC",
+      "kickoff": "Sat Jan 25 \u2022 14:00 UTC",
       "raw_kickoff": "2025-01-25T14:00Z",
       "finished": false,
       "score_h": null,
@@ -2071,7 +2071,7 @@
     {
       "home": "Atletico Madrid",
       "away": "Villarreal",
-      "kickoff": "Sat Jan 25 • 16:15 UTC",
+      "kickoff": "Sat Jan 25 \u2022 16:15 UTC",
       "raw_kickoff": "2025-01-25T16:15Z",
       "finished": false,
       "score_h": null,
@@ -2081,7 +2081,7 @@
     {
       "home": "Sevilla",
       "away": "Espanyol",
-      "kickoff": "Sat Jan 25 • 18:30 UTC",
+      "kickoff": "Sat Jan 25 \u2022 18:30 UTC",
       "raw_kickoff": "2025-01-25T18:30Z",
       "finished": false,
       "score_h": null,
@@ -2091,7 +2091,7 @@
     {
       "home": "Levante",
       "away": "Real Madrid",
-      "kickoff": "Sat Jan 25 • 21:00 UTC",
+      "kickoff": "Sat Jan 25 \u2022 21:00 UTC",
       "raw_kickoff": "2025-01-25T21:00Z",
       "finished": false,
       "score_h": null,
@@ -2101,7 +2101,7 @@
     {
       "home": "Rayo Vallecano",
       "away": "Deportivo La Coruna",
-      "kickoff": "Sun Jan 26 • 14:00 UTC",
+      "kickoff": "Sun Jan 26 \u2022 14:00 UTC",
       "raw_kickoff": "2025-01-26T14:00Z",
       "finished": false,
       "score_h": null,
@@ -2111,7 +2111,7 @@
     {
       "home": "Real Sociedad",
       "away": "Getafe",
-      "kickoff": "Sun Jan 26 • 16:15 UTC",
+      "kickoff": "Sun Jan 26 \u2022 16:15 UTC",
       "raw_kickoff": "2025-01-26T16:15Z",
       "finished": false,
       "score_h": null,
@@ -2121,7 +2121,7 @@
     {
       "home": "Athletic Club",
       "away": "Elche",
-      "kickoff": "Sun Jan 26 • 18:30 UTC",
+      "kickoff": "Sun Jan 26 \u2022 18:30 UTC",
       "raw_kickoff": "2025-01-26T18:30Z",
       "finished": false,
       "score_h": null,
@@ -2131,7 +2131,7 @@
     {
       "home": "Barcelona",
       "away": "Valencia",
-      "kickoff": "Sun Jan 26 • 21:00 UTC",
+      "kickoff": "Sun Jan 26 \u2022 21:00 UTC",
       "raw_kickoff": "2025-01-26T21:00Z",
       "finished": false,
       "score_h": null,
@@ -2141,7 +2141,7 @@
     {
       "home": "Alaves",
       "away": "Celta Vigo",
-      "kickoff": "Mon Jan 27 • 21:00 UTC",
+      "kickoff": "Mon Jan 27 \u2022 21:00 UTC",
       "raw_kickoff": "2025-01-27T21:00Z",
       "finished": false,
       "score_h": null,
@@ -2153,7 +2153,7 @@
     {
       "home": "Elche",
       "away": "Rayo Vallecano",
-      "kickoff": "Fri Jan 31 • 21:00 UTC",
+      "kickoff": "Fri Jan 31 \u2022 21:00 UTC",
       "raw_kickoff": "2025-01-31T21:00Z",
       "finished": false,
       "score_h": null,
@@ -2163,7 +2163,7 @@
     {
       "home": "Getafe",
       "away": "Sevilla",
-      "kickoff": "Sat Feb 01 • 14:00 UTC",
+      "kickoff": "Sat Feb 01 \u2022 14:00 UTC",
       "raw_kickoff": "2025-02-01T14:00Z",
       "finished": false,
       "score_h": null,
@@ -2173,7 +2173,7 @@
     {
       "home": "Villarreal",
       "away": "Levante",
-      "kickoff": "Sat Feb 01 • 16:15 UTC",
+      "kickoff": "Sat Feb 01 \u2022 16:15 UTC",
       "raw_kickoff": "2025-02-01T16:15Z",
       "finished": false,
       "score_h": null,
@@ -2183,7 +2183,7 @@
     {
       "home": "Atletico Madrid",
       "away": "Malaga",
-      "kickoff": "Sat Feb 01 • 18:30 UTC",
+      "kickoff": "Sat Feb 01 \u2022 18:30 UTC",
       "raw_kickoff": "2025-02-01T18:30Z",
       "finished": false,
       "score_h": null,
@@ -2193,7 +2193,7 @@
     {
       "home": "Espanyol",
       "away": "Real Madrid",
-      "kickoff": "Sat Feb 01 • 21:00 UTC",
+      "kickoff": "Sat Feb 01 \u2022 21:00 UTC",
       "raw_kickoff": "2025-02-01T21:00Z",
       "finished": false,
       "score_h": null,
@@ -2203,7 +2203,7 @@
     {
       "home": "Barcelona",
       "away": "Alaves",
-      "kickoff": "Sun Feb 02 • 14:00 UTC",
+      "kickoff": "Sun Feb 02 \u2022 14:00 UTC",
       "raw_kickoff": "2025-02-02T14:00Z",
       "finished": false,
       "score_h": null,
@@ -2213,7 +2213,7 @@
     {
       "home": "Valencia",
       "away": "Celta Vigo",
-      "kickoff": "Sun Feb 02 • 16:15 UTC",
+      "kickoff": "Sun Feb 02 \u2022 16:15 UTC",
       "raw_kickoff": "2025-02-02T16:15Z",
       "finished": false,
       "score_h": null,
@@ -2223,7 +2223,7 @@
     {
       "home": "Osasuna",
       "away": "Real Sociedad",
-      "kickoff": "Sun Feb 02 • 18:30 UTC",
+      "kickoff": "Sun Feb 02 \u2022 18:30 UTC",
       "raw_kickoff": "2025-02-02T18:30Z",
       "finished": false,
       "score_h": null,
@@ -2233,7 +2233,7 @@
     {
       "home": "Real Betis",
       "away": "Athletic Club",
-      "kickoff": "Sun Feb 02 • 21:00 UTC",
+      "kickoff": "Sun Feb 02 \u2022 21:00 UTC",
       "raw_kickoff": "2025-02-02T21:00Z",
       "finished": false,
       "score_h": null,
@@ -2243,7 +2243,7 @@
     {
       "home": "Deportivo La Coruna",
       "away": "Racing Santander",
-      "kickoff": "Mon Feb 03 • 21:00 UTC",
+      "kickoff": "Mon Feb 03 \u2022 21:00 UTC",
       "raw_kickoff": "2025-02-03T21:00Z",
       "finished": false,
       "score_h": null,
@@ -2255,7 +2255,7 @@
     {
       "home": "Rayo Vallecano",
       "away": "Levante",
-      "kickoff": "Fri Feb 07 • 21:00 UTC",
+      "kickoff": "Fri Feb 07 \u2022 21:00 UTC",
       "raw_kickoff": "2025-02-07T21:00Z",
       "finished": false,
       "score_h": null,
@@ -2265,7 +2265,7 @@
     {
       "home": "Celta Vigo",
       "away": "Real Betis",
-      "kickoff": "Sat Feb 08 • 14:00 UTC",
+      "kickoff": "Sat Feb 08 \u2022 14:00 UTC",
       "raw_kickoff": "2025-02-08T14:00Z",
       "finished": false,
       "score_h": null,
@@ -2275,7 +2275,7 @@
     {
       "home": "Athletic Club",
       "away": "Deportivo La Coruna",
-      "kickoff": "Sat Feb 08 • 16:15 UTC",
+      "kickoff": "Sat Feb 08 \u2022 16:15 UTC",
       "raw_kickoff": "2025-02-08T16:15Z",
       "finished": false,
       "score_h": null,
@@ -2285,7 +2285,7 @@
     {
       "home": "Racing Santander",
       "away": "Villarreal",
-      "kickoff": "Sat Feb 08 • 18:30 UTC",
+      "kickoff": "Sat Feb 08 \u2022 18:30 UTC",
       "raw_kickoff": "2025-02-08T18:30Z",
       "finished": false,
       "score_h": null,
@@ -2295,7 +2295,7 @@
     {
       "home": "Real Madrid",
       "away": "Atletico Madrid",
-      "kickoff": "Sat Feb 08 • 21:00 UTC",
+      "kickoff": "Sat Feb 08 \u2022 21:00 UTC",
       "raw_kickoff": "2025-02-08T21:00Z",
       "finished": false,
       "score_h": null,
@@ -2305,7 +2305,7 @@
     {
       "home": "Alaves",
       "away": "Getafe",
-      "kickoff": "Sun Feb 09 • 14:00 UTC",
+      "kickoff": "Sun Feb 09 \u2022 14:00 UTC",
       "raw_kickoff": "2025-02-09T14:00Z",
       "finished": false,
       "score_h": null,
@@ -2315,7 +2315,7 @@
     {
       "home": "Valencia",
       "away": "Elche",
-      "kickoff": "Sun Feb 09 • 16:15 UTC",
+      "kickoff": "Sun Feb 09 \u2022 16:15 UTC",
       "raw_kickoff": "2025-02-09T16:15Z",
       "finished": false,
       "score_h": null,
@@ -2325,7 +2325,7 @@
     {
       "home": "Real Sociedad",
       "away": "Espanyol",
-      "kickoff": "Sun Feb 09 • 18:30 UTC",
+      "kickoff": "Sun Feb 09 \u2022 18:30 UTC",
       "raw_kickoff": "2025-02-09T18:30Z",
       "finished": false,
       "score_h": null,
@@ -2335,7 +2335,7 @@
     {
       "home": "Sevilla",
       "away": "Barcelona",
-      "kickoff": "Sun Feb 09 • 21:00 UTC",
+      "kickoff": "Sun Feb 09 \u2022 21:00 UTC",
       "raw_kickoff": "2025-02-09T21:00Z",
       "finished": false,
       "score_h": null,
@@ -2345,7 +2345,7 @@
     {
       "home": "Malaga",
       "away": "Osasuna",
-      "kickoff": "Mon Feb 10 • 21:00 UTC",
+      "kickoff": "Mon Feb 10 \u2022 21:00 UTC",
       "raw_kickoff": "2025-02-10T21:00Z",
       "finished": false,
       "score_h": null,
@@ -2357,7 +2357,7 @@
     {
       "home": "Deportivo La Coruna",
       "away": "Getafe",
-      "kickoff": "Fri Feb 14 • 21:00 UTC",
+      "kickoff": "Fri Feb 14 \u2022 21:00 UTC",
       "raw_kickoff": "2025-02-14T21:00Z",
       "finished": false,
       "score_h": null,
@@ -2367,7 +2367,7 @@
     {
       "home": "Elche",
       "away": "Alaves",
-      "kickoff": "Sat Feb 15 • 14:00 UTC",
+      "kickoff": "Sat Feb 15 \u2022 14:00 UTC",
       "raw_kickoff": "2025-02-15T14:00Z",
       "finished": false,
       "score_h": null,
@@ -2377,7 +2377,7 @@
     {
       "home": "Osasuna",
       "away": "Real Madrid",
-      "kickoff": "Sat Feb 15 • 16:15 UTC",
+      "kickoff": "Sat Feb 15 \u2022 16:15 UTC",
       "raw_kickoff": "2025-02-15T16:15Z",
       "finished": false,
       "score_h": null,
@@ -2387,7 +2387,7 @@
     {
       "home": "Atletico Madrid",
       "away": "Celta Vigo",
-      "kickoff": "Sat Feb 15 • 18:30 UTC",
+      "kickoff": "Sat Feb 15 \u2022 18:30 UTC",
       "raw_kickoff": "2025-02-15T18:30Z",
       "finished": false,
       "score_h": null,
@@ -2397,7 +2397,7 @@
     {
       "home": "Villarreal",
       "away": "Valencia",
-      "kickoff": "Sat Feb 15 • 21:00 UTC",
+      "kickoff": "Sat Feb 15 \u2022 21:00 UTC",
       "raw_kickoff": "2025-02-15T21:00Z",
       "finished": false,
       "score_h": null,
@@ -2407,7 +2407,7 @@
     {
       "home": "Espanyol",
       "away": "Athletic Club",
-      "kickoff": "Sun Feb 16 • 14:00 UTC",
+      "kickoff": "Sun Feb 16 \u2022 14:00 UTC",
       "raw_kickoff": "2025-02-16T14:00Z",
       "finished": false,
       "score_h": null,
@@ -2417,7 +2417,7 @@
     {
       "home": "Levante",
       "away": "Sevilla",
-      "kickoff": "Sun Feb 16 • 16:15 UTC",
+      "kickoff": "Sun Feb 16 \u2022 16:15 UTC",
       "raw_kickoff": "2025-02-16T16:15Z",
       "finished": false,
       "score_h": null,
@@ -2427,7 +2427,7 @@
     {
       "home": "Malaga",
       "away": "Racing Santander",
-      "kickoff": "Sun Feb 16 • 18:30 UTC",
+      "kickoff": "Sun Feb 16 \u2022 18:30 UTC",
       "raw_kickoff": "2025-02-16T18:30Z",
       "finished": true,
       "score_h": 1,
@@ -2437,7 +2437,7 @@
     {
       "home": "Real Betis",
       "away": "Real Sociedad",
-      "kickoff": "Sun Feb 16 • 21:00 UTC",
+      "kickoff": "Sun Feb 16 \u2022 21:00 UTC",
       "raw_kickoff": "2025-02-16T21:00Z",
       "finished": false,
       "score_h": null,
@@ -2447,7 +2447,7 @@
     {
       "home": "Barcelona",
       "away": "Rayo Vallecano",
-      "kickoff": "Mon Feb 17 • 21:00 UTC",
+      "kickoff": "Mon Feb 17 \u2022 21:00 UTC",
       "raw_kickoff": "2025-02-17T21:00Z",
       "finished": false,
       "score_h": null,
@@ -2459,7 +2459,7 @@
     {
       "home": "Celta Vigo",
       "away": "Osasuna",
-      "kickoff": "Fri Feb 21 • 21:00 UTC",
+      "kickoff": "Fri Feb 21 \u2022 21:00 UTC",
       "raw_kickoff": "2025-02-21T21:00Z",
       "finished": false,
       "score_h": null,
@@ -2469,7 +2469,7 @@
     {
       "home": "Alaves",
       "away": "Espanyol",
-      "kickoff": "Sat Feb 22 • 14:00 UTC",
+      "kickoff": "Sat Feb 22 \u2022 14:00 UTC",
       "raw_kickoff": "2025-02-22T14:00Z",
       "finished": false,
       "score_h": null,
@@ -2479,7 +2479,7 @@
     {
       "home": "Rayo Vallecano",
       "away": "Villarreal",
-      "kickoff": "Sat Feb 22 • 16:15 UTC",
+      "kickoff": "Sat Feb 22 \u2022 16:15 UTC",
       "raw_kickoff": "2025-02-22T16:15Z",
       "finished": false,
       "score_h": null,
@@ -2489,7 +2489,7 @@
     {
       "home": "Valencia",
       "away": "Atletico Madrid",
-      "kickoff": "Sat Feb 22 • 18:30 UTC",
+      "kickoff": "Sat Feb 22 \u2022 18:30 UTC",
       "raw_kickoff": "2025-02-22T18:30Z",
       "finished": false,
       "score_h": null,
@@ -2499,7 +2499,7 @@
     {
       "home": "Racing Santander",
       "away": "Barcelona",
-      "kickoff": "Sat Feb 22 • 21:00 UTC",
+      "kickoff": "Sat Feb 22 \u2022 21:00 UTC",
       "raw_kickoff": "2025-02-22T21:00Z",
       "finished": false,
       "score_h": null,
@@ -2509,7 +2509,7 @@
     {
       "home": "Athletic Club",
       "away": "Levante",
-      "kickoff": "Sun Feb 23 • 14:00 UTC",
+      "kickoff": "Sun Feb 23 \u2022 14:00 UTC",
       "raw_kickoff": "2025-02-23T14:00Z",
       "finished": false,
       "score_h": null,
@@ -2519,7 +2519,7 @@
     {
       "home": "Real Madrid",
       "away": "Deportivo La Coruna",
-      "kickoff": "Sun Feb 23 • 16:15 UTC",
+      "kickoff": "Sun Feb 23 \u2022 16:15 UTC",
       "raw_kickoff": "2025-02-23T16:15Z",
       "finished": false,
       "score_h": null,
@@ -2529,7 +2529,7 @@
     {
       "home": "Getafe",
       "away": "Real Betis",
-      "kickoff": "Sun Feb 23 • 18:30 UTC",
+      "kickoff": "Sun Feb 23 \u2022 18:30 UTC",
       "raw_kickoff": "2025-02-23T18:30Z",
       "finished": false,
       "score_h": null,
@@ -2539,7 +2539,7 @@
     {
       "home": "Real Sociedad",
       "away": "Elche",
-      "kickoff": "Sun Feb 23 • 21:00 UTC",
+      "kickoff": "Sun Feb 23 \u2022 21:00 UTC",
       "raw_kickoff": "2025-02-23T21:00Z",
       "finished": false,
       "score_h": null,
@@ -2549,7 +2549,7 @@
     {
       "home": "Sevilla",
       "away": "Malaga",
-      "kickoff": "Mon Feb 24 • 21:00 UTC",
+      "kickoff": "Mon Feb 24 \u2022 21:00 UTC",
       "raw_kickoff": "2025-02-24T21:00Z",
       "finished": false,
       "score_h": null,
@@ -2561,7 +2561,7 @@
     {
       "home": "Levante",
       "away": "Racing Santander",
-      "kickoff": "Fri Feb 28 • 21:00 UTC",
+      "kickoff": "Fri Feb 28 \u2022 21:00 UTC",
       "raw_kickoff": "2025-02-28T21:00Z",
       "finished": false,
       "score_h": null,
@@ -2571,7 +2571,7 @@
     {
       "home": "Deportivo La Coruna",
       "away": "Celta Vigo",
-      "kickoff": "Sat Mar 01 • 14:00 UTC",
+      "kickoff": "Sat Mar 01 \u2022 14:00 UTC",
       "raw_kickoff": "2025-03-01T14:00Z",
       "finished": false,
       "score_h": null,
@@ -2581,7 +2581,7 @@
     {
       "home": "Rayo Vallecano",
       "away": "Sevilla",
-      "kickoff": "Sat Mar 01 • 16:15 UTC",
+      "kickoff": "Sat Mar 01 \u2022 16:15 UTC",
       "raw_kickoff": "2025-03-01T16:15Z",
       "finished": false,
       "score_h": null,
@@ -2591,7 +2591,7 @@
     {
       "home": "Real Betis",
       "away": "Real Madrid",
-      "kickoff": "Sat Mar 01 • 18:30 UTC",
+      "kickoff": "Sat Mar 01 \u2022 18:30 UTC",
       "raw_kickoff": "2025-03-01T18:30Z",
       "finished": false,
       "score_h": null,
@@ -2601,7 +2601,7 @@
     {
       "home": "Atletico Madrid",
       "away": "Athletic Club",
-      "kickoff": "Sat Mar 01 • 21:00 UTC",
+      "kickoff": "Sat Mar 01 \u2022 21:00 UTC",
       "raw_kickoff": "2025-03-01T21:00Z",
       "finished": false,
       "score_h": null,
@@ -2611,7 +2611,7 @@
     {
       "home": "Elche",
       "away": "Getafe",
-      "kickoff": "Sun Mar 02 • 14:00 UTC",
+      "kickoff": "Sun Mar 02 \u2022 14:00 UTC",
       "raw_kickoff": "2025-03-02T14:00Z",
       "finished": false,
       "score_h": null,
@@ -2621,7 +2621,7 @@
     {
       "home": "Barcelona",
       "away": "Real Sociedad",
-      "kickoff": "Sun Mar 02 • 16:15 UTC",
+      "kickoff": "Sun Mar 02 \u2022 16:15 UTC",
       "raw_kickoff": "2025-03-02T16:15Z",
       "finished": false,
       "score_h": null,
@@ -2631,7 +2631,7 @@
     {
       "home": "Malaga",
       "away": "Alaves",
-      "kickoff": "Sun Mar 02 • 18:30 UTC",
+      "kickoff": "Sun Mar 02 \u2022 18:30 UTC",
       "raw_kickoff": "2025-03-02T18:30Z",
       "finished": false,
       "score_h": null,
@@ -2641,7 +2641,7 @@
     {
       "home": "Osasuna",
       "away": "Valencia",
-      "kickoff": "Sun Mar 02 • 21:00 UTC",
+      "kickoff": "Sun Mar 02 \u2022 21:00 UTC",
       "raw_kickoff": "2025-03-02T21:00Z",
       "finished": false,
       "score_h": null,
@@ -2651,7 +2651,7 @@
     {
       "home": "Villarreal",
       "away": "Espanyol",
-      "kickoff": "Sun Apr 27 • 16:15 UTC",
+      "kickoff": "Sun Apr 27 \u2022 16:15 UTC",
       "raw_kickoff": "2025-04-27T16:15Z",
       "finished": false,
       "score_h": null,
@@ -2663,7 +2663,7 @@
     {
       "home": "Celta Vigo",
       "away": "Elche",
-      "kickoff": "Sat Mar 08 • 14:00 UTC",
+      "kickoff": "Sat Mar 08 \u2022 14:00 UTC",
       "raw_kickoff": "2025-03-08T14:00Z",
       "finished": false,
       "score_h": null,
@@ -2673,7 +2673,7 @@
     {
       "home": "Alaves",
       "away": "Villarreal",
-      "kickoff": "Sat Mar 08 • 16:15 UTC",
+      "kickoff": "Sat Mar 08 \u2022 16:15 UTC",
       "raw_kickoff": "2025-03-08T16:15Z",
       "finished": false,
       "score_h": null,
@@ -2683,7 +2683,7 @@
     {
       "home": "Valencia",
       "away": "Levante",
-      "kickoff": "Sat Mar 08 • 18:30 UTC",
+      "kickoff": "Sat Mar 08 \u2022 18:30 UTC",
       "raw_kickoff": "2025-03-08T18:30Z",
       "finished": false,
       "score_h": null,
@@ -2693,7 +2693,7 @@
     {
       "home": "Getafe",
       "away": "Atletico Madrid",
-      "kickoff": "Sun Mar 09 • 14:00 UTC",
+      "kickoff": "Sun Mar 09 \u2022 14:00 UTC",
       "raw_kickoff": "2025-03-09T14:00Z",
       "finished": false,
       "score_h": null,
@@ -2703,7 +2703,7 @@
     {
       "home": "Real Madrid",
       "away": "Rayo Vallecano",
-      "kickoff": "Sun Mar 09 • 16:15 UTC",
+      "kickoff": "Sun Mar 09 \u2022 16:15 UTC",
       "raw_kickoff": "2025-03-09T16:15Z",
       "finished": false,
       "score_h": null,
@@ -2713,7 +2713,7 @@
     {
       "home": "Athletic Club",
       "away": "Malaga",
-      "kickoff": "Sun Mar 09 • 18:30 UTC",
+      "kickoff": "Sun Mar 09 \u2022 18:30 UTC",
       "raw_kickoff": "2025-03-09T18:30Z",
       "finished": false,
       "score_h": null,
@@ -2723,7 +2723,7 @@
     {
       "home": "Real Betis",
       "away": "Racing Santander",
-      "kickoff": "Sun Mar 09 • 18:30 UTC",
+      "kickoff": "Sun Mar 09 \u2022 18:30 UTC",
       "raw_kickoff": "2025-03-09T18:30Z",
       "finished": false,
       "score_h": null,
@@ -2733,7 +2733,7 @@
     {
       "home": "Real Sociedad",
       "away": "Sevilla",
-      "kickoff": "Sun Mar 09 • 21:00 UTC",
+      "kickoff": "Sun Mar 09 \u2022 21:00 UTC",
       "raw_kickoff": "2025-03-09T21:00Z",
       "finished": false,
       "score_h": null,
@@ -2743,7 +2743,7 @@
     {
       "home": "Espanyol",
       "away": "Deportivo La Coruna",
-      "kickoff": "Mon Mar 10 • 21:00 UTC",
+      "kickoff": "Mon Mar 10 \u2022 21:00 UTC",
       "raw_kickoff": "2025-03-10T21:00Z",
       "finished": true,
       "score_h": 0,
@@ -2753,7 +2753,7 @@
     {
       "home": "Barcelona",
       "away": "Osasuna",
-      "kickoff": "Thu Mar 27 • 21:00 UTC",
+      "kickoff": "Thu Mar 27 \u2022 21:00 UTC",
       "raw_kickoff": "2025-03-27T21:00Z",
       "finished": false,
       "score_h": null,
@@ -2765,7 +2765,7 @@
     {
       "home": "Racing Santander",
       "away": "Alaves",
-      "kickoff": "Fri Mar 14 • 21:00 UTC",
+      "kickoff": "Fri Mar 14 \u2022 21:00 UTC",
       "raw_kickoff": "2025-03-14T21:00Z",
       "finished": false,
       "score_h": null,
@@ -2775,7 +2775,7 @@
     {
       "home": "Levante",
       "away": "Celta Vigo",
-      "kickoff": "Sat Mar 15 • 14:00 UTC",
+      "kickoff": "Sat Mar 15 \u2022 14:00 UTC",
       "raw_kickoff": "2025-03-15T14:00Z",
       "finished": false,
       "score_h": null,
@@ -2785,7 +2785,7 @@
     {
       "home": "Malaga",
       "away": "Espanyol",
-      "kickoff": "Sat Mar 15 • 16:15 UTC",
+      "kickoff": "Sat Mar 15 \u2022 16:15 UTC",
       "raw_kickoff": "2025-03-15T16:15Z",
       "finished": false,
       "score_h": null,
@@ -2795,7 +2795,7 @@
     {
       "home": "Villarreal",
       "away": "Real Madrid",
-      "kickoff": "Sat Mar 15 • 18:30 UTC",
+      "kickoff": "Sat Mar 15 \u2022 18:30 UTC",
       "raw_kickoff": "2025-03-15T18:30Z",
       "finished": false,
       "score_h": null,
@@ -2805,7 +2805,7 @@
     {
       "home": "Deportivo La Coruna",
       "away": "Valencia",
-      "kickoff": "Sat Mar 15 • 21:00 UTC",
+      "kickoff": "Sat Mar 15 \u2022 21:00 UTC",
       "raw_kickoff": "2025-03-15T21:00Z",
       "finished": false,
       "score_h": null,
@@ -2815,7 +2815,7 @@
     {
       "home": "Elche",
       "away": "Real Betis",
-      "kickoff": "Sun Mar 16 • 14:00 UTC",
+      "kickoff": "Sun Mar 16 \u2022 14:00 UTC",
       "raw_kickoff": "2025-03-16T14:00Z",
       "finished": true,
       "score_h": 0,
@@ -2825,7 +2825,7 @@
     {
       "home": "Sevilla",
       "away": "Athletic Club",
-      "kickoff": "Sun Mar 16 • 16:15 UTC",
+      "kickoff": "Sun Mar 16 \u2022 16:15 UTC",
       "raw_kickoff": "2025-03-16T16:15Z",
       "finished": false,
       "score_h": null,
@@ -2835,7 +2835,7 @@
     {
       "home": "Osasuna",
       "away": "Getafe",
-      "kickoff": "Sun Mar 16 • 18:30 UTC",
+      "kickoff": "Sun Mar 16 \u2022 18:30 UTC",
       "raw_kickoff": "2025-03-16T18:30Z",
       "finished": false,
       "score_h": null,
@@ -2845,7 +2845,7 @@
     {
       "home": "Rayo Vallecano",
       "away": "Real Sociedad",
-      "kickoff": "Sun Mar 16 • 18:30 UTC",
+      "kickoff": "Sun Mar 16 \u2022 18:30 UTC",
       "raw_kickoff": "2025-03-16T18:30Z",
       "finished": false,
       "score_h": null,
@@ -2855,7 +2855,7 @@
     {
       "home": "Atletico Madrid",
       "away": "Barcelona",
-      "kickoff": "Sun Mar 16 • 21:00 UTC",
+      "kickoff": "Sun Mar 16 \u2022 21:00 UTC",
       "raw_kickoff": "2025-03-16T21:00Z",
       "finished": true,
       "score_h": 1,
@@ -2867,7 +2867,7 @@
     {
       "home": "Real Sociedad",
       "away": "Levante",
-      "kickoff": "Sat Mar 29 • 14:00 UTC",
+      "kickoff": "Sat Mar 29 \u2022 14:00 UTC",
       "raw_kickoff": "2025-03-29T14:00Z",
       "finished": false,
       "score_h": null,
@@ -2877,7 +2877,7 @@
     {
       "home": "Espanyol",
       "away": "Atletico Madrid",
-      "kickoff": "Sat Mar 29 • 16:15 UTC",
+      "kickoff": "Sat Mar 29 \u2022 16:15 UTC",
       "raw_kickoff": "2025-03-29T16:15Z",
       "finished": false,
       "score_h": null,
@@ -2887,7 +2887,7 @@
     {
       "home": "Alaves",
       "away": "Rayo Vallecano",
-      "kickoff": "Sat Mar 29 • 18:30 UTC",
+      "kickoff": "Sat Mar 29 \u2022 18:30 UTC",
       "raw_kickoff": "2025-03-29T18:30Z",
       "finished": false,
       "score_h": null,
@@ -2897,7 +2897,7 @@
     {
       "home": "Real Madrid",
       "away": "Elche",
-      "kickoff": "Sat Mar 29 • 21:00 UTC",
+      "kickoff": "Sat Mar 29 \u2022 21:00 UTC",
       "raw_kickoff": "2025-03-29T21:00Z",
       "finished": false,
       "score_h": null,
@@ -2907,7 +2907,7 @@
     {
       "home": "Getafe",
       "away": "Villarreal",
-      "kickoff": "Sun Mar 30 • 14:00 UTC",
+      "kickoff": "Sun Mar 30 \u2022 14:00 UTC",
       "raw_kickoff": "2025-03-30T14:00Z",
       "finished": false,
       "score_h": null,
@@ -2917,7 +2917,7 @@
     {
       "home": "Barcelona",
       "away": "Deportivo La Coruna",
-      "kickoff": "Sun Mar 30 • 16:15 UTC",
+      "kickoff": "Sun Mar 30 \u2022 16:15 UTC",
       "raw_kickoff": "2025-03-30T16:15Z",
       "finished": false,
       "score_h": null,
@@ -2927,7 +2927,7 @@
     {
       "home": "Athletic Club",
       "away": "Osasuna",
-      "kickoff": "Sun Mar 30 • 18:30 UTC",
+      "kickoff": "Sun Mar 30 \u2022 18:30 UTC",
       "raw_kickoff": "2025-03-30T18:30Z",
       "finished": false,
       "score_h": null,
@@ -2937,7 +2937,7 @@
     {
       "home": "Valencia",
       "away": "Malaga",
-      "kickoff": "Sun Mar 30 • 18:30 UTC",
+      "kickoff": "Sun Mar 30 \u2022 18:30 UTC",
       "raw_kickoff": "2025-03-30T18:30Z",
       "finished": false,
       "score_h": null,
@@ -2947,7 +2947,7 @@
     {
       "home": "Real Betis",
       "away": "Sevilla",
-      "kickoff": "Sun Mar 30 • 21:00 UTC",
+      "kickoff": "Sun Mar 30 \u2022 21:00 UTC",
       "raw_kickoff": "2025-03-30T21:00Z",
       "finished": false,
       "score_h": null,
@@ -2957,7 +2957,7 @@
     {
       "home": "Celta Vigo",
       "away": "Racing Santander",
-      "kickoff": "Mon Mar 31 • 21:00 UTC",
+      "kickoff": "Mon Mar 31 \u2022 21:00 UTC",
       "raw_kickoff": "2025-03-31T21:00Z",
       "finished": false,
       "score_h": null,
@@ -2969,7 +2969,7 @@
     {
       "home": "Rayo Vallecano",
       "away": "Espanyol",
-      "kickoff": "Fri Apr 04 • 21:00 UTC",
+      "kickoff": "Fri Apr 04 \u2022 21:00 UTC",
       "raw_kickoff": "2025-04-04T21:00Z",
       "finished": false,
       "score_h": null,
@@ -2979,7 +2979,7 @@
     {
       "home": "Deportivo La Coruna",
       "away": "Alaves",
-      "kickoff": "Sat Apr 05 • 14:00 UTC",
+      "kickoff": "Sat Apr 05 \u2022 14:00 UTC",
       "raw_kickoff": "2025-04-05T14:00Z",
       "finished": false,
       "score_h": null,
@@ -2989,7 +2989,7 @@
     {
       "home": "Real Madrid",
       "away": "Valencia",
-      "kickoff": "Sat Apr 05 • 16:15 UTC",
+      "kickoff": "Sat Apr 05 \u2022 16:15 UTC",
       "raw_kickoff": "2025-04-05T16:15Z",
       "finished": false,
       "score_h": null,
@@ -2999,7 +2999,7 @@
     {
       "home": "Malaga",
       "away": "Celta Vigo",
-      "kickoff": "Sat Apr 05 • 18:30 UTC",
+      "kickoff": "Sat Apr 05 \u2022 18:30 UTC",
       "raw_kickoff": "2025-04-05T18:30Z",
       "finished": false,
       "score_h": null,
@@ -3009,7 +3009,7 @@
     {
       "home": "Barcelona",
       "away": "Real Betis",
-      "kickoff": "Sat Apr 05 • 21:00 UTC",
+      "kickoff": "Sat Apr 05 \u2022 21:00 UTC",
       "raw_kickoff": "2025-04-05T21:00Z",
       "finished": false,
       "score_h": null,
@@ -3019,7 +3019,7 @@
     {
       "home": "Racing Santander",
       "away": "Real Sociedad",
-      "kickoff": "Sun Apr 06 • 14:00 UTC",
+      "kickoff": "Sun Apr 06 \u2022 14:00 UTC",
       "raw_kickoff": "2025-04-06T14:00Z",
       "finished": false,
       "score_h": null,
@@ -3029,7 +3029,7 @@
     {
       "home": "Sevilla",
       "away": "Atletico Madrid",
-      "kickoff": "Sun Apr 06 • 16:15 UTC",
+      "kickoff": "Sun Apr 06 \u2022 16:15 UTC",
       "raw_kickoff": "2025-04-06T16:15Z",
       "finished": false,
       "score_h": null,
@@ -3039,7 +3039,7 @@
     {
       "home": "Levante",
       "away": "Getafe",
-      "kickoff": "Sun Apr 06 • 18:30 UTC",
+      "kickoff": "Sun Apr 06 \u2022 18:30 UTC",
       "raw_kickoff": "2025-04-06T18:30Z",
       "finished": false,
       "score_h": null,
@@ -3049,7 +3049,7 @@
     {
       "home": "Villarreal",
       "away": "Athletic Club",
-      "kickoff": "Sun Apr 06 • 21:00 UTC",
+      "kickoff": "Sun Apr 06 \u2022 21:00 UTC",
       "raw_kickoff": "2025-04-06T21:00Z",
       "finished": false,
       "score_h": null,
@@ -3059,7 +3059,7 @@
     {
       "home": "Elche",
       "away": "Osasuna",
-      "kickoff": "Mon Apr 07 • 21:00 UTC",
+      "kickoff": "Mon Apr 07 \u2022 21:00 UTC",
       "raw_kickoff": "2025-04-07T21:00Z",
       "finished": false,
       "score_h": null,
@@ -3071,7 +3071,7 @@
     {
       "home": "Valencia",
       "away": "Sevilla",
-      "kickoff": "Fri Apr 11 • 21:00 UTC",
+      "kickoff": "Fri Apr 11 \u2022 21:00 UTC",
       "raw_kickoff": "2025-04-11T21:00Z",
       "finished": false,
       "score_h": null,
@@ -3081,7 +3081,7 @@
     {
       "home": "Real Sociedad",
       "away": "Malaga",
-      "kickoff": "Sat Apr 12 • 14:00 UTC",
+      "kickoff": "Sat Apr 12 \u2022 14:00 UTC",
       "raw_kickoff": "2025-04-12T14:00Z",
       "finished": false,
       "score_h": null,
@@ -3091,7 +3091,7 @@
     {
       "home": "Getafe",
       "away": "Racing Santander",
-      "kickoff": "Sat Apr 12 • 16:15 UTC",
+      "kickoff": "Sat Apr 12 \u2022 16:15 UTC",
       "raw_kickoff": "2025-04-12T16:15Z",
       "finished": false,
       "score_h": null,
@@ -3101,7 +3101,7 @@
     {
       "home": "Celta Vigo",
       "away": "Espanyol",
-      "kickoff": "Sat Apr 12 • 18:30 UTC",
+      "kickoff": "Sat Apr 12 \u2022 18:30 UTC",
       "raw_kickoff": "2025-04-12T18:30Z",
       "finished": false,
       "score_h": null,
@@ -3111,7 +3111,7 @@
     {
       "home": "Elche",
       "away": "Barcelona",
-      "kickoff": "Sat Apr 12 • 21:00 UTC",
+      "kickoff": "Sat Apr 12 \u2022 21:00 UTC",
       "raw_kickoff": "2025-04-12T21:00Z",
       "finished": false,
       "score_h": null,
@@ -3121,7 +3121,7 @@
     {
       "home": "Osasuna",
       "away": "Deportivo La Coruna",
-      "kickoff": "Sun Apr 13 • 14:00 UTC",
+      "kickoff": "Sun Apr 13 \u2022 14:00 UTC",
       "raw_kickoff": "2025-04-13T14:00Z",
       "finished": false,
       "score_h": null,
@@ -3131,7 +3131,7 @@
     {
       "home": "Alaves",
       "away": "Real Madrid",
-      "kickoff": "Sun Apr 13 • 16:15 UTC",
+      "kickoff": "Sun Apr 13 \u2022 16:15 UTC",
       "raw_kickoff": "2025-04-13T16:15Z",
       "finished": false,
       "score_h": null,
@@ -3141,7 +3141,7 @@
     {
       "home": "Real Betis",
       "away": "Villarreal",
-      "kickoff": "Sun Apr 13 • 18:30 UTC",
+      "kickoff": "Sun Apr 13 \u2022 18:30 UTC",
       "raw_kickoff": "2025-04-13T18:30Z",
       "finished": false,
       "score_h": null,
@@ -3151,7 +3151,7 @@
     {
       "home": "Athletic Club",
       "away": "Rayo Vallecano",
-      "kickoff": "Sun Apr 13 • 21:00 UTC",
+      "kickoff": "Sun Apr 13 \u2022 21:00 UTC",
       "raw_kickoff": "2025-04-13T21:00Z",
       "finished": false,
       "score_h": null,
@@ -3161,7 +3161,7 @@
     {
       "home": "Atletico Madrid",
       "away": "Levante",
-      "kickoff": "Mon Apr 14 • 21:00 UTC",
+      "kickoff": "Mon Apr 14 \u2022 21:00 UTC",
       "raw_kickoff": "2025-04-14T21:00Z",
       "finished": false,
       "score_h": null,
@@ -3173,7 +3173,7 @@
     {
       "home": "Espanyol",
       "away": "Getafe",
-      "kickoff": "Fri Apr 18 • 21:00 UTC",
+      "kickoff": "Fri Apr 18 \u2022 21:00 UTC",
       "raw_kickoff": "2025-04-18T21:00Z",
       "finished": false,
       "score_h": null,
@@ -3183,7 +3183,7 @@
     {
       "home": "Rayo Vallecano",
       "away": "Valencia",
-      "kickoff": "Sat Apr 19 • 14:00 UTC",
+      "kickoff": "Sat Apr 19 \u2022 14:00 UTC",
       "raw_kickoff": "2025-04-19T14:00Z",
       "finished": false,
       "score_h": null,
@@ -3193,7 +3193,7 @@
     {
       "home": "Barcelona",
       "away": "Celta Vigo",
-      "kickoff": "Sat Apr 19 • 16:15 UTC",
+      "kickoff": "Sat Apr 19 \u2022 16:15 UTC",
       "raw_kickoff": "2025-04-19T16:15Z",
       "finished": false,
       "score_h": null,
@@ -3203,7 +3203,7 @@
     {
       "home": "Malaga",
       "away": "Elche",
-      "kickoff": "Sat Apr 19 • 18:30 UTC",
+      "kickoff": "Sat Apr 19 \u2022 18:30 UTC",
       "raw_kickoff": "2025-04-19T18:30Z",
       "finished": false,
       "score_h": null,
@@ -3213,7 +3213,7 @@
     {
       "home": "Racing Santander",
       "away": "Atletico Madrid",
-      "kickoff": "Sat Apr 19 • 21:00 UTC",
+      "kickoff": "Sat Apr 19 \u2022 21:00 UTC",
       "raw_kickoff": "2025-04-19T21:00Z",
       "finished": false,
       "score_h": null,
@@ -3223,7 +3223,7 @@
     {
       "home": "Levante",
       "away": "Osasuna",
-      "kickoff": "Sun Apr 20 • 14:00 UTC",
+      "kickoff": "Sun Apr 20 \u2022 14:00 UTC",
       "raw_kickoff": "2025-04-20T14:00Z",
       "finished": false,
       "score_h": null,
@@ -3233,7 +3233,7 @@
     {
       "home": "Villarreal",
       "away": "Real Sociedad",
-      "kickoff": "Sun Apr 20 • 16:15 UTC",
+      "kickoff": "Sun Apr 20 \u2022 16:15 UTC",
       "raw_kickoff": "2025-04-20T16:15Z",
       "finished": false,
       "score_h": null,
@@ -3243,7 +3243,7 @@
     {
       "home": "Sevilla",
       "away": "Alaves",
-      "kickoff": "Sun Apr 20 • 18:30 UTC",
+      "kickoff": "Sun Apr 20 \u2022 18:30 UTC",
       "raw_kickoff": "2025-04-20T18:30Z",
       "finished": true,
       "score_h": 0,
@@ -3253,7 +3253,7 @@
     {
       "home": "Real Madrid",
       "away": "Athletic Club",
-      "kickoff": "Sun Apr 20 • 21:00 UTC",
+      "kickoff": "Sun Apr 20 \u2022 21:00 UTC",
       "raw_kickoff": "2025-04-20T21:00Z",
       "finished": false,
       "score_h": null,
@@ -3263,7 +3263,7 @@
     {
       "home": "Deportivo La Coruna",
       "away": "Real Betis",
-      "kickoff": "Mon Apr 21 • 21:00 UTC",
+      "kickoff": "Mon Apr 21 \u2022 21:00 UTC",
       "raw_kickoff": "2025-04-21T21:00Z",
       "finished": false,
       "score_h": null,
@@ -3275,7 +3275,7 @@
     {
       "home": "Valencia",
       "away": "Espanyol",
-      "kickoff": "Tue Apr 22 • 19:00 UTC",
+      "kickoff": "Tue Apr 22 \u2022 19:00 UTC",
       "raw_kickoff": "2025-04-22T19:00Z",
       "finished": false,
       "score_h": null,
@@ -3285,7 +3285,7 @@
     {
       "home": "Barcelona",
       "away": "Malaga",
-      "kickoff": "Tue Apr 22 • 21:30 UTC",
+      "kickoff": "Tue Apr 22 \u2022 21:30 UTC",
       "raw_kickoff": "2025-04-22T21:30Z",
       "finished": false,
       "score_h": null,
@@ -3295,7 +3295,7 @@
     {
       "home": "Athletic Club",
       "away": "Racing Santander",
-      "kickoff": "Wed Apr 23 • 19:00 UTC",
+      "kickoff": "Wed Apr 23 \u2022 19:00 UTC",
       "raw_kickoff": "2025-04-23T19:00Z",
       "finished": false,
       "score_h": null,
@@ -3305,7 +3305,7 @@
     {
       "home": "Celta Vigo",
       "away": "Villarreal",
-      "kickoff": "Wed Apr 23 • 19:00 UTC",
+      "kickoff": "Wed Apr 23 \u2022 19:00 UTC",
       "raw_kickoff": "2025-04-23T19:00Z",
       "finished": false,
       "score_h": null,
@@ -3315,7 +3315,7 @@
     {
       "home": "Alaves",
       "away": "Real Sociedad",
-      "kickoff": "Wed Apr 23 • 21:30 UTC",
+      "kickoff": "Wed Apr 23 \u2022 21:30 UTC",
       "raw_kickoff": "2025-04-23T21:30Z",
       "finished": false,
       "score_h": null,
@@ -3325,7 +3325,7 @@
     {
       "home": "Getafe",
       "away": "Real Madrid",
-      "kickoff": "Wed Apr 23 • 21:30 UTC",
+      "kickoff": "Wed Apr 23 \u2022 21:30 UTC",
       "raw_kickoff": "2025-04-23T21:30Z",
       "finished": false,
       "score_h": null,
@@ -3335,7 +3335,7 @@
     {
       "home": "Osasuna",
       "away": "Sevilla",
-      "kickoff": "Thu Apr 24 • 19:00 UTC",
+      "kickoff": "Thu Apr 24 \u2022 19:00 UTC",
       "raw_kickoff": "2025-04-24T19:00Z",
       "finished": false,
       "score_h": null,
@@ -3345,7 +3345,7 @@
     {
       "home": "Elche",
       "away": "Deportivo La Coruna",
-      "kickoff": "Thu Apr 24 • 19:00 UTC",
+      "kickoff": "Thu Apr 24 \u2022 19:00 UTC",
       "raw_kickoff": "2025-04-24T19:00Z",
       "finished": false,
       "score_h": null,
@@ -3355,7 +3355,7 @@
     {
       "home": "Atletico Madrid",
       "away": "Rayo Vallecano",
-      "kickoff": "Thu Apr 24 • 21:30 UTC",
+      "kickoff": "Thu Apr 24 \u2022 21:30 UTC",
       "raw_kickoff": "2025-04-24T21:30Z",
       "finished": false,
       "score_h": null,
@@ -3365,7 +3365,7 @@
     {
       "home": "Real Betis",
       "away": "Levante",
-      "kickoff": "Thu Apr 24 • 21:30 UTC",
+      "kickoff": "Thu Apr 24 \u2022 21:30 UTC",
       "raw_kickoff": "2025-04-24T21:30Z",
       "finished": false,
       "score_h": null,
@@ -3377,7 +3377,7 @@
     {
       "home": "Rayo Vallecano",
       "away": "Getafe",
-      "kickoff": "Fri May 02 • 21:00 UTC",
+      "kickoff": "Fri May 02 \u2022 21:00 UTC",
       "raw_kickoff": "2025-05-02T21:00Z",
       "finished": false,
       "score_h": null,
@@ -3387,7 +3387,7 @@
     {
       "home": "Alaves",
       "away": "Atletico Madrid",
-      "kickoff": "Sat May 03 • 14:00 UTC",
+      "kickoff": "Sat May 03 \u2022 14:00 UTC",
       "raw_kickoff": "2025-05-03T14:00Z",
       "finished": false,
       "score_h": null,
@@ -3397,7 +3397,7 @@
     {
       "home": "Villarreal",
       "away": "Osasuna",
-      "kickoff": "Sat May 03 • 16:15 UTC",
+      "kickoff": "Sat May 03 \u2022 16:15 UTC",
       "raw_kickoff": "2025-05-03T16:15Z",
       "finished": false,
       "score_h": null,
@@ -3407,7 +3407,7 @@
     {
       "home": "Racing Santander",
       "away": "Valencia",
-      "kickoff": "Sat May 03 • 18:30 UTC",
+      "kickoff": "Sat May 03 \u2022 18:30 UTC",
       "raw_kickoff": "2025-05-03T18:30Z",
       "finished": false,
       "score_h": null,
@@ -3417,7 +3417,7 @@
     {
       "home": "Levante",
       "away": "Barcelona",
-      "kickoff": "Sat May 03 • 21:00 UTC",
+      "kickoff": "Sat May 03 \u2022 21:00 UTC",
       "raw_kickoff": "2025-05-03T21:00Z",
       "finished": false,
       "score_h": null,
@@ -3427,7 +3427,7 @@
     {
       "home": "Real Madrid",
       "away": "Celta Vigo",
-      "kickoff": "Sun May 04 • 14:00 UTC",
+      "kickoff": "Sun May 04 \u2022 14:00 UTC",
       "raw_kickoff": "2025-05-04T14:00Z",
       "finished": false,
       "score_h": null,
@@ -3437,7 +3437,7 @@
     {
       "home": "Sevilla",
       "away": "Elche",
-      "kickoff": "Sun May 04 • 16:15 UTC",
+      "kickoff": "Sun May 04 \u2022 16:15 UTC",
       "raw_kickoff": "2025-05-04T16:15Z",
       "finished": false,
       "score_h": null,
@@ -3447,7 +3447,7 @@
     {
       "home": "Espanyol",
       "away": "Real Betis",
-      "kickoff": "Sun May 04 • 18:30 UTC",
+      "kickoff": "Sun May 04 \u2022 18:30 UTC",
       "raw_kickoff": "2025-05-04T18:30Z",
       "finished": false,
       "score_h": null,
@@ -3457,7 +3457,7 @@
     {
       "home": "Real Sociedad",
       "away": "Athletic Club",
-      "kickoff": "Sun May 04 • 21:00 UTC",
+      "kickoff": "Sun May 04 \u2022 21:00 UTC",
       "raw_kickoff": "2025-05-04T21:00Z",
       "finished": false,
       "score_h": null,
@@ -3467,7 +3467,7 @@
     {
       "home": "Deportivo La Coruna",
       "away": "Malaga",
-      "kickoff": "Mon May 05 • 21:00 UTC",
+      "kickoff": "Mon May 05 \u2022 21:00 UTC",
       "raw_kickoff": "2025-05-05T21:00Z",
       "finished": false,
       "score_h": null,
@@ -3479,7 +3479,7 @@
     {
       "home": "Racing Santander",
       "away": "Rayo Vallecano",
-      "kickoff": "Fri May 09 • 21:00 UTC",
+      "kickoff": "Fri May 09 \u2022 21:00 UTC",
       "raw_kickoff": "2025-05-09T21:00Z",
       "finished": false,
       "score_h": null,
@@ -3489,7 +3489,7 @@
     {
       "home": "Valencia",
       "away": "Getafe",
-      "kickoff": "Sat May 10 • 14:00 UTC",
+      "kickoff": "Sat May 10 \u2022 14:00 UTC",
       "raw_kickoff": "2025-05-10T14:00Z",
       "finished": false,
       "score_h": null,
@@ -3499,7 +3499,7 @@
     {
       "home": "Celta Vigo",
       "away": "Sevilla",
-      "kickoff": "Sat May 10 • 16:15 UTC",
+      "kickoff": "Sat May 10 \u2022 16:15 UTC",
       "raw_kickoff": "2025-05-10T16:15Z",
       "finished": false,
       "score_h": null,
@@ -3509,7 +3509,7 @@
     {
       "home": "Deportivo La Coruna",
       "away": "Villarreal",
-      "kickoff": "Sat May 10 • 18:30 UTC",
+      "kickoff": "Sat May 10 \u2022 18:30 UTC",
       "raw_kickoff": "2025-05-10T18:30Z",
       "finished": false,
       "score_h": null,
@@ -3519,7 +3519,7 @@
     {
       "home": "Malaga",
       "away": "Levante",
-      "kickoff": "Sat May 10 • 18:30 UTC",
+      "kickoff": "Sat May 10 \u2022 18:30 UTC",
       "raw_kickoff": "2025-05-10T18:30Z",
       "finished": false,
       "score_h": null,
@@ -3529,7 +3529,7 @@
     {
       "home": "Atletico Madrid",
       "away": "Real Sociedad",
-      "kickoff": "Sat May 10 • 21:00 UTC",
+      "kickoff": "Sat May 10 \u2022 21:00 UTC",
       "raw_kickoff": "2025-05-10T21:00Z",
       "finished": false,
       "score_h": null,
@@ -3539,7 +3539,7 @@
     {
       "home": "Elche",
       "away": "Espanyol",
-      "kickoff": "Sun May 11 • 14:00 UTC",
+      "kickoff": "Sun May 11 \u2022 14:00 UTC",
       "raw_kickoff": "2025-05-11T14:00Z",
       "finished": false,
       "score_h": null,
@@ -3549,7 +3549,7 @@
     {
       "home": "Barcelona",
       "away": "Real Madrid",
-      "kickoff": "Sun May 11 • 16:15 UTC",
+      "kickoff": "Sun May 11 \u2022 16:15 UTC",
       "raw_kickoff": "2025-05-11T16:15Z",
       "finished": false,
       "score_h": null,
@@ -3559,7 +3559,7 @@
     {
       "home": "Athletic Club",
       "away": "Alaves",
-      "kickoff": "Sun May 11 • 18:30 UTC",
+      "kickoff": "Sun May 11 \u2022 18:30 UTC",
       "raw_kickoff": "2025-05-11T18:30Z",
       "finished": false,
       "score_h": null,
@@ -3569,7 +3569,7 @@
     {
       "home": "Real Betis",
       "away": "Osasuna",
-      "kickoff": "Sun May 11 • 21:00 UTC",
+      "kickoff": "Sun May 11 \u2022 21:00 UTC",
       "raw_kickoff": "2025-05-11T21:00Z",
       "finished": false,
       "score_h": null,
@@ -3581,7 +3581,7 @@
     {
       "home": "Levante",
       "away": "Deportivo La Coruna",
-      "kickoff": "Tue May 13 • 19:00 UTC",
+      "kickoff": "Tue May 13 \u2022 19:00 UTC",
       "raw_kickoff": "2025-05-13T19:00Z",
       "finished": false,
       "score_h": null,
@@ -3591,7 +3591,7 @@
     {
       "home": "Real Sociedad",
       "away": "Celta Vigo",
-      "kickoff": "Tue May 13 • 20:00 UTC",
+      "kickoff": "Tue May 13 \u2022 20:00 UTC",
       "raw_kickoff": "2025-05-13T20:00Z",
       "finished": false,
       "score_h": null,
@@ -3601,7 +3601,7 @@
     {
       "home": "Sevilla",
       "away": "Racing Santander",
-      "kickoff": "Tue May 13 • 21:30 UTC",
+      "kickoff": "Tue May 13 \u2022 21:30 UTC",
       "raw_kickoff": "2025-05-13T21:30Z",
       "finished": false,
       "score_h": null,
@@ -3611,7 +3611,7 @@
     {
       "home": "Alaves",
       "away": "Valencia",
-      "kickoff": "Wed May 14 • 19:00 UTC",
+      "kickoff": "Wed May 14 \u2022 19:00 UTC",
       "raw_kickoff": "2025-05-14T19:00Z",
       "finished": false,
       "score_h": null,
@@ -3621,7 +3621,7 @@
     {
       "home": "Villarreal",
       "away": "Elche",
-      "kickoff": "Wed May 14 • 19:00 UTC",
+      "kickoff": "Wed May 14 \u2022 19:00 UTC",
       "raw_kickoff": "2025-05-14T19:00Z",
       "finished": false,
       "score_h": null,
@@ -3631,7 +3631,7 @@
     {
       "home": "Real Madrid",
       "away": "Malaga",
-      "kickoff": "Wed May 14 • 21:30 UTC",
+      "kickoff": "Wed May 14 \u2022 21:30 UTC",
       "raw_kickoff": "2025-05-14T21:30Z",
       "finished": false,
       "score_h": null,
@@ -3641,7 +3641,7 @@
     {
       "home": "Osasuna",
       "away": "Atletico Madrid",
-      "kickoff": "Thu May 15 • 19:00 UTC",
+      "kickoff": "Thu May 15 \u2022 19:00 UTC",
       "raw_kickoff": "2025-05-15T19:00Z",
       "finished": false,
       "score_h": null,
@@ -3651,7 +3651,7 @@
     {
       "home": "Rayo Vallecano",
       "away": "Real Betis",
-      "kickoff": "Thu May 15 • 19:00 UTC",
+      "kickoff": "Thu May 15 \u2022 19:00 UTC",
       "raw_kickoff": "2025-05-15T19:00Z",
       "finished": false,
       "score_h": null,
@@ -3661,7 +3661,7 @@
     {
       "home": "Getafe",
       "away": "Athletic Club",
-      "kickoff": "Thu May 15 • 21:30 UTC",
+      "kickoff": "Thu May 15 \u2022 21:30 UTC",
       "raw_kickoff": "2025-05-15T21:30Z",
       "finished": false,
       "score_h": null,
@@ -3671,7 +3671,7 @@
     {
       "home": "Espanyol",
       "away": "Barcelona",
-      "kickoff": "Thu May 15 • 21:30 UTC",
+      "kickoff": "Thu May 15 \u2022 21:30 UTC",
       "raw_kickoff": "2025-05-15T21:30Z",
       "finished": false,
       "score_h": null,
@@ -3683,7 +3683,7 @@
     {
       "home": "Atletico Madrid",
       "away": "Real Betis",
-      "kickoff": "Sun May 18 • 19:00 UTC",
+      "kickoff": "Sun May 18 \u2022 19:00 UTC",
       "raw_kickoff": "2025-05-18T19:00Z",
       "finished": false,
       "score_h": null,
@@ -3693,7 +3693,7 @@
     {
       "home": "Celta Vigo",
       "away": "Rayo Vallecano",
-      "kickoff": "Sun May 18 • 19:00 UTC",
+      "kickoff": "Sun May 18 \u2022 19:00 UTC",
       "raw_kickoff": "2025-05-18T19:00Z",
       "finished": false,
       "score_h": null,
@@ -3703,7 +3703,7 @@
     {
       "home": "Barcelona",
       "away": "Villarreal",
-      "kickoff": "Sun May 18 • 19:00 UTC",
+      "kickoff": "Sun May 18 \u2022 19:00 UTC",
       "raw_kickoff": "2025-05-18T19:00Z",
       "finished": false,
       "score_h": null,
@@ -3713,7 +3713,7 @@
     {
       "home": "Sevilla",
       "away": "Real Madrid",
-      "kickoff": "Sun May 18 • 19:00 UTC",
+      "kickoff": "Sun May 18 \u2022 19:00 UTC",
       "raw_kickoff": "2025-05-18T19:00Z",
       "finished": false,
       "score_h": null,
@@ -3723,7 +3723,7 @@
     {
       "home": "Valencia",
       "away": "Athletic Club",
-      "kickoff": "Sun May 18 • 19:00 UTC",
+      "kickoff": "Sun May 18 \u2022 19:00 UTC",
       "raw_kickoff": "2025-05-18T19:00Z",
       "finished": false,
       "score_h": null,
@@ -3733,7 +3733,7 @@
     {
       "home": "Malaga",
       "away": "Getafe",
-      "kickoff": "Sun May 18 • 19:00 UTC",
+      "kickoff": "Sun May 18 \u2022 19:00 UTC",
       "raw_kickoff": "2025-05-18T19:00Z",
       "finished": false,
       "score_h": null,
@@ -3743,7 +3743,7 @@
     {
       "home": "Real Sociedad",
       "away": "Deportivo La Coruna",
-      "kickoff": "Sun May 18 • 19:00 UTC",
+      "kickoff": "Sun May 18 \u2022 19:00 UTC",
       "raw_kickoff": "2025-05-18T19:00Z",
       "finished": false,
       "score_h": null,
@@ -3753,7 +3753,7 @@
     {
       "home": "Levante",
       "away": "Alaves",
-      "kickoff": "Sun May 18 • 19:00 UTC",
+      "kickoff": "Sun May 18 \u2022 19:00 UTC",
       "raw_kickoff": "2025-05-18T19:00Z",
       "finished": false,
       "score_h": null,
@@ -3763,7 +3763,7 @@
     {
       "home": "Racing Santander",
       "away": "Elche",
-      "kickoff": "Sun May 18 • 19:00 UTC",
+      "kickoff": "Sun May 18 \u2022 19:00 UTC",
       "raw_kickoff": "2025-05-18T19:00Z",
       "finished": false,
       "score_h": null,
@@ -3773,7 +3773,7 @@
     {
       "home": "Osasuna",
       "away": "Espanyol",
-      "kickoff": "Sun May 18 • 19:00 UTC",
+      "kickoff": "Sun May 18 \u2022 19:00 UTC",
       "raw_kickoff": "2025-05-18T19:00Z",
       "finished": false,
       "score_h": null,
@@ -3785,7 +3785,7 @@
     {
       "home": "Real Betis",
       "away": "Valencia",
-      "kickoff": "Fri May 23 • 21:00 UTC",
+      "kickoff": "Fri May 23 \u2022 21:00 UTC",
       "raw_kickoff": "2025-05-23T21:00Z",
       "finished": false,
       "score_h": null,
@@ -3795,7 +3795,7 @@
     {
       "home": "Real Madrid",
       "away": "Real Sociedad",
-      "kickoff": "Sat May 24 • 16:15 UTC",
+      "kickoff": "Sat May 24 \u2022 16:15 UTC",
       "raw_kickoff": "2025-05-24T16:15Z",
       "finished": false,
       "score_h": null,
@@ -3805,7 +3805,7 @@
     {
       "home": "Elche",
       "away": "Levante",
-      "kickoff": "Sat May 24 • 18:30 UTC",
+      "kickoff": "Sat May 24 \u2022 18:30 UTC",
       "raw_kickoff": "2025-05-24T18:30Z",
       "finished": false,
       "score_h": null,
@@ -3815,7 +3815,7 @@
     {
       "home": "Espanyol",
       "away": "Racing Santander",
-      "kickoff": "Sat May 24 • 18:30 UTC",
+      "kickoff": "Sat May 24 \u2022 18:30 UTC",
       "raw_kickoff": "2025-05-24T18:30Z",
       "finished": false,
       "score_h": null,
@@ -3825,7 +3825,7 @@
     {
       "home": "Alaves",
       "away": "Osasuna",
-      "kickoff": "Sat May 24 • 21:00 UTC",
+      "kickoff": "Sat May 24 \u2022 21:00 UTC",
       "raw_kickoff": "2025-05-24T21:00Z",
       "finished": false,
       "score_h": null,
@@ -3835,7 +3835,7 @@
     {
       "home": "Getafe",
       "away": "Celta Vigo",
-      "kickoff": "Sat May 24 • 21:00 UTC",
+      "kickoff": "Sat May 24 \u2022 21:00 UTC",
       "raw_kickoff": "2025-05-24T21:00Z",
       "finished": false,
       "score_h": null,
@@ -3845,7 +3845,7 @@
     {
       "home": "Rayo Vallecano",
       "away": "Malaga",
-      "kickoff": "Sat May 24 • 21:00 UTC",
+      "kickoff": "Sat May 24 \u2022 21:00 UTC",
       "raw_kickoff": "2025-05-24T21:00Z",
       "finished": false,
       "score_h": null,
@@ -3855,7 +3855,7 @@
     {
       "home": "Deportivo La Coruna",
       "away": "Atletico Madrid",
-      "kickoff": "Sun May 25 • 14:00 UTC",
+      "kickoff": "Sun May 25 \u2022 14:00 UTC",
       "raw_kickoff": "2025-05-25T14:00Z",
       "finished": false,
       "score_h": null,
@@ -3865,7 +3865,7 @@
     {
       "home": "Villarreal",
       "away": "Sevilla",
-      "kickoff": "Sun May 25 • 16:15 UTC",
+      "kickoff": "Sun May 25 \u2022 16:15 UTC",
       "raw_kickoff": "2025-05-25T16:15Z",
       "finished": false,
       "score_h": null,
@@ -3875,7 +3875,7 @@
     {
       "home": "Athletic Club",
       "away": "Barcelona",
-      "kickoff": "Sun May 25 • 21:00 UTC",
+      "kickoff": "Sun May 25 \u2022 21:00 UTC",
       "raw_kickoff": "2025-05-25T21:00Z",
       "finished": false,
       "score_h": null,

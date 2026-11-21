@@ -26,26 +26,31 @@ export const MegaScanner: React.FC<MegaScannerProps> = ({ onAddToSlip, slipItems
     loadScan(selectedLeague);
   }, [selectedLeague]);
 
-  const matches = scanData?.matches || scanData?.scanned_matches || [];
+  const matches = scanData?.matches || scanData?.scanned_matches || scanData?.ranked_fixtures || [];
   const filteredMatches = filterSafeOnly
-    ? matches.filter((m: any) => (m.safety_probability || m.calibrated_prob || 0) >= 80)
+    ? matches.filter((m: any) => (m.safety_probability || m.calibrated_prob || m.win_probability || 0) >= 80)
     : matches;
 
   const handleBuildTopMulti = () => {
     const sorted = [...matches].sort(
-      (a: any, b: any) => (b.safety_probability || b.calibrated_prob || 0) - (a.safety_probability || a.calibrated_prob || 0)
+      (a: any, b: any) =>
+        (b.safety_probability || b.calibrated_prob || b.win_probability || 0) -
+        (a.safety_probability || a.calibrated_prob || a.win_probability || 0)
     );
     const top3 = sorted.slice(0, 3);
     top3.forEach((m: any) => {
+      const pick = m.safest_market || m.predicted_pick || m.best_weekly_pick || 'Double Chance (1X)';
+      const odds = Number(m.market_odds || m.fair_odds || 1.15);
+      const prob = Number(m.safety_probability || m.calibrated_prob || m.win_probability || 88.0);
       onAddToSlip({
-        id: `${m.home_team}_${m.away_team}_${m.safest_market || m.predicted_pick}_${Date.now()}`,
+        id: `${m.home_team}_${m.away_team}_${pick}_${Date.now()}`,
         fixture: `${m.home_team} vs ${m.away_team}`,
         home_team: m.home_team,
         away_team: m.away_team,
         league: m.league || selectedLeague,
-        pick: m.safest_market || m.predicted_pick || 'Double Chance (1X)',
-        odds: m.market_odds || m.fair_odds || 1.15,
-        prob: m.safety_probability || m.calibrated_prob || 88.0,
+        pick: pick,
+        odds: odds,
+        prob: prob,
         category: 'Mega Scanner Multi Pick',
       });
     });
@@ -111,8 +116,8 @@ export const MegaScanner: React.FC<MegaScannerProps> = ({ onAddToSlip, slipItems
       ) : (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           {filteredMatches.map((m: any, idx: number) => {
-            const prob = Number(m.safety_probability || m.calibrated_prob || 85.0);
-            const pick = m.safest_market || m.predicted_pick || 'Match Derivative Pick';
+            const prob = Number(m.safety_probability || m.calibrated_prob || m.win_probability || 85.0);
+            const pick = m.safest_market || m.predicted_pick || m.best_weekly_pick || 'Match Derivative Pick';
             const odds = Number(m.market_odds || m.fair_odds || 1.15);
             const inSlip = slipItems.some(
               (it) => it.home_team === m.home_team && it.away_team === m.away_team && it.pick === pick

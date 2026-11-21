@@ -19,20 +19,30 @@ FPL_NAME_MAP = {
     "Man City": "Manchester City",
     "Man Utd": "Manchester United",
     "Man United": "Manchester United",
+    "Forest": "Nottingham Forest",
     "Nott'm Forest": "Nottingham Forest",
     "Spurs": "Tottenham",
     "Coventry": "Coventry City",
     "Ipswich": "Ipswich Town",
     "Wolves": "Wolverhampton",
+    "Leeds": "Leeds United",
+    "Hull": "Hull City",
     # German Bundesliga
+    "Bayern": "Bayern München",
     "Bayern Munich": "Bayern München",
     "Bayern Munchen": "Bayern München",
+    "Köln": "1. FC Köln",
+    "FC Koln": "1. FC Köln",
+    "1. FC Koln": "1. FC Köln",
+    "Cologne": "1. FC Köln",
     "Dortmund": "Borussia Dortmund",
     "Freiburg": "SC Freiburg",
     "Leverkusen": "Bayer Leverkusen",
+    "Leipzig": "RB Leipzig",
     "Ein Frankfurt": "Eintracht Frankfurt",
     "Frankfurt": "Eintracht Frankfurt",
     "Mainz": "FSV Mainz 05",
+    "Mainz 05": "FSV Mainz 05",
     "Augsburg": "FC Augsburg",
     "Stuttgart": "VfB Stuttgart",
     "Hoffenheim": "1899 Hoffenheim",
@@ -40,15 +50,13 @@ FPL_NAME_MAP = {
     "M'gladbach": "Borussia Mönchengladbach",
     "Mönchengladbach": "Borussia Mönchengladbach",
     "Borussia Monchengladbach": "Borussia Mönchengladbach",
-    "FC Koln": "1. FC Köln",
-    "1. FC Koln": "1. FC Köln",
-    "Cologne": "1. FC Köln",
     "Paderborn": "SC Paderborn 07",
     "Hamburg": "Hamburger SV",
     "HSV": "Hamburger SV",
     "Schalke": "FC Schalke 04",
     "Schalke 04": "FC Schalke 04",
     "Elversberg": "SV Elversberg",
+    "Bremen": "Werder Bremen",
     "Bochum": "1. FC Köln",
     "Holstein Kiel": "SV Elversberg",
     "St. Pauli": "FC Schalke 04",
@@ -61,7 +69,12 @@ FPL_NAME_MAP = {
     "Real Sociedad": "Sociedad",
     "Real Betis": "Betis",
     "Rayo Vallecano": "Vallecano",
+    "Celta": "Celta Vigo",
     "Celta Vigo": "Celta",
+    "Alavés": "Alaves",
+    "Deportivo": "Deportivo La Coruna",
+    "Racing Club": "Racing Santander",
+    "Málaga": "Malaga",
     # Italian Serie A
     "Internazionale": "Inter",
     "Inter Milan": "Inter",
@@ -69,6 +82,9 @@ FPL_NAME_MAP = {
     "Roma": "AS Roma",
     "AS Roma": "Roma",
     "Hellas Verona": "Verona",
+    # French Ligue 1
+    "PSG": "Paris SG",
+    "Paris": "Paris FC",
 }
 
 LEAGUE_META = {
@@ -105,11 +121,11 @@ def get_current_and_next_gameweek() -> tuple[int, int]:
     try:
         data = get_bootstrap_data()
         events = data.get("events", [])
-        curr_gw = next((e["id"] for e in events if e.get("is_current")), 10)
-        next_gw = next((e["id"] for e in events if e.get("is_next")), curr_gw + 1)
+        curr_gw = next((e["id"] for e in events if e.get("is_current")), 11)
+        next_gw = next((e["id"] for e in events if e.get("is_next")), curr_gw)
         return int(curr_gw), int(next_gw)
     except Exception:
-        return 10, 11
+        return 11, 11
 
 def fetch_official_league_fixtures(league: str = "E0", gameweek: Optional[int] = None) -> Dict[str, Any]:
     """
@@ -119,7 +135,7 @@ def fetch_official_league_fixtures(league: str = "E0", gameweek: Optional[int] =
     """
     meta = LEAGUE_META.get(league, LEAGUE_META["E0"])
     max_gw = meta["total_gw"]
-    def_gw = 9 if league == "D1" else (12 if league == "SP1" else (11 if league == "I1" else 10))
+    def_gw = 10 if league in ("D1", "F1") else (13 if league == "SP1" else (12 if league == "I1" else 11))
     target_gw = gameweek if (gameweek is not None and 1 <= gameweek <= max_gw) else def_gw
     
     # Check verified official fixture schedule files (E0, SP1, I1, D1, F1)

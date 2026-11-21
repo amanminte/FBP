@@ -153,8 +153,10 @@ def get_fixtures(league: str):
             "gameweek": gw,
             "matches": matches
         })
+    def_gw = 10 if league in ("D1", "F1") else (13 if league == "SP1" else (12 if league == "I1" else 11))
     return {
         "league": league,
+        "current_gameweek": def_gw,
         "gameweeks": gameweeks
     }
 
@@ -253,9 +255,9 @@ def run_scanner(league: str, gameweek: Optional[int] = None):
     """Scans gameweek fixtures across selected league or all European leagues."""
     try:
         if league.upper() == "ALL":
-            return scan_all_european_leagues()
+            return scan_all_european_leagues(predictor)
         else:
-            return scan_weekly_gameweek(league=league, target_gw=gameweek)
+            return scan_weekly_gameweek(predictor, league=league, gameweek=gameweek)
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 

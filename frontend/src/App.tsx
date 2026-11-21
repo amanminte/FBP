@@ -34,9 +34,11 @@ export function App() {
   useEffect(() => {
     if (!selectedLeague) return;
     fetchFixtures(selectedLeague)
-      .then((data) => {
-        const allMatches = data.gameweeks?.flatMap((gw) => gw.matches) || [];
-        setFixtures(allMatches);
+      .then((data: any) => {
+        const curGw = String(data.current_gameweek || 11);
+        const activeGwObj = data.gameweeks?.find((gw: any) => String(gw.gameweek) === curGw);
+        const matches = activeGwObj ? activeGwObj.matches : (data.gameweeks?.flatMap((gw: any) => gw.matches) || []);
+        setFixtures(matches);
       })
       .catch((err) => console.error('Failed to load fixtures:', err));
   }, [selectedLeague]);
