@@ -133,7 +133,14 @@ export const MegaScanner: React.FC<MegaScannerProps> = ({ onAddToSlip, slipItems
                     <span className="uppercase px-1.5 py-0.5 rounded bg-white/5 border border-white/10 text-[10px]">
                       {m.kickoff || 'Gameweek Fixture'}
                     </span>
-                    <span className="text-brand-amber font-bold">Rank #{idx + 1}</span>
+                    <div className="flex items-center gap-2">
+                      {m.category && (
+                        <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-brand-cyan/10 border border-brand-cyan/20 text-brand-cyan">
+                          {m.category}
+                        </span>
+                      )}
+                      <span className="text-brand-amber font-bold">Rank #{idx + 1}</span>
+                    </div>
                   </div>
 
                   <h3 className="text-base font-extrabold text-white tracking-tight">

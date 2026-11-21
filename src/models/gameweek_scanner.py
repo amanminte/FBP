@@ -29,6 +29,7 @@ def scan_weekly_gameweek(predictor, league: str = "E0", gameweek: Optional[int] 
     is_official = official_data.get("success", False)
 
     results = []
+    match_records = []
 
     for fix in fixtures:
         h = fix["home"]
@@ -61,76 +62,232 @@ def scan_weekly_gameweek(predictor, league: str = "E0", gameweek: Optional[int] 
         )
 
         penta = rep.get("penta_consensus", rep.get("quad_consensus", {}))
-        safe_top = rep.get("top_3_safe_picks", [{}])[0] if rep.get("top_3_safe_picks") else {}
-        common_grd = penta.get("common_ground", {})
+        all_m = rep.get("all_markets", {})
+        dc = all_m.get("double_chance", {})
+        totals = all_m.get("totals", {})
+        tt = all_m.get("team_totals", {})
+        btts_m = all_m.get("btts", {})
+        dnb = all_m.get("draw_no_bet", {})
+        cards_info = rep.get("yellow_cards", {})
+        is_derby = cards_info.get("is_derby", False)
+        derby_name = cards_info.get("derby_name") or "Derby Match"
+        dominant_pick = penta.get("dominant_pick", "")
+        consensus_count = penta.get("consensus_count", 4)
+        total_sources = penta.get("total_sources", 7)
 
-        # Determine best weekly pick across ALL market derivatives
-        # (Home/Away to score, Over 1.5, Under 4.5, Yellow Cards, Double Chance, etc.)
-        candidates_pool = []
-        for sp in rep.get("top_3_safe_picks", []):
-            candidates_pool.append({
-                "pick_type": sp["pick_type"],
-                "win_percentage": float(sp["win_percentage"]),
-                "fair_odds": float(sp["fair_odds"]),
-                "reason": sp.get("why_plain_english", "High statistical confidence.")
+        # Determine rich tactical candidate tips across multiple diverse betting markets
+        cands = []
+
+        # 1. Derby / High-Friction Yellow Cards
+        c_probs = cards_info.get("probabilities", {})
+        if is_derby:
+            prob_c = float(c_probs.get("over_3_5", 85.0))
+            odds_c = float(cards_info.get("fair_odds", {}).get("over_3_5", 1.35))
+            cands.append({
+                "category": "Yellow Cards",
+                "pick_type": f"Over 3.5 Yellow Cards ({derby_name})",
+                "win_percentage": prob_c,
+                "fair_odds": odds_c,
+                "reason": f"Fierce local rivalry in {derby_name}. Projected {cards_info.get('expected_total_cards', 4.5):.2f} bookings with high disciplinary friction."
+            })
+        elif c_probs.get("over_3_5", 0) >= 72.0:
+            prob_c = float(c_probs["over_3_5"])
+            odds_c = float(cards_info.get("fair_odds", {}).get("over_3_5", 1.38))
+            cands.append({
+                "category": "Yellow Cards",
+                "pick_type": "Over 3.5 Total Yellow Cards",
+                "win_percentage": prob_c,
+                "fair_odds": odds_c,
+                "reason": f"Strict officiating and tactical battle. Projected {cards_info.get('expected_total_cards', 4.2):.2f} match cards."
             })
 
-        card_p = rep.get("yellow_cards", {}).get("best_card_bet", {})
-        if card_p and card_p.get("win_percentage", 0) >= 65.0:
-            candidates_pool.append({
-                "pick_type": card_p["pick_type"],
-                "win_percentage": float(card_p["win_percentage"]),
-                "fair_odds": float(card_p["fair_odds"]),
-                "reason": card_p.get("rationale", "Disciplinary friction index.")
+        # 2. Draw No Bet / Match Winner (Dominant consensus)
+        if dominant_pick == "Home Win" and dnb.get("home_dnb", 0) >= 68.0:
+            prob_dnb = float(dnb["home_dnb"])
+            cands.append({
+                "category": "Draw No Bet",
+                "pick_type": f"Draw No Bet: {h} (Home DNB)",
+                "win_percentage": prob_dnb,
+                "fair_odds": float(round(100.0 / prob_dnb, 2)),
+                "reason": f"7-Model consensus ({consensus_count}/{total_sources}) firmly favors {h}; draw returns 100% of stake."
+            })
+        elif dominant_pick == "Away Win" and dnb.get("away_dnb", 0) >= 68.0:
+            prob_dnb = float(dnb["away_dnb"])
+            cands.append({
+                "category": "Draw No Bet",
+                "pick_type": f"Draw No Bet: {a} (Away DNB)",
+                "win_percentage": prob_dnb,
+                "fair_odds": float(round(100.0 / prob_dnb, 2)),
+                "reason": f"Away superiority backed by algorithmic engines ({consensus_count}/{total_sources}); draw refunds stake."
             })
 
-        if penta.get("is_split") and common_grd.get("best_common_ground_market"):
-            cg_mkt = common_grd["best_common_ground_market"]
-            matching_safe = next((sp for sp in rep.get("top_3_safe_picks", []) if sp.get("pick_type") == cg_mkt), None)
-            cg_prob = matching_safe.get("win_percentage", 78.0) if matching_safe else 78.0
-            candidates_pool.append({
-                "pick_type": cg_mkt,
-                "win_percentage": float(cg_prob),
-                "fair_odds": float(round(100.0 / cg_prob, 2)),
-                "reason": common_grd.get("plain_explanation", "Cross-model agreement on derivative goals market.")
+        # 3. Double Chance (1X / X2)
+        if dc.get("1X", 0) >= 65.0:
+            prob_dc = float(dc["1X"])
+            cands.append({
+                "category": "Double Chance",
+                "pick_type": f"Double Chance: {h} or Draw (1X)",
+                "win_percentage": prob_dc,
+                "fair_odds": float(round(100.0 / prob_dc, 2)),
+                "reason": f"{h} projected to secure points on home turf with an {prob_dc:.1f}% victory/draw likelihood."
+            })
+        if dc.get("X2", 0) >= 65.0:
+            prob_dc = float(dc["X2"])
+            cands.append({
+                "category": "Double Chance",
+                "pick_type": f"Double Chance: {a} or Draw (X2)",
+                "win_percentage": prob_dc,
+                "fair_odds": float(round(100.0 / prob_dc, 2)),
+                "reason": f"{a} possesses higher quality and chance-creation metrics away from home ({prob_dc:.1f}% safety)."
             })
 
-        # Pick the absolute highest win probability pick across all derivatives!
-        if candidates_pool:
-            best_pick_obj = max(candidates_pool, key=lambda x: x["win_percentage"])
-            weekly_pick = best_pick_obj["pick_type"]
-            win_prob = best_pick_obj["win_percentage"]
-            odds = best_pick_obj["fair_odds"]
-            reason = best_pick_obj["reason"]
-        else:
-            weekly_pick = "Over 1.5 Total Match Goals"
-            win_prob = 78.0
-            odds = 1.28
-            reason = "Standard baseline derivative."
+        # 4. Team Goals (Over 0.5 or Over 1.5 Team Goals)
+        if tt.get("home_over_05", 0) >= 74.0:
+            p_tt = float(tt["home_over_05"])
+            cands.append({
+                "category": "Team Goals",
+                "pick_type": f"{h} to Score (Over 0.5 Team Goals)",
+                "win_percentage": p_tt,
+                "fair_odds": float(round(100.0 / p_tt, 2)),
+                "reason": f"{h} creates consistent attacking volume, projecting at least 1 goal past opposition backline."
+            })
+        if tt.get("away_over_05", 0) >= 74.0:
+            p_tt = float(tt["away_over_05"])
+            cands.append({
+                "category": "Team Goals",
+                "pick_type": f"{a} to Score (Over 0.5 Team Goals)",
+                "win_percentage": p_tt,
+                "fair_odds": float(round(100.0 / p_tt, 2)),
+                "reason": f"{a} attacking transitions and offensive momentum indicate a high probability of finding the net."
+            })
 
-        if win_prob >= 85.0 or penta.get("consensus_count", 0) >= 4:
+        # 5. Over 1.5 Total Goals
+        if totals.get("over_1_5", 0) >= 74.0:
+            p_o15 = float(totals["over_1_5"])
+            cands.append({
+                "category": "Goals Over",
+                "pick_type": "Over 1.5 Total Match Goals",
+                "win_percentage": p_o15,
+                "fair_odds": float(round(100.0 / p_o15, 2)),
+                "reason": f"Active attacking pace requiring just 2 match goals across 90 minutes ({p_o15:.1f}% likelihood)."
+            })
+
+        # 6. Under 3.5 Total Goals (Sensible, non-generic Under market)
+        if totals.get("under_3_5", 0) >= 68.0:
+            p_u35 = float(totals["under_3_5"])
+            cands.append({
+                "category": "Goals Under",
+                "pick_type": "Under 3.5 Total Match Goals",
+                "win_percentage": p_u35,
+                "fair_odds": float(round(100.0 / p_u35, 2)),
+                "reason": f"Structured low-block defensive tactical battle keeping total match output capped at 3 goals or fewer."
+            })
+
+        # 7. Both Teams To Score (BTTS - Yes)
+        if btts_m.get("yes", 0) >= 54.0:
+            p_btts = float(btts_m["yes"])
+            cands.append({
+                "category": "BTTS",
+                "pick_type": "Both Teams To Score (BTTS - Yes)",
+                "win_percentage": p_btts,
+                "fair_odds": float(round(100.0 / p_btts, 2)),
+                "reason": "Both clubs possess fluid frontlines with open transitions, creating high probability of mutual goals."
+            })
+
+        # Fallback if empty
+        if not cands:
+            cands.append({
+                "category": "Goals Over",
+                "pick_type": "Over 1.5 Total Match Goals",
+                "win_percentage": 76.0,
+                "fair_odds": 1.32,
+                "reason": "Baseline multi-model goal derivative."
+            })
+
+        match_records.append({
+            "fixture": f"{h} vs {a}",
+            "home_team": h,
+            "away_team": a,
+            "kickoff": ko,
+            "candidates": cands,
+            "sofascore_odds": f"{sofa['home_odds']:.2f} | {sofa['draw_odds']:.2f} | {sofa['away_odds']:.2f}",
+            "predicted_score": rep.get("forebet_prediction", {}).get("predicted_score", "—"),
+            "consensus_tier": penta.get("consensus_tier", "High Confidence"),
+            "consensus_count": penta.get("consensus_count", 4),
+            "yellow_cards": rep.get("yellow_cards", {}),
+            "card_pick": rep.get("yellow_cards", {}).get("best_card_bet", {})
+        })
+
+    # Adaptive Diversity Allocation Pass across the entire round
+    category_counts = {}
+    CATEGORY_MAX = {
+        "Yellow Cards": 1,
+        "Draw No Bet": 2,
+        "Double Chance": 2,
+        "Team Goals": 2,
+        "Goals Over": 2,
+        "Goals Under": 2,
+        "BTTS": 2,
+    }
+
+    # First pass: Derbies get Yellow Cards immediately
+    for m in match_records:
+        m["selected_pick"] = None
+        cands = m["candidates"]
+        derby_cand = next((c for c in cands if c["category"] == "Yellow Cards" and "Derbi" in c["pick_type"]), None)
+        if derby_cand:
+            m["selected_pick"] = derby_cand
+            category_counts["Yellow Cards"] = category_counts.get("Yellow Cards", 0) + 1
+
+    # Second pass: Assign best candidate respecting category limits
+    for m in match_records:
+        if m["selected_pick"] is not None:
+            continue
+        cands = sorted(m["candidates"], key=lambda x: x["win_percentage"], reverse=True)
+        chosen = None
+        for c in cands:
+            cat = c["category"]
+            max_allowed = CATEGORY_MAX.get(cat, 2)
+            if category_counts.get(cat, 0) < max_allowed:
+                chosen = c
+                break
+        if not chosen and cands:
+            chosen = cands[0]
+        m["selected_pick"] = chosen
+        cat = chosen["category"]
+        category_counts[cat] = category_counts.get(cat, 0) + 1
+
+    # Format final results
+    results = []
+    for m in match_records:
+        sp = m["selected_pick"]
+        win_prob = sp["win_percentage"]
+        odds = sp["fair_odds"]
+        if win_prob >= 82.0 or m["consensus_count"] >= 5:
             badge = "💎 DIAMOND LOCK"
-        elif win_prob >= 78.0:
+        elif win_prob >= 75.0:
             badge = "⚡ VALUE LOCK"
         else:
             badge = "🥇 GOLD SAFETY"
 
         results.append({
-            "fixture": f"{h} vs {a}",
-            "home_team": h,
-            "away_team": a,
-            "kickoff": ko,
-            "best_weekly_pick": weekly_pick,
+            "fixture": m["fixture"],
+            "home_team": m["home_team"],
+            "away_team": m["away_team"],
+            "kickoff": m["kickoff"],
+            "best_weekly_pick": sp["pick_type"],
+            "category": sp["category"],
             "win_probability": float(win_prob),
             "fair_odds": float(odds),
             "safety_badge": badge,
-            "consensus_tier": penta.get("consensus_tier", "High Confidence"),
-            "consensus_count": penta.get("consensus_count", 4),
-            "predicted_score": rep.get("forebet_prediction", {}).get("predicted_score", "—"),
-            "sofascore_odds": f"{sofa['home_odds']:.2f} | {sofa['draw_odds']:.2f} | {sofa['away_odds']:.2f}",
-            "reason": reason,
-            "yellow_cards": rep.get("yellow_cards", {}),
-            "card_pick": rep.get("yellow_cards", {}).get("best_card_bet", {})
+            "consensus_tier": m["consensus_tier"],
+            "consensus_count": m["consensus_count"],
+            "predicted_score": m["predicted_score"],
+            "sofascore_odds": m["sofascore_odds"],
+            "reason": sp["reason"],
+            "yellow_cards": m["yellow_cards"],
+            "card_pick": m["card_pick"],
+            "alternative_candidates": m["candidates"]
         })
 
     # Sort fixtures by highest win probability (Rank 1 to 10)
@@ -231,9 +388,15 @@ def scan_all_european_leagues(predictor) -> Dict[str, Any]:
     all_candidate_bets = []
     for f in all_fixtures:
         # 1. Primary pick from match analysis
-        cat = "Double Chance" if "Double Chance" in f["best_weekly_pick"] else (
-            "Team Goals" if "to Score" in f["best_weekly_pick"] else (
-                "Goals Total" if "Goal" in f["best_weekly_pick"] else "Market Derivative"
+        cat = f.get("category") or (
+            "Double Chance" if "Double Chance" in f["best_weekly_pick"] else (
+                "Draw No Bet" if "Draw No Bet" in f["best_weekly_pick"] else (
+                    "Team Goals" if "to Score" in f["best_weekly_pick"] else (
+                        "Yellow Cards" if "Yellow Card" in f["best_weekly_pick"] else (
+                            "Goals Total" if "Goal" in f["best_weekly_pick"] else "Market Derivative"
+                        )
+                    )
+                )
             )
         )
         all_candidate_bets.append({

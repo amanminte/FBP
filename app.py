@@ -1179,7 +1179,7 @@ with tab_gw:
                 key=f"gw_num_{sel_gw_lg}"
             )
         with gw_c3:
-            gw_filter = st.radio("Display Filter", ["All Matches", "💎 Diamond Locks Only", "📉 Unders (1.5/2.5/3.5)", "📈 Overs (1.5)", "🟨 Cards (Over/Under)"], horizontal=True)
+            gw_filter = st.radio("Display Filter", ["All Diverse Matches", "💎 Diamond Locks Only", "🛡️ Double Chance & DNB", "⚽ Team Goals & BTTS", "📈 Overs & 📉 Unders", "🟨 Cards / Derbies"], horizontal=True)
         with gw_c4:
             st.write("")
             btn_refresh_gw = st.button("🔄 Scan Gameweek", type="primary", use_container_width=True)
@@ -1308,23 +1308,14 @@ with tab_gw:
         ranked_list = gw_data["ranked_fixtures"]
         if "Diamond" in gw_filter:
             ranked_list = [f for f in ranked_list if "DIAMOND" in f["safety_badge"]]
-        elif "Unders" in gw_filter:
-            ranked_list = [f for f in ranked_list if "under" in f["best_weekly_pick"].lower() and "card" not in f["best_weekly_pick"].lower()]
+        elif "Double Chance" in gw_filter:
+            ranked_list = [f for f in ranked_list if f.get("category") in ["Double Chance", "Draw No Bet"] or "Double Chance" in f["best_weekly_pick"] or "Draw No Bet" in f["best_weekly_pick"]]
+        elif "Team Goals" in gw_filter:
+            ranked_list = [f for f in ranked_list if f.get("category") in ["Team Goals", "BTTS"] or "to Score" in f["best_weekly_pick"] or "BTTS" in f["best_weekly_pick"]]
         elif "Overs" in gw_filter:
-            ranked_list = [f for f in ranked_list if "over" in f["best_weekly_pick"].lower() and "card" not in f["best_weekly_pick"].lower()]
+            ranked_list = [f for f in ranked_list if f.get("category") in ["Goals Over", "Goals Under"] or ("Goal" in f["best_weekly_pick"] and "card" not in f["best_weekly_pick"].lower())]
         elif "Cards" in gw_filter:
-            card_items = []
-            for f in ranked_list:
-                c_p = f.get("card_pick")
-                if c_p:
-                    f_copy = dict(f)
-                    f_copy["best_weekly_pick"] = c_p["pick_type"]
-                    f_copy["win_probability"] = c_p["win_percentage"]
-                    f_copy["fair_odds"] = c_p["fair_odds"]
-                    f_copy["safety_badge"] = c_p["safety_badge"]
-                    f_copy["reason"] = c_p["rationale"]
-                    card_items.append(f_copy)
-            ranked_list = sorted(card_items, key=lambda x: x["win_probability"], reverse=True)
+            ranked_list = [f for f in ranked_list if f.get("category") == "Yellow Cards" or "Card" in f["best_weekly_pick"]]
 
         for rank_idx, f_item in enumerate(ranked_list):
             b_color = "#10b981" if "DIAMOND" in f_item["safety_badge"] else ("#3b82f6" if "ARBITRAGE" in f_item["safety_badge"] else "#f59e0b")
