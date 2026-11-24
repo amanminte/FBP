@@ -618,9 +618,13 @@
       "kickoff": "Gameweek 7",
       "raw_kickoff": "2026-11-14T15:00:00Z",
       "finished": true,
-      "score_h": 1,
+      "score_h": 3,
       "score_a": 0,
-      "gameweek": 7
+      "gameweek": 7,
+      "cards_h": 1,
+      "cards_a": 2,
+      "saves_h": 1,
+      "saves_a": 5
     },
     {
       "home": "Parma",
@@ -1023,7 +1027,7 @@
     {
       "home": "Venezia",
       "away": "Udinese",
-      "kickoff": "Fri Nov 06 \u2022 09:45 PM",
+      "kickoff": "Fri Nov 06 • 09:45 PM",
       "raw_kickoff": "2026-11-06T20:45:00Z",
       "finished": true,
       "score_h": 2,
@@ -1035,7 +1039,7 @@
     {
       "home": "Cagliari",
       "away": "Frosinone",
-      "kickoff": "Sat Nov 07 \u2022 05:00 PM",
+      "kickoff": "Sat Nov 07 • 05:00 PM",
       "raw_kickoff": "2026-11-07T16:00:00Z",
       "finished": true,
       "score_h": 1,
@@ -1045,7 +1049,7 @@
     {
       "home": "Torino",
       "away": "Lecce",
-      "kickoff": "Sat Nov 07 \u2022 05:00 PM",
+      "kickoff": "Sat Nov 07 • 05:00 PM",
       "raw_kickoff": "2026-11-07T16:00:00Z",
       "finished": true,
       "score_h": 1,
@@ -1055,7 +1059,7 @@
     {
       "home": "Parma",
       "away": "Bologna",
-      "kickoff": "Sat Nov 07 \u2022 08:00 PM",
+      "kickoff": "Sat Nov 07 • 08:00 PM",
       "raw_kickoff": "2026-11-07T19:00:00Z",
       "finished": true,
       "score_h": 1,
@@ -1065,7 +1069,7 @@
     {
       "home": "AS Roma",
       "away": "Sassuolo",
-      "kickoff": "Sat Nov 07 \u2022 10:45 PM",
+      "kickoff": "Sat Nov 07 • 10:45 PM",
       "raw_kickoff": "2026-11-07T21:45:00Z",
       "finished": true,
       "score_h": 3,
@@ -1077,7 +1081,7 @@
     {
       "home": "Napoli",
       "away": "Lazio",
-      "kickoff": "Sun Nov 08 \u2022 02:30 PM",
+      "kickoff": "Sun Nov 08 • 02:30 PM",
       "raw_kickoff": "2026-11-08T13:30:00Z",
       "finished": true,
       "score_h": 1,
@@ -1089,7 +1093,7 @@
     {
       "home": "Genoa",
       "away": "AC Milan",
-      "kickoff": "Sun Nov 08 \u2022 05:00 PM",
+      "kickoff": "Sun Nov 08 • 05:00 PM",
       "raw_kickoff": "2026-11-08T16:00:00Z",
       "finished": true,
       "score_h": 1,
@@ -1099,7 +1103,7 @@
     {
       "home": "Monza",
       "away": "Atalanta",
-      "kickoff": "Sun Nov 08 \u2022 05:00 PM",
+      "kickoff": "Sun Nov 08 • 05:00 PM",
       "raw_kickoff": "2026-11-08T16:00:00Z",
       "finished": true,
       "score_h": 0,
@@ -1109,7 +1113,7 @@
     {
       "home": "Inter",
       "away": "Como",
-      "kickoff": "Sun Nov 08 \u2022 08:00 PM",
+      "kickoff": "Sun Nov 08 • 08:00 PM",
       "raw_kickoff": "2026-11-08T19:00:00Z",
       "finished": true,
       "score_h": 2,
@@ -1119,7 +1123,7 @@
     {
       "home": "Fiorentina",
       "away": "Juventus",
-      "kickoff": "Sun Nov 08 \u2022 10:45 PM",
+      "kickoff": "Sun Nov 08 • 10:45 PM",
       "raw_kickoff": "2026-11-08T21:45:00Z",
       "finished": true,
       "score_h": 2,
@@ -1131,47 +1135,55 @@
     {
       "home": "Como",
       "away": "Cagliari",
-      "kickoff": "Sat Nov 21 \u2022 17:00",
+      "kickoff": "Sat Nov 21 • 17:00",
       "raw_kickoff": "2026-11-21T17:00Z",
-      "finished": false,
-      "score_h": null,
-      "score_a": null,
-      "gameweek": 12
+      "finished": true,
+      "score_h": 2,
+      "score_a": 0,
+      "gameweek": 12,
+      "cards_h": 2,
+      "cards_a": 3,
+      "saves_h": 2,
+      "saves_a": 4
     },
     {
       "home": "Lazio",
       "away": "Lecce",
-      "kickoff": "Sat Nov 21 \u2022 17:00",
+      "kickoff": "Sat Nov 21 • 17:00",
       "raw_kickoff": "2026-11-21T17:00Z",
-      "finished": false,
-      "score_h": null,
-      "score_a": null,
+      "finished": true,
+      "score_h": 3,
+      "score_a": 0,
       "gameweek": 12
     },
     {
       "home": "Parma",
       "away": "Roma",
-      "kickoff": "Sat Nov 21 \u2022 20:00",
+      "kickoff": "Sat Nov 21 • 20:00",
       "raw_kickoff": "2026-11-21T20:00Z",
-      "finished": false,
-      "score_h": null,
-      "score_a": null,
-      "gameweek": 12
+      "finished": true,
+      "score_h": 1,
+      "score_a": 5,
+      "gameweek": 12,
+      "cards_h": 2,
+      "cards_a": 1,
+      "saves_h": 3,
+      "saves_a": 2
     },
     {
       "home": "Napoli",
       "away": "Torino",
-      "kickoff": "Sat Nov 21 \u2022 22:45",
+      "kickoff": "Sat Nov 21 • 22:45",
       "raw_kickoff": "2026-11-21T22:45Z",
-      "finished": false,
-      "score_h": null,
-      "score_a": null,
+      "finished": true,
+      "score_h": 1,
+      "score_a": 0,
       "gameweek": 12
     },
     {
       "home": "Juventus",
       "away": "Venezia",
-      "kickoff": "Sun Nov 22 \u2022 14:30",
+      "kickoff": "Sun Nov 22 • 14:30",
       "raw_kickoff": "2026-11-22T14:30Z",
       "finished": false,
       "score_h": null,
@@ -1181,7 +1193,7 @@
     {
       "home": "Bologna",
       "away": "Udinese",
-      "kickoff": "Sun Nov 22 \u2022 17:00",
+      "kickoff": "Sun Nov 22 • 17:00",
       "raw_kickoff": "2026-11-22T17:00Z",
       "finished": false,
       "score_h": null,
@@ -1191,7 +1203,7 @@
     {
       "home": "Sassuolo",
       "away": "Genoa",
-      "kickoff": "Sun Nov 22 \u2022 17:00",
+      "kickoff": "Sun Nov 22 • 17:00",
       "raw_kickoff": "2026-11-22T17:00Z",
       "finished": false,
       "score_h": null,
@@ -1201,7 +1213,7 @@
     {
       "home": "Milan",
       "away": "Frosinone",
-      "kickoff": "Sun Nov 22 \u2022 20:00",
+      "kickoff": "Sun Nov 22 • 20:00",
       "raw_kickoff": "2026-11-22T20:00Z",
       "finished": false,
       "score_h": null,
@@ -1211,7 +1223,7 @@
     {
       "home": "Atalanta",
       "away": "Inter",
-      "kickoff": "Sun Nov 22 \u2022 22:45",
+      "kickoff": "Sun Nov 22 • 22:45",
       "raw_kickoff": "2026-11-22T22:45Z",
       "finished": false,
       "score_h": null,
@@ -1221,7 +1233,7 @@
     {
       "home": "Monza",
       "away": "Fiorentina",
-      "kickoff": "Mon Nov 23 \u2022 22:45",
+      "kickoff": "Mon Nov 23 • 22:45",
       "raw_kickoff": "2026-11-23T22:45Z",
       "finished": false,
       "score_h": null,
@@ -3131,10 +3143,14 @@
       "away": "AS Roma",
       "kickoff": "Gameweek 31",
       "raw_kickoff": "2026-11-14T15:00:00Z",
-      "finished": false,
-      "score_h": null,
-      "score_a": null,
-      "gameweek": 31
+      "finished": true,
+      "score_h": 1,
+      "score_a": 5,
+      "gameweek": 31,
+      "cards_h": 2,
+      "cards_a": 1,
+      "saves_h": 3,
+      "saves_a": 2
     },
     {
       "home": "Fiorentina",
@@ -3213,10 +3229,14 @@
       "away": "Cagliari",
       "kickoff": "Gameweek 32",
       "raw_kickoff": "2026-11-14T15:00:00Z",
-      "finished": false,
-      "score_h": null,
-      "score_a": null,
-      "gameweek": 32
+      "finished": true,
+      "score_h": 2,
+      "score_a": 0,
+      "gameweek": 32,
+      "cards_h": 2,
+      "cards_a": 3,
+      "saves_h": 2,
+      "saves_a": 4
     },
     {
       "home": "AS Roma",

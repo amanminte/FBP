@@ -3,7 +3,7 @@
     {
       "home": "Manchester United",
       "away": "Fulham",
-      "kickoff": "Fri Aug 16 \u2022 20:00 UTC",
+      "kickoff": "Fri Aug 16 • 20:00 UTC",
       "raw_kickoff": "2024-08-16T20:00Z",
       "finished": true,
       "score_h": 1,
@@ -13,7 +13,7 @@
     {
       "home": "Ipswich Town",
       "away": "Liverpool",
-      "kickoff": "Sat Aug 17 \u2022 12:30 UTC",
+      "kickoff": "Sat Aug 17 • 12:30 UTC",
       "raw_kickoff": "2024-08-17T12:30Z",
       "finished": true,
       "score_h": 0,
@@ -23,7 +23,7 @@
     {
       "home": "Arsenal",
       "away": "Wolves",
-      "kickoff": "Sat Aug 17 \u2022 15:00 UTC",
+      "kickoff": "Sat Aug 17 • 15:00 UTC",
       "raw_kickoff": "2024-08-17T15:00Z",
       "finished": true,
       "score_h": 2,
@@ -33,7 +33,7 @@
     {
       "home": "Everton",
       "away": "Brighton",
-      "kickoff": "Sat Aug 17 \u2022 15:00 UTC",
+      "kickoff": "Sat Aug 17 • 15:00 UTC",
       "raw_kickoff": "2024-08-17T15:00Z",
       "finished": true,
       "score_h": 0,
@@ -43,7 +43,7 @@
     {
       "home": "Newcastle",
       "away": "Southampton",
-      "kickoff": "Sat Aug 17 \u2022 15:00 UTC",
+      "kickoff": "Sat Aug 17 • 15:00 UTC",
       "raw_kickoff": "2024-08-17T15:00Z",
       "finished": true,
       "score_h": 1,
@@ -53,7 +53,7 @@
     {
       "home": "Nottingham Forest",
       "away": "Bournemouth",
-      "kickoff": "Sat Aug 17 \u2022 15:00 UTC",
+      "kickoff": "Sat Aug 17 • 15:00 UTC",
       "raw_kickoff": "2024-08-17T15:00Z",
       "finished": true,
       "score_h": 1,
@@ -63,7 +63,7 @@
     {
       "home": "West Ham",
       "away": "Aston Villa",
-      "kickoff": "Sat Aug 17 \u2022 17:30 UTC",
+      "kickoff": "Sat Aug 17 • 17:30 UTC",
       "raw_kickoff": "2024-08-17T17:30Z",
       "finished": true,
       "score_h": 1,
@@ -73,7 +73,7 @@
     {
       "home": "Brentford",
       "away": "Crystal Palace",
-      "kickoff": "Sun Aug 18 \u2022 14:00 UTC",
+      "kickoff": "Sun Aug 18 • 14:00 UTC",
       "raw_kickoff": "2024-08-18T14:00Z",
       "finished": true,
       "score_h": 2,
@@ -83,7 +83,7 @@
     {
       "home": "Chelsea",
       "away": "Manchester City",
-      "kickoff": "Sun Aug 18 \u2022 16:30 UTC",
+      "kickoff": "Sun Aug 18 • 16:30 UTC",
       "raw_kickoff": "2024-08-18T16:30Z",
       "finished": true,
       "score_h": 0,
@@ -93,7 +93,7 @@
     {
       "home": "Leicester",
       "away": "Tottenham",
-      "kickoff": "Mon Aug 19 \u2022 20:00 UTC",
+      "kickoff": "Mon Aug 19 • 20:00 UTC",
       "raw_kickoff": "2024-08-19T20:00Z",
       "finished": true,
       "score_h": 1,
@@ -105,7 +105,7 @@
     {
       "home": "Brighton",
       "away": "Manchester United",
-      "kickoff": "Sat Aug 24 \u2022 12:30 UTC",
+      "kickoff": "Sat Aug 24 • 12:30 UTC",
       "raw_kickoff": "2024-08-24T12:30Z",
       "finished": true,
       "score_h": 2,
@@ -115,7 +115,7 @@
     {
       "home": "Crystal Palace",
       "away": "West Ham",
-      "kickoff": "Sat Aug 24 \u2022 15:00 UTC",
+      "kickoff": "Sat Aug 24 • 15:00 UTC",
       "raw_kickoff": "2024-08-24T15:00Z",
       "finished": true,
       "score_h": 0,
@@ -125,7 +125,7 @@
     {
       "home": "Fulham",
       "away": "Leicester",
-      "kickoff": "Sat Aug 24 \u2022 15:00 UTC",
+      "kickoff": "Sat Aug 24 • 15:00 UTC",
       "raw_kickoff": "2024-08-24T15:00Z",
       "finished": true,
       "score_h": 2,
@@ -135,7 +135,7 @@
     {
       "home": "Manchester City",
       "away": "Ipswich Town",
-      "kickoff": "Sat Aug 24 \u2022 15:00 UTC",
+      "kickoff": "Sat Aug 24 • 15:00 UTC",
       "raw_kickoff": "2024-08-24T15:00Z",
       "finished": true,
       "score_h": 4,
@@ -145,7 +145,7 @@
     {
       "home": "Southampton",
       "away": "Nottingham Forest",
-      "kickoff": "Sat Aug 24 \u2022 15:00 UTC",
+      "kickoff": "Sat Aug 24 • 15:00 UTC",
       "raw_kickoff": "2024-08-24T15:00Z",
       "finished": true,
       "score_h": 0,
@@ -155,7 +155,7 @@
     {
       "home": "Tottenham",
       "away": "Everton",
-      "kickoff": "Sat Aug 24 \u2022 15:00 UTC",
+      "kickoff": "Sat Aug 24 • 15:00 UTC",
       "raw_kickoff": "2024-08-24T15:00Z",
       "finished": true,
       "score_h": 4,
@@ -165,7 +165,7 @@
     {
       "home": "Aston Villa",
       "away": "Arsenal",
-      "kickoff": "Sat Aug 24 \u2022 17:30 UTC",
+      "kickoff": "Sat Aug 24 • 17:30 UTC",
       "raw_kickoff": "2024-08-24T17:30Z",
       "finished": true,
       "score_h": 0,
@@ -175,7 +175,7 @@
     {
       "home": "Bournemouth",
       "away": "Newcastle",
-      "kickoff": "Sun Aug 25 \u2022 14:00 UTC",
+      "kickoff": "Sun Aug 25 • 14:00 UTC",
       "raw_kickoff": "2024-08-25T14:00Z",
       "finished": true,
       "score_h": 1,
@@ -185,7 +185,7 @@
     {
       "home": "Wolves",
       "away": "Chelsea",
-      "kickoff": "Sun Aug 25 \u2022 14:00 UTC",
+      "kickoff": "Sun Aug 25 • 14:00 UTC",
       "raw_kickoff": "2024-08-25T14:00Z",
       "finished": true,
       "score_h": 2,
@@ -195,7 +195,7 @@
     {
       "home": "Liverpool",
       "away": "Brentford",
-      "kickoff": "Sun Aug 25 \u2022 16:30 UTC",
+      "kickoff": "Sun Aug 25 • 16:30 UTC",
       "raw_kickoff": "2024-08-25T16:30Z",
       "finished": true,
       "score_h": 2,
@@ -207,7 +207,7 @@
     {
       "home": "Arsenal",
       "away": "Brighton",
-      "kickoff": "Sat Aug 31 \u2022 12:30 UTC",
+      "kickoff": "Sat Aug 31 • 12:30 UTC",
       "raw_kickoff": "2024-08-31T12:30Z",
       "finished": true,
       "score_h": 1,
@@ -217,7 +217,7 @@
     {
       "home": "Brentford",
       "away": "Southampton",
-      "kickoff": "Sat Aug 31 \u2022 15:00 UTC",
+      "kickoff": "Sat Aug 31 • 15:00 UTC",
       "raw_kickoff": "2024-08-31T15:00Z",
       "finished": true,
       "score_h": 3,
@@ -227,7 +227,7 @@
     {
       "home": "Everton",
       "away": "Bournemouth",
-      "kickoff": "Sat Aug 31 \u2022 15:00 UTC",
+      "kickoff": "Sat Aug 31 • 15:00 UTC",
       "raw_kickoff": "2024-08-31T15:00Z",
       "finished": true,
       "score_h": 2,
@@ -237,7 +237,7 @@
     {
       "home": "Ipswich Town",
       "away": "Fulham",
-      "kickoff": "Sat Aug 31 \u2022 15:00 UTC",
+      "kickoff": "Sat Aug 31 • 15:00 UTC",
       "raw_kickoff": "2024-08-31T15:00Z",
       "finished": true,
       "score_h": 1,
@@ -247,7 +247,7 @@
     {
       "home": "Leicester",
       "away": "Aston Villa",
-      "kickoff": "Sat Aug 31 \u2022 15:00 UTC",
+      "kickoff": "Sat Aug 31 • 15:00 UTC",
       "raw_kickoff": "2024-08-31T15:00Z",
       "finished": true,
       "score_h": 1,
@@ -257,7 +257,7 @@
     {
       "home": "Nottingham Forest",
       "away": "Wolves",
-      "kickoff": "Sat Aug 31 \u2022 15:00 UTC",
+      "kickoff": "Sat Aug 31 • 15:00 UTC",
       "raw_kickoff": "2024-08-31T15:00Z",
       "finished": true,
       "score_h": 1,
@@ -267,7 +267,7 @@
     {
       "home": "West Ham",
       "away": "Manchester City",
-      "kickoff": "Sat Aug 31 \u2022 17:30 UTC",
+      "kickoff": "Sat Aug 31 • 17:30 UTC",
       "raw_kickoff": "2024-08-31T17:30Z",
       "finished": true,
       "score_h": 1,
@@ -277,7 +277,7 @@
     {
       "home": "Chelsea",
       "away": "Crystal Palace",
-      "kickoff": "Sun Sep 01 \u2022 13:30 UTC",
+      "kickoff": "Sun Sep 01 • 13:30 UTC",
       "raw_kickoff": "2024-09-01T13:30Z",
       "finished": true,
       "score_h": 1,
@@ -287,7 +287,7 @@
     {
       "home": "Newcastle",
       "away": "Tottenham",
-      "kickoff": "Sun Sep 01 \u2022 13:30 UTC",
+      "kickoff": "Sun Sep 01 • 13:30 UTC",
       "raw_kickoff": "2024-09-01T13:30Z",
       "finished": true,
       "score_h": 2,
@@ -297,7 +297,7 @@
     {
       "home": "Manchester United",
       "away": "Liverpool",
-      "kickoff": "Sun Sep 01 \u2022 16:00 UTC",
+      "kickoff": "Sun Sep 01 • 16:00 UTC",
       "raw_kickoff": "2024-09-01T16:00Z",
       "finished": true,
       "score_h": 0,
@@ -309,7 +309,7 @@
     {
       "home": "Southampton",
       "away": "Manchester United",
-      "kickoff": "Sat Sep 14 \u2022 12:30 UTC",
+      "kickoff": "Sat Sep 14 • 12:30 UTC",
       "raw_kickoff": "2024-09-14T12:30Z",
       "finished": true,
       "score_h": 0,
@@ -319,7 +319,7 @@
     {
       "home": "Brighton",
       "away": "Ipswich Town",
-      "kickoff": "Sat Sep 14 \u2022 15:00 UTC",
+      "kickoff": "Sat Sep 14 • 15:00 UTC",
       "raw_kickoff": "2024-09-14T15:00Z",
       "finished": true,
       "score_h": 0,
@@ -329,7 +329,7 @@
     {
       "home": "Crystal Palace",
       "away": "Leicester",
-      "kickoff": "Sat Sep 14 \u2022 15:00 UTC",
+      "kickoff": "Sat Sep 14 • 15:00 UTC",
       "raw_kickoff": "2024-09-14T15:00Z",
       "finished": true,
       "score_h": 2,
@@ -339,7 +339,7 @@
     {
       "home": "Fulham",
       "away": "West Ham",
-      "kickoff": "Sat Sep 14 \u2022 15:00 UTC",
+      "kickoff": "Sat Sep 14 • 15:00 UTC",
       "raw_kickoff": "2024-09-14T15:00Z",
       "finished": true,
       "score_h": 1,
@@ -349,7 +349,7 @@
     {
       "home": "Liverpool",
       "away": "Nottingham Forest",
-      "kickoff": "Sat Sep 14 \u2022 15:00 UTC",
+      "kickoff": "Sat Sep 14 • 15:00 UTC",
       "raw_kickoff": "2024-09-14T15:00Z",
       "finished": true,
       "score_h": 0,
@@ -359,7 +359,7 @@
     {
       "home": "Manchester City",
       "away": "Brentford",
-      "kickoff": "Sat Sep 14 \u2022 15:00 UTC",
+      "kickoff": "Sat Sep 14 • 15:00 UTC",
       "raw_kickoff": "2024-09-14T15:00Z",
       "finished": true,
       "score_h": 2,
@@ -369,7 +369,7 @@
     {
       "home": "Aston Villa",
       "away": "Everton",
-      "kickoff": "Sat Sep 14 \u2022 17:30 UTC",
+      "kickoff": "Sat Sep 14 • 17:30 UTC",
       "raw_kickoff": "2024-09-14T17:30Z",
       "finished": true,
       "score_h": 3,
@@ -379,7 +379,7 @@
     {
       "home": "Bournemouth",
       "away": "Chelsea",
-      "kickoff": "Sat Sep 14 \u2022 20:00 UTC",
+      "kickoff": "Sat Sep 14 • 20:00 UTC",
       "raw_kickoff": "2024-09-14T20:00Z",
       "finished": true,
       "score_h": 0,
@@ -389,7 +389,7 @@
     {
       "home": "Tottenham",
       "away": "Arsenal",
-      "kickoff": "Sun Sep 15 \u2022 14:00 UTC",
+      "kickoff": "Sun Sep 15 • 14:00 UTC",
       "raw_kickoff": "2024-09-15T14:00Z",
       "finished": true,
       "score_h": 0,
@@ -399,7 +399,7 @@
     {
       "home": "Wolves",
       "away": "Newcastle",
-      "kickoff": "Sun Sep 15 \u2022 16:30 UTC",
+      "kickoff": "Sun Sep 15 • 16:30 UTC",
       "raw_kickoff": "2024-09-15T16:30Z",
       "finished": true,
       "score_h": 1,
@@ -411,7 +411,7 @@
     {
       "home": "West Ham",
       "away": "Chelsea",
-      "kickoff": "Sat Sep 21 \u2022 12:30 UTC",
+      "kickoff": "Sat Sep 21 • 12:30 UTC",
       "raw_kickoff": "2024-09-21T12:30Z",
       "finished": true,
       "score_h": 0,
@@ -421,7 +421,7 @@
     {
       "home": "Aston Villa",
       "away": "Wolves",
-      "kickoff": "Sat Sep 21 \u2022 15:00 UTC",
+      "kickoff": "Sat Sep 21 • 15:00 UTC",
       "raw_kickoff": "2024-09-21T15:00Z",
       "finished": true,
       "score_h": 3,
@@ -431,7 +431,7 @@
     {
       "home": "Fulham",
       "away": "Newcastle",
-      "kickoff": "Sat Sep 21 \u2022 15:00 UTC",
+      "kickoff": "Sat Sep 21 • 15:00 UTC",
       "raw_kickoff": "2024-09-21T15:00Z",
       "finished": true,
       "score_h": 1,
@@ -441,7 +441,7 @@
     {
       "home": "Leicester",
       "away": "Everton",
-      "kickoff": "Sat Sep 21 \u2022 15:00 UTC",
+      "kickoff": "Sat Sep 21 • 15:00 UTC",
       "raw_kickoff": "2024-09-21T15:00Z",
       "finished": true,
       "score_h": 1,
@@ -451,7 +451,7 @@
     {
       "home": "Liverpool",
       "away": "Bournemouth",
-      "kickoff": "Sat Sep 21 \u2022 15:00 UTC",
+      "kickoff": "Sat Sep 21 • 15:00 UTC",
       "raw_kickoff": "2024-09-21T15:00Z",
       "finished": true,
       "score_h": 3,
@@ -461,7 +461,7 @@
     {
       "home": "Southampton",
       "away": "Ipswich Town",
-      "kickoff": "Sat Sep 21 \u2022 15:00 UTC",
+      "kickoff": "Sat Sep 21 • 15:00 UTC",
       "raw_kickoff": "2024-09-21T15:00Z",
       "finished": true,
       "score_h": 1,
@@ -471,7 +471,7 @@
     {
       "home": "Tottenham",
       "away": "Brentford",
-      "kickoff": "Sat Sep 21 \u2022 15:00 UTC",
+      "kickoff": "Sat Sep 21 • 15:00 UTC",
       "raw_kickoff": "2024-09-21T15:00Z",
       "finished": true,
       "score_h": 3,
@@ -481,7 +481,7 @@
     {
       "home": "Crystal Palace",
       "away": "Manchester United",
-      "kickoff": "Sat Sep 21 \u2022 17:30 UTC",
+      "kickoff": "Sat Sep 21 • 17:30 UTC",
       "raw_kickoff": "2024-09-21T17:30Z",
       "finished": true,
       "score_h": 0,
@@ -491,7 +491,7 @@
     {
       "home": "Brighton",
       "away": "Nottingham Forest",
-      "kickoff": "Sun Sep 22 \u2022 14:00 UTC",
+      "kickoff": "Sun Sep 22 • 14:00 UTC",
       "raw_kickoff": "2024-09-22T14:00Z",
       "finished": true,
       "score_h": 2,
@@ -501,7 +501,7 @@
     {
       "home": "Manchester City",
       "away": "Arsenal",
-      "kickoff": "Sun Sep 22 \u2022 16:30 UTC",
+      "kickoff": "Sun Sep 22 • 16:30 UTC",
       "raw_kickoff": "2024-09-22T16:30Z",
       "finished": true,
       "score_h": 2,
@@ -513,7 +513,7 @@
     {
       "home": "Newcastle",
       "away": "Manchester City",
-      "kickoff": "Sat Sep 28 \u2022 12:30 UTC",
+      "kickoff": "Sat Sep 28 • 12:30 UTC",
       "raw_kickoff": "2024-09-28T12:30Z",
       "finished": true,
       "score_h": 1,
@@ -523,7 +523,7 @@
     {
       "home": "Arsenal",
       "away": "Leicester",
-      "kickoff": "Sat Sep 28 \u2022 15:00 UTC",
+      "kickoff": "Sat Sep 28 • 15:00 UTC",
       "raw_kickoff": "2024-09-28T15:00Z",
       "finished": true,
       "score_h": 4,
@@ -533,7 +533,7 @@
     {
       "home": "Brentford",
       "away": "West Ham",
-      "kickoff": "Sat Sep 28 \u2022 15:00 UTC",
+      "kickoff": "Sat Sep 28 • 15:00 UTC",
       "raw_kickoff": "2024-09-28T15:00Z",
       "finished": true,
       "score_h": 1,
@@ -543,7 +543,7 @@
     {
       "home": "Chelsea",
       "away": "Brighton",
-      "kickoff": "Sat Sep 28 \u2022 15:00 UTC",
+      "kickoff": "Sat Sep 28 • 15:00 UTC",
       "raw_kickoff": "2024-09-28T15:00Z",
       "finished": true,
       "score_h": 4,
@@ -553,7 +553,7 @@
     {
       "home": "Everton",
       "away": "Crystal Palace",
-      "kickoff": "Sat Sep 28 \u2022 15:00 UTC",
+      "kickoff": "Sat Sep 28 • 15:00 UTC",
       "raw_kickoff": "2024-09-28T15:00Z",
       "finished": true,
       "score_h": 2,
@@ -563,7 +563,7 @@
     {
       "home": "Nottingham Forest",
       "away": "Fulham",
-      "kickoff": "Sat Sep 28 \u2022 15:00 UTC",
+      "kickoff": "Sat Sep 28 • 15:00 UTC",
       "raw_kickoff": "2024-09-28T15:00Z",
       "finished": true,
       "score_h": 0,
@@ -573,7 +573,7 @@
     {
       "home": "Wolves",
       "away": "Liverpool",
-      "kickoff": "Sat Sep 28 \u2022 17:30 UTC",
+      "kickoff": "Sat Sep 28 • 17:30 UTC",
       "raw_kickoff": "2024-09-28T17:30Z",
       "finished": true,
       "score_h": 1,
@@ -583,7 +583,7 @@
     {
       "home": "Ipswich Town",
       "away": "Aston Villa",
-      "kickoff": "Sun Sep 29 \u2022 14:00 UTC",
+      "kickoff": "Sun Sep 29 • 14:00 UTC",
       "raw_kickoff": "2024-09-29T14:00Z",
       "finished": true,
       "score_h": 2,
@@ -593,7 +593,7 @@
     {
       "home": "Manchester United",
       "away": "Tottenham",
-      "kickoff": "Sun Sep 29 \u2022 16:30 UTC",
+      "kickoff": "Sun Sep 29 • 16:30 UTC",
       "raw_kickoff": "2024-09-29T16:30Z",
       "finished": true,
       "score_h": 0,
@@ -603,7 +603,7 @@
     {
       "home": "Bournemouth",
       "away": "Southampton",
-      "kickoff": "Mon Sep 30 \u2022 20:00 UTC",
+      "kickoff": "Mon Sep 30 • 20:00 UTC",
       "raw_kickoff": "2024-09-30T20:00Z",
       "finished": true,
       "score_h": 3,
@@ -615,7 +615,7 @@
     {
       "home": "Crystal Palace",
       "away": "Liverpool",
-      "kickoff": "Sat Oct 05 \u2022 12:30 UTC",
+      "kickoff": "Sat Oct 05 • 12:30 UTC",
       "raw_kickoff": "2024-10-05T12:30Z",
       "finished": true,
       "score_h": 1,
@@ -625,7 +625,7 @@
     {
       "home": "Arsenal",
       "away": "Southampton",
-      "kickoff": "Sat Oct 05 \u2022 15:00 UTC",
+      "kickoff": "Sat Oct 05 • 15:00 UTC",
       "raw_kickoff": "2024-10-05T15:00Z",
       "finished": true,
       "score_h": 3,
@@ -635,7 +635,7 @@
     {
       "home": "Brentford",
       "away": "Wolves",
-      "kickoff": "Sat Oct 05 \u2022 15:00 UTC",
+      "kickoff": "Sat Oct 05 • 15:00 UTC",
       "raw_kickoff": "2024-10-05T15:00Z",
       "finished": true,
       "score_h": 5,
@@ -645,7 +645,7 @@
     {
       "home": "Leicester",
       "away": "Bournemouth",
-      "kickoff": "Sat Oct 05 \u2022 15:00 UTC",
+      "kickoff": "Sat Oct 05 • 15:00 UTC",
       "raw_kickoff": "2024-10-05T15:00Z",
       "finished": true,
       "score_h": 1,
@@ -655,17 +655,21 @@
     {
       "home": "Manchester City",
       "away": "Fulham",
-      "kickoff": "Sat Oct 05 \u2022 15:00 UTC",
+      "kickoff": "Sat Oct 05 • 15:00 UTC",
       "raw_kickoff": "2024-10-05T15:00Z",
       "finished": true,
-      "score_h": 3,
-      "score_a": 2,
-      "gameweek": 7
+      "score_h": 1,
+      "score_a": 1,
+      "gameweek": 7,
+      "cards_h": 1,
+      "cards_a": 3,
+      "saves_h": 3,
+      "saves_a": 2
     },
     {
       "home": "West Ham",
       "away": "Ipswich Town",
-      "kickoff": "Sat Oct 05 \u2022 15:00 UTC",
+      "kickoff": "Sat Oct 05 • 15:00 UTC",
       "raw_kickoff": "2024-10-05T15:00Z",
       "finished": true,
       "score_h": 4,
@@ -675,7 +679,7 @@
     {
       "home": "Everton",
       "away": "Newcastle",
-      "kickoff": "Sat Oct 05 \u2022 17:30 UTC",
+      "kickoff": "Sat Oct 05 • 17:30 UTC",
       "raw_kickoff": "2024-10-05T17:30Z",
       "finished": true,
       "score_h": 0,
@@ -685,7 +689,7 @@
     {
       "home": "Aston Villa",
       "away": "Manchester United",
-      "kickoff": "Sun Oct 06 \u2022 14:00 UTC",
+      "kickoff": "Sun Oct 06 • 14:00 UTC",
       "raw_kickoff": "2024-10-06T14:00Z",
       "finished": true,
       "score_h": 0,
@@ -695,7 +699,7 @@
     {
       "home": "Chelsea",
       "away": "Nottingham Forest",
-      "kickoff": "Sun Oct 06 \u2022 14:00 UTC",
+      "kickoff": "Sun Oct 06 • 14:00 UTC",
       "raw_kickoff": "2024-10-06T14:00Z",
       "finished": true,
       "score_h": 1,
@@ -705,7 +709,7 @@
     {
       "home": "Brighton",
       "away": "Tottenham",
-      "kickoff": "Sun Oct 06 \u2022 16:30 UTC",
+      "kickoff": "Sun Oct 06 • 16:30 UTC",
       "raw_kickoff": "2024-10-06T16:30Z",
       "finished": true,
       "score_h": 3,
@@ -717,7 +721,7 @@
     {
       "home": "Tottenham",
       "away": "West Ham",
-      "kickoff": "Sat Oct 19 \u2022 12:30 UTC",
+      "kickoff": "Sat Oct 19 • 12:30 UTC",
       "raw_kickoff": "2024-10-19T12:30Z",
       "finished": true,
       "score_h": 4,
@@ -727,7 +731,7 @@
     {
       "home": "Fulham",
       "away": "Aston Villa",
-      "kickoff": "Sat Oct 19 \u2022 15:00 UTC",
+      "kickoff": "Sat Oct 19 • 15:00 UTC",
       "raw_kickoff": "2024-10-19T15:00Z",
       "finished": true,
       "score_h": 1,
@@ -737,7 +741,7 @@
     {
       "home": "Ipswich Town",
       "away": "Everton",
-      "kickoff": "Sat Oct 19 \u2022 15:00 UTC",
+      "kickoff": "Sat Oct 19 • 15:00 UTC",
       "raw_kickoff": "2024-10-19T15:00Z",
       "finished": true,
       "score_h": 0,
@@ -747,7 +751,7 @@
     {
       "home": "Manchester United",
       "away": "Brentford",
-      "kickoff": "Sat Oct 19 \u2022 15:00 UTC",
+      "kickoff": "Sat Oct 19 • 15:00 UTC",
       "raw_kickoff": "2024-10-19T15:00Z",
       "finished": true,
       "score_h": 2,
@@ -757,7 +761,7 @@
     {
       "home": "Newcastle",
       "away": "Brighton",
-      "kickoff": "Sat Oct 19 \u2022 15:00 UTC",
+      "kickoff": "Sat Oct 19 • 15:00 UTC",
       "raw_kickoff": "2024-10-19T15:00Z",
       "finished": true,
       "score_h": 0,
@@ -767,7 +771,7 @@
     {
       "home": "Southampton",
       "away": "Leicester",
-      "kickoff": "Sat Oct 19 \u2022 15:00 UTC",
+      "kickoff": "Sat Oct 19 • 15:00 UTC",
       "raw_kickoff": "2024-10-19T15:00Z",
       "finished": true,
       "score_h": 2,
@@ -777,7 +781,7 @@
     {
       "home": "Bournemouth",
       "away": "Arsenal",
-      "kickoff": "Sat Oct 19 \u2022 17:30 UTC",
+      "kickoff": "Sat Oct 19 • 17:30 UTC",
       "raw_kickoff": "2024-10-19T17:30Z",
       "finished": true,
       "score_h": 2,
@@ -787,7 +791,7 @@
     {
       "home": "Wolves",
       "away": "Manchester City",
-      "kickoff": "Sun Oct 20 \u2022 14:00 UTC",
+      "kickoff": "Sun Oct 20 • 14:00 UTC",
       "raw_kickoff": "2024-10-20T14:00Z",
       "finished": true,
       "score_h": 1,
@@ -797,7 +801,7 @@
     {
       "home": "Liverpool",
       "away": "Chelsea",
-      "kickoff": "Sun Oct 20 \u2022 16:30 UTC",
+      "kickoff": "Sun Oct 20 • 16:30 UTC",
       "raw_kickoff": "2024-10-20T16:30Z",
       "finished": true,
       "score_h": 2,
@@ -807,7 +811,7 @@
     {
       "home": "Nottingham Forest",
       "away": "Crystal Palace",
-      "kickoff": "Mon Oct 21 \u2022 20:00 UTC",
+      "kickoff": "Mon Oct 21 • 20:00 UTC",
       "raw_kickoff": "2024-10-21T20:00Z",
       "finished": true,
       "score_h": 1,
@@ -819,7 +823,7 @@
     {
       "home": "Leicester",
       "away": "Nottingham Forest",
-      "kickoff": "Fri Oct 25 \u2022 20:00 UTC",
+      "kickoff": "Fri Oct 25 • 20:00 UTC",
       "raw_kickoff": "2024-10-25T20:00Z",
       "finished": true,
       "score_h": 1,
@@ -829,7 +833,7 @@
     {
       "home": "Aston Villa",
       "away": "Bournemouth",
-      "kickoff": "Sat Oct 26 \u2022 15:00 UTC",
+      "kickoff": "Sat Oct 26 • 15:00 UTC",
       "raw_kickoff": "2024-10-26T15:00Z",
       "finished": true,
       "score_h": 1,
@@ -839,7 +843,7 @@
     {
       "home": "Brentford",
       "away": "Ipswich Town",
-      "kickoff": "Sat Oct 26 \u2022 15:00 UTC",
+      "kickoff": "Sat Oct 26 • 15:00 UTC",
       "raw_kickoff": "2024-10-26T15:00Z",
       "finished": true,
       "score_h": 4,
@@ -849,7 +853,7 @@
     {
       "home": "Brighton",
       "away": "Wolves",
-      "kickoff": "Sat Oct 26 \u2022 15:00 UTC",
+      "kickoff": "Sat Oct 26 • 15:00 UTC",
       "raw_kickoff": "2024-10-26T15:00Z",
       "finished": true,
       "score_h": 2,
@@ -859,7 +863,7 @@
     {
       "home": "Manchester City",
       "away": "Southampton",
-      "kickoff": "Sat Oct 26 \u2022 15:00 UTC",
+      "kickoff": "Sat Oct 26 • 15:00 UTC",
       "raw_kickoff": "2024-10-26T15:00Z",
       "finished": true,
       "score_h": 1,
@@ -869,7 +873,7 @@
     {
       "home": "Everton",
       "away": "Fulham",
-      "kickoff": "Sat Oct 26 \u2022 17:30 UTC",
+      "kickoff": "Sat Oct 26 • 17:30 UTC",
       "raw_kickoff": "2024-10-26T17:30Z",
       "finished": true,
       "score_h": 1,
@@ -879,7 +883,7 @@
     {
       "home": "Chelsea",
       "away": "Newcastle",
-      "kickoff": "Sun Oct 27 \u2022 14:00 UTC",
+      "kickoff": "Sun Oct 27 • 14:00 UTC",
       "raw_kickoff": "2024-10-27T14:00Z",
       "finished": true,
       "score_h": 2,
@@ -889,7 +893,7 @@
     {
       "home": "Crystal Palace",
       "away": "Tottenham",
-      "kickoff": "Sun Oct 27 \u2022 14:00 UTC",
+      "kickoff": "Sun Oct 27 • 14:00 UTC",
       "raw_kickoff": "2024-10-27T14:00Z",
       "finished": true,
       "score_h": 1,
@@ -899,7 +903,7 @@
     {
       "home": "West Ham",
       "away": "Manchester United",
-      "kickoff": "Sun Oct 27 \u2022 14:00 UTC",
+      "kickoff": "Sun Oct 27 • 14:00 UTC",
       "raw_kickoff": "2024-10-27T14:00Z",
       "finished": true,
       "score_h": 2,
@@ -909,7 +913,7 @@
     {
       "home": "Arsenal",
       "away": "Liverpool",
-      "kickoff": "Sun Oct 27 \u2022 16:30 UTC",
+      "kickoff": "Sun Oct 27 • 16:30 UTC",
       "raw_kickoff": "2024-10-27T16:30Z",
       "finished": true,
       "score_h": 2,
@@ -921,7 +925,7 @@
     {
       "home": "Everton",
       "away": "Coventry City",
-      "kickoff": "Fri Nov 06 \u2022 11:00 PM UTC",
+      "kickoff": "Fri Nov 06 • 11:00 PM UTC",
       "raw_kickoff": "2026-11-06T23:00:00Z",
       "finished": true,
       "score_h": 3,
@@ -931,7 +935,7 @@
     {
       "home": "Leeds",
       "away": "Tottenham",
-      "kickoff": "Sat Nov 07 \u2022 03:30 PM UTC",
+      "kickoff": "Sat Nov 07 • 03:30 PM UTC",
       "raw_kickoff": "2026-11-07T15:30:00Z",
       "finished": true,
       "score_h": 1,
@@ -941,7 +945,7 @@
     {
       "home": "Fulham",
       "away": "Newcastle",
-      "kickoff": "Sat Nov 07 \u2022 06:00 PM UTC",
+      "kickoff": "Sat Nov 07 • 06:00 PM UTC",
       "raw_kickoff": "2026-11-07T18:00:00Z",
       "finished": true,
       "score_h": 1,
@@ -951,7 +955,7 @@
     {
       "home": "Arsenal",
       "away": "Hull City",
-      "kickoff": "Sat Nov 07 \u2022 06:00 PM UTC",
+      "kickoff": "Sat Nov 07 • 06:00 PM UTC",
       "raw_kickoff": "2026-11-07T18:00:00Z",
       "finished": true,
       "score_h": 1,
@@ -961,7 +965,7 @@
     {
       "home": "Nottingham Forest",
       "away": "Manchester City",
-      "kickoff": "Sat Nov 07 \u2022 08:30 PM UTC",
+      "kickoff": "Sat Nov 07 • 08:30 PM UTC",
       "raw_kickoff": "2026-11-07T20:30:00Z",
       "finished": true,
       "score_h": 3,
@@ -973,7 +977,7 @@
     {
       "home": "Brighton",
       "away": "Brentford",
-      "kickoff": "Sun Nov 08 \u2022 05:00 PM UTC",
+      "kickoff": "Sun Nov 08 • 05:00 PM UTC",
       "raw_kickoff": "2026-11-08T17:00:00Z",
       "finished": true,
       "score_h": 2,
@@ -983,7 +987,7 @@
     {
       "home": "Crystal Palace",
       "away": "Liverpool",
-      "kickoff": "Sun Nov 08 \u2022 05:00 PM UTC",
+      "kickoff": "Sun Nov 08 • 05:00 PM UTC",
       "raw_kickoff": "2026-11-08T17:00:00Z",
       "finished": true,
       "score_h": 1,
@@ -995,7 +999,7 @@
     {
       "home": "Ipswich Town",
       "away": "Bournemouth",
-      "kickoff": "Sun Nov 08 \u2022 05:00 PM UTC",
+      "kickoff": "Sun Nov 08 • 05:00 PM UTC",
       "raw_kickoff": "2026-11-08T17:00:00Z",
       "finished": true,
       "score_h": 1,
@@ -1007,7 +1011,7 @@
     {
       "home": "Sunderland",
       "away": "Chelsea",
-      "kickoff": "Sun Nov 08 \u2022 05:00 PM UTC",
+      "kickoff": "Sun Nov 08 • 05:00 PM UTC",
       "raw_kickoff": "2026-11-08T17:00:00Z",
       "finished": true,
       "score_h": 1,
@@ -1017,7 +1021,7 @@
     {
       "home": "Manchester United",
       "away": "Aston Villa",
-      "kickoff": "Sun Nov 08 \u2022 07:30 PM UTC",
+      "kickoff": "Sun Nov 08 • 07:30 PM UTC",
       "raw_kickoff": "2026-11-08T19:30:00Z",
       "finished": true,
       "score_h": 4,
@@ -1029,77 +1033,81 @@
     {
       "home": "Man City",
       "away": "Fulham",
-      "kickoff": "Sat Nov 21 \u2022 15:30",
+      "kickoff": "Sat Nov 21 • 15:30",
       "raw_kickoff": "2026-11-21T15:30Z",
-      "finished": false,
-      "score_h": null,
-      "score_a": null,
+      "finished": true,
+      "score_h": 1,
+      "score_a": 1,
       "gameweek": 11
     },
     {
       "home": "Aston Villa",
       "away": "Sunderland",
-      "kickoff": "Sat Nov 21 \u2022 18:00",
+      "kickoff": "Sat Nov 21 • 18:00",
       "raw_kickoff": "2026-11-21T18:00Z",
-      "finished": false,
-      "score_h": null,
-      "score_a": null,
+      "finished": true,
+      "score_h": 0,
+      "score_a": 0,
       "gameweek": 11
     },
     {
       "home": "Bournemouth",
       "away": "Forest",
-      "kickoff": "Sat Nov 21 \u2022 18:00",
+      "kickoff": "Sat Nov 21 • 18:00",
       "raw_kickoff": "2026-11-21T18:00Z",
-      "finished": false,
-      "score_h": null,
-      "score_a": null,
+      "finished": true,
+      "score_h": 2,
+      "score_a": 0,
       "gameweek": 11
     },
     {
       "home": "Chelsea",
       "away": "Leeds",
-      "kickoff": "Sat Nov 21 \u2022 18:00",
+      "kickoff": "Sat Nov 21 • 18:00",
       "raw_kickoff": "2026-11-21T18:00Z",
-      "finished": false,
-      "score_h": null,
-      "score_a": null,
+      "finished": true,
+      "score_h": 1,
+      "score_a": 4,
       "gameweek": 11
     },
     {
       "home": "Coventry",
       "away": "Crystal Palace",
-      "kickoff": "Sat Nov 21 \u2022 18:00",
+      "kickoff": "Sat Nov 21 • 18:00",
       "raw_kickoff": "2026-11-21T18:00Z",
-      "finished": false,
-      "score_h": null,
-      "score_a": null,
+      "finished": true,
+      "score_h": 3,
+      "score_a": 2,
       "gameweek": 11
     },
     {
       "home": "Tottenham",
       "away": "Ipswich",
-      "kickoff": "Sat Nov 21 \u2022 18:00",
+      "kickoff": "Sat Nov 21 • 18:00",
       "raw_kickoff": "2026-11-21T18:00Z",
-      "finished": false,
-      "score_h": null,
-      "score_a": null,
+      "finished": true,
+      "score_h": 2,
+      "score_a": 0,
       "gameweek": 11
     },
     {
       "home": "Newcastle",
       "away": "Arsenal",
-      "kickoff": "Sat Nov 21 \u2022 20:30",
+      "kickoff": "Sat Nov 21 • 20:30",
       "raw_kickoff": "2026-11-21T20:30Z",
-      "finished": false,
-      "score_h": null,
-      "score_a": null,
-      "gameweek": 11
+      "finished": true,
+      "score_h": 2,
+      "score_a": 2,
+      "gameweek": 11,
+      "cards_h": 3,
+      "cards_a": 3,
+      "saves_h": 2,
+      "saves_a": 1
     },
     {
       "home": "Hull",
       "away": "Brighton",
-      "kickoff": "Sun Nov 22 \u2022 17:00",
+      "kickoff": "Sun Nov 22 • 17:00",
       "raw_kickoff": "2026-11-22T17:00Z",
       "finished": false,
       "score_h": null,
@@ -1109,7 +1117,7 @@
     {
       "home": "Liverpool",
       "away": "Man Utd",
-      "kickoff": "Sun Nov 22 \u2022 19:30",
+      "kickoff": "Sun Nov 22 • 19:30",
       "raw_kickoff": "2026-11-22T19:30Z",
       "finished": false,
       "score_h": null,
@@ -1119,7 +1127,7 @@
     {
       "home": "Brentford",
       "away": "Everton",
-      "kickoff": "Mon Nov 23 \u2022 23:00",
+      "kickoff": "Mon Nov 23 • 23:00",
       "raw_kickoff": "2026-11-23T23:00Z",
       "finished": false,
       "score_h": null,
@@ -1131,77 +1139,105 @@
     {
       "home": "Manchester City",
       "away": "Fulham",
-      "kickoff": "Sat Nov 21 \u2022 15:00 UTC",
+      "kickoff": "Sat Nov 21 • 15:00 UTC",
       "raw_kickoff": "2026-11-21T15:00Z",
-      "finished": false,
-      "score_h": null,
-      "score_a": null,
-      "gameweek": 12
+      "finished": true,
+      "score_h": 1,
+      "score_a": 1,
+      "gameweek": 12,
+      "cards_h": 1,
+      "cards_a": 3,
+      "saves_h": 3,
+      "saves_a": 2
     },
     {
       "home": "Bournemouth",
       "away": "Nottingham Forest",
-      "kickoff": "Sat Nov 21 \u2022 15:00 UTC",
+      "kickoff": "Sat Nov 21 • 15:00 UTC",
       "raw_kickoff": "2026-11-21T15:00Z",
-      "finished": false,
-      "score_h": null,
-      "score_a": null,
-      "gameweek": 12
+      "finished": true,
+      "score_h": 2,
+      "score_a": 0,
+      "gameweek": 12,
+      "cards_h": 1,
+      "cards_a": 3,
+      "saves_h": 1,
+      "saves_a": 5
     },
     {
       "home": "Aston Villa",
       "away": "Sunderland",
-      "kickoff": "Sat Nov 21 \u2022 15:00 UTC",
+      "kickoff": "Sat Nov 21 • 15:00 UTC",
       "raw_kickoff": "2026-11-21T15:00Z",
-      "finished": false,
-      "score_h": null,
-      "score_a": null,
-      "gameweek": 12
+      "finished": true,
+      "score_h": 0,
+      "score_a": 0,
+      "gameweek": 12,
+      "cards_h": 2,
+      "cards_a": 2,
+      "saves_h": 1,
+      "saves_a": 8
     },
     {
       "home": "Chelsea",
       "away": "Leeds",
-      "kickoff": "Sat Nov 21 \u2022 15:00 UTC",
+      "kickoff": "Sat Nov 21 • 15:00 UTC",
       "raw_kickoff": "2026-11-21T15:00Z",
-      "finished": false,
-      "score_h": null,
-      "score_a": null,
-      "gameweek": 12
+      "finished": true,
+      "score_h": 1,
+      "score_a": 4,
+      "gameweek": 12,
+      "cards_h": 1,
+      "cards_a": 3,
+      "saves_h": 4,
+      "saves_a": 2
     },
     {
       "home": "Coventry City",
       "away": "Crystal Palace",
-      "kickoff": "Sat Nov 21 \u2022 15:00 UTC",
+      "kickoff": "Sat Nov 21 • 15:00 UTC",
       "raw_kickoff": "2026-11-21T15:00Z",
-      "finished": false,
-      "score_h": null,
-      "score_a": null,
-      "gameweek": 12
+      "finished": true,
+      "score_h": 3,
+      "score_a": 2,
+      "gameweek": 12,
+      "cards_h": 1,
+      "cards_a": 2,
+      "saves_h": 3,
+      "saves_a": 4
     },
     {
       "home": "Tottenham",
       "away": "Ipswich Town",
-      "kickoff": "Sat Nov 21 \u2022 15:00 UTC",
+      "kickoff": "Sat Nov 21 • 15:00 UTC",
       "raw_kickoff": "2026-11-21T15:00Z",
-      "finished": false,
-      "score_h": null,
-      "score_a": null,
-      "gameweek": 12
+      "finished": true,
+      "score_h": 2,
+      "score_a": 0,
+      "gameweek": 12,
+      "cards_h": 4,
+      "cards_a": 1,
+      "saves_h": 3,
+      "saves_a": 8
     },
     {
       "home": "Newcastle",
       "away": "Arsenal",
-      "kickoff": "Sat Nov 21 \u2022 17:30 UTC",
+      "kickoff": "Sat Nov 21 • 17:30 UTC",
       "raw_kickoff": "2026-11-21T17:30Z",
-      "finished": false,
-      "score_h": null,
-      "score_a": null,
-      "gameweek": 12
+      "finished": true,
+      "score_h": 2,
+      "score_a": 2,
+      "gameweek": 12,
+      "cards_h": 3,
+      "cards_a": 3,
+      "saves_h": 2,
+      "saves_a": 1
     },
     {
       "home": "Hull City",
       "away": "Brighton",
-      "kickoff": "Sun Nov 22 \u2022 14:00 UTC",
+      "kickoff": "Sun Nov 22 • 14:00 UTC",
       "raw_kickoff": "2026-11-22T14:00Z",
       "finished": false,
       "score_h": null,
@@ -1211,7 +1247,7 @@
     {
       "home": "Liverpool",
       "away": "Manchester United",
-      "kickoff": "Sun Nov 22 \u2022 16:30 UTC",
+      "kickoff": "Sun Nov 22 • 16:30 UTC",
       "raw_kickoff": "2026-11-22T16:30Z",
       "finished": false,
       "score_h": null,
@@ -1221,7 +1257,7 @@
     {
       "home": "Brentford",
       "away": "Everton",
-      "kickoff": "Mon Nov 23 \u2022 20:00 UTC",
+      "kickoff": "Mon Nov 23 • 20:00 UTC",
       "raw_kickoff": "2026-11-23T20:00Z",
       "finished": false,
       "score_h": null,
@@ -1233,7 +1269,7 @@
     {
       "home": "Brighton",
       "away": "Southampton",
-      "kickoff": "Fri Nov 29 \u2022 20:00 UTC",
+      "kickoff": "Fri Nov 29 • 20:00 UTC",
       "raw_kickoff": "2024-11-29T20:00Z",
       "finished": true,
       "score_h": 1,
@@ -1243,7 +1279,7 @@
     {
       "home": "Brentford",
       "away": "Leicester",
-      "kickoff": "Sat Nov 30 \u2022 15:00 UTC",
+      "kickoff": "Sat Nov 30 • 15:00 UTC",
       "raw_kickoff": "2024-11-30T15:00Z",
       "finished": true,
       "score_h": 4,
@@ -1253,7 +1289,7 @@
     {
       "home": "Crystal Palace",
       "away": "Newcastle",
-      "kickoff": "Sat Nov 30 \u2022 15:00 UTC",
+      "kickoff": "Sat Nov 30 • 15:00 UTC",
       "raw_kickoff": "2024-11-30T15:00Z",
       "finished": true,
       "score_h": 1,
@@ -1263,7 +1299,7 @@
     {
       "home": "Nottingham Forest",
       "away": "Ipswich Town",
-      "kickoff": "Sat Nov 30 \u2022 15:00 UTC",
+      "kickoff": "Sat Nov 30 • 15:00 UTC",
       "raw_kickoff": "2024-11-30T15:00Z",
       "finished": true,
       "score_h": 1,
@@ -1273,7 +1309,7 @@
     {
       "home": "Wolves",
       "away": "Bournemouth",
-      "kickoff": "Sat Nov 30 \u2022 15:00 UTC",
+      "kickoff": "Sat Nov 30 • 15:00 UTC",
       "raw_kickoff": "2024-11-30T15:00Z",
       "finished": true,
       "score_h": 2,
@@ -1283,7 +1319,7 @@
     {
       "home": "West Ham",
       "away": "Arsenal",
-      "kickoff": "Sat Nov 30 \u2022 17:30 UTC",
+      "kickoff": "Sat Nov 30 • 17:30 UTC",
       "raw_kickoff": "2024-11-30T17:30Z",
       "finished": true,
       "score_h": 2,
@@ -1293,7 +1329,7 @@
     {
       "home": "Chelsea",
       "away": "Aston Villa",
-      "kickoff": "Sun Dec 01 \u2022 13:30 UTC",
+      "kickoff": "Sun Dec 01 • 13:30 UTC",
       "raw_kickoff": "2024-12-01T13:30Z",
       "finished": true,
       "score_h": 3,
@@ -1303,7 +1339,7 @@
     {
       "home": "Manchester United",
       "away": "Everton",
-      "kickoff": "Sun Dec 01 \u2022 13:30 UTC",
+      "kickoff": "Sun Dec 01 • 13:30 UTC",
       "raw_kickoff": "2024-12-01T13:30Z",
       "finished": true,
       "score_h": 4,
@@ -1313,7 +1349,7 @@
     {
       "home": "Tottenham",
       "away": "Fulham",
-      "kickoff": "Sun Dec 01 \u2022 13:30 UTC",
+      "kickoff": "Sun Dec 01 • 13:30 UTC",
       "raw_kickoff": "2024-12-01T13:30Z",
       "finished": true,
       "score_h": 1,
@@ -1323,7 +1359,7 @@
     {
       "home": "Liverpool",
       "away": "Manchester City",
-      "kickoff": "Sun Dec 01 \u2022 16:00 UTC",
+      "kickoff": "Sun Dec 01 • 16:00 UTC",
       "raw_kickoff": "2024-12-01T16:00Z",
       "finished": true,
       "score_h": 2,
@@ -1335,7 +1371,7 @@
     {
       "home": "Ipswich Town",
       "away": "Crystal Palace",
-      "kickoff": "Tue Dec 03 \u2022 19:30 UTC",
+      "kickoff": "Tue Dec 03 • 19:30 UTC",
       "raw_kickoff": "2024-12-03T19:30Z",
       "finished": true,
       "score_h": 0,
@@ -1345,7 +1381,7 @@
     {
       "home": "Leicester",
       "away": "West Ham",
-      "kickoff": "Tue Dec 03 \u2022 20:15 UTC",
+      "kickoff": "Tue Dec 03 • 20:15 UTC",
       "raw_kickoff": "2024-12-03T20:15Z",
       "finished": true,
       "score_h": 3,
@@ -1355,7 +1391,7 @@
     {
       "home": "Everton",
       "away": "Wolves",
-      "kickoff": "Wed Dec 04 \u2022 19:30 UTC",
+      "kickoff": "Wed Dec 04 • 19:30 UTC",
       "raw_kickoff": "2024-12-04T19:30Z",
       "finished": true,
       "score_h": 4,
@@ -1365,7 +1401,7 @@
     {
       "home": "Manchester City",
       "away": "Nottingham Forest",
-      "kickoff": "Wed Dec 04 \u2022 19:30 UTC",
+      "kickoff": "Wed Dec 04 • 19:30 UTC",
       "raw_kickoff": "2024-12-04T19:30Z",
       "finished": true,
       "score_h": 3,
@@ -1375,7 +1411,7 @@
     {
       "home": "Newcastle",
       "away": "Liverpool",
-      "kickoff": "Wed Dec 04 \u2022 19:30 UTC",
+      "kickoff": "Wed Dec 04 • 19:30 UTC",
       "raw_kickoff": "2024-12-04T19:30Z",
       "finished": true,
       "score_h": 3,
@@ -1385,7 +1421,7 @@
     {
       "home": "Southampton",
       "away": "Chelsea",
-      "kickoff": "Wed Dec 04 \u2022 19:30 UTC",
+      "kickoff": "Wed Dec 04 • 19:30 UTC",
       "raw_kickoff": "2024-12-04T19:30Z",
       "finished": true,
       "score_h": 1,
@@ -1395,7 +1431,7 @@
     {
       "home": "Arsenal",
       "away": "Manchester United",
-      "kickoff": "Wed Dec 04 \u2022 20:15 UTC",
+      "kickoff": "Wed Dec 04 • 20:15 UTC",
       "raw_kickoff": "2024-12-04T20:15Z",
       "finished": true,
       "score_h": 2,
@@ -1405,7 +1441,7 @@
     {
       "home": "Aston Villa",
       "away": "Brentford",
-      "kickoff": "Wed Dec 04 \u2022 20:15 UTC",
+      "kickoff": "Wed Dec 04 • 20:15 UTC",
       "raw_kickoff": "2024-12-04T20:15Z",
       "finished": true,
       "score_h": 3,
@@ -1415,7 +1451,7 @@
     {
       "home": "Fulham",
       "away": "Brighton",
-      "kickoff": "Thu Dec 05 \u2022 19:30 UTC",
+      "kickoff": "Thu Dec 05 • 19:30 UTC",
       "raw_kickoff": "2024-12-05T19:30Z",
       "finished": true,
       "score_h": 3,
@@ -1425,7 +1461,7 @@
     {
       "home": "Bournemouth",
       "away": "Tottenham",
-      "kickoff": "Thu Dec 05 \u2022 20:15 UTC",
+      "kickoff": "Thu Dec 05 • 20:15 UTC",
       "raw_kickoff": "2024-12-05T20:15Z",
       "finished": true,
       "score_h": 1,
@@ -1437,7 +1473,7 @@
     {
       "home": "Aston Villa",
       "away": "Southampton",
-      "kickoff": "Sat Dec 07 \u2022 15:00 UTC",
+      "kickoff": "Sat Dec 07 • 15:00 UTC",
       "raw_kickoff": "2024-12-07T15:00Z",
       "finished": true,
       "score_h": 1,
@@ -1447,7 +1483,7 @@
     {
       "home": "Brentford",
       "away": "Newcastle",
-      "kickoff": "Sat Dec 07 \u2022 15:00 UTC",
+      "kickoff": "Sat Dec 07 • 15:00 UTC",
       "raw_kickoff": "2024-12-07T15:00Z",
       "finished": true,
       "score_h": 4,
@@ -1457,7 +1493,7 @@
     {
       "home": "Crystal Palace",
       "away": "Manchester City",
-      "kickoff": "Sat Dec 07 \u2022 15:00 UTC",
+      "kickoff": "Sat Dec 07 • 15:00 UTC",
       "raw_kickoff": "2024-12-07T15:00Z",
       "finished": true,
       "score_h": 2,
@@ -1467,7 +1503,7 @@
     {
       "home": "Manchester United",
       "away": "Nottingham Forest",
-      "kickoff": "Sat Dec 07 \u2022 17:30 UTC",
+      "kickoff": "Sat Dec 07 • 17:30 UTC",
       "raw_kickoff": "2024-12-07T17:30Z",
       "finished": true,
       "score_h": 2,
@@ -1477,7 +1513,7 @@
     {
       "home": "Fulham",
       "away": "Arsenal",
-      "kickoff": "Sun Dec 08 \u2022 14:00 UTC",
+      "kickoff": "Sun Dec 08 • 14:00 UTC",
       "raw_kickoff": "2024-12-08T14:00Z",
       "finished": true,
       "score_h": 1,
@@ -1487,7 +1523,7 @@
     {
       "home": "Ipswich Town",
       "away": "Bournemouth",
-      "kickoff": "Sun Dec 08 \u2022 14:00 UTC",
+      "kickoff": "Sun Dec 08 • 14:00 UTC",
       "raw_kickoff": "2024-12-08T14:00Z",
       "finished": true,
       "score_h": 1,
@@ -1497,7 +1533,7 @@
     {
       "home": "Leicester",
       "away": "Brighton",
-      "kickoff": "Sun Dec 08 \u2022 14:00 UTC",
+      "kickoff": "Sun Dec 08 • 14:00 UTC",
       "raw_kickoff": "2024-12-08T14:00Z",
       "finished": true,
       "score_h": 2,
@@ -1507,7 +1543,7 @@
     {
       "home": "Tottenham",
       "away": "Chelsea",
-      "kickoff": "Sun Dec 08 \u2022 16:30 UTC",
+      "kickoff": "Sun Dec 08 • 16:30 UTC",
       "raw_kickoff": "2024-12-08T16:30Z",
       "finished": true,
       "score_h": 3,
@@ -1517,7 +1553,7 @@
     {
       "home": "West Ham",
       "away": "Wolves",
-      "kickoff": "Mon Dec 09 \u2022 20:00 UTC",
+      "kickoff": "Mon Dec 09 • 20:00 UTC",
       "raw_kickoff": "2024-12-09T20:00Z",
       "finished": true,
       "score_h": 2,
@@ -1527,7 +1563,7 @@
     {
       "home": "Everton",
       "away": "Liverpool",
-      "kickoff": "Wed Feb 12 \u2022 19:30 UTC",
+      "kickoff": "Wed Feb 12 • 19:30 UTC",
       "raw_kickoff": "2025-02-12T19:30Z",
       "finished": true,
       "score_h": 2,
@@ -1539,7 +1575,7 @@
     {
       "home": "Arsenal",
       "away": "Everton",
-      "kickoff": "Sat Dec 14 \u2022 15:00 UTC",
+      "kickoff": "Sat Dec 14 • 15:00 UTC",
       "raw_kickoff": "2024-12-14T15:00Z",
       "finished": true,
       "score_h": 0,
@@ -1549,7 +1585,7 @@
     {
       "home": "Liverpool",
       "away": "Fulham",
-      "kickoff": "Sat Dec 14 \u2022 15:00 UTC",
+      "kickoff": "Sat Dec 14 • 15:00 UTC",
       "raw_kickoff": "2024-12-14T15:00Z",
       "finished": true,
       "score_h": 2,
@@ -1559,7 +1595,7 @@
     {
       "home": "Newcastle",
       "away": "Leicester",
-      "kickoff": "Sat Dec 14 \u2022 15:00 UTC",
+      "kickoff": "Sat Dec 14 • 15:00 UTC",
       "raw_kickoff": "2024-12-14T15:00Z",
       "finished": true,
       "score_h": 4,
@@ -1569,7 +1605,7 @@
     {
       "home": "Wolves",
       "away": "Ipswich Town",
-      "kickoff": "Sat Dec 14 \u2022 15:00 UTC",
+      "kickoff": "Sat Dec 14 • 15:00 UTC",
       "raw_kickoff": "2024-12-14T15:00Z",
       "finished": true,
       "score_h": 1,
@@ -1579,7 +1615,7 @@
     {
       "home": "Nottingham Forest",
       "away": "Aston Villa",
-      "kickoff": "Sat Dec 14 \u2022 17:30 UTC",
+      "kickoff": "Sat Dec 14 • 17:30 UTC",
       "raw_kickoff": "2024-12-14T17:30Z",
       "finished": true,
       "score_h": 2,
@@ -1589,7 +1625,7 @@
     {
       "home": "Brighton",
       "away": "Crystal Palace",
-      "kickoff": "Sun Dec 15 \u2022 14:00 UTC",
+      "kickoff": "Sun Dec 15 • 14:00 UTC",
       "raw_kickoff": "2024-12-15T14:00Z",
       "finished": true,
       "score_h": 1,
@@ -1599,7 +1635,7 @@
     {
       "home": "Manchester City",
       "away": "Manchester United",
-      "kickoff": "Sun Dec 15 \u2022 16:30 UTC",
+      "kickoff": "Sun Dec 15 • 16:30 UTC",
       "raw_kickoff": "2024-12-15T16:30Z",
       "finished": true,
       "score_h": 1,
@@ -1609,7 +1645,7 @@
     {
       "home": "Chelsea",
       "away": "Brentford",
-      "kickoff": "Sun Dec 15 \u2022 19:00 UTC",
+      "kickoff": "Sun Dec 15 • 19:00 UTC",
       "raw_kickoff": "2024-12-15T19:00Z",
       "finished": true,
       "score_h": 2,
@@ -1619,7 +1655,7 @@
     {
       "home": "Southampton",
       "away": "Tottenham",
-      "kickoff": "Sun Dec 15 \u2022 19:00 UTC",
+      "kickoff": "Sun Dec 15 • 19:00 UTC",
       "raw_kickoff": "2024-12-15T19:00Z",
       "finished": true,
       "score_h": 0,
@@ -1629,7 +1665,7 @@
     {
       "home": "Bournemouth",
       "away": "West Ham",
-      "kickoff": "Mon Dec 16 \u2022 20:00 UTC",
+      "kickoff": "Mon Dec 16 • 20:00 UTC",
       "raw_kickoff": "2024-12-16T20:00Z",
       "finished": true,
       "score_h": 1,
@@ -1641,7 +1677,7 @@
     {
       "home": "Aston Villa",
       "away": "Manchester City",
-      "kickoff": "Sat Dec 21 \u2022 12:30 UTC",
+      "kickoff": "Sat Dec 21 • 12:30 UTC",
       "raw_kickoff": "2024-12-21T12:30Z",
       "finished": true,
       "score_h": 2,
@@ -1651,7 +1687,7 @@
     {
       "home": "Brentford",
       "away": "Nottingham Forest",
-      "kickoff": "Sat Dec 21 \u2022 15:00 UTC",
+      "kickoff": "Sat Dec 21 • 15:00 UTC",
       "raw_kickoff": "2024-12-21T15:00Z",
       "finished": true,
       "score_h": 0,
@@ -1661,7 +1697,7 @@
     {
       "home": "Ipswich Town",
       "away": "Newcastle",
-      "kickoff": "Sat Dec 21 \u2022 15:00 UTC",
+      "kickoff": "Sat Dec 21 • 15:00 UTC",
       "raw_kickoff": "2024-12-21T15:00Z",
       "finished": true,
       "score_h": 0,
@@ -1671,7 +1707,7 @@
     {
       "home": "West Ham",
       "away": "Brighton",
-      "kickoff": "Sat Dec 21 \u2022 15:00 UTC",
+      "kickoff": "Sat Dec 21 • 15:00 UTC",
       "raw_kickoff": "2024-12-21T15:00Z",
       "finished": true,
       "score_h": 1,
@@ -1681,7 +1717,7 @@
     {
       "home": "Crystal Palace",
       "away": "Arsenal",
-      "kickoff": "Sat Dec 21 \u2022 17:30 UTC",
+      "kickoff": "Sat Dec 21 • 17:30 UTC",
       "raw_kickoff": "2024-12-21T17:30Z",
       "finished": true,
       "score_h": 1,
@@ -1691,7 +1727,7 @@
     {
       "home": "Everton",
       "away": "Chelsea",
-      "kickoff": "Sun Dec 22 \u2022 14:00 UTC",
+      "kickoff": "Sun Dec 22 • 14:00 UTC",
       "raw_kickoff": "2024-12-22T14:00Z",
       "finished": true,
       "score_h": 0,
@@ -1701,7 +1737,7 @@
     {
       "home": "Fulham",
       "away": "Southampton",
-      "kickoff": "Sun Dec 22 \u2022 14:00 UTC",
+      "kickoff": "Sun Dec 22 • 14:00 UTC",
       "raw_kickoff": "2024-12-22T14:00Z",
       "finished": true,
       "score_h": 0,
@@ -1711,7 +1747,7 @@
     {
       "home": "Leicester",
       "away": "Wolves",
-      "kickoff": "Sun Dec 22 \u2022 14:00 UTC",
+      "kickoff": "Sun Dec 22 • 14:00 UTC",
       "raw_kickoff": "2024-12-22T14:00Z",
       "finished": true,
       "score_h": 0,
@@ -1721,7 +1757,7 @@
     {
       "home": "Manchester United",
       "away": "Bournemouth",
-      "kickoff": "Sun Dec 22 \u2022 14:00 UTC",
+      "kickoff": "Sun Dec 22 • 14:00 UTC",
       "raw_kickoff": "2024-12-22T14:00Z",
       "finished": true,
       "score_h": 0,
@@ -1731,7 +1767,7 @@
     {
       "home": "Tottenham",
       "away": "Liverpool",
-      "kickoff": "Sun Dec 22 \u2022 16:30 UTC",
+      "kickoff": "Sun Dec 22 • 16:30 UTC",
       "raw_kickoff": "2024-12-22T16:30Z",
       "finished": true,
       "score_h": 3,
@@ -1743,7 +1779,7 @@
     {
       "home": "Manchester City",
       "away": "Everton",
-      "kickoff": "Thu Dec 26 \u2022 12:30 UTC",
+      "kickoff": "Thu Dec 26 • 12:30 UTC",
       "raw_kickoff": "2024-12-26T12:30Z",
       "finished": true,
       "score_h": 1,
@@ -1753,7 +1789,7 @@
     {
       "home": "Bournemouth",
       "away": "Crystal Palace",
-      "kickoff": "Thu Dec 26 \u2022 15:00 UTC",
+      "kickoff": "Thu Dec 26 • 15:00 UTC",
       "raw_kickoff": "2024-12-26T15:00Z",
       "finished": true,
       "score_h": 0,
@@ -1763,7 +1799,7 @@
     {
       "home": "Chelsea",
       "away": "Fulham",
-      "kickoff": "Thu Dec 26 \u2022 15:00 UTC",
+      "kickoff": "Thu Dec 26 • 15:00 UTC",
       "raw_kickoff": "2024-12-26T15:00Z",
       "finished": true,
       "score_h": 1,
@@ -1773,7 +1809,7 @@
     {
       "home": "Newcastle",
       "away": "Aston Villa",
-      "kickoff": "Thu Dec 26 \u2022 15:00 UTC",
+      "kickoff": "Thu Dec 26 • 15:00 UTC",
       "raw_kickoff": "2024-12-26T15:00Z",
       "finished": true,
       "score_h": 3,
@@ -1783,7 +1819,7 @@
     {
       "home": "Nottingham Forest",
       "away": "Tottenham",
-      "kickoff": "Thu Dec 26 \u2022 15:00 UTC",
+      "kickoff": "Thu Dec 26 • 15:00 UTC",
       "raw_kickoff": "2024-12-26T15:00Z",
       "finished": true,
       "score_h": 1,
@@ -1793,7 +1829,7 @@
     {
       "home": "Southampton",
       "away": "West Ham",
-      "kickoff": "Thu Dec 26 \u2022 15:00 UTC",
+      "kickoff": "Thu Dec 26 • 15:00 UTC",
       "raw_kickoff": "2024-12-26T15:00Z",
       "finished": true,
       "score_h": 0,
@@ -1803,7 +1839,7 @@
     {
       "home": "Wolves",
       "away": "Manchester United",
-      "kickoff": "Thu Dec 26 \u2022 17:30 UTC",
+      "kickoff": "Thu Dec 26 • 17:30 UTC",
       "raw_kickoff": "2024-12-26T17:30Z",
       "finished": true,
       "score_h": 2,
@@ -1813,7 +1849,7 @@
     {
       "home": "Liverpool",
       "away": "Leicester",
-      "kickoff": "Thu Dec 26 \u2022 20:00 UTC",
+      "kickoff": "Thu Dec 26 • 20:00 UTC",
       "raw_kickoff": "2024-12-26T20:00Z",
       "finished": true,
       "score_h": 3,
@@ -1823,7 +1859,7 @@
     {
       "home": "Brighton",
       "away": "Brentford",
-      "kickoff": "Fri Dec 27 \u2022 19:30 UTC",
+      "kickoff": "Fri Dec 27 • 19:30 UTC",
       "raw_kickoff": "2024-12-27T19:30Z",
       "finished": true,
       "score_h": 2,
@@ -1833,7 +1869,7 @@
     {
       "home": "Arsenal",
       "away": "Ipswich Town",
-      "kickoff": "Fri Dec 27 \u2022 20:15 UTC",
+      "kickoff": "Fri Dec 27 • 20:15 UTC",
       "raw_kickoff": "2024-12-27T20:15Z",
       "finished": true,
       "score_h": 1,
@@ -1845,7 +1881,7 @@
     {
       "home": "Leicester",
       "away": "Manchester City",
-      "kickoff": "Sun Dec 29 \u2022 14:30 UTC",
+      "kickoff": "Sun Dec 29 • 14:30 UTC",
       "raw_kickoff": "2024-12-29T14:30Z",
       "finished": true,
       "score_h": 0,
@@ -1855,7 +1891,7 @@
     {
       "home": "Crystal Palace",
       "away": "Southampton",
-      "kickoff": "Sun Dec 29 \u2022 15:00 UTC",
+      "kickoff": "Sun Dec 29 • 15:00 UTC",
       "raw_kickoff": "2024-12-29T15:00Z",
       "finished": true,
       "score_h": 2,
@@ -1865,7 +1901,7 @@
     {
       "home": "Everton",
       "away": "Nottingham Forest",
-      "kickoff": "Sun Dec 29 \u2022 15:00 UTC",
+      "kickoff": "Sun Dec 29 • 15:00 UTC",
       "raw_kickoff": "2024-12-29T15:00Z",
       "finished": true,
       "score_h": 0,
@@ -1875,7 +1911,7 @@
     {
       "home": "Fulham",
       "away": "Bournemouth",
-      "kickoff": "Sun Dec 29 \u2022 15:00 UTC",
+      "kickoff": "Sun Dec 29 • 15:00 UTC",
       "raw_kickoff": "2024-12-29T15:00Z",
       "finished": true,
       "score_h": 2,
@@ -1885,7 +1921,7 @@
     {
       "home": "Tottenham",
       "away": "Wolves",
-      "kickoff": "Sun Dec 29 \u2022 15:00 UTC",
+      "kickoff": "Sun Dec 29 • 15:00 UTC",
       "raw_kickoff": "2024-12-29T15:00Z",
       "finished": true,
       "score_h": 2,
@@ -1895,7 +1931,7 @@
     {
       "home": "West Ham",
       "away": "Liverpool",
-      "kickoff": "Sun Dec 29 \u2022 17:15 UTC",
+      "kickoff": "Sun Dec 29 • 17:15 UTC",
       "raw_kickoff": "2024-12-29T17:15Z",
       "finished": true,
       "score_h": 0,
@@ -1905,7 +1941,7 @@
     {
       "home": "Aston Villa",
       "away": "Brighton",
-      "kickoff": "Mon Dec 30 \u2022 19:45 UTC",
+      "kickoff": "Mon Dec 30 • 19:45 UTC",
       "raw_kickoff": "2024-12-30T19:45Z",
       "finished": true,
       "score_h": 2,
@@ -1915,7 +1951,7 @@
     {
       "home": "Ipswich Town",
       "away": "Chelsea",
-      "kickoff": "Mon Dec 30 \u2022 19:45 UTC",
+      "kickoff": "Mon Dec 30 • 19:45 UTC",
       "raw_kickoff": "2024-12-30T19:45Z",
       "finished": true,
       "score_h": 2,
@@ -1925,7 +1961,7 @@
     {
       "home": "Manchester United",
       "away": "Newcastle",
-      "kickoff": "Mon Dec 30 \u2022 20:00 UTC",
+      "kickoff": "Mon Dec 30 • 20:00 UTC",
       "raw_kickoff": "2024-12-30T20:00Z",
       "finished": true,
       "score_h": 0,
@@ -1935,7 +1971,7 @@
     {
       "home": "Brentford",
       "away": "Arsenal",
-      "kickoff": "Wed Jan 01 \u2022 17:30 UTC",
+      "kickoff": "Wed Jan 01 • 17:30 UTC",
       "raw_kickoff": "2025-01-01T17:30Z",
       "finished": true,
       "score_h": 1,
@@ -1947,7 +1983,7 @@
     {
       "home": "Tottenham",
       "away": "Newcastle",
-      "kickoff": "Sat Jan 04 \u2022 12:30 UTC",
+      "kickoff": "Sat Jan 04 • 12:30 UTC",
       "raw_kickoff": "2025-01-04T12:30Z",
       "finished": true,
       "score_h": 1,
@@ -1957,7 +1993,7 @@
     {
       "home": "Southampton",
       "away": "Brentford",
-      "kickoff": "Sat Jan 04 \u2022 15:00 UTC",
+      "kickoff": "Sat Jan 04 • 15:00 UTC",
       "raw_kickoff": "2025-01-04T15:00Z",
       "finished": true,
       "score_h": 0,
@@ -1967,7 +2003,7 @@
     {
       "home": "Crystal Palace",
       "away": "Chelsea",
-      "kickoff": "Sat Jan 04 \u2022 15:00 UTC",
+      "kickoff": "Sat Jan 04 • 15:00 UTC",
       "raw_kickoff": "2025-01-04T15:00Z",
       "finished": true,
       "score_h": 1,
@@ -1977,7 +2013,7 @@
     {
       "home": "Bournemouth",
       "away": "Everton",
-      "kickoff": "Sat Jan 04 \u2022 15:00 UTC",
+      "kickoff": "Sat Jan 04 • 15:00 UTC",
       "raw_kickoff": "2025-01-04T15:00Z",
       "finished": true,
       "score_h": 1,
@@ -1987,7 +2023,7 @@
     {
       "home": "Aston Villa",
       "away": "Leicester",
-      "kickoff": "Sat Jan 04 \u2022 15:00 UTC",
+      "kickoff": "Sat Jan 04 • 15:00 UTC",
       "raw_kickoff": "2025-01-04T15:00Z",
       "finished": true,
       "score_h": 2,
@@ -1997,7 +2033,7 @@
     {
       "home": "Manchester City",
       "away": "West Ham",
-      "kickoff": "Sat Jan 04 \u2022 15:00 UTC",
+      "kickoff": "Sat Jan 04 • 15:00 UTC",
       "raw_kickoff": "2025-01-04T15:00Z",
       "finished": true,
       "score_h": 4,
@@ -2007,7 +2043,7 @@
     {
       "home": "Brighton",
       "away": "Arsenal",
-      "kickoff": "Sat Jan 04 \u2022 17:30 UTC",
+      "kickoff": "Sat Jan 04 • 17:30 UTC",
       "raw_kickoff": "2025-01-04T17:30Z",
       "finished": true,
       "score_h": 1,
@@ -2017,7 +2053,7 @@
     {
       "home": "Fulham",
       "away": "Ipswich Town",
-      "kickoff": "Sun Jan 05 \u2022 14:00 UTC",
+      "kickoff": "Sun Jan 05 • 14:00 UTC",
       "raw_kickoff": "2025-01-05T14:00Z",
       "finished": true,
       "score_h": 2,
@@ -2027,7 +2063,7 @@
     {
       "home": "Liverpool",
       "away": "Manchester United",
-      "kickoff": "Sun Jan 05 \u2022 16:30 UTC",
+      "kickoff": "Sun Jan 05 • 16:30 UTC",
       "raw_kickoff": "2025-01-05T16:30Z",
       "finished": true,
       "score_h": 2,
@@ -2037,7 +2073,7 @@
     {
       "home": "Wolves",
       "away": "Nottingham Forest",
-      "kickoff": "Mon Jan 06 \u2022 20:00 UTC",
+      "kickoff": "Mon Jan 06 • 20:00 UTC",
       "raw_kickoff": "2025-01-06T20:00Z",
       "finished": true,
       "score_h": 0,
@@ -2049,7 +2085,7 @@
     {
       "home": "West Ham",
       "away": "Fulham",
-      "kickoff": "Tue Jan 14 \u2022 19:30 UTC",
+      "kickoff": "Tue Jan 14 • 19:30 UTC",
       "raw_kickoff": "2025-01-14T19:30Z",
       "finished": true,
       "score_h": 3,
@@ -2059,7 +2095,7 @@
     {
       "home": "Brentford",
       "away": "Manchester City",
-      "kickoff": "Tue Jan 14 \u2022 19:30 UTC",
+      "kickoff": "Tue Jan 14 • 19:30 UTC",
       "raw_kickoff": "2025-01-14T19:30Z",
       "finished": true,
       "score_h": 2,
@@ -2069,7 +2105,7 @@
     {
       "home": "Chelsea",
       "away": "Bournemouth",
-      "kickoff": "Tue Jan 14 \u2022 19:30 UTC",
+      "kickoff": "Tue Jan 14 • 19:30 UTC",
       "raw_kickoff": "2025-01-14T19:30Z",
       "finished": true,
       "score_h": 2,
@@ -2079,7 +2115,7 @@
     {
       "home": "Nottingham Forest",
       "away": "Liverpool",
-      "kickoff": "Tue Jan 14 \u2022 20:00 UTC",
+      "kickoff": "Tue Jan 14 • 20:00 UTC",
       "raw_kickoff": "2025-01-14T20:00Z",
       "finished": true,
       "score_h": 1,
@@ -2089,7 +2125,7 @@
     {
       "home": "Everton",
       "away": "Aston Villa",
-      "kickoff": "Wed Jan 15 \u2022 19:30 UTC",
+      "kickoff": "Wed Jan 15 • 19:30 UTC",
       "raw_kickoff": "2025-01-15T19:30Z",
       "finished": true,
       "score_h": 0,
@@ -2099,7 +2135,7 @@
     {
       "home": "Leicester",
       "away": "Crystal Palace",
-      "kickoff": "Wed Jan 15 \u2022 19:30 UTC",
+      "kickoff": "Wed Jan 15 • 19:30 UTC",
       "raw_kickoff": "2025-01-15T19:30Z",
       "finished": true,
       "score_h": 0,
@@ -2109,7 +2145,7 @@
     {
       "home": "Newcastle",
       "away": "Wolves",
-      "kickoff": "Wed Jan 15 \u2022 19:30 UTC",
+      "kickoff": "Wed Jan 15 • 19:30 UTC",
       "raw_kickoff": "2025-01-15T19:30Z",
       "finished": true,
       "score_h": 3,
@@ -2119,7 +2155,7 @@
     {
       "home": "Arsenal",
       "away": "Tottenham",
-      "kickoff": "Wed Jan 15 \u2022 20:00 UTC",
+      "kickoff": "Wed Jan 15 • 20:00 UTC",
       "raw_kickoff": "2025-01-15T20:00Z",
       "finished": true,
       "score_h": 2,
@@ -2129,7 +2165,7 @@
     {
       "home": "Ipswich Town",
       "away": "Brighton",
-      "kickoff": "Thu Jan 16 \u2022 19:30 UTC",
+      "kickoff": "Thu Jan 16 • 19:30 UTC",
       "raw_kickoff": "2025-01-16T19:30Z",
       "finished": true,
       "score_h": 0,
@@ -2139,7 +2175,7 @@
     {
       "home": "Manchester United",
       "away": "Southampton",
-      "kickoff": "Thu Jan 16 \u2022 20:00 UTC",
+      "kickoff": "Thu Jan 16 • 20:00 UTC",
       "raw_kickoff": "2025-01-16T20:00Z",
       "finished": true,
       "score_h": 3,
@@ -2151,7 +2187,7 @@
     {
       "home": "Newcastle",
       "away": "Bournemouth",
-      "kickoff": "Sat Jan 18 \u2022 12:30 UTC",
+      "kickoff": "Sat Jan 18 • 12:30 UTC",
       "raw_kickoff": "2025-01-18T12:30Z",
       "finished": true,
       "score_h": 1,
@@ -2161,7 +2197,7 @@
     {
       "home": "West Ham",
       "away": "Crystal Palace",
-      "kickoff": "Sat Jan 18 \u2022 15:00 UTC",
+      "kickoff": "Sat Jan 18 • 15:00 UTC",
       "raw_kickoff": "2025-01-18T15:00Z",
       "finished": true,
       "score_h": 0,
@@ -2171,7 +2207,7 @@
     {
       "home": "Leicester",
       "away": "Fulham",
-      "kickoff": "Sat Jan 18 \u2022 15:00 UTC",
+      "kickoff": "Sat Jan 18 • 15:00 UTC",
       "raw_kickoff": "2025-01-18T15:00Z",
       "finished": true,
       "score_h": 0,
@@ -2181,7 +2217,7 @@
     {
       "home": "Brentford",
       "away": "Liverpool",
-      "kickoff": "Sat Jan 18 \u2022 15:00 UTC",
+      "kickoff": "Sat Jan 18 • 15:00 UTC",
       "raw_kickoff": "2025-01-18T15:00Z",
       "finished": true,
       "score_h": 0,
@@ -2191,7 +2227,7 @@
     {
       "home": "Arsenal",
       "away": "Aston Villa",
-      "kickoff": "Sat Jan 18 \u2022 17:30 UTC",
+      "kickoff": "Sat Jan 18 • 17:30 UTC",
       "raw_kickoff": "2025-01-18T17:30Z",
       "finished": true,
       "score_h": 2,
@@ -2201,7 +2237,7 @@
     {
       "home": "Manchester United",
       "away": "Brighton",
-      "kickoff": "Sun Jan 19 \u2022 14:00 UTC",
+      "kickoff": "Sun Jan 19 • 14:00 UTC",
       "raw_kickoff": "2025-01-19T14:00Z",
       "finished": true,
       "score_h": 1,
@@ -2211,7 +2247,7 @@
     {
       "home": "Nottingham Forest",
       "away": "Southampton",
-      "kickoff": "Sun Jan 19 \u2022 14:00 UTC",
+      "kickoff": "Sun Jan 19 • 14:00 UTC",
       "raw_kickoff": "2025-01-19T14:00Z",
       "finished": true,
       "score_h": 3,
@@ -2221,7 +2257,7 @@
     {
       "home": "Everton",
       "away": "Tottenham",
-      "kickoff": "Sun Jan 19 \u2022 14:00 UTC",
+      "kickoff": "Sun Jan 19 • 14:00 UTC",
       "raw_kickoff": "2025-01-19T14:00Z",
       "finished": true,
       "score_h": 3,
@@ -2231,7 +2267,7 @@
     {
       "home": "Ipswich Town",
       "away": "Manchester City",
-      "kickoff": "Sun Jan 19 \u2022 16:30 UTC",
+      "kickoff": "Sun Jan 19 • 16:30 UTC",
       "raw_kickoff": "2025-01-19T16:30Z",
       "finished": true,
       "score_h": 0,
@@ -2241,7 +2277,7 @@
     {
       "home": "Chelsea",
       "away": "Wolves",
-      "kickoff": "Mon Jan 20 \u2022 20:00 UTC",
+      "kickoff": "Mon Jan 20 • 20:00 UTC",
       "raw_kickoff": "2025-01-20T20:00Z",
       "finished": true,
       "score_h": 3,
@@ -2253,7 +2289,7 @@
     {
       "home": "Liverpool",
       "away": "Ipswich Town",
-      "kickoff": "Sat Jan 25 \u2022 15:00 UTC",
+      "kickoff": "Sat Jan 25 • 15:00 UTC",
       "raw_kickoff": "2025-01-25T15:00Z",
       "finished": true,
       "score_h": 4,
@@ -2263,7 +2299,7 @@
     {
       "home": "Wolves",
       "away": "Arsenal",
-      "kickoff": "Sat Jan 25 \u2022 15:00 UTC",
+      "kickoff": "Sat Jan 25 • 15:00 UTC",
       "raw_kickoff": "2025-01-25T15:00Z",
       "finished": true,
       "score_h": 0,
@@ -2273,7 +2309,7 @@
     {
       "home": "Brighton",
       "away": "Everton",
-      "kickoff": "Sat Jan 25 \u2022 15:00 UTC",
+      "kickoff": "Sat Jan 25 • 15:00 UTC",
       "raw_kickoff": "2025-01-25T15:00Z",
       "finished": true,
       "score_h": 0,
@@ -2283,7 +2319,7 @@
     {
       "home": "Southampton",
       "away": "Newcastle",
-      "kickoff": "Sat Jan 25 \u2022 15:00 UTC",
+      "kickoff": "Sat Jan 25 • 15:00 UTC",
       "raw_kickoff": "2025-01-25T15:00Z",
       "finished": true,
       "score_h": 1,
@@ -2293,17 +2329,21 @@
     {
       "home": "Bournemouth",
       "away": "Nottingham Forest",
-      "kickoff": "Sat Jan 25 \u2022 15:00 UTC",
+      "kickoff": "Sat Jan 25 • 15:00 UTC",
       "raw_kickoff": "2025-01-25T15:00Z",
       "finished": true,
-      "score_h": 5,
+      "score_h": 2,
       "score_a": 0,
-      "gameweek": 23
+      "gameweek": 23,
+      "cards_h": 1,
+      "cards_a": 3,
+      "saves_h": 1,
+      "saves_a": 5
     },
     {
       "home": "Manchester City",
       "away": "Chelsea",
-      "kickoff": "Sat Jan 25 \u2022 17:30 UTC",
+      "kickoff": "Sat Jan 25 • 17:30 UTC",
       "raw_kickoff": "2025-01-25T17:30Z",
       "finished": true,
       "score_h": 3,
@@ -2313,7 +2353,7 @@
     {
       "home": "Crystal Palace",
       "away": "Brentford",
-      "kickoff": "Sun Jan 26 \u2022 14:00 UTC",
+      "kickoff": "Sun Jan 26 • 14:00 UTC",
       "raw_kickoff": "2025-01-26T14:00Z",
       "finished": true,
       "score_h": 1,
@@ -2323,7 +2363,7 @@
     {
       "home": "Tottenham",
       "away": "Leicester",
-      "kickoff": "Sun Jan 26 \u2022 14:00 UTC",
+      "kickoff": "Sun Jan 26 • 14:00 UTC",
       "raw_kickoff": "2025-01-26T14:00Z",
       "finished": true,
       "score_h": 1,
@@ -2333,7 +2373,7 @@
     {
       "home": "Aston Villa",
       "away": "West Ham",
-      "kickoff": "Sun Jan 26 \u2022 16:30 UTC",
+      "kickoff": "Sun Jan 26 • 16:30 UTC",
       "raw_kickoff": "2025-01-26T16:30Z",
       "finished": true,
       "score_h": 1,
@@ -2343,7 +2383,7 @@
     {
       "home": "Fulham",
       "away": "Manchester United",
-      "kickoff": "Sun Jan 26 \u2022 19:00 UTC",
+      "kickoff": "Sun Jan 26 • 19:00 UTC",
       "raw_kickoff": "2025-01-26T19:00Z",
       "finished": true,
       "score_h": 0,
@@ -2355,7 +2395,7 @@
     {
       "home": "Nottingham Forest",
       "away": "Brighton",
-      "kickoff": "Sat Feb 01 \u2022 12:30 UTC",
+      "kickoff": "Sat Feb 01 • 12:30 UTC",
       "raw_kickoff": "2025-02-01T12:30Z",
       "finished": true,
       "score_h": 7,
@@ -2365,7 +2405,7 @@
     {
       "home": "Newcastle",
       "away": "Fulham",
-      "kickoff": "Sat Feb 01 \u2022 15:00 UTC",
+      "kickoff": "Sat Feb 01 • 15:00 UTC",
       "raw_kickoff": "2025-02-01T15:00Z",
       "finished": true,
       "score_h": 1,
@@ -2375,7 +2415,7 @@
     {
       "home": "Everton",
       "away": "Leicester",
-      "kickoff": "Sat Feb 01 \u2022 15:00 UTC",
+      "kickoff": "Sat Feb 01 • 15:00 UTC",
       "raw_kickoff": "2025-02-01T15:00Z",
       "finished": true,
       "score_h": 4,
@@ -2385,7 +2425,7 @@
     {
       "home": "Bournemouth",
       "away": "Liverpool",
-      "kickoff": "Sat Feb 01 \u2022 15:00 UTC",
+      "kickoff": "Sat Feb 01 • 15:00 UTC",
       "raw_kickoff": "2025-02-01T15:00Z",
       "finished": true,
       "score_h": 0,
@@ -2395,7 +2435,7 @@
     {
       "home": "Ipswich Town",
       "away": "Southampton",
-      "kickoff": "Sat Feb 01 \u2022 15:00 UTC",
+      "kickoff": "Sat Feb 01 • 15:00 UTC",
       "raw_kickoff": "2025-02-01T15:00Z",
       "finished": true,
       "score_h": 1,
@@ -2405,7 +2445,7 @@
     {
       "home": "Wolves",
       "away": "Aston Villa",
-      "kickoff": "Sat Feb 01 \u2022 17:30 UTC",
+      "kickoff": "Sat Feb 01 • 17:30 UTC",
       "raw_kickoff": "2025-02-01T17:30Z",
       "finished": true,
       "score_h": 2,
@@ -2415,7 +2455,7 @@
     {
       "home": "Manchester United",
       "away": "Crystal Palace",
-      "kickoff": "Sun Feb 02 \u2022 14:00 UTC",
+      "kickoff": "Sun Feb 02 • 14:00 UTC",
       "raw_kickoff": "2025-02-02T14:00Z",
       "finished": true,
       "score_h": 0,
@@ -2425,7 +2465,7 @@
     {
       "home": "Brentford",
       "away": "Tottenham",
-      "kickoff": "Sun Feb 02 \u2022 14:00 UTC",
+      "kickoff": "Sun Feb 02 • 14:00 UTC",
       "raw_kickoff": "2025-02-02T14:00Z",
       "finished": true,
       "score_h": 0,
@@ -2435,7 +2475,7 @@
     {
       "home": "Arsenal",
       "away": "Manchester City",
-      "kickoff": "Sun Feb 02 \u2022 16:30 UTC",
+      "kickoff": "Sun Feb 02 • 16:30 UTC",
       "raw_kickoff": "2025-02-02T16:30Z",
       "finished": true,
       "score_h": 5,
@@ -2445,7 +2485,7 @@
     {
       "home": "Chelsea",
       "away": "West Ham",
-      "kickoff": "Mon Feb 03 \u2022 20:00 UTC",
+      "kickoff": "Mon Feb 03 • 20:00 UTC",
       "raw_kickoff": "2025-02-03T20:00Z",
       "finished": true,
       "score_h": 2,
@@ -2457,7 +2497,7 @@
     {
       "home": "Brighton",
       "away": "Chelsea",
-      "kickoff": "Fri Feb 14 \u2022 20:00 UTC",
+      "kickoff": "Fri Feb 14 • 20:00 UTC",
       "raw_kickoff": "2025-02-14T20:00Z",
       "finished": true,
       "score_h": 3,
@@ -2467,7 +2507,7 @@
     {
       "home": "Leicester",
       "away": "Arsenal",
-      "kickoff": "Sat Feb 15 \u2022 12:30 UTC",
+      "kickoff": "Sat Feb 15 • 12:30 UTC",
       "raw_kickoff": "2025-02-15T12:30Z",
       "finished": true,
       "score_h": 0,
@@ -2477,7 +2517,7 @@
     {
       "home": "Southampton",
       "away": "Bournemouth",
-      "kickoff": "Sat Feb 15 \u2022 15:00 UTC",
+      "kickoff": "Sat Feb 15 • 15:00 UTC",
       "raw_kickoff": "2025-02-15T15:00Z",
       "finished": true,
       "score_h": 1,
@@ -2487,7 +2527,7 @@
     {
       "home": "West Ham",
       "away": "Brentford",
-      "kickoff": "Sat Feb 15 \u2022 15:00 UTC",
+      "kickoff": "Sat Feb 15 • 15:00 UTC",
       "raw_kickoff": "2025-02-15T15:00Z",
       "finished": true,
       "score_h": 0,
@@ -2497,7 +2537,7 @@
     {
       "home": "Aston Villa",
       "away": "Ipswich Town",
-      "kickoff": "Sat Feb 15 \u2022 15:00 UTC",
+      "kickoff": "Sat Feb 15 • 15:00 UTC",
       "raw_kickoff": "2025-02-15T15:00Z",
       "finished": true,
       "score_h": 1,
@@ -2507,7 +2547,7 @@
     {
       "home": "Manchester City",
       "away": "Newcastle",
-      "kickoff": "Sat Feb 15 \u2022 15:00 UTC",
+      "kickoff": "Sat Feb 15 • 15:00 UTC",
       "raw_kickoff": "2025-02-15T15:00Z",
       "finished": true,
       "score_h": 4,
@@ -2517,7 +2557,7 @@
     {
       "home": "Fulham",
       "away": "Nottingham Forest",
-      "kickoff": "Sat Feb 15 \u2022 15:00 UTC",
+      "kickoff": "Sat Feb 15 • 15:00 UTC",
       "raw_kickoff": "2025-02-15T15:00Z",
       "finished": true,
       "score_h": 2,
@@ -2527,7 +2567,7 @@
     {
       "home": "Crystal Palace",
       "away": "Everton",
-      "kickoff": "Sat Feb 15 \u2022 17:30 UTC",
+      "kickoff": "Sat Feb 15 • 17:30 UTC",
       "raw_kickoff": "2025-02-15T17:30Z",
       "finished": true,
       "score_h": 1,
@@ -2537,7 +2577,7 @@
     {
       "home": "Liverpool",
       "away": "Wolves",
-      "kickoff": "Sun Feb 16 \u2022 14:00 UTC",
+      "kickoff": "Sun Feb 16 • 14:00 UTC",
       "raw_kickoff": "2025-02-16T14:00Z",
       "finished": true,
       "score_h": 2,
@@ -2547,7 +2587,7 @@
     {
       "home": "Tottenham",
       "away": "Manchester United",
-      "kickoff": "Sun Feb 16 \u2022 16:30 UTC",
+      "kickoff": "Sun Feb 16 • 16:30 UTC",
       "raw_kickoff": "2025-02-16T16:30Z",
       "finished": true,
       "score_h": 1,
@@ -2559,7 +2599,7 @@
     {
       "home": "Leicester",
       "away": "Brentford",
-      "kickoff": "Fri Feb 21 \u2022 20:00 UTC",
+      "kickoff": "Fri Feb 21 • 20:00 UTC",
       "raw_kickoff": "2025-02-21T20:00Z",
       "finished": true,
       "score_h": 0,
@@ -2569,7 +2609,7 @@
     {
       "home": "Everton",
       "away": "Manchester United",
-      "kickoff": "Sat Feb 22 \u2022 12:30 UTC",
+      "kickoff": "Sat Feb 22 • 12:30 UTC",
       "raw_kickoff": "2025-02-22T12:30Z",
       "finished": true,
       "score_h": 2,
@@ -2579,7 +2619,7 @@
     {
       "home": "Ipswich Town",
       "away": "Tottenham",
-      "kickoff": "Sat Feb 22 \u2022 15:00 UTC",
+      "kickoff": "Sat Feb 22 • 15:00 UTC",
       "raw_kickoff": "2025-02-22T15:00Z",
       "finished": true,
       "score_h": 1,
@@ -2589,7 +2629,7 @@
     {
       "home": "Fulham",
       "away": "Crystal Palace",
-      "kickoff": "Sat Feb 22 \u2022 15:00 UTC",
+      "kickoff": "Sat Feb 22 • 15:00 UTC",
       "raw_kickoff": "2025-02-22T15:00Z",
       "finished": true,
       "score_h": 0,
@@ -2599,7 +2639,7 @@
     {
       "home": "Arsenal",
       "away": "West Ham",
-      "kickoff": "Sat Feb 22 \u2022 15:00 UTC",
+      "kickoff": "Sat Feb 22 • 15:00 UTC",
       "raw_kickoff": "2025-02-22T15:00Z",
       "finished": true,
       "score_h": 0,
@@ -2609,7 +2649,7 @@
     {
       "home": "Bournemouth",
       "away": "Wolves",
-      "kickoff": "Sat Feb 22 \u2022 15:00 UTC",
+      "kickoff": "Sat Feb 22 • 15:00 UTC",
       "raw_kickoff": "2025-02-22T15:00Z",
       "finished": true,
       "score_h": 0,
@@ -2619,7 +2659,7 @@
     {
       "home": "Southampton",
       "away": "Brighton",
-      "kickoff": "Sat Feb 22 \u2022 15:00 UTC",
+      "kickoff": "Sat Feb 22 • 15:00 UTC",
       "raw_kickoff": "2025-02-22T15:00Z",
       "finished": true,
       "score_h": 0,
@@ -2629,7 +2669,7 @@
     {
       "home": "Aston Villa",
       "away": "Chelsea",
-      "kickoff": "Sat Feb 22 \u2022 17:30 UTC",
+      "kickoff": "Sat Feb 22 • 17:30 UTC",
       "raw_kickoff": "2025-02-22T17:30Z",
       "finished": true,
       "score_h": 2,
@@ -2639,7 +2679,7 @@
     {
       "home": "Newcastle",
       "away": "Nottingham Forest",
-      "kickoff": "Sun Feb 23 \u2022 14:00 UTC",
+      "kickoff": "Sun Feb 23 • 14:00 UTC",
       "raw_kickoff": "2025-02-23T14:00Z",
       "finished": true,
       "score_h": 4,
@@ -2649,7 +2689,7 @@
     {
       "home": "Manchester City",
       "away": "Liverpool",
-      "kickoff": "Sun Feb 23 \u2022 16:30 UTC",
+      "kickoff": "Sun Feb 23 • 16:30 UTC",
       "raw_kickoff": "2025-02-23T16:30Z",
       "finished": true,
       "score_h": 0,
@@ -2661,7 +2701,7 @@
     {
       "home": "Brighton",
       "away": "Bournemouth",
-      "kickoff": "Tue Feb 25 \u2022 19:30 UTC",
+      "kickoff": "Tue Feb 25 • 19:30 UTC",
       "raw_kickoff": "2025-02-25T19:30Z",
       "finished": true,
       "score_h": 2,
@@ -2671,7 +2711,7 @@
     {
       "home": "Crystal Palace",
       "away": "Aston Villa",
-      "kickoff": "Tue Feb 25 \u2022 19:30 UTC",
+      "kickoff": "Tue Feb 25 • 19:30 UTC",
       "raw_kickoff": "2025-02-25T19:30Z",
       "finished": true,
       "score_h": 4,
@@ -2681,7 +2721,7 @@
     {
       "home": "Wolves",
       "away": "Fulham",
-      "kickoff": "Tue Feb 25 \u2022 19:30 UTC",
+      "kickoff": "Tue Feb 25 • 19:30 UTC",
       "raw_kickoff": "2025-02-25T19:30Z",
       "finished": true,
       "score_h": 1,
@@ -2691,7 +2731,7 @@
     {
       "home": "Chelsea",
       "away": "Southampton",
-      "kickoff": "Tue Feb 25 \u2022 20:15 UTC",
+      "kickoff": "Tue Feb 25 • 20:15 UTC",
       "raw_kickoff": "2025-02-25T20:15Z",
       "finished": true,
       "score_h": 4,
@@ -2701,7 +2741,7 @@
     {
       "home": "Nottingham Forest",
       "away": "Arsenal",
-      "kickoff": "Wed Feb 26 \u2022 19:30 UTC",
+      "kickoff": "Wed Feb 26 • 19:30 UTC",
       "raw_kickoff": "2025-02-26T19:30Z",
       "finished": true,
       "score_h": 0,
@@ -2711,7 +2751,7 @@
     {
       "home": "Brentford",
       "away": "Everton",
-      "kickoff": "Wed Feb 26 \u2022 19:30 UTC",
+      "kickoff": "Wed Feb 26 • 19:30 UTC",
       "raw_kickoff": "2025-02-26T19:30Z",
       "finished": true,
       "score_h": 1,
@@ -2721,7 +2761,7 @@
     {
       "home": "Tottenham",
       "away": "Manchester City",
-      "kickoff": "Wed Feb 26 \u2022 19:30 UTC",
+      "kickoff": "Wed Feb 26 • 19:30 UTC",
       "raw_kickoff": "2025-02-26T19:30Z",
       "finished": true,
       "score_h": 0,
@@ -2731,7 +2771,7 @@
     {
       "home": "Manchester United",
       "away": "Ipswich Town",
-      "kickoff": "Wed Feb 26 \u2022 19:30 UTC",
+      "kickoff": "Wed Feb 26 • 19:30 UTC",
       "raw_kickoff": "2025-02-26T19:30Z",
       "finished": true,
       "score_h": 3,
@@ -2741,7 +2781,7 @@
     {
       "home": "Liverpool",
       "away": "Newcastle",
-      "kickoff": "Wed Feb 26 \u2022 20:15 UTC",
+      "kickoff": "Wed Feb 26 • 20:15 UTC",
       "raw_kickoff": "2025-02-26T20:15Z",
       "finished": true,
       "score_h": 2,
@@ -2751,7 +2791,7 @@
     {
       "home": "West Ham",
       "away": "Leicester",
-      "kickoff": "Thu Feb 27 \u2022 20:00 UTC",
+      "kickoff": "Thu Feb 27 • 20:00 UTC",
       "raw_kickoff": "2025-02-27T20:00Z",
       "finished": true,
       "score_h": 2,
@@ -2763,7 +2803,7 @@
     {
       "home": "Nottingham Forest",
       "away": "Manchester City",
-      "kickoff": "Sat Mar 08 \u2022 12:30 UTC",
+      "kickoff": "Sat Mar 08 • 12:30 UTC",
       "raw_kickoff": "2025-03-08T12:30Z",
       "finished": true,
       "score_h": 3,
@@ -2773,7 +2813,7 @@
     {
       "home": "Brighton",
       "away": "Fulham",
-      "kickoff": "Sat Mar 08 \u2022 15:00 UTC",
+      "kickoff": "Sat Mar 08 • 15:00 UTC",
       "raw_kickoff": "2025-03-08T15:00Z",
       "finished": true,
       "score_h": 2,
@@ -2783,7 +2823,7 @@
     {
       "home": "Crystal Palace",
       "away": "Ipswich Town",
-      "kickoff": "Sat Mar 08 \u2022 15:00 UTC",
+      "kickoff": "Sat Mar 08 • 15:00 UTC",
       "raw_kickoff": "2025-03-08T15:00Z",
       "finished": true,
       "score_h": 1,
@@ -2793,7 +2833,7 @@
     {
       "home": "Liverpool",
       "away": "Southampton",
-      "kickoff": "Sat Mar 08 \u2022 15:00 UTC",
+      "kickoff": "Sat Mar 08 • 15:00 UTC",
       "raw_kickoff": "2025-03-08T15:00Z",
       "finished": true,
       "score_h": 3,
@@ -2803,7 +2843,7 @@
     {
       "home": "Brentford",
       "away": "Aston Villa",
-      "kickoff": "Sat Mar 08 \u2022 17:30 UTC",
+      "kickoff": "Sat Mar 08 • 17:30 UTC",
       "raw_kickoff": "2025-03-08T17:30Z",
       "finished": true,
       "score_h": 0,
@@ -2813,7 +2853,7 @@
     {
       "home": "Wolves",
       "away": "Everton",
-      "kickoff": "Sat Mar 08 \u2022 20:00 UTC",
+      "kickoff": "Sat Mar 08 • 20:00 UTC",
       "raw_kickoff": "2025-03-08T20:00Z",
       "finished": true,
       "score_h": 1,
@@ -2823,7 +2863,7 @@
     {
       "home": "Tottenham",
       "away": "Bournemouth",
-      "kickoff": "Sun Mar 09 \u2022 14:00 UTC",
+      "kickoff": "Sun Mar 09 • 14:00 UTC",
       "raw_kickoff": "2025-03-09T14:00Z",
       "finished": true,
       "score_h": 2,
@@ -2833,7 +2873,7 @@
     {
       "home": "Chelsea",
       "away": "Leicester",
-      "kickoff": "Sun Mar 09 \u2022 14:00 UTC",
+      "kickoff": "Sun Mar 09 • 14:00 UTC",
       "raw_kickoff": "2025-03-09T14:00Z",
       "finished": true,
       "score_h": 1,
@@ -2843,7 +2883,7 @@
     {
       "home": "Manchester United",
       "away": "Arsenal",
-      "kickoff": "Sun Mar 09 \u2022 16:30 UTC",
+      "kickoff": "Sun Mar 09 • 16:30 UTC",
       "raw_kickoff": "2025-03-09T16:30Z",
       "finished": true,
       "score_h": 1,
@@ -2853,7 +2893,7 @@
     {
       "home": "West Ham",
       "away": "Newcastle",
-      "kickoff": "Mon Mar 10 \u2022 20:00 UTC",
+      "kickoff": "Mon Mar 10 • 20:00 UTC",
       "raw_kickoff": "2025-03-10T20:00Z",
       "finished": true,
       "score_h": 0,
@@ -2865,7 +2905,7 @@
     {
       "home": "Aston Villa",
       "away": "Liverpool",
-      "kickoff": "Wed Feb 19 \u2022 19:30 UTC",
+      "kickoff": "Wed Feb 19 • 19:30 UTC",
       "raw_kickoff": "2025-02-19T19:30Z",
       "finished": true,
       "score_h": 2,
@@ -2875,7 +2915,7 @@
     {
       "home": "Everton",
       "away": "West Ham",
-      "kickoff": "Sat Mar 15 \u2022 15:00 UTC",
+      "kickoff": "Sat Mar 15 • 15:00 UTC",
       "raw_kickoff": "2025-03-15T15:00Z",
       "finished": true,
       "score_h": 1,
@@ -2885,7 +2925,7 @@
     {
       "home": "Ipswich Town",
       "away": "Nottingham Forest",
-      "kickoff": "Sat Mar 15 \u2022 15:00 UTC",
+      "kickoff": "Sat Mar 15 • 15:00 UTC",
       "raw_kickoff": "2025-03-15T15:00Z",
       "finished": true,
       "score_h": 2,
@@ -2895,7 +2935,7 @@
     {
       "home": "Manchester City",
       "away": "Brighton",
-      "kickoff": "Sat Mar 15 \u2022 15:00 UTC",
+      "kickoff": "Sat Mar 15 • 15:00 UTC",
       "raw_kickoff": "2025-03-15T15:00Z",
       "finished": true,
       "score_h": 2,
@@ -2905,7 +2945,7 @@
     {
       "home": "Southampton",
       "away": "Wolves",
-      "kickoff": "Sat Mar 15 \u2022 15:00 UTC",
+      "kickoff": "Sat Mar 15 • 15:00 UTC",
       "raw_kickoff": "2025-03-15T15:00Z",
       "finished": true,
       "score_h": 1,
@@ -2915,7 +2955,7 @@
     {
       "home": "Bournemouth",
       "away": "Brentford",
-      "kickoff": "Sat Mar 15 \u2022 17:30 UTC",
+      "kickoff": "Sat Mar 15 • 17:30 UTC",
       "raw_kickoff": "2025-03-15T17:30Z",
       "finished": true,
       "score_h": 1,
@@ -2925,7 +2965,7 @@
     {
       "home": "Arsenal",
       "away": "Chelsea",
-      "kickoff": "Sun Mar 16 \u2022 13:30 UTC",
+      "kickoff": "Sun Mar 16 • 13:30 UTC",
       "raw_kickoff": "2025-03-16T13:30Z",
       "finished": true,
       "score_h": 1,
@@ -2935,7 +2975,7 @@
     {
       "home": "Fulham",
       "away": "Tottenham",
-      "kickoff": "Sun Mar 16 \u2022 13:30 UTC",
+      "kickoff": "Sun Mar 16 • 13:30 UTC",
       "raw_kickoff": "2025-03-16T13:30Z",
       "finished": true,
       "score_h": 2,
@@ -2945,7 +2985,7 @@
     {
       "home": "Leicester",
       "away": "Manchester United",
-      "kickoff": "Sun Mar 16 \u2022 19:00 UTC",
+      "kickoff": "Sun Mar 16 • 19:00 UTC",
       "raw_kickoff": "2025-03-16T19:00Z",
       "finished": true,
       "score_h": 0,
@@ -2955,7 +2995,7 @@
     {
       "home": "Newcastle",
       "away": "Crystal Palace",
-      "kickoff": "Wed Apr 16 \u2022 19:30 UTC",
+      "kickoff": "Wed Apr 16 • 19:30 UTC",
       "raw_kickoff": "2025-04-16T19:30Z",
       "finished": true,
       "score_h": 5,
@@ -2967,7 +3007,7 @@
     {
       "home": "Arsenal",
       "away": "Fulham",
-      "kickoff": "Tue Apr 01 \u2022 19:45 UTC",
+      "kickoff": "Tue Apr 01 • 19:45 UTC",
       "raw_kickoff": "2025-04-01T19:45Z",
       "finished": true,
       "score_h": 2,
@@ -2977,7 +3017,7 @@
     {
       "home": "Wolves",
       "away": "West Ham",
-      "kickoff": "Tue Apr 01 \u2022 19:45 UTC",
+      "kickoff": "Tue Apr 01 • 19:45 UTC",
       "raw_kickoff": "2025-04-01T19:45Z",
       "finished": true,
       "score_h": 1,
@@ -2987,7 +3027,7 @@
     {
       "home": "Nottingham Forest",
       "away": "Manchester United",
-      "kickoff": "Tue Apr 01 \u2022 20:00 UTC",
+      "kickoff": "Tue Apr 01 • 20:00 UTC",
       "raw_kickoff": "2025-04-01T20:00Z",
       "finished": true,
       "score_h": 1,
@@ -2997,7 +3037,7 @@
     {
       "home": "Bournemouth",
       "away": "Ipswich Town",
-      "kickoff": "Wed Apr 02 \u2022 19:45 UTC",
+      "kickoff": "Wed Apr 02 • 19:45 UTC",
       "raw_kickoff": "2025-04-02T19:45Z",
       "finished": true,
       "score_h": 1,
@@ -3007,7 +3047,7 @@
     {
       "home": "Brighton",
       "away": "Aston Villa",
-      "kickoff": "Wed Apr 02 \u2022 19:45 UTC",
+      "kickoff": "Wed Apr 02 • 19:45 UTC",
       "raw_kickoff": "2025-04-02T19:45Z",
       "finished": true,
       "score_h": 0,
@@ -3017,7 +3057,7 @@
     {
       "home": "Manchester City",
       "away": "Leicester",
-      "kickoff": "Wed Apr 02 \u2022 19:45 UTC",
+      "kickoff": "Wed Apr 02 • 19:45 UTC",
       "raw_kickoff": "2025-04-02T19:45Z",
       "finished": true,
       "score_h": 2,
@@ -3027,7 +3067,7 @@
     {
       "home": "Newcastle",
       "away": "Brentford",
-      "kickoff": "Wed Apr 02 \u2022 19:45 UTC",
+      "kickoff": "Wed Apr 02 • 19:45 UTC",
       "raw_kickoff": "2025-04-02T19:45Z",
       "finished": true,
       "score_h": 2,
@@ -3037,7 +3077,7 @@
     {
       "home": "Southampton",
       "away": "Crystal Palace",
-      "kickoff": "Wed Apr 02 \u2022 19:45 UTC",
+      "kickoff": "Wed Apr 02 • 19:45 UTC",
       "raw_kickoff": "2025-04-02T19:45Z",
       "finished": true,
       "score_h": 1,
@@ -3047,7 +3087,7 @@
     {
       "home": "Liverpool",
       "away": "Everton",
-      "kickoff": "Wed Apr 02 \u2022 20:00 UTC",
+      "kickoff": "Wed Apr 02 • 20:00 UTC",
       "raw_kickoff": "2025-04-02T20:00Z",
       "finished": true,
       "score_h": 1,
@@ -3057,7 +3097,7 @@
     {
       "home": "Chelsea",
       "away": "Tottenham",
-      "kickoff": "Thu Apr 03 \u2022 20:00 UTC",
+      "kickoff": "Thu Apr 03 • 20:00 UTC",
       "raw_kickoff": "2025-04-03T20:00Z",
       "finished": true,
       "score_h": 1,
@@ -3069,7 +3109,7 @@
     {
       "home": "Everton",
       "away": "Arsenal",
-      "kickoff": "Sat Apr 05 \u2022 12:30 UTC",
+      "kickoff": "Sat Apr 05 • 12:30 UTC",
       "raw_kickoff": "2025-04-05T12:30Z",
       "finished": true,
       "score_h": 1,
@@ -3079,7 +3119,7 @@
     {
       "home": "Crystal Palace",
       "away": "Brighton",
-      "kickoff": "Sat Apr 05 \u2022 15:00 UTC",
+      "kickoff": "Sat Apr 05 • 15:00 UTC",
       "raw_kickoff": "2025-04-05T15:00Z",
       "finished": true,
       "score_h": 2,
@@ -3089,7 +3129,7 @@
     {
       "home": "Ipswich Town",
       "away": "Wolves",
-      "kickoff": "Sat Apr 05 \u2022 15:00 UTC",
+      "kickoff": "Sat Apr 05 • 15:00 UTC",
       "raw_kickoff": "2025-04-05T15:00Z",
       "finished": true,
       "score_h": 1,
@@ -3099,7 +3139,7 @@
     {
       "home": "West Ham",
       "away": "Bournemouth",
-      "kickoff": "Sat Apr 05 \u2022 15:00 UTC",
+      "kickoff": "Sat Apr 05 • 15:00 UTC",
       "raw_kickoff": "2025-04-05T15:00Z",
       "finished": true,
       "score_h": 2,
@@ -3109,7 +3149,7 @@
     {
       "home": "Aston Villa",
       "away": "Nottingham Forest",
-      "kickoff": "Sat Apr 05 \u2022 17:30 UTC",
+      "kickoff": "Sat Apr 05 • 17:30 UTC",
       "raw_kickoff": "2025-04-05T17:30Z",
       "finished": true,
       "score_h": 2,
@@ -3119,7 +3159,7 @@
     {
       "home": "Brentford",
       "away": "Chelsea",
-      "kickoff": "Sun Apr 06 \u2022 14:00 UTC",
+      "kickoff": "Sun Apr 06 • 14:00 UTC",
       "raw_kickoff": "2025-04-06T14:00Z",
       "finished": true,
       "score_h": 0,
@@ -3129,7 +3169,7 @@
     {
       "home": "Fulham",
       "away": "Liverpool",
-      "kickoff": "Sun Apr 06 \u2022 14:00 UTC",
+      "kickoff": "Sun Apr 06 • 14:00 UTC",
       "raw_kickoff": "2025-04-06T14:00Z",
       "finished": true,
       "score_h": 3,
@@ -3139,7 +3179,7 @@
     {
       "home": "Tottenham",
       "away": "Southampton",
-      "kickoff": "Sun Apr 06 \u2022 14:00 UTC",
+      "kickoff": "Sun Apr 06 • 14:00 UTC",
       "raw_kickoff": "2025-04-06T14:00Z",
       "finished": true,
       "score_h": 3,
@@ -3149,7 +3189,7 @@
     {
       "home": "Manchester United",
       "away": "Manchester City",
-      "kickoff": "Sun Apr 06 \u2022 16:30 UTC",
+      "kickoff": "Sun Apr 06 • 16:30 UTC",
       "raw_kickoff": "2025-04-06T16:30Z",
       "finished": true,
       "score_h": 0,
@@ -3159,7 +3199,7 @@
     {
       "home": "Leicester",
       "away": "Newcastle",
-      "kickoff": "Mon Apr 07 \u2022 20:00 UTC",
+      "kickoff": "Mon Apr 07 • 20:00 UTC",
       "raw_kickoff": "2025-04-07T20:00Z",
       "finished": true,
       "score_h": 0,
@@ -3171,7 +3211,7 @@
     {
       "home": "Manchester City",
       "away": "Crystal Palace",
-      "kickoff": "Sat Apr 12 \u2022 12:30 UTC",
+      "kickoff": "Sat Apr 12 • 12:30 UTC",
       "raw_kickoff": "2025-04-12T12:30Z",
       "finished": true,
       "score_h": 5,
@@ -3181,7 +3221,7 @@
     {
       "home": "Brighton",
       "away": "Leicester",
-      "kickoff": "Sat Apr 12 \u2022 15:00 UTC",
+      "kickoff": "Sat Apr 12 • 15:00 UTC",
       "raw_kickoff": "2025-04-12T15:00Z",
       "finished": true,
       "score_h": 2,
@@ -3191,7 +3231,7 @@
     {
       "home": "Nottingham Forest",
       "away": "Everton",
-      "kickoff": "Sat Apr 12 \u2022 15:00 UTC",
+      "kickoff": "Sat Apr 12 • 15:00 UTC",
       "raw_kickoff": "2025-04-12T15:00Z",
       "finished": true,
       "score_h": 0,
@@ -3201,7 +3241,7 @@
     {
       "home": "Southampton",
       "away": "Aston Villa",
-      "kickoff": "Sat Apr 12 \u2022 15:00 UTC",
+      "kickoff": "Sat Apr 12 • 15:00 UTC",
       "raw_kickoff": "2025-04-12T15:00Z",
       "finished": true,
       "score_h": 0,
@@ -3211,7 +3251,7 @@
     {
       "home": "Arsenal",
       "away": "Brentford",
-      "kickoff": "Sat Apr 12 \u2022 17:30 UTC",
+      "kickoff": "Sat Apr 12 • 17:30 UTC",
       "raw_kickoff": "2025-04-12T17:30Z",
       "finished": true,
       "score_h": 1,
@@ -3221,7 +3261,7 @@
     {
       "home": "Chelsea",
       "away": "Ipswich Town",
-      "kickoff": "Sun Apr 13 \u2022 14:00 UTC",
+      "kickoff": "Sun Apr 13 • 14:00 UTC",
       "raw_kickoff": "2025-04-13T14:00Z",
       "finished": true,
       "score_h": 2,
@@ -3231,7 +3271,7 @@
     {
       "home": "Liverpool",
       "away": "West Ham",
-      "kickoff": "Sun Apr 13 \u2022 14:00 UTC",
+      "kickoff": "Sun Apr 13 • 14:00 UTC",
       "raw_kickoff": "2025-04-13T14:00Z",
       "finished": true,
       "score_h": 2,
@@ -3241,7 +3281,7 @@
     {
       "home": "Wolves",
       "away": "Tottenham",
-      "kickoff": "Sun Apr 13 \u2022 14:00 UTC",
+      "kickoff": "Sun Apr 13 • 14:00 UTC",
       "raw_kickoff": "2025-04-13T14:00Z",
       "finished": true,
       "score_h": 4,
@@ -3251,7 +3291,7 @@
     {
       "home": "Newcastle",
       "away": "Manchester United",
-      "kickoff": "Sun Apr 13 \u2022 16:30 UTC",
+      "kickoff": "Sun Apr 13 • 16:30 UTC",
       "raw_kickoff": "2025-04-13T16:30Z",
       "finished": true,
       "score_h": 4,
@@ -3261,7 +3301,7 @@
     {
       "home": "Bournemouth",
       "away": "Fulham",
-      "kickoff": "Mon Apr 14 \u2022 20:00 UTC",
+      "kickoff": "Mon Apr 14 • 20:00 UTC",
       "raw_kickoff": "2025-04-14T20:00Z",
       "finished": true,
       "score_h": 1,
@@ -3273,7 +3313,7 @@
     {
       "home": "Brentford",
       "away": "Brighton",
-      "kickoff": "Sat Apr 19 \u2022 15:00 UTC",
+      "kickoff": "Sat Apr 19 • 15:00 UTC",
       "raw_kickoff": "2025-04-19T15:00Z",
       "finished": true,
       "score_h": 4,
@@ -3283,7 +3323,7 @@
     {
       "home": "Crystal Palace",
       "away": "Bournemouth",
-      "kickoff": "Sat Apr 19 \u2022 15:00 UTC",
+      "kickoff": "Sat Apr 19 • 15:00 UTC",
       "raw_kickoff": "2025-04-19T15:00Z",
       "finished": true,
       "score_h": 0,
@@ -3293,7 +3333,7 @@
     {
       "home": "Everton",
       "away": "Manchester City",
-      "kickoff": "Sat Apr 19 \u2022 15:00 UTC",
+      "kickoff": "Sat Apr 19 • 15:00 UTC",
       "raw_kickoff": "2025-04-19T15:00Z",
       "finished": true,
       "score_h": 0,
@@ -3303,7 +3343,7 @@
     {
       "home": "West Ham",
       "away": "Southampton",
-      "kickoff": "Sat Apr 19 \u2022 15:00 UTC",
+      "kickoff": "Sat Apr 19 • 15:00 UTC",
       "raw_kickoff": "2025-04-19T15:00Z",
       "finished": true,
       "score_h": 1,
@@ -3313,7 +3353,7 @@
     {
       "home": "Aston Villa",
       "away": "Newcastle",
-      "kickoff": "Sat Apr 19 \u2022 17:30 UTC",
+      "kickoff": "Sat Apr 19 • 17:30 UTC",
       "raw_kickoff": "2025-04-19T17:30Z",
       "finished": true,
       "score_h": 4,
@@ -3323,7 +3363,7 @@
     {
       "home": "Fulham",
       "away": "Chelsea",
-      "kickoff": "Sun Apr 20 \u2022 14:00 UTC",
+      "kickoff": "Sun Apr 20 • 14:00 UTC",
       "raw_kickoff": "2025-04-20T14:00Z",
       "finished": true,
       "score_h": 1,
@@ -3333,7 +3373,7 @@
     {
       "home": "Ipswich Town",
       "away": "Arsenal",
-      "kickoff": "Sun Apr 20 \u2022 14:00 UTC",
+      "kickoff": "Sun Apr 20 • 14:00 UTC",
       "raw_kickoff": "2025-04-20T14:00Z",
       "finished": true,
       "score_h": 0,
@@ -3343,7 +3383,7 @@
     {
       "home": "Manchester United",
       "away": "Wolves",
-      "kickoff": "Sun Apr 20 \u2022 14:00 UTC",
+      "kickoff": "Sun Apr 20 • 14:00 UTC",
       "raw_kickoff": "2025-04-20T14:00Z",
       "finished": true,
       "score_h": 0,
@@ -3353,7 +3393,7 @@
     {
       "home": "Leicester",
       "away": "Liverpool",
-      "kickoff": "Sun Apr 20 \u2022 16:30 UTC",
+      "kickoff": "Sun Apr 20 • 16:30 UTC",
       "raw_kickoff": "2025-04-20T16:30Z",
       "finished": true,
       "score_h": 0,
@@ -3363,7 +3403,7 @@
     {
       "home": "Tottenham",
       "away": "Nottingham Forest",
-      "kickoff": "Mon Apr 21 \u2022 20:00 UTC",
+      "kickoff": "Mon Apr 21 • 20:00 UTC",
       "raw_kickoff": "2025-04-21T20:00Z",
       "finished": true,
       "score_h": 1,
@@ -3375,7 +3415,7 @@
     {
       "home": "Manchester City",
       "away": "Aston Villa",
-      "kickoff": "Tue Apr 22 \u2022 20:00 UTC",
+      "kickoff": "Tue Apr 22 • 20:00 UTC",
       "raw_kickoff": "2025-04-22T20:00Z",
       "finished": true,
       "score_h": 2,
@@ -3385,7 +3425,7 @@
     {
       "home": "Arsenal",
       "away": "Crystal Palace",
-      "kickoff": "Wed Apr 23 \u2022 20:00 UTC",
+      "kickoff": "Wed Apr 23 • 20:00 UTC",
       "raw_kickoff": "2025-04-23T20:00Z",
       "finished": true,
       "score_h": 2,
@@ -3395,7 +3435,7 @@
     {
       "home": "Chelsea",
       "away": "Everton",
-      "kickoff": "Sat Apr 26 \u2022 12:30 UTC",
+      "kickoff": "Sat Apr 26 • 12:30 UTC",
       "raw_kickoff": "2025-04-26T12:30Z",
       "finished": true,
       "score_h": 1,
@@ -3405,7 +3445,7 @@
     {
       "home": "Brighton",
       "away": "West Ham",
-      "kickoff": "Sat Apr 26 \u2022 15:00 UTC",
+      "kickoff": "Sat Apr 26 • 15:00 UTC",
       "raw_kickoff": "2025-04-26T15:00Z",
       "finished": true,
       "score_h": 3,
@@ -3415,7 +3455,7 @@
     {
       "home": "Newcastle",
       "away": "Ipswich Town",
-      "kickoff": "Sat Apr 26 \u2022 15:00 UTC",
+      "kickoff": "Sat Apr 26 • 15:00 UTC",
       "raw_kickoff": "2025-04-26T15:00Z",
       "finished": true,
       "score_h": 3,
@@ -3425,7 +3465,7 @@
     {
       "home": "Southampton",
       "away": "Fulham",
-      "kickoff": "Sat Apr 26 \u2022 15:00 UTC",
+      "kickoff": "Sat Apr 26 • 15:00 UTC",
       "raw_kickoff": "2025-04-26T15:00Z",
       "finished": true,
       "score_h": 1,
@@ -3435,7 +3475,7 @@
     {
       "home": "Wolves",
       "away": "Leicester",
-      "kickoff": "Sat Apr 26 \u2022 15:00 UTC",
+      "kickoff": "Sat Apr 26 • 15:00 UTC",
       "raw_kickoff": "2025-04-26T15:00Z",
       "finished": true,
       "score_h": 3,
@@ -3445,7 +3485,7 @@
     {
       "home": "Bournemouth",
       "away": "Manchester United",
-      "kickoff": "Sun Apr 27 \u2022 14:00 UTC",
+      "kickoff": "Sun Apr 27 • 14:00 UTC",
       "raw_kickoff": "2025-04-27T14:00Z",
       "finished": true,
       "score_h": 1,
@@ -3455,7 +3495,7 @@
     {
       "home": "Liverpool",
       "away": "Tottenham",
-      "kickoff": "Sun Apr 27 \u2022 16:30 UTC",
+      "kickoff": "Sun Apr 27 • 16:30 UTC",
       "raw_kickoff": "2025-04-27T16:30Z",
       "finished": true,
       "score_h": 5,
@@ -3465,7 +3505,7 @@
     {
       "home": "Nottingham Forest",
       "away": "Brentford",
-      "kickoff": "Thu May 01 \u2022 19:30 UTC",
+      "kickoff": "Thu May 01 • 19:30 UTC",
       "raw_kickoff": "2025-05-01T19:30Z",
       "finished": true,
       "score_h": 0,
@@ -3477,7 +3517,7 @@
     {
       "home": "Manchester City",
       "away": "Wolves",
-      "kickoff": "Fri May 02 \u2022 20:00 UTC",
+      "kickoff": "Fri May 02 • 20:00 UTC",
       "raw_kickoff": "2025-05-02T20:00Z",
       "finished": true,
       "score_h": 1,
@@ -3487,7 +3527,7 @@
     {
       "home": "Aston Villa",
       "away": "Fulham",
-      "kickoff": "Sat May 03 \u2022 12:30 UTC",
+      "kickoff": "Sat May 03 • 12:30 UTC",
       "raw_kickoff": "2025-05-03T12:30Z",
       "finished": true,
       "score_h": 1,
@@ -3497,7 +3537,7 @@
     {
       "home": "Everton",
       "away": "Ipswich Town",
-      "kickoff": "Sat May 03 \u2022 15:00 UTC",
+      "kickoff": "Sat May 03 • 15:00 UTC",
       "raw_kickoff": "2025-05-03T15:00Z",
       "finished": true,
       "score_h": 2,
@@ -3507,7 +3547,7 @@
     {
       "home": "Leicester",
       "away": "Southampton",
-      "kickoff": "Sat May 03 \u2022 15:00 UTC",
+      "kickoff": "Sat May 03 • 15:00 UTC",
       "raw_kickoff": "2025-05-03T15:00Z",
       "finished": true,
       "score_h": 2,
@@ -3517,7 +3557,7 @@
     {
       "home": "Arsenal",
       "away": "Bournemouth",
-      "kickoff": "Sat May 03 \u2022 17:30 UTC",
+      "kickoff": "Sat May 03 • 17:30 UTC",
       "raw_kickoff": "2025-05-03T17:30Z",
       "finished": true,
       "score_h": 1,
@@ -3527,7 +3567,7 @@
     {
       "home": "Brentford",
       "away": "Manchester United",
-      "kickoff": "Sun May 04 \u2022 14:00 UTC",
+      "kickoff": "Sun May 04 • 14:00 UTC",
       "raw_kickoff": "2025-05-04T14:00Z",
       "finished": true,
       "score_h": 4,
@@ -3537,7 +3577,7 @@
     {
       "home": "Brighton",
       "away": "Newcastle",
-      "kickoff": "Sun May 04 \u2022 14:00 UTC",
+      "kickoff": "Sun May 04 • 14:00 UTC",
       "raw_kickoff": "2025-05-04T14:00Z",
       "finished": true,
       "score_h": 1,
@@ -3547,7 +3587,7 @@
     {
       "home": "West Ham",
       "away": "Tottenham",
-      "kickoff": "Sun May 04 \u2022 14:00 UTC",
+      "kickoff": "Sun May 04 • 14:00 UTC",
       "raw_kickoff": "2025-05-04T14:00Z",
       "finished": true,
       "score_h": 1,
@@ -3557,7 +3597,7 @@
     {
       "home": "Chelsea",
       "away": "Liverpool",
-      "kickoff": "Sun May 04 \u2022 16:30 UTC",
+      "kickoff": "Sun May 04 • 16:30 UTC",
       "raw_kickoff": "2025-05-04T16:30Z",
       "finished": true,
       "score_h": 3,
@@ -3567,7 +3607,7 @@
     {
       "home": "Crystal Palace",
       "away": "Nottingham Forest",
-      "kickoff": "Mon May 05 \u2022 20:00 UTC",
+      "kickoff": "Mon May 05 • 20:00 UTC",
       "raw_kickoff": "2025-05-05T20:00Z",
       "finished": true,
       "score_h": 1,
@@ -3579,7 +3619,7 @@
     {
       "home": "Fulham",
       "away": "Everton",
-      "kickoff": "Sat May 10 \u2022 15:00 UTC",
+      "kickoff": "Sat May 10 • 15:00 UTC",
       "raw_kickoff": "2025-05-10T15:00Z",
       "finished": true,
       "score_h": 1,
@@ -3589,7 +3629,7 @@
     {
       "home": "Ipswich Town",
       "away": "Brentford",
-      "kickoff": "Sat May 10 \u2022 15:00 UTC",
+      "kickoff": "Sat May 10 • 15:00 UTC",
       "raw_kickoff": "2025-05-10T15:00Z",
       "finished": true,
       "score_h": 0,
@@ -3599,7 +3639,7 @@
     {
       "home": "Southampton",
       "away": "Manchester City",
-      "kickoff": "Sat May 10 \u2022 15:00 UTC",
+      "kickoff": "Sat May 10 • 15:00 UTC",
       "raw_kickoff": "2025-05-10T15:00Z",
       "finished": true,
       "score_h": 0,
@@ -3609,7 +3649,7 @@
     {
       "home": "Wolves",
       "away": "Brighton",
-      "kickoff": "Sat May 10 \u2022 15:00 UTC",
+      "kickoff": "Sat May 10 • 15:00 UTC",
       "raw_kickoff": "2025-05-10T15:00Z",
       "finished": true,
       "score_h": 0,
@@ -3619,7 +3659,7 @@
     {
       "home": "Bournemouth",
       "away": "Aston Villa",
-      "kickoff": "Sat May 10 \u2022 17:30 UTC",
+      "kickoff": "Sat May 10 • 17:30 UTC",
       "raw_kickoff": "2025-05-10T17:30Z",
       "finished": true,
       "score_h": 0,
@@ -3629,7 +3669,7 @@
     {
       "home": "Newcastle",
       "away": "Chelsea",
-      "kickoff": "Sun May 11 \u2022 12:00 UTC",
+      "kickoff": "Sun May 11 • 12:00 UTC",
       "raw_kickoff": "2025-05-11T12:00Z",
       "finished": true,
       "score_h": 2,
@@ -3639,7 +3679,7 @@
     {
       "home": "Manchester United",
       "away": "West Ham",
-      "kickoff": "Sun May 11 \u2022 14:15 UTC",
+      "kickoff": "Sun May 11 • 14:15 UTC",
       "raw_kickoff": "2025-05-11T14:15Z",
       "finished": true,
       "score_h": 0,
@@ -3649,7 +3689,7 @@
     {
       "home": "Nottingham Forest",
       "away": "Leicester",
-      "kickoff": "Sun May 11 \u2022 14:15 UTC",
+      "kickoff": "Sun May 11 • 14:15 UTC",
       "raw_kickoff": "2025-05-11T14:15Z",
       "finished": true,
       "score_h": 2,
@@ -3659,7 +3699,7 @@
     {
       "home": "Tottenham",
       "away": "Crystal Palace",
-      "kickoff": "Sun May 11 \u2022 14:15 UTC",
+      "kickoff": "Sun May 11 • 14:15 UTC",
       "raw_kickoff": "2025-05-11T14:15Z",
       "finished": true,
       "score_h": 0,
@@ -3669,7 +3709,7 @@
     {
       "home": "Liverpool",
       "away": "Arsenal",
-      "kickoff": "Sun May 11 \u2022 16:30 UTC",
+      "kickoff": "Sun May 11 • 16:30 UTC",
       "raw_kickoff": "2025-05-11T16:30Z",
       "finished": true,
       "score_h": 2,
@@ -3681,7 +3721,7 @@
     {
       "home": "Aston Villa",
       "away": "Tottenham",
-      "kickoff": "Fri May 16 \u2022 19:30 UTC",
+      "kickoff": "Fri May 16 • 19:30 UTC",
       "raw_kickoff": "2025-05-16T19:30Z",
       "finished": true,
       "score_h": 2,
@@ -3691,7 +3731,7 @@
     {
       "home": "Chelsea",
       "away": "Manchester United",
-      "kickoff": "Fri May 16 \u2022 20:15 UTC",
+      "kickoff": "Fri May 16 • 20:15 UTC",
       "raw_kickoff": "2025-05-16T20:15Z",
       "finished": true,
       "score_h": 1,
@@ -3701,7 +3741,7 @@
     {
       "home": "Everton",
       "away": "Southampton",
-      "kickoff": "Sun May 18 \u2022 12:00 UTC",
+      "kickoff": "Sun May 18 • 12:00 UTC",
       "raw_kickoff": "2025-05-18T12:00Z",
       "finished": true,
       "score_h": 2,
@@ -3711,7 +3751,7 @@
     {
       "home": "West Ham",
       "away": "Nottingham Forest",
-      "kickoff": "Sun May 18 \u2022 14:15 UTC",
+      "kickoff": "Sun May 18 • 14:15 UTC",
       "raw_kickoff": "2025-05-18T14:15Z",
       "finished": true,
       "score_h": 1,
@@ -3721,7 +3761,7 @@
     {
       "home": "Brentford",
       "away": "Fulham",
-      "kickoff": "Sun May 18 \u2022 15:00 UTC",
+      "kickoff": "Sun May 18 • 15:00 UTC",
       "raw_kickoff": "2025-05-18T15:00Z",
       "finished": true,
       "score_h": 2,
@@ -3731,7 +3771,7 @@
     {
       "home": "Leicester",
       "away": "Ipswich Town",
-      "kickoff": "Sun May 18 \u2022 15:00 UTC",
+      "kickoff": "Sun May 18 • 15:00 UTC",
       "raw_kickoff": "2025-05-18T15:00Z",
       "finished": true,
       "score_h": 2,
@@ -3741,7 +3781,7 @@
     {
       "home": "Arsenal",
       "away": "Newcastle",
-      "kickoff": "Sun May 18 \u2022 16:30 UTC",
+      "kickoff": "Sun May 18 • 16:30 UTC",
       "raw_kickoff": "2025-05-18T16:30Z",
       "finished": true,
       "score_h": 1,
@@ -3751,7 +3791,7 @@
     {
       "home": "Brighton",
       "away": "Liverpool",
-      "kickoff": "Mon May 19 \u2022 20:00 UTC",
+      "kickoff": "Mon May 19 • 20:00 UTC",
       "raw_kickoff": "2025-05-19T20:00Z",
       "finished": true,
       "score_h": 3,
@@ -3761,7 +3801,7 @@
     {
       "home": "Crystal Palace",
       "away": "Wolves",
-      "kickoff": "Tue May 20 \u2022 20:00 UTC",
+      "kickoff": "Tue May 20 • 20:00 UTC",
       "raw_kickoff": "2025-05-20T20:00Z",
       "finished": true,
       "score_h": 4,
@@ -3771,7 +3811,7 @@
     {
       "home": "Manchester City",
       "away": "Bournemouth",
-      "kickoff": "Tue May 20 \u2022 20:00 UTC",
+      "kickoff": "Tue May 20 • 20:00 UTC",
       "raw_kickoff": "2025-05-20T20:00Z",
       "finished": true,
       "score_h": 3,
@@ -3783,7 +3823,7 @@
     {
       "home": "Bournemouth",
       "away": "Leicester",
-      "kickoff": "Sun May 25 \u2022 16:00 UTC",
+      "kickoff": "Sun May 25 • 16:00 UTC",
       "raw_kickoff": "2025-05-25T16:00Z",
       "finished": true,
       "score_h": 2,
@@ -3793,7 +3833,7 @@
     {
       "home": "Fulham",
       "away": "Manchester City",
-      "kickoff": "Sun May 25 \u2022 16:00 UTC",
+      "kickoff": "Sun May 25 • 16:00 UTC",
       "raw_kickoff": "2025-05-25T16:00Z",
       "finished": true,
       "score_h": 0,
@@ -3803,7 +3843,7 @@
     {
       "home": "Ipswich Town",
       "away": "West Ham",
-      "kickoff": "Sun May 25 \u2022 16:00 UTC",
+      "kickoff": "Sun May 25 • 16:00 UTC",
       "raw_kickoff": "2025-05-25T16:00Z",
       "finished": true,
       "score_h": 1,
@@ -3813,7 +3853,7 @@
     {
       "home": "Liverpool",
       "away": "Crystal Palace",
-      "kickoff": "Sun May 25 \u2022 16:00 UTC",
+      "kickoff": "Sun May 25 • 16:00 UTC",
       "raw_kickoff": "2025-05-25T16:00Z",
       "finished": true,
       "score_h": 1,
@@ -3823,7 +3863,7 @@
     {
       "home": "Manchester United",
       "away": "Aston Villa",
-      "kickoff": "Sun May 25 \u2022 16:00 UTC",
+      "kickoff": "Sun May 25 • 16:00 UTC",
       "raw_kickoff": "2025-05-25T16:00Z",
       "finished": true,
       "score_h": 4,
@@ -3833,7 +3873,7 @@
     {
       "home": "Newcastle",
       "away": "Everton",
-      "kickoff": "Sun May 25 \u2022 16:00 UTC",
+      "kickoff": "Sun May 25 • 16:00 UTC",
       "raw_kickoff": "2025-05-25T16:00Z",
       "finished": true,
       "score_h": 0,
@@ -3843,7 +3883,7 @@
     {
       "home": "Nottingham Forest",
       "away": "Chelsea",
-      "kickoff": "Sun May 25 \u2022 16:00 UTC",
+      "kickoff": "Sun May 25 • 16:00 UTC",
       "raw_kickoff": "2025-05-25T16:00Z",
       "finished": true,
       "score_h": 0,
@@ -3853,7 +3893,7 @@
     {
       "home": "Southampton",
       "away": "Arsenal",
-      "kickoff": "Sun May 25 \u2022 16:00 UTC",
+      "kickoff": "Sun May 25 • 16:00 UTC",
       "raw_kickoff": "2025-05-25T16:00Z",
       "finished": true,
       "score_h": 1,
@@ -3863,7 +3903,7 @@
     {
       "home": "Tottenham",
       "away": "Brighton",
-      "kickoff": "Sun May 25 \u2022 16:00 UTC",
+      "kickoff": "Sun May 25 • 16:00 UTC",
       "raw_kickoff": "2025-05-25T16:00Z",
       "finished": true,
       "score_h": 1,
@@ -3873,7 +3913,7 @@
     {
       "home": "Wolves",
       "away": "Brentford",
-      "kickoff": "Sun May 25 \u2022 16:00 UTC",
+      "kickoff": "Sun May 25 • 16:00 UTC",
       "raw_kickoff": "2025-05-25T16:00Z",
       "finished": true,
       "score_h": 1,

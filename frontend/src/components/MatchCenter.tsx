@@ -5,7 +5,12 @@ import {
   Sparkles,
   Plus,
   Check,
-  Flame
+  Flame,
+  Newspaper,
+  Activity,
+  UserCheck,
+  ExternalLink,
+  Flag
 } from 'lucide-react';
 import type { LeagueInfo, FixtureMatch, MatchPrediction, SafePick, BetSlipItem } from '../types';
 import { predictMatch } from '../api';
@@ -228,7 +233,7 @@ export const MatchCenter: React.FC<MatchCenterProps> = ({
                     {homeTeam}
                   </h2>
                   <span className="text-xs text-brand-cyan font-mono">
-                    xG: {prediction.expected_goals?.home_xg?.toFixed(2) || '1.40'}
+                    xG: {(prediction.expected_goals?.home_xg ?? (prediction.expected_goals as any)?.lambda_home ?? 1.85).toFixed(2)}
                   </span>
                 </div>
 
@@ -241,7 +246,7 @@ export const MatchCenter: React.FC<MatchCenterProps> = ({
                     <span>{prediction.top_3_scorelines?.[0]?.score || '1 - 1'}</span>
                   </div>
                   <span className="text-[11px] text-slate-400 font-mono mt-1">
-                    Most Probable Scoreline ({(prediction.top_3_scorelines?.[0]?.probability_pct ?? 10.0).toFixed(1)}%)
+                    Most Probable Scoreline ({((prediction.top_3_scorelines?.[0]?.probability_pct ?? (prediction.top_3_scorelines?.[0] as any)?.prob ?? 11.5)).toFixed(1)}%)
                   </span>
                 </div>
 
@@ -254,7 +259,7 @@ export const MatchCenter: React.FC<MatchCenterProps> = ({
                     {awayTeam}
                   </h2>
                   <span className="text-xs text-brand-cyan font-mono">
-                    xG: {prediction.expected_goals?.away_xg?.toFixed(2) || '1.10'}
+                    xG: {(prediction.expected_goals?.away_xg ?? (prediction.expected_goals as any)?.lambda_away ?? 1.05).toFixed(2)}
                   </span>
                 </div>
               </div>
@@ -288,6 +293,133 @@ export const MatchCenter: React.FC<MatchCenterProps> = ({
                     className="h-full bg-cyan-500 rounded-r-full transition-all"
                   />
                 </div>
+              </div>
+
+              {/* Tactical 1X2 & Double Chance High-Conviction Suggestion Cards */}
+              <div className="pt-6 grid grid-cols-1 md:grid-cols-2 gap-4">
+                {/* 1X2 Tactical Bet */}
+                {prediction.tactical_1x2_recommendation && (
+                  <div className="p-4 rounded-2xl bg-surface-card border border-emerald-500/20 flex flex-col justify-between gap-3">
+                    <div className="flex items-center justify-between">
+                      <span className="text-[10px] font-mono font-bold px-2 py-0.5 rounded bg-brand-emerald/10 text-brand-emerald border border-brand-emerald/20 flex items-center gap-1">
+                        <Crown className="w-3 h-3" />
+                        <span>SUGGESTED 1X2 OUTRIGHT</span>
+                      </span>
+                      <span className="font-mono text-xs font-bold text-brand-emerald">
+                        Odds: {prediction.tactical_1x2_recommendation.fair_odds.toFixed(2)}
+                      </span>
+                    </div>
+
+                    <div>
+                      <h4 className="text-sm font-black text-white">
+                        {prediction.tactical_1x2_recommendation.bet}
+                      </h4>
+                      <p className="text-[11px] text-slate-400 mt-1">
+                        {prediction.tactical_1x2_recommendation.reasoning}
+                      </p>
+                    </div>
+
+                    <div className="flex items-center justify-between pt-2 border-t border-white/5">
+                      <span className="text-xs font-mono text-slate-300">
+                        Confidence: <strong className="text-brand-emerald">{prediction.tactical_1x2_recommendation.probability.toFixed(1)}%</strong>
+                      </span>
+                      <button
+                        onClick={() =>
+                          handleAddPick(
+                            {
+                              title: '1X2 Outright Winner',
+                              bet: prediction.tactical_1x2_recommendation!.bet,
+                              fair_odds: prediction.tactical_1x2_recommendation!.fair_odds,
+                              probability: prediction.tactical_1x2_recommendation!.probability,
+                              reasoning: prediction.tactical_1x2_recommendation!.reasoning,
+                              risk_level: 'High Value 1X2',
+                            },
+                            '1X2 Outright Winner'
+                          )
+                        }
+                        className={`px-3 py-1.5 rounded-xl text-xs font-bold flex items-center gap-1.5 transition-all ${
+                          isPickInSlip(prediction.tactical_1x2_recommendation.bet)
+                            ? 'bg-brand-emerald/20 text-brand-emerald border border-brand-emerald/30'
+                            : 'bg-brand-emerald hover:bg-brand-emerald/90 text-white shadow-glow-emerald active:scale-98'
+                        }`}
+                      >
+                        {isPickInSlip(prediction.tactical_1x2_recommendation.bet) ? (
+                          <>
+                            <Check className="w-3.5 h-3.5" />
+                            <span>In Slip</span>
+                          </>
+                        ) : (
+                          <>
+                            <Plus className="w-3.5 h-3.5" />
+                            <span>Add 1X2 Bet</span>
+                          </>
+                        )}
+                      </button>
+                    </div>
+                  </div>
+                )}
+
+                {/* Double Chance Tactical Bet */}
+                {prediction.tactical_dc_recommendation && (
+                  <div className="p-4 rounded-2xl bg-surface-card border border-brand-cyan/20 flex flex-col justify-between gap-3">
+                    <div className="flex items-center justify-between">
+                      <span className="text-[10px] font-mono font-bold px-2 py-0.5 rounded bg-brand-cyan/10 text-brand-cyan border border-brand-cyan/20 flex items-center gap-1">
+                        <ShieldCheck className="w-3 h-3" />
+                        <span>SUGGESTED DOUBLE CHANCE LOCK</span>
+                      </span>
+                      <span className="font-mono text-xs font-bold text-brand-cyan">
+                        Odds: {prediction.tactical_dc_recommendation.fair_odds.toFixed(2)}
+                      </span>
+                    </div>
+
+                    <div>
+                      <h4 className="text-sm font-black text-white">
+                        {prediction.tactical_dc_recommendation.bet}
+                      </h4>
+                      <p className="text-[11px] text-slate-400 mt-1">
+                        {prediction.tactical_dc_recommendation.reasoning}
+                      </p>
+                    </div>
+
+                    <div className="flex items-center justify-between pt-2 border-t border-white/5">
+                      <span className="text-xs font-mono text-slate-300">
+                        Safety: <strong className="text-brand-cyan">{prediction.tactical_dc_recommendation.probability.toFixed(1)}%</strong>
+                      </span>
+                      <button
+                        onClick={() =>
+                          handleAddPick(
+                            {
+                              title: 'Double Chance Lock',
+                              bet: prediction.tactical_dc_recommendation!.bet,
+                              fair_odds: prediction.tactical_dc_recommendation!.fair_odds,
+                              probability: prediction.tactical_dc_recommendation!.probability,
+                              reasoning: prediction.tactical_dc_recommendation!.reasoning,
+                              risk_level: 'Ultra Safe Lock',
+                            },
+                            'Double Chance Lock'
+                          )
+                        }
+                        className={`px-3 py-1.5 rounded-xl text-xs font-bold flex items-center gap-1.5 transition-all ${
+                          isPickInSlip(prediction.tactical_dc_recommendation.bet)
+                            ? 'bg-brand-cyan/20 text-brand-cyan border border-brand-cyan/30'
+                            : 'bg-brand-cyan hover:bg-brand-cyan/90 text-white shadow-glow-cyan active:scale-98'
+                        }`}
+                      >
+                        {isPickInSlip(prediction.tactical_dc_recommendation.bet) ? (
+                          <>
+                            <Check className="w-3.5 h-3.5" />
+                            <span>In Slip</span>
+                          </>
+                        ) : (
+                          <>
+                            <Plus className="w-3.5 h-3.5" />
+                            <span>Add Double Chance</span>
+                          </>
+                        )}
+                      </button>
+                    </div>
+                  </div>
+                )}
               </div>
             </div>
           </div>
@@ -368,14 +500,14 @@ export const MatchCenter: React.FC<MatchCenterProps> = ({
 
           {/* 5. 7-Way Hepta-Consensus & Common Ground Conflict Arbitrage */}
           {prediction.penta_consensus && (
-            <div className="glass-panel p-6 rounded-3xl border border-brand-violet/20 bg-gradient-to-br from-surface to-brand-violet/5 space-y-5">
-              <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4 pb-4 border-b border-border-subtle">
+            <div className="glass-panel p-6 rounded-3xl border border-blue-500/30 bg-gradient-to-br from-surface via-blue-950/20 to-blue-900/10 space-y-5 shadow-glow-blue">
+              <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4 pb-4 border-b border-blue-500/15">
                 <div className="flex items-center gap-3">
-                  <div className="w-10 h-10 rounded-2xl bg-brand-violet/10 border border-brand-violet/30 flex items-center justify-center shadow-glow-violet">
-                    <Crown className="w-5 h-5 text-brand-violet" />
+                  <div className="w-10 h-10 rounded-2xl bg-blue-500/15 border border-blue-400/40 flex items-center justify-center shadow-lg shadow-blue-500/25">
+                    <Crown className="w-5 h-5 text-blue-400" />
                   </div>
                   <div>
-                    <span className="text-[10px] font-mono uppercase font-bold tracking-widest text-brand-violet">
+                    <span className="text-[10px] font-mono uppercase font-bold tracking-widest text-blue-400">
                       {prediction.penta_consensus.consensus_tier || 'HEPTA-LOCK IMPERIAL DIAMOND'}
                     </span>
                     <h3 className="text-lg font-black text-white">
@@ -386,7 +518,7 @@ export const MatchCenter: React.FC<MatchCenterProps> = ({
 
                 <div className="flex items-center gap-2">
                   <span className="text-xs font-mono text-slate-400">7-Platform Convergence:</span>
-                  <span className="font-mono text-sm font-black text-brand-emerald px-2.5 py-1 rounded-lg bg-brand-emerald/10 border border-brand-emerald/20">
+                  <span className="font-mono text-sm font-black text-blue-300 px-2.5 py-1 rounded-lg bg-blue-500/15 border border-blue-400/30">
                     {prediction.penta_consensus.agreement_count}/{prediction.penta_consensus.total_sources || 7} Engines ({prediction.penta_consensus.consensus_score}%)
                   </span>
                 </div>
@@ -394,44 +526,45 @@ export const MatchCenter: React.FC<MatchCenterProps> = ({
 
               {/* Common Ground Arbitrage Derivative */}
               {prediction.penta_consensus.common_ground_market && (
-                <div className="p-4 rounded-2xl bg-surface-card border border-border-subtle flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+                <div className="p-4 rounded-2xl bg-blue-950/30 border border-blue-500/30 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 backdrop-blur-sm">
                   <div>
                     <div className="flex items-center gap-2 mb-1">
-                      <Sparkles className="w-3.5 h-3.5 text-brand-amber" />
-                      <span className="text-[11px] font-bold uppercase tracking-wider text-brand-amber">
-                        7-WAY UNIVERSAL COMMON GROUND ARBITRAGE (NEAR 100% SAFETY)
+                      <Sparkles className="w-3.5 h-3.5 text-blue-400" />
+                      <span className="text-[11px] font-bold uppercase tracking-wider text-blue-400">
+                        7-WAY UNANIMOUS HEPTA-LOCK ARBITRAGE (MAX CONVICTION)
                       </span>
                     </div>
-                    <div className="text-sm font-bold text-white">
+                    <div className="text-base font-black text-white">
                       {prediction.penta_consensus.common_ground_market.market}
                     </div>
-                    <p className="text-xs text-slate-400 mt-0.5">
-                      Harmonizes all 7 predicted scorelines ({prediction.penta_consensus.common_ground_market.scorelines?.slice(0, 7).join(', ') || 'all scorelines'}) into an ultra-high conviction derivative lock.
+                    <p className="text-xs text-blue-100/70 mt-0.5 max-w-2xl">
+                      {prediction.penta_consensus.common_ground_market.reason ||
+                        `Harmonizes all 7 predicted scorelines (${prediction.penta_consensus.common_ground_market.scorelines?.slice(0, 7).join(', ') || 'all scorelines'}) into an ultra-high conviction derivative lock.`}
                     </p>
                   </div>
 
-                  <div className="flex items-center gap-3">
-                    <span className="font-mono text-sm font-bold text-brand-emerald bg-brand-emerald/10 px-2.5 py-1 rounded border border-brand-emerald/20">
+                  <div className="flex items-center gap-3 shrink-0">
+                    <span className="font-mono text-sm font-bold text-blue-300 bg-blue-500/20 px-3 py-1.5 rounded-xl border border-blue-400/40 shadow-sm">
                       Odds: {Number(prediction.penta_consensus.common_ground_market.fair_odds || 1.15).toFixed(2)}
                     </span>
                     <button
                       onClick={() =>
                         handleAddPick(
                           {
-                            title: 'Common Ground Arbitrage',
+                            title: 'Hepta-Lock Arbitrage',
                             bet: prediction.penta_consensus.common_ground_market!.market,
                             fair_odds: prediction.penta_consensus.common_ground_market!.fair_odds,
                             probability: 95.0,
-                            reasoning: '7-Way multi-model derivative arbitrage lock',
+                            reasoning: prediction.penta_consensus.common_ground_market!.reason || '7-Way multi-model derivative arbitrage lock',
                             risk_level: 'Ultra Safe',
                           },
-                          '7-Way Common Ground Arbitrage'
+                          'Hepta-Lock Arbitrage'
                         )
                       }
-                      className="px-3.5 py-1.5 rounded-xl bg-brand-violet hover:bg-brand-violet/80 text-white text-xs font-bold flex items-center gap-1.5 transition-all shadow-glow-violet active:scale-98"
+                      className="px-4 py-2 rounded-xl bg-blue-600 hover:bg-blue-500 text-white text-xs font-bold flex items-center gap-1.5 transition-all shadow-lg shadow-blue-500/30 active:scale-98 border border-blue-400/30"
                     >
                       <Plus className="w-3.5 h-3.5" />
-                      <span>Lock Market</span>
+                      <span>Lock Hepta Bet</span>
                     </button>
                   </div>
                 </div>
@@ -491,7 +624,253 @@ export const MatchCenter: React.FC<MatchCenterProps> = ({
             </div>
           )}
 
-          {/* 6. Discipline & Yellow Cards Market */}
+          {/* 6. Live Tactical Atmosphere, Manager Reliability & 5-Game Form Radar */}
+          {prediction.tactical_intelligence && (
+            <div className="glass-panel p-6 rounded-2xl border border-border-subtle flex flex-col gap-5">
+              {/* Radar Header */}
+              <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 pb-4 border-b border-white/5">
+                <div className="flex items-center gap-3">
+                  <div className="w-10 h-10 rounded-xl bg-brand-cyan/10 border border-brand-cyan/30 flex items-center justify-center">
+                    <Activity className="w-5 h-5 text-brand-cyan" />
+                  </div>
+                  <div>
+                    <div className="flex items-center gap-2">
+                      <span className="text-xs font-bold text-white uppercase tracking-wider">
+                        Live Team Atmosphere, Manager Reliability & Form Radar
+                      </span>
+                      <span className="px-2 py-0.5 rounded bg-brand-emerald/10 text-brand-emerald text-[10px] font-mono font-bold border border-brand-emerald/20">
+                        FREE MULTI-DESK INTELLIGENCE
+                      </span>
+                    </div>
+                    <p className="text-xs text-slate-400 mt-0.5">
+                      {prediction.tactical_intelligence.atmosphere_differential.verdict}
+                    </p>
+                  </div>
+                </div>
+
+                <div className="flex items-center gap-2">
+                  <span className="text-[11px] font-mono px-2.5 py-1 rounded bg-brand-violet/10 text-brand-violet border border-brand-violet/20 font-bold">
+                    {prediction.tactical_intelligence.atmosphere_differential.net_edge}
+                  </span>
+                </div>
+              </div>
+
+              {/* Two Team Grid */}
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                {/* Home Team Card */}
+                {(() => {
+                  const h = prediction.tactical_intelligence.home;
+                  return (
+                    <div className="p-4 rounded-xl bg-surface-card border border-border-subtle flex flex-col justify-between gap-4">
+                      <div>
+                        {/* Header & Manager Badge */}
+                        <div className="flex items-center justify-between mb-2">
+                          <span className="font-bold text-sm text-white">{h.team}</span>
+                          <span className="text-[10px] font-mono font-bold px-2 py-0.5 rounded bg-white/5 text-slate-300 border border-white/10">
+                            {h.manager_status}
+                          </span>
+                        </div>
+
+                        {/* Manager Reliability */}
+                        <div className="flex items-center justify-between text-xs text-slate-400 mb-1">
+                          <span className="flex items-center gap-1">
+                            <UserCheck className="w-3.5 h-3.5 text-brand-cyan" />
+                            Manager: <strong className="text-slate-200">{h.manager}</strong>
+                          </span>
+                          <span className="font-mono text-brand-cyan font-bold">{h.manager_reliability_pct}% Stability</span>
+                        </div>
+                        <p className="text-[11px] text-slate-400 italic mb-3">"{h.manager_note}"</p>
+
+                        {/* Dressing Room Morale Bar */}
+                        <div className="mb-3">
+                          <div className="flex items-center justify-between text-[11px] mb-1">
+                            <span className="text-slate-400 font-medium">Dressing Room Morale:</span>
+                            <span className="font-mono font-bold text-slate-200">
+                              {h.morale_index_pct}% ({h.atmosphere_sentiment})
+                            </span>
+                          </div>
+                          <div className="w-full h-1.5 rounded-full bg-white/10 overflow-hidden">
+                            <div
+                              className={`h-full rounded-full transition-all duration-500 ${
+                                h.morale_index_pct >= 75
+                                  ? 'bg-brand-emerald'
+                                  : h.morale_index_pct >= 55
+                                  ? 'bg-brand-amber'
+                                  : 'bg-brand-rose'
+                              }`}
+                              style={{ width: `${h.morale_index_pct}%` }}
+                            />
+                          </div>
+                        </div>
+
+                        {/* 5-Game Recent Form Splits */}
+                        <div className="mb-3 p-2.5 rounded-lg bg-surface-elevated border border-white/5">
+                          <div className="flex items-center justify-between text-[11px] mb-1.5">
+                            <span className="text-slate-400 font-bold uppercase tracking-wider text-[10px]">
+                              5-Game Form Splits
+                            </span>
+                            <span className="font-mono text-slate-300 text-[10px]">
+                              {h.form.form_string || 'N/A'} &bull; {h.form.points_per_game} PPG
+                            </span>
+                          </div>
+                          <div className="flex items-center gap-1.5">
+                            {(h.form.form_sequence || h.form.sequence || []).map((res, i) => (
+                              <span
+                                key={i}
+                                className={`w-6 h-6 rounded flex items-center justify-center text-[10px] font-bold font-mono ${
+                                  res === 'W'
+                                    ? 'bg-brand-emerald/20 text-brand-emerald border border-brand-emerald/40'
+                                    : res === 'D'
+                                    ? 'bg-brand-amber/20 text-brand-amber border border-brand-amber/40'
+                                    : 'bg-brand-rose/20 text-brand-rose border border-brand-rose/40'
+                                }`}
+                              >
+                                {res}
+                              </span>
+                            ))}
+                            <span className="ml-auto text-[10px] text-slate-400 font-mono">
+                              GD: {(h.form.goal_diff_last_5 ?? h.form.goal_diff ?? 0) > 0 ? `+${h.form.goal_diff_last_5 ?? h.form.goal_diff ?? 0}` : (h.form.goal_diff_last_5 ?? h.form.goal_diff ?? 0)}
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+
+                      {/* Verified News Headlines */}
+                      {h.verified_news && h.verified_news.length > 0 && (
+                        <div className="pt-2 border-t border-white/5">
+                          <div className="flex items-center gap-1 text-[10px] uppercase font-bold text-slate-400 mb-1.5">
+                            <Newspaper className="w-3 h-3 text-slate-400" />
+                            <span>Live Pre-Match Intelligence:</span>
+                          </div>
+                          <div className="flex flex-col gap-1">
+                            {h.verified_news.slice(0, 2).map((art, idx) => (
+                              <a
+                                key={idx}
+                                href={art.link}
+                                target="_blank"
+                                rel="noreferrer"
+                                className="text-[11px] text-slate-300 hover:text-brand-cyan truncate flex items-center gap-1.5 transition-colors"
+                              >
+                                <ExternalLink className="w-3 h-3 text-slate-500 shrink-0" />
+                                <span className="truncate">{art.title}</span>
+                              </a>
+                            ))}
+                          </div>
+                        </div>
+                      )}
+                    </div>
+                  );
+                })()}
+
+                {/* Away Team Card */}
+                {(() => {
+                  const a = prediction.tactical_intelligence.away;
+                  return (
+                    <div className="p-4 rounded-xl bg-surface-card border border-border-subtle flex flex-col justify-between gap-4">
+                      <div>
+                        {/* Header & Manager Badge */}
+                        <div className="flex items-center justify-between mb-2">
+                          <span className="font-bold text-sm text-white">{a.team}</span>
+                          <span className="text-[10px] font-mono font-bold px-2 py-0.5 rounded bg-white/5 text-slate-300 border border-white/10">
+                            {a.manager_status}
+                          </span>
+                        </div>
+
+                        {/* Manager Reliability */}
+                        <div className="flex items-center justify-between text-xs text-slate-400 mb-1">
+                          <span className="flex items-center gap-1">
+                            <UserCheck className="w-3.5 h-3.5 text-brand-cyan" />
+                            Manager: <strong className="text-slate-200">{a.manager}</strong>
+                          </span>
+                          <span className="font-mono text-brand-cyan font-bold">{a.manager_reliability_pct}% Stability</span>
+                        </div>
+                        <p className="text-[11px] text-slate-400 italic mb-3">"{a.manager_note}"</p>
+
+                        {/* Dressing Room Morale Bar */}
+                        <div className="mb-3">
+                          <div className="flex items-center justify-between text-[11px] mb-1">
+                            <span className="text-slate-400 font-medium">Dressing Room Morale:</span>
+                            <span className="font-mono font-bold text-slate-200">
+                              {a.morale_index_pct}% ({a.atmosphere_sentiment})
+                            </span>
+                          </div>
+                          <div className="w-full h-1.5 rounded-full bg-white/10 overflow-hidden">
+                            <div
+                              className={`h-full rounded-full transition-all duration-500 ${
+                                a.morale_index_pct >= 75
+                                  ? 'bg-brand-emerald'
+                                  : a.morale_index_pct >= 55
+                                  ? 'bg-brand-amber'
+                                  : 'bg-brand-rose'
+                              }`}
+                              style={{ width: `${a.morale_index_pct}%` }}
+                            />
+                          </div>
+                        </div>
+
+                        {/* 5-Game Recent Form Splits */}
+                        <div className="mb-3 p-2.5 rounded-lg bg-surface-elevated border border-white/5">
+                          <div className="flex items-center justify-between text-[11px] mb-1.5">
+                            <span className="text-slate-400 font-bold uppercase tracking-wider text-[10px]">
+                              5-Game Form Splits
+                            </span>
+                            <span className="font-mono text-slate-300 text-[10px]">
+                              {a.form.form_string || 'N/A'} &bull; {a.form.points_per_game} PPG
+                            </span>
+                          </div>
+                          <div className="flex items-center gap-1.5">
+                            {(a.form.form_sequence || a.form.sequence || []).map((res, i) => (
+                              <span
+                                key={i}
+                                className={`w-6 h-6 rounded flex items-center justify-center text-[10px] font-bold font-mono ${
+                                  res === 'W'
+                                    ? 'bg-brand-emerald/20 text-brand-emerald border border-brand-emerald/40'
+                                    : res === 'D'
+                                    ? 'bg-brand-amber/20 text-brand-amber border border-brand-amber/40'
+                                    : 'bg-brand-rose/20 text-brand-rose border border-brand-rose/40'
+                                }`}
+                              >
+                                {res}
+                              </span>
+                            ))}
+                            <span className="ml-auto text-[10px] text-slate-400 font-mono">
+                              GD: {(a.form.goal_diff_last_5 ?? a.form.goal_diff ?? 0) > 0 ? `+${a.form.goal_diff_last_5 ?? a.form.goal_diff ?? 0}` : (a.form.goal_diff_last_5 ?? a.form.goal_diff ?? 0)}
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+
+                      {/* Verified News Headlines */}
+                      {a.verified_news && a.verified_news.length > 0 && (
+                        <div className="pt-2 border-t border-white/5">
+                          <div className="flex items-center gap-1 text-[10px] uppercase font-bold text-slate-400 mb-1.5">
+                            <Newspaper className="w-3 h-3 text-slate-400" />
+                            <span>Live Pre-Match Intelligence:</span>
+                          </div>
+                          <div className="flex flex-col gap-1">
+                            {a.verified_news.slice(0, 2).map((art, idx) => (
+                              <a
+                                key={idx}
+                                href={art.link}
+                                target="_blank"
+                                rel="noreferrer"
+                                className="text-[11px] text-slate-300 hover:text-brand-cyan truncate flex items-center gap-1.5 transition-colors"
+                              >
+                                <ExternalLink className="w-3 h-3 text-slate-500 shrink-0" />
+                                <span className="truncate">{art.title}</span>
+                              </a>
+                            ))}
+                          </div>
+                        </div>
+                      )}
+                    </div>
+                  );
+                })()}
+              </div>
+            </div>
+          )}
+
+          {/* 7. Discipline & Yellow Cards Market */}
           {prediction.yellow_cards && (
             <div className="glass-panel p-5 rounded-2xl border border-border-subtle flex flex-col md:flex-row items-center justify-between gap-4">
               <div className="flex items-center gap-3">
@@ -539,6 +918,72 @@ export const MatchCenter: React.FC<MatchCenterProps> = ({
                   >
                     <Plus className="w-3.5 h-3.5 text-brand-amber" />
                     <span>Add Cards Bet</span>
+                  </button>
+                </div>
+              )}
+            </div>
+          )}
+
+          {/* 8. Quantitative Corners & Wing-Exploitation Line */}
+          {prediction.corners && (
+            <div className="glass-panel p-5 rounded-2xl border border-border-subtle flex flex-col md:flex-row items-center justify-between gap-4">
+              <div className="flex items-center gap-3">
+                <div className="w-10 h-10 rounded-xl bg-teal-500/10 border border-teal-500/30 flex items-center justify-center">
+                  <Flag className="w-5 h-5 text-teal-400" />
+                </div>
+                <div>
+                  <div className="flex items-center gap-2">
+                    <span className="text-xs font-bold text-white uppercase tracking-wider">
+                      Corner Kicks Quantitative Model
+                    </span>
+                    <span className="px-2 py-0.5 rounded bg-teal-500/10 text-teal-400 text-[10px] font-mono font-bold border border-teal-500/20">
+                      WING EXPLOITATION ENGINE
+                    </span>
+                  </div>
+                  <p className="text-xs text-slate-400 mt-0.5">
+                    Projected Total: <strong className="text-white font-mono">{prediction.corners.expected_total_corners} Corners</strong> &bull; Home: {prediction.corners.expected_home_corners} / Away: {prediction.corners.expected_away_corners}
+                  </p>
+                  {prediction.corners.tactical_rationale && (
+                    <p className="text-[11px] text-slate-400 italic mt-1 max-w-xl">
+                      {prediction.corners.tactical_rationale}
+                    </p>
+                  )}
+                </div>
+              </div>
+
+              {prediction.corners.best_corner_bet && (
+                <div className="flex items-center gap-3">
+                  <div className="text-right">
+                    <span className="text-[10px] uppercase font-mono text-slate-400 block">Top Corner Pick</span>
+                    <span className="text-xs font-bold text-white">{prediction.corners.best_corner_bet.market}</span>
+                    <span className="text-[10px] font-mono text-teal-400 block">
+                      {(prediction.corners.best_corner_bet.probability > 1
+                        ? prediction.corners.best_corner_bet.probability
+                        : prediction.corners.best_corner_bet.probability * 100
+                      ).toFixed(0)}% Conviction @ {prediction.corners.best_corner_bet.odds.toFixed(2)}
+                    </span>
+                  </div>
+                  <button
+                    onClick={() => {
+                      const probVal = prediction.corners!.best_corner_bet!.probability > 1
+                        ? prediction.corners!.best_corner_bet!.probability
+                        : prediction.corners!.best_corner_bet!.probability * 100;
+                      handleAddPick(
+                        {
+                          title: 'Corner Kicks Line',
+                          bet: prediction.corners!.best_corner_bet!.market,
+                          fair_odds: prediction.corners!.best_corner_bet!.odds,
+                          probability: Math.round(probVal),
+                          reasoning: prediction.corners!.best_corner_bet!.rationale || 'Negative Binomial wing-play corner projection',
+                          risk_level: prediction.corners!.best_corner_bet!.confidence_tier || 'Anchor Lock',
+                        },
+                        'Corners'
+                      );
+                    }}
+                    className="px-3 py-1.5 rounded-xl bg-surface-elevated hover:bg-white/10 text-white text-xs font-bold border border-teal-500/30 flex items-center gap-1.5 transition-all shadow-glow-cyan"
+                  >
+                    <Plus className="w-3.5 h-3.5 text-teal-400" />
+                    <span>Add Corner Bet</span>
                   </button>
                 </div>
               )}

@@ -8,10 +8,13 @@ import {
   Percent,
   RefreshCw,
   Search,
-  ChevronDown
+  ChevronDown,
+  MinusCircle,
+  Zap,
+  X
 } from 'lucide-react';
 import type { LedgerBet, LedgerSummary } from '../types';
-import { fetchLedger, triggerAutoGrade } from '../api';
+import { fetchLedger, triggerAutoGrade, settleMatchScore } from '../api';
 
 export const LedgerHub: React.FC = () => {
   const [filterStatus, setFilterStatus] = useState<string>('ALL');
@@ -20,6 +23,14 @@ export const LedgerHub: React.FC = () => {
   const [isGrading, setIsGrading] = useState<boolean>(false);
   const [searchQuery, setSearchQuery] = useState<string>('');
   const [expandedId, setExpandedId] = useState<number | null>(null);
+
+  // Settle modal state
+  const [settleModalBet, setSettleModalBet] = useState<LedgerBet | null>(null);
+  const [modalScoreH, setModalScoreH] = useState<number>(0);
+  const [modalScoreA, setModalScoreA] = useState<number>(0);
+  const [modalCardsH, setModalCardsH] = useState<number>(2);
+  const [modalCardsA, setModalCardsA] = useState<number>(2);
+  const [isSubmittingScore, setIsSubmittingScore] = useState<boolean>(false);
 
   const loadLedger = (filter: string = filterStatus) => {
     setLoading(true);
@@ -37,12 +48,54 @@ export const LedgerHub: React.FC = () => {
     setIsGrading(true);
     try {
       const res = await triggerAutoGrade();
-      alert(res.message || 'Auto-grading complete!');
+      let msg = res.message || 'Auto-grading complete!';
+      if (res.graded_items && res.graded_items.length > 0) {
+        msg += '\n\nSettled Predictions:\n' + res.graded_items.map((it: any) => 
+          `• ${it.fixture} (${it.actual_score}) -> ${it.is_hit === 1 ? 'HIT (+'+it.pnl+'u)' : it.is_hit === 2 ? 'PUSH (Refunded)' : 'MISSED ('+it.pnl+'u)'}`
+        ).join('\n');
+      }
+      alert(msg);
       loadLedger();
     } catch (err: any) {
       alert(`Auto-grade error: ${err.message}`);
     } finally {
       setIsGrading(false);
+    }
+  };
+
+  const openSettleModal = (bet: LedgerBet) => {
+    setSettleModalBet(bet);
+    setModalScoreH(0);
+    setModalScoreA(0);
+    setModalCardsH(2);
+    setModalCardsA(2);
+  };
+
+  const handleManualSettle = async () => {
+    if (!settleModalBet) return;
+    setIsSubmittingScore(true);
+    try {
+      const parts = settleModalBet.fixture.split(' vs ');
+      const homeTeam = parts[0]?.trim() || '';
+      const awayTeam = parts[1]?.trim() || '';
+
+      const res = await settleMatchScore({
+        league: settleModalBet.league,
+        home_team: homeTeam,
+        away_team: awayTeam,
+        score_h: Number(modalScoreH),
+        score_a: Number(modalScoreA),
+        cards_h: Number(modalCardsH),
+        cards_a: Number(modalCardsA)
+      });
+
+      alert(res.message || `Successfully settled ${homeTeam} ${modalScoreH} - ${modalScoreA} ${awayTeam}!`);
+      setSettleModalBet(null);
+      loadLedger();
+    } catch (err: any) {
+      alert(`Settlement failed: ${err.message}`);
+    } finally {
+      setIsSubmittingScore(false);
     }
   };
 
@@ -211,16 +264,34 @@ export const LedgerHub: React.FC = () => {
                               <CheckCircle2 className="w-3.5 h-3.5" />
                               <span>HIT</span>
                             </span>
+                          ) : b.is_hit === 2 ? (
+                            <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-cyan-500/10 text-cyan-400 border border-cyan-500/20 font-bold text-[11px]" title="Stake Refunded (Push)">
+                              <MinusCircle className="w-3.5 h-3.5" />
+                              <span>PUSH</span>
+                            </span>
                           ) : b.is_hit === 0 ? (
                             <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-rose-500/10 text-rose-400 border border-rose-500/20 font-bold text-[11px]">
                               <XCircle className="w-3.5 h-3.5" />
                               <span>MISSED</span>
                             </span>
                           ) : (
-                            <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-amber-500/10 text-amber-400 border border-amber-500/20 font-bold text-[11px]">
-                              <Clock className="w-3.5 h-3.5" />
-                              <span>PENDING</span>
-                            </span>
+                            <div className="flex items-center gap-2">
+                              <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-amber-500/10 text-amber-400 border border-amber-500/20 font-bold text-[11px]">
+                                <Clock className="w-3.5 h-3.5" />
+                                <span>PENDING</span>
+                              </span>
+                              <button
+                                onClick={(e) => {
+                                  e.stopPropagation();
+                                  openSettleModal(b);
+                                }}
+                                className="inline-flex items-center gap-1 px-2 py-0.5 rounded-lg bg-brand-emerald/10 hover:bg-brand-emerald/20 text-brand-emerald border border-brand-emerald/30 text-[11px] font-bold transition-all shadow-sm"
+                                title="Enter verified final score to settle immediately"
+                              >
+                                <Zap className="w-3 h-3" />
+                                <span>Settle</span>
+                              </button>
+                            </div>
                           )}
                         </td>
 
@@ -247,13 +318,15 @@ export const LedgerHub: React.FC = () => {
 
                         {/* Actual Score */}
                         <td className="py-3 px-3 font-mono text-slate-300 font-semibold">
-                          {b.actual_score}
+                          {b.actual_score || '—'}
                         </td>
 
                         {/* PnL */}
                         <td className="py-3 px-4 text-right font-mono font-bold">
                           {b.is_hit === 1 ? (
                             <span className="text-emerald-400">+{Number(b.pnl || 0).toFixed(2)}u</span>
+                          ) : b.is_hit === 2 ? (
+                            <span className="text-cyan-400">0.00u</span>
                           ) : b.is_hit === 0 ? (
                             <span className="text-rose-400">{Number(b.pnl || 0).toFixed(2)}u</span>
                           ) : (
@@ -300,6 +373,136 @@ export const LedgerHub: React.FC = () => {
           </div>
         )}
       </div>
+
+      {/* Manual Settlement Modal */}
+      {settleModalBet && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/70 backdrop-blur-sm">
+          <div className="bg-surface-card border border-border-medium rounded-2xl p-6 max-w-md w-full shadow-2xl space-y-5 animate-in fade-in zoom-in-95 duration-150">
+            <div className="flex items-center justify-between border-b border-border-subtle pb-3">
+              <div>
+                <span className="text-[10px] font-mono text-brand-emerald uppercase tracking-wider font-bold">
+                  Instant Match Settlement
+                </span>
+                <h3 className="text-base font-bold text-white mt-0.5">
+                  {settleModalBet.fixture}
+                </h3>
+              </div>
+              <button
+                onClick={() => setSettleModalBet(null)}
+                className="p-1 rounded-lg hover:bg-surface-elevated text-slate-400 hover:text-white transition-colors"
+              >
+                <X className="w-5 h-5" />
+              </button>
+            </div>
+
+            <div className="p-3 bg-surface-elevated/50 rounded-xl border border-border-subtle text-xs space-y-1">
+              <div className="flex justify-between">
+                <span className="text-slate-400">Locked Pick:</span>
+                <span className="text-brand-cyan font-semibold">{settleModalBet.predicted_pick}</span>
+              </div>
+              <div className="flex justify-between">
+                <span className="text-slate-400">Odds / Stake:</span>
+                <span className="text-white font-mono">{Number(settleModalBet.opening_odds).toFixed(2)} @ {settleModalBet.stake_units}u</span>
+              </div>
+            </div>
+
+            <div className="space-y-4">
+              <div>
+                <label className="block text-xs font-mono text-slate-300 mb-2">
+                  FINAL MATCH SCORE (Home - Away)
+                </label>
+                <div className="flex items-center gap-3">
+                  <div className="flex-1">
+                    <span className="text-[11px] text-slate-400 block mb-1 truncate">
+                      {settleModalBet.fixture.split(' vs ')[0]}
+                    </span>
+                    <input
+                      type="number"
+                      min="0"
+                      max="20"
+                      value={modalScoreH}
+                      onChange={(e) => setModalScoreH(parseInt(e.target.value) || 0)}
+                      className="w-full bg-surface-elevated border border-border-subtle rounded-xl px-3 py-2 text-center text-lg font-bold text-white focus:border-brand-emerald outline-none font-mono"
+                    />
+                  </div>
+                  <span className="text-slate-500 font-bold text-xl pt-4">:</span>
+                  <div className="flex-1">
+                    <span className="text-[11px] text-slate-400 block mb-1 truncate">
+                      {settleModalBet.fixture.split(' vs ')[1]}
+                    </span>
+                    <input
+                      type="number"
+                      min="0"
+                      max="20"
+                      value={modalScoreA}
+                      onChange={(e) => setModalScoreA(parseInt(e.target.value) || 0)}
+                      className="w-full bg-surface-elevated border border-border-subtle rounded-xl px-3 py-2 text-center text-lg font-bold text-white focus:border-brand-emerald outline-none font-mono"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              {settleModalBet.predicted_pick.toLowerCase().includes('card') && (
+                <div>
+                  <label className="block text-xs font-mono text-slate-300 mb-2">
+                    TOTAL YELLOW CARDS (Derby Market)
+                  </label>
+                  <div className="grid grid-cols-2 gap-3">
+                    <div>
+                      <span className="text-[11px] text-slate-400 block mb-1">Home Cards</span>
+                      <input
+                        type="number"
+                        min="0"
+                        value={modalCardsH}
+                        onChange={(e) => setModalCardsH(parseInt(e.target.value) || 0)}
+                        className="w-full bg-surface-elevated border border-border-subtle rounded-xl px-3 py-2 text-center font-mono text-sm text-white focus:border-brand-emerald outline-none"
+                      />
+                    </div>
+                    <div>
+                      <span className="text-[11px] text-slate-400 block mb-1">Away Cards</span>
+                      <input
+                        type="number"
+                        min="0"
+                        value={modalCardsA}
+                        onChange={(e) => setModalCardsA(parseInt(e.target.value) || 0)}
+                        className="w-full bg-surface-elevated border border-border-subtle rounded-xl px-3 py-2 text-center font-mono text-sm text-white focus:border-brand-emerald outline-none"
+                      />
+                    </div>
+                  </div>
+                </div>
+              )}
+            </div>
+
+            <div className="flex items-center justify-end gap-3 pt-3 border-t border-border-subtle">
+              <button
+                type="button"
+                onClick={() => setSettleModalBet(null)}
+                className="px-4 py-2 rounded-xl text-xs font-semibold text-slate-400 hover:text-white transition-colors"
+              >
+                Cancel
+              </button>
+              <button
+                type="button"
+                onClick={handleManualSettle}
+                disabled={isSubmittingScore}
+                className="px-5 py-2 rounded-xl bg-brand-emerald text-brand-dark font-bold text-xs hover:bg-emerald-400 transition-all flex items-center gap-2 disabled:opacity-50"
+              >
+                {isSubmittingScore ? (
+                  <>
+                    <RefreshCw className="w-3.5 h-3.5 animate-spin" />
+                    <span>Grading...</span>
+                  </>
+                ) : (
+                  <>
+                    <CheckCircle2 className="w-3.5 h-3.5" />
+                    <span>Grade & Calibrate</span>
+                  </>
+                )}
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 };

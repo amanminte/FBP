@@ -67,12 +67,33 @@ export async function lockBetToLedger(bet: {
   return res.json();
 }
 
-export async function triggerAutoGrade(): Promise<{ graded_count: number; message: string }> {
+export async function triggerAutoGrade(): Promise<{ graded_count: number; message: string; summary?: any; graded_items?: any[] }> {
   const res = await fetch(`${BASE_URL}/ledger/auto-grade`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
   });
   if (!res.ok) throw new Error('Failed to auto-grade ledger');
+  return res.json();
+}
+
+export async function settleMatchScore(payload: {
+  league: string;
+  home_team: string;
+  away_team: string;
+  score_h: number;
+  score_a: number;
+  cards_h?: number;
+  cards_a?: number;
+}): Promise<any> {
+  const res = await fetch(`${BASE_URL}/ledger/settle-match`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(payload),
+  });
+  if (!res.ok) {
+    const errData = await res.json().catch(() => ({}));
+    throw new Error(errData.detail || 'Failed to settle match score');
+  }
   return res.json();
 }
 

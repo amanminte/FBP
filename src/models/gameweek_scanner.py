@@ -194,6 +194,27 @@ def scan_weekly_gameweek(predictor, league: str = "E0", gameweek: Optional[int] 
                 "reason": "Both clubs possess fluid frontlines with open transitions, creating high probability of mutual goals."
             })
 
+        # 8. Quantitative Corners Market
+        corners_m = all_m.get("corners", {})
+        best_corner = corners_m.get("best_corner_bet")
+        if best_corner and best_corner.get("probability", 0) >= 70.0:
+            cands.append({
+                "category": "Corners",
+                "pick_type": best_corner["market"],
+                "win_percentage": float(best_corner["probability"]),
+                "fair_odds": float(best_corner["odds"]),
+                "reason": best_corner["rationale"]
+            })
+        elif corners_m.get("under_12_5", 0) >= 80.0:
+            p_u12 = float(corners_m["under_12_5"])
+            cands.append({
+                "category": "Corners",
+                "pick_type": "Under 12.5 Total Match Corners",
+                "win_percentage": p_u12,
+                "fair_odds": float(round(100.0 / p_u12, 2)),
+                "reason": f"Wing metrics project {corners_m.get('lambda_corners', 9.8):.1f} total corners, staying well under 13."
+            })
+
         # Fallback if empty
         if not cands:
             cands.append({
@@ -215,13 +236,16 @@ def scan_weekly_gameweek(predictor, league: str = "E0", gameweek: Optional[int] 
             "consensus_tier": penta.get("consensus_tier", "High Confidence"),
             "consensus_count": penta.get("consensus_count", 4),
             "yellow_cards": rep.get("yellow_cards", {}),
-            "card_pick": rep.get("yellow_cards", {}).get("best_card_bet", {})
+            "card_pick": rep.get("yellow_cards", {}).get("best_card_bet", {}),
+            "corners": rep.get("corners", {}),
+            "corner_pick": best_corner or {}
         })
 
     # Adaptive Diversity Allocation Pass across the entire round
     category_counts = {}
     CATEGORY_MAX = {
         "Yellow Cards": 1,
+        "Corners": 2,
         "Draw No Bet": 2,
         "Double Chance": 2,
         "Team Goals": 2,

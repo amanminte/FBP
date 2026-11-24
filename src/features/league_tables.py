@@ -120,6 +120,65 @@ CURRENT_2627_STANDINGS: Dict[str, List[Dict[str, Any]]] = {
 }
 
 
+CANONICAL_ALIASES: Dict[str, str] = {
+    # Premier League
+    "man city": "Manchester City",
+    "manchester c": "Manchester City",
+    "man utd": "Manchester United",
+    "man united": "Manchester United",
+    "forest": "Nottingham Forest",
+    "nott'm forest": "Nottingham Forest",
+    "spurs": "Tottenham",
+    "tottenham hotspur": "Tottenham",
+    "wolves": "Wolverhampton",
+    "wolverhampton wanderers": "Wolverhampton",
+    "coventry": "Coventry City",
+    "ipswich": "Ipswich Town",
+    "hull": "Hull City",
+    "newcastle": "Newcastle",
+    "newcastle united": "Newcastle",
+    "villa": "Aston Villa",
+    "brighton & hove albion": "Brighton",
+    "west ham": "West Ham",
+    "west ham united": "West Ham",
+    # La Liga
+    "ath bilbao": "Athletic Club",
+    "athletic": "Athletic Club",
+    "ath madrid": "Atletico Madrid",
+    "atlético madrid": "Atletico Madrid",
+    "atlético de madrid": "Atletico Madrid",
+    "atletico": "Atletico Madrid",
+    "sociedad": "Real Sociedad",
+    "betis": "Real Betis",
+    "vallecano": "Rayo Vallecano",
+    "celta": "Celta Vigo",
+    "depor": "Deportivo La Coruna",
+    "deportivo": "Deportivo La Coruna",
+    "racing": "Racing Santander",
+    "racing club": "Racing Santander",
+    # Serie A
+    "milan": "AC Milan",
+    "inter": "Inter",
+    "inter milan": "Inter",
+    "roma": "AS Roma",
+    # Bundesliga
+    "bayern": "Bayern Munich",
+    "dortmund": "Borussia Dortmund",
+    "leverkusen": "Bayer Leverkusen",
+    "gladbach": "Borussia Mönchengladbach",
+    "m'gladbach": "Borussia Mönchengladbach",
+    "frankfurt": "Eintracht Frankfurt",
+    "leipzig": "RB Leipzig",
+    "mainz": "1. FSV Mainz 05",
+    "mainz 05": "1. FSV Mainz 05",
+    "union berlin": "1. FC Union Berlin",
+    # Ligue 1
+    "psg": "Paris Saint-Germain",
+    "paris": "Paris FC",
+    "marseille": "Olympique de Marseille",
+    "lyon": "Olympique Lyonnais"
+}
+
 OFFICIAL_DISPLAY_NAMES = {
     # German Bundesliga
     "Ein Frankfurt": "Eintracht Frankfurt",
@@ -216,19 +275,45 @@ class LeagueManager:
         return None
 
     def get_team_stats(self, team_name: str, league: str) -> Dict[str, Any]:
-        """Returns rank and points dictionary for odds calculation."""
+        """Returns rank, points, and goal metrics dictionary for odds calculation."""
         tbl = self.tables.get(league)
+        t_clean = team_name.lower().strip()
+        canonical_name = CANONICAL_ALIASES.get(t_clean, team_name)
+
         if tbl is not None:
-            m = tbl[tbl["Team"] == team_name]
+            m = tbl[tbl["Team"] == canonical_name]
             if len(m) > 0:
                 r = m.iloc[0]
-                return {"rank": int(r["Rank"]), "points": int(r["Pts"]), "gd": int(r["GD"])}
-            t_low = team_name.lower().strip()
+                return {
+                    "rank": int(r["Rank"]),
+                    "points": int(r["Pts"]),
+                    "played": int(r.get("P", 11)),
+                    "w": int(r.get("W", 4)),
+                    "d": int(r.get("D", 3)),
+                    "l": int(r.get("L", 4)),
+                    "gf": int(r.get("GF", 15)),
+                    "ga": int(r.get("GA", 15)),
+                    "gd": int(r["GD"])
+                }
             for _, r in tbl.iterrows():
                 r_t = str(r["Team"]).lower().strip()
-                if t_low == r_t or t_low in r_t or r_t in t_low:
-                    return {"rank": int(r["Rank"]), "points": int(r["Pts"]), "gd": int(r["GD"])}
-        return {"rank": 10, "points": 15, "gd": 0}
+                if t_clean == r_t or t_clean in r_t or r_t in t_clean or canonical_name.lower() in r_t:
+                    return {
+                        "rank": int(r["Rank"]),
+                        "points": int(r["Pts"]),
+                        "played": int(r.get("P", 11)),
+                        "w": int(r.get("W", 4)),
+                        "d": int(r.get("D", 3)),
+                        "l": int(r.get("L", 4)),
+                        "gf": int(r.get("GF", 15)),
+                        "ga": int(r.get("GA", 15)),
+                        "gd": int(r["GD"])
+                    }
+        # Fallback to cross-league search
+        cross = self.find_team_stats(team_name)
+        if cross:
+            return cross
+        return {"rank": 10, "points": 15, "played": 11, "w": 4, "d": 3, "l": 4, "gf": 15, "ga": 15, "gd": 0}
 
     def find_team_stats(self, team_name: str) -> Optional[Dict[str, Any]]:
         """Finds team stats across all active leagues."""

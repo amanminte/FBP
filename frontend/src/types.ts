@@ -49,9 +49,11 @@ export interface PentaConsensus {
   safest_recommended_market?: string;
   common_ground_market?: {
     market: string;
+    category?: string;
     fair_odds: number;
     agreement_count: number;
     scorelines: string[];
+    reason?: string;
   };
   sources?: ConsensusSource[];
   individual_predictions?: Record<string, any>;
@@ -73,6 +75,88 @@ export interface YellowCardsData {
   };
 }
 
+export interface CornersData {
+  expected_total_corners: number;
+  expected_home_corners: number;
+  expected_away_corners: number;
+  wing_play_factor_home?: number;
+  wing_play_factor_away?: number;
+  tactical_rationale?: string;
+  wing_profiles_note?: string;
+  probabilities?: Record<string, number>;
+  fair_odds?: Record<string, number>;
+  best_corner_bet?: {
+    market: string;
+    category: string;
+    probability: number;
+    odds: number;
+    confidence_tier: string;
+    rationale: string;
+  };
+}
+
+export interface TeamAtmosphere {
+  team: string;
+  manager: string;
+  manager_status: string;
+  manager_reliability_pct: number;
+  manager_badge: string;
+  manager_note: string;
+  atmosphere_label: string;
+  atmosphere_sentiment: string;
+  atmosphere_color: string;
+  morale_index_pct: number;
+  xg_attack_shift: number;
+  xg_defense_concede_shift: number;
+  verified_news: Array<{
+    title: string;
+    source: string;
+    link: string;
+    published?: string;
+  }>;
+  form: {
+    team: string;
+    form_sequence?: string[];
+    form_string?: string;
+    points_last_5?: number;
+    points_per_game: number;
+    goals_for_last_5?: number;
+    goals_against_last_5?: number;
+    goal_diff_last_5?: number;
+    momentum_trend?: string;
+    sequence?: string[];
+    record?: { wins: number; draws: number; losses: number };
+    goal_diff?: number;
+    summary?: string;
+  };
+}
+
+export interface TacticalIntelligence {
+  fixture: string;
+  league_code: string;
+  timestamp: string;
+  home: TeamAtmosphere;
+  away: TeamAtmosphere;
+  atmosphere_differential: {
+    home_momentum_score: number;
+    away_momentum_score: number;
+    net_edge: string;
+    verdict: string;
+    xg_net_home_bias: number;
+    xg_net_away_bias: number;
+  };
+}
+
+export interface TacticalRecommendation {
+  bet: string;
+  market: string;
+  outcome_code?: string;
+  probability: number;
+  fair_odds: number;
+  badge: string;
+  reasoning: string;
+}
+
 export interface MatchPrediction {
   fixture: string;
   competition: string;
@@ -89,14 +173,21 @@ export interface MatchPrediction {
     home_xg: number;
     away_xg: number;
     total_xg: number;
+    lambda_home?: number;
+    lambda_away?: number;
   };
   top_3_scorelines: Array<{
     score: string;
     probability_pct: number;
+    prob?: number;
   }>;
   penta_consensus: PentaConsensus;
   yellow_cards: YellowCardsData;
+  corners?: CornersData;
   alternative_bet_ideas?: SafePick[];
+  tactical_intelligence?: TacticalIntelligence;
+  tactical_1x2_recommendation?: TacticalRecommendation;
+  tactical_dc_recommendation?: TacticalRecommendation;
   timestamp: string;
 }
 

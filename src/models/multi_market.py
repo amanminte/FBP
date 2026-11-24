@@ -17,6 +17,7 @@ import math
 import numpy as np
 from typing import Dict, List, Any, Tuple, Optional
 from src.models.cards_model import YellowCardsEngine
+from src.models.corners_model import CornersEngine
 
 def poisson_pmf(k: int, lamb: float) -> float:
     """Computes Poisson probability P(X = k; lambda)."""
@@ -113,8 +114,28 @@ def compute_all_market_probabilities(
     p_btts_yes = float(sum(matrix[h, a] for h in range(1, 9) for a in range(1, 9)))
     p_btts_no = 1.0 - p_btts_yes
     
-    # Corners
-    corner_probs = calculate_corner_probabilities(lambda_h, lambda_a)
+    # Quantitative Corners via CornersEngine
+    corner_pred = CornersEngine.get_instance().predict_corners(home_team, away_team, league=league)
+    corner_probs = {
+        "expected_total_corners": corner_pred["expected_total_corners"],
+        "lambda_corners": corner_pred["expected_total_corners"],
+        "expected_home_corners": corner_pred["expected_home_corners"],
+        "expected_away_corners": corner_pred["expected_away_corners"],
+        "over_8_5": corner_pred["probabilities"]["over_8_5"],
+        "under_8_5": corner_pred["probabilities"]["under_8_5"],
+        "over_9_5": corner_pred["probabilities"]["over_9_5"],
+        "under_9_5": corner_pred["probabilities"]["under_9_5"],
+        "under_10_5": corner_pred["probabilities"]["under_10_5"],
+        "over_10_5": corner_pred["probabilities"]["over_10_5"],
+        "under_12_5": corner_pred["probabilities"]["under_12_5"],
+        "over_12_5": corner_pred["probabilities"]["over_12_5"],
+        "most_corners_home": corner_pred["probabilities"]["most_corners_home"],
+        "home_or_tie_corners": corner_pred["probabilities"]["home_or_tie_corners"],
+        "wing_play_factor_home": corner_pred["wing_play_factor_home"],
+        "wing_play_factor_away": corner_pred["wing_play_factor_away"],
+        "tactical_rationale": corner_pred["tactical_rationale"],
+        "best_corner_bet": corner_pred["best_corner_bet"]
+    }
     
     # Draw No Bet
     sum_ha = p_home + p_away
@@ -204,6 +225,47 @@ def get_alternative_bet_ideas(
     m = compute_all_market_probabilities(home_team, away_team, p_home, p_draw, p_away, lambda_h, lambda_a, league=league, referee=referee)
     ideas = []
 
+    # 0. 1X2 & Double Chance Tactical Recommendations
+    if p_home >= 50.0:
+        ideas.append({
+            "title": f"1X2: {home_team} to Win",
+            "category": "🎯 1X2 Outright Winner",
+            "win_pct": round(p_home, 1),
+            "fair_odds": round(100.0 / p_home, 2),
+            "badge": "🟢 High Conviction Winner",
+            "reason": f"{home_team} holds decisive statistical and positional edge at {p_home:.1f}% win expectancy."
+        })
+    elif p_away >= 50.0:
+        ideas.append({
+            "title": f"1X2: {away_team} to Win",
+            "category": "🎯 1X2 Outright Winner",
+            "win_pct": round(p_away, 1),
+            "fair_odds": round(100.0 / p_away, 2),
+            "badge": "🟢 High Conviction Winner",
+            "reason": f"{away_team} enters with superior attacking momentum and {p_away:.1f}% win expectancy."
+        })
+
+    p_1x = m["double_chance"]["1X"]
+    p_x2 = m["double_chance"]["X2"]
+    if p_1x >= 70.0:
+        ideas.append({
+            "title": f"Double Chance: {home_team} or Draw (1X)",
+            "category": "🛡️ Double Chance Lock",
+            "win_pct": p_1x,
+            "fair_odds": round(100.0 / p_1x, 2),
+            "badge": "🛡️ Ultra Safe Double Chance",
+            "reason": f"Covers both home victory and draw with {p_1x}% mathematical certainty."
+        })
+    elif p_x2 >= 70.0:
+        ideas.append({
+            "title": f"Double Chance: {away_team} or Draw (X2)",
+            "category": "🛡️ Double Chance Lock",
+            "win_pct": p_x2,
+            "fair_odds": round(100.0 / p_x2, 2),
+            "badge": "🛡️ Ultra Safe Double Chance",
+            "reason": f"Covers away victory and draw with {p_x2}% mathematical certainty."
+        })
+
     # 1. First Half Over 0.5 Goals (Banker)
     p_fh = m["first_half"]["over_05"]
     if p_fh >= 75.0:
@@ -283,7 +345,20 @@ def get_alternative_bet_ideas(
             "reason": f"{home_team} is projected to win by 2 or more goals against a bottom-half opponent."
         })
 
-    # 6. Discipline & Yellow Cards Special
+    # 6. Quantitative Corners Tactical Bet
+    corner_info = m.get("corners", {})
+    best_corner = corner_info.get("best_corner_bet")
+    if best_corner and best_corner.get("probability", 0) >= 65.0:
+        ideas.append({
+            "title": best_corner["market"],
+            "category": "🚩 Corners Market",
+            "win_pct": best_corner["probability"],
+            "fair_odds": best_corner["odds"],
+            "badge": "🟢 Ultra Safe Corner Lock" if best_corner["probability"] >= 78.0 else "🟡 Tactical Corner Edge",
+            "reason": best_corner["rationale"]
+        })
+
+    # 7. Discipline & Yellow Cards Special
     cards_info = m.get("yellow_cards", {})
     best_c = cards_info.get("best_card_bet")
     if best_c and best_c["win_percentage"] >= 65.0:
@@ -296,7 +371,7 @@ def get_alternative_bet_ideas(
             "reason": best_c["rationale"]
         })
 
-    return ideas[:5]
+    return ideas[:8]
 
 def get_top_3_safest_picks(
     home_team: str,
@@ -312,6 +387,35 @@ def get_top_3_safest_picks(
     """Analyzes all available betting markets and returns the TOP 3 SAFEST PICKS."""
     all_markets = compute_all_market_probabilities(home_team, away_team, p_home, p_draw, p_away, lambda_h, lambda_a, league=league, referee=referee)
     candidates = []
+
+    # 0. 1X2 Straight Match Winner (High Conviction Outright Pick)
+    if p_home >= 45.0:
+        candidates.append({
+            "pick_type": f"1X2: {home_team} to Win (1)",
+            "market_category": "1X2 Straight Winner",
+            "win_percentage": p_home,
+            "fair_odds": round(100.0 / p_home, 2),
+            "safety_badge": "🟢 Strong Outright Lock" if p_home >= 65.0 else "🟡 High Value 1X2 Edge",
+            "why_plain_english": f"{home_team} commands dominant probability at {p_home:.1f}% to take all 3 points based on tactical superiority, expected goals, and form."
+        })
+    elif p_away >= 45.0:
+        candidates.append({
+            "pick_type": f"1X2: {away_team} to Win (2)",
+            "market_category": "1X2 Straight Winner",
+            "win_percentage": p_away,
+            "fair_odds": round(100.0 / p_away, 2),
+            "safety_badge": "🟢 Strong Outright Lock" if p_away >= 65.0 else "🟡 High Value 1X2 Edge",
+            "why_plain_english": f"{away_team} commands commanding away advantage with {p_away:.1f}% probability of outright victory."
+        })
+    elif p_draw >= 32.0:
+        candidates.append({
+            "pick_type": "1X2: Full-Time Draw (X)",
+            "market_category": "1X2 Straight Winner",
+            "win_percentage": p_draw,
+            "fair_odds": round(100.0 / p_draw, 2),
+            "safety_badge": "🟡 High Value Draw Angle",
+            "why_plain_english": f"Symmetric match parameters indicate a high-likelihood stalemate ({p_draw:.1f}% draw expectancy)."
+        })
 
     # 1. Double Chance Home or Draw (1X)
     p_1x = all_markets["double_chance"]["1X"]
@@ -409,16 +513,26 @@ def get_top_3_safest_picks(
             "why_plain_english": f"{away_team} has an expected goals rate of {lambda_a:.2f} xG, giving them an {p_a_o05}% likelihood of scoring at least 1 goal."
         })
 
-    # 6. Over 8.5 Total Corners
-    p_c85 = all_markets["corners"]["over_8_5"]
-    if p_c85 >= 64.0:
+    # 6. Quantitative Corners Market
+    corner_info = all_markets.get("corners", {})
+    best_corner = corner_info.get("best_corner_bet")
+    if best_corner and best_corner.get("probability", 0) >= 65.0:
         candidates.append({
-            "pick_type": "Over 8.5 Total Corners",
+            "pick_type": best_corner["market"],
             "market_category": "Corners",
-            "win_percentage": p_c85,
-            "fair_odds": round(100.0 / p_c85, 2),
-            "safety_badge": "🟢 Ultra Safe" if p_c85 >= 75.0 else "🟡 Very Safe",
-            "why_plain_english": f"Attacking intensity projects {all_markets['corners']['lambda_corners']} corners ({p_c85}% chance of 9+)."
+            "win_percentage": best_corner["probability"],
+            "fair_odds": best_corner["odds"],
+            "safety_badge": "🟢 Ultra Safe" if best_corner["probability"] >= 78.0 else "🟡 Very Safe",
+            "why_plain_english": best_corner["rationale"]
+        })
+    elif corner_info.get("under_12_5", 0) >= 75.0:
+        candidates.append({
+            "pick_type": "Under 12.5 Total Match Corners",
+            "market_category": "Corners",
+            "win_percentage": corner_info["under_12_5"],
+            "fair_odds": round(100.0 / corner_info["under_12_5"], 2),
+            "safety_badge": "🟢 Ultra Safe",
+            "why_plain_english": f"Model projects {corner_info.get('lambda_corners', 9.8):.1f} total corners, providing a wide statistical safety margin under 13 corners."
         })
 
     # 7. Draw No Bet (Home DNB or Away DNB)

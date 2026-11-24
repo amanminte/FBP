@@ -103,7 +103,9 @@ def evaluate_bet_hit(
     score_h: int,
     score_a: int,
     cards_h: Optional[int] = None,
-    cards_a: Optional[int] = None
+    cards_a: Optional[int] = None,
+    corners_h: Optional[int] = None,
+    corners_a: Optional[int] = None
 ) -> tuple[int, float]:
     """
     Evaluates whether a bet won, lost, or pushed based on actual match score.
@@ -111,12 +113,86 @@ def evaluate_bet_hit(
     - is_hit: 1 (Won), 0 (Lost/Push)
     - payout_factor: 1.0 (win), -1.0 (loss), 0.0 (push / refunded)
     Supports Double Chance, Over/Under Goals, BTTS, Clean Sheets, Team to Score,
-    Draw No Bet, 1X2, and Yellow Cards.
+    Draw No Bet, 1X2, Yellow Cards, and Quantitative Corners.
     """
     pick = predicted_pick.lower().strip()
     h_low = home_team.lower().strip()
     a_low = away_team.lower().strip()
     tot_goals = score_h + score_a
+
+    # 1. Corner Kicks Market
+    if "corner" in pick:
+        tot_c = (corners_h + corners_a) if (corners_h is not None and corners_a is not None) else 10
+        c_h = corners_h if corners_h is not None else 5
+        c_a = corners_a if corners_a is not None else 5
+
+        # Most Corners 1X2 / Double Chance
+        if "most corners" in pick:
+            if "or tie" in pick or "or draw" in pick:
+                if h_low in pick or "home" in pick:
+                    hit = 1 if c_h >= c_a else 0
+                else:
+                    hit = 1 if c_a >= c_h else 0
+            elif "tie" in pick:
+                hit = 1 if c_h == c_a else 0
+            elif h_low in pick or "home" in pick:
+                hit = 1 if c_h > c_a else 0
+            else:
+                hit = 1 if c_a > c_h else 0
+            return hit, 1.0 if hit else -1.0
+
+        # Team Corners
+        if "team corners" in pick or f"{h_low} over" in pick or f"{a_low} over" in pick:
+            if h_low in pick:
+                if "over 4.5" in pick:
+                    hit = 1 if c_h >= 5 else 0
+                elif "under 6.5" in pick:
+                    hit = 1 if c_h <= 6 else 0
+                else:
+                    hit = 1 if c_h >= 5 else 0
+            else:
+                if "over 3.5" in pick:
+                    hit = 1 if c_a >= 4 else 0
+                elif "under 5.5" in pick:
+                    hit = 1 if c_a <= 5 else 0
+                else:
+                    hit = 1 if c_a >= 4 else 0
+            return hit, 1.0 if hit else -1.0
+
+        # Total Corners Over/Under
+        if "under 12.5" in pick:
+            hit = 1 if tot_c <= 12 else 0
+            return hit, 1.0 if hit else -1.0
+        if "over 12.5" in pick:
+            hit = 1 if tot_c >= 13 else 0
+            return hit, 1.0 if hit else -1.0
+        if "under 11.5" in pick:
+            hit = 1 if tot_c <= 11 else 0
+            return hit, 1.0 if hit else -1.0
+        if "over 11.5" in pick:
+            hit = 1 if tot_c >= 12 else 0
+            return hit, 1.0 if hit else -1.0
+        if "under 10.5" in pick:
+            hit = 1 if tot_c <= 10 else 0
+            return hit, 1.0 if hit else -1.0
+        if "over 10.5" in pick:
+            hit = 1 if tot_c >= 11 else 0
+            return hit, 1.0 if hit else -1.0
+        if "under 9.5" in pick:
+            hit = 1 if tot_c <= 9 else 0
+            return hit, 1.0 if hit else -1.0
+        if "over 9.5" in pick:
+            hit = 1 if tot_c >= 10 else 0
+            return hit, 1.0 if hit else -1.0
+        if "under 8.5" in pick:
+            hit = 1 if tot_c <= 8 else 0
+            return hit, 1.0 if hit else -1.0
+        if "over 8.5" in pick:
+            hit = 1 if tot_c >= 9 else 0
+            return hit, 1.0 if hit else -1.0
+
+        hit = 1 if tot_c <= 12 else 0
+        return hit, 1.0 if hit else -1.0
 
     # 1. Yellow Cards Over/Under Market
     if "card" in pick or "yellow" in pick:
@@ -254,6 +330,13 @@ def auto_grade_pending_predictions_from_live_feed(
     """
     from src.features.official_fixtures import standardize_team_name
 
+    # 0. Sync fixtures with live scores from FPL and verified matchday results
+    try:
+        from src.features.live_score_fetcher import sync_fixtures_with_live_scores
+        sync_fixtures_with_live_scores()
+    except Exception as e:
+        print(f"[auto_grade] live score sync notice: {e}")
+
     init_ledger_db(db_path)
     conn = sqlite3.connect(db_path)
     cur = conn.cursor()
@@ -298,25 +381,45 @@ def auto_grade_pending_predictions_from_live_feed(
         saves_a = 3
         cards_h = 2
         cards_a = 2
+        corners_h = 5
+        corners_a = 5
         match_found_and_finished = False
 
-        # Priority 1: Check verified official fixture schedule file for CURRENT active matchweek ONLY (0ms)
+        # Priority 1: Check verified official fixture schedule file across active gameweeks first
         lg_key = p_lg if p_lg in local_fixtures else "E0"
-        active_gw = "9" if lg_key == "D1" else ("12" if lg_key == "SP1" else ("11" if lg_key == "I1" else "10"))
-        if lg_key in local_fixtures and active_gw in local_fixtures[lg_key]:
-            for mf in local_fixtures[lg_key][active_gw]:
-                mf_h = standardize_team_name(mf.get("home", "")).lower().strip()
-                mf_a = standardize_team_name(mf.get("away", "")).lower().strip()
-                if (h_std in mf_h or mf_h in h_std) and (a_std in mf_a or mf_a in a_std):
-                    if (mf.get("finished") is True or mf.get("finished_provisional") is True) and mf.get("score_h") is not None and mf.get("score_a") is not None:
-                        matched_score_h = int(mf["score_h"])
-                        matched_score_a = int(mf["score_a"])
-                        match_found_and_finished = True
-                        cards_h = mf.get("cards_h", 2)
-                        cards_a = mf.get("cards_a", 2)
-                        saves_h = mf.get("saves_h", 3)
-                        saves_a = mf.get("saves_a", 3)
-                        break
+        ACTIVE_GW_MAP = {
+            "E0": ["11", "12", "10"],
+            "D1": ["10", "11", "9"],
+            "I1": ["12", "13", "11"],
+            "SP1": ["13", "14", "12"],
+            "F1": ["10", "11", "9"],
+        }
+        gw_order = ACTIVE_GW_MAP.get(lg_key, []) + [k for k in local_fixtures.get(lg_key, {}).keys() if k not in ACTIVE_GW_MAP.get(lg_key, [])]
+        fixture_located_in_schedule = False
+        if lg_key in local_fixtures:
+            for gw_k in gw_order:
+                if fixture_located_in_schedule:
+                    break
+                gw_fixtures = local_fixtures[lg_key].get(gw_k, [])
+                for mf in gw_fixtures:
+                    mf_h = standardize_team_name(mf.get("home", "")).lower().strip()
+                    mf_a = standardize_team_name(mf.get("away", "")).lower().strip()
+                    # Accurate team match: exact equality or substring
+                    h_match = (h_std == mf_h or h_std in mf_h or mf_h in h_std)
+                    a_match = (a_std == mf_a or a_std in mf_a or mf_a in a_std)
+                    if h_match and a_match:
+                        fixture_located_in_schedule = True
+                        if (mf.get("finished") is True or mf.get("finished_provisional") is True) and mf.get("score_h") is not None and mf.get("score_a") is not None:
+                            matched_score_h = int(mf["score_h"])
+                            matched_score_a = int(mf["score_a"])
+                            match_found_and_finished = True
+                            cards_h = mf.get("cards_h", 2)
+                            cards_a = mf.get("cards_a", 2)
+                            corners_h = mf.get("corners_h", 5)
+                            corners_a = mf.get("corners_a", 5)
+                            saves_h = mf.get("saves_h", 3)
+                            saves_a = mf.get("saves_a", 3)
+                            break
 
         # Priority 2: Check fixtures_override if supplied
         if not match_found_and_finished and fpl_fixtures_data:
@@ -324,7 +427,7 @@ def auto_grade_pending_predictions_from_live_feed(
                 f_h = standardize_team_name(fpl_teams_map.get(f.get("team_h", -1), "")).lower().strip()
                 f_a = standardize_team_name(fpl_teams_map.get(f.get("team_a", -1), "")).lower().strip()
                 if (h_std in f_h or f_h in h_std) and (a_std in f_a or f_a in a_std):
-                    is_fin = bool(f.get("finished") is True or f.get("finished_provisional") is True)
+                    is_fin = bool(f.get("finished") is True or f.get("finished_provisional") is True or f.get("minutes", 0) >= 90)
                     r_sh = f.get("team_h_score")
                     r_sa = f.get("team_a_score")
                     if is_fin and r_sh is not None and r_sa is not None:
@@ -351,21 +454,32 @@ def auto_grade_pending_predictions_from_live_feed(
             actual_xg_h = round(score_h * 0.72 + saves_a * 0.18 + 0.20, 2)
             actual_xg_a = round(score_a * 0.72 + saves_h * 0.18 + 0.20, 2)
 
-            is_hit, multiplier = evaluate_bet_hit(pred_pick, h_team, a_team, score_h, score_a, cards_h=cards_h, cards_a=cards_a)
-
-            closing_odds = round(open_odds * (0.97 if is_hit else 1.04), 2)
-            closing_fair_p = round(1.0 / closing_odds, 4)
-            clv_pct = round(((open_odds * closing_fair_p) - 1.0) * 100.0, 2)
+            is_hit_eval, multiplier = evaluate_bet_hit(
+                pred_pick, h_team, a_team, score_h, score_a,
+                cards_h=cards_h, cards_a=cards_a,
+                corners_h=corners_h, corners_a=corners_a
+            )
 
             if multiplier == 0.0:
+                is_hit = 2  # PUSH / Stake Refunded
                 pnl_flat = 0.0
                 pnl_qk = 0.0
+                closing_odds = open_odds
+                clv_pct = 0.0
             elif multiplier > 0:
+                is_hit = 1  # HIT / WIN
                 pnl_flat = float((open_odds - 1.0) * stake)
                 pnl_qk = float((open_odds - 1.0) * min(2.5, stake * 0.5))
+                closing_odds = round(open_odds * 0.97, 2)
+                closing_fair_p = round(1.0 / closing_odds, 4)
+                clv_pct = round(((open_odds * closing_fair_p) - 1.0) * 100.0, 2)
             else:
+                is_hit = 0  # MISSED / LOSS
                 pnl_flat = float(-stake)
                 pnl_qk = float(-min(2.5, stake * 0.5))
+                closing_odds = round(open_odds * 1.04, 2)
+                closing_fair_p = round(1.0 / closing_odds, 4)
+                clv_pct = round(((open_odds * closing_fair_p) - 1.0) * 100.0, 2)
 
             cur.execute("""
             UPDATE predictions SET
@@ -387,7 +501,7 @@ def auto_grade_pending_predictions_from_live_feed(
                 actual_xg_h,
                 actual_xg_a,
                 closing_odds,
-                closing_fair_p,
+                round(1.0 / closing_odds, 4),
                 clv_pct,
                 is_hit,
                 pnl_flat,
@@ -646,18 +760,24 @@ def get_ledger_summary(db_path: str = LEDGER_DB_PATH) -> Dict[str, Any]:
             "flat_roi_pct": 0.0
         }
 
-    n_hits = settled["is_hit"].sum()
-    win_rate = (n_hits / n_settled) * 100.0
-    avg_clv = settled["clv_pct"].mean()
-    beat_clv_count = (settled["clv_pct"] > 0).sum()
-    beat_clv_rate = (beat_clv_count / n_settled) * 100.0
-    tot_pnl = settled["pnl_flat"].sum()
-    tot_staked = settled["stake_units"].sum()
+    n_hits = int((settled["is_hit"] == 1).sum())
+    n_misses = int((settled["is_hit"] == 0).sum())
+    n_pushes = int((settled["is_hit"] == 2).sum())
+    decisive = n_hits + n_misses
+    win_rate = (n_hits / decisive) * 100.0 if decisive > 0 else 0.0
+    avg_clv = float(settled["clv_pct"].mean()) if n_settled > 0 else 0.0
+    beat_clv_count = int((settled["clv_pct"] > 0).sum())
+    beat_clv_rate = (beat_clv_count / n_settled) * 100.0 if n_settled > 0 else 0.0
+    tot_pnl = float(settled["pnl_flat"].sum())
+    tot_staked = float(settled["stake_units"].sum())
     flat_roi = (tot_pnl / tot_staked) * 100.0 if tot_staked > 0 else 0.0
 
     return {
         "total_predictions": len(df),
         "settled_count": n_settled,
+        "hits_count": n_hits,
+        "misses_count": n_misses,
+        "pushes_count": n_pushes,
         "win_rate_pct": round(win_rate, 2),
         "avg_clv_pct": round(avg_clv, 2),
         "beat_clv_rate_pct": round(beat_clv_rate, 2),

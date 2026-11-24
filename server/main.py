@@ -21,10 +21,12 @@ from src.features.squad_database import get_squad_player_names, EXPANDED_SQUAD_D
 from src.features.official_fixtures import fetch_official_league_fixtures
 from src.models.gameweek_scanner import scan_weekly_gameweek, scan_all_european_leagues
 from src.models.continuous_learning import ContinuousLearningEngine
+from src.features.team_atmosphere_engine import fetch_match_tactical_intelligence
 from src.evaluation.live_clv_tracker import (
     record_live_prediction,
     get_ledger_summary,
     auto_grade_pending_predictions_from_live_feed,
+    update_match_final_score_in_fixtures,
     LEDGER_DB_PATH
 )
 
@@ -202,9 +204,11 @@ def predict_match(req: PredictRequest):
         if cg_raw.get("best_common_ground_market"):
             norm_cg = {
                 "market": cg_raw.get("best_common_ground_market"),
+                "category": cg_raw.get("category") or "Hepta-Lock",
                 "fair_odds": float(cg_raw.get("fair_odds") or 1.15),
                 "agreement_count": cg_raw.get("common_ground_agreement") or 5,
-                "scorelines": cg_raw.get("all_predicted_scores") or []
+                "scorelines": cg_raw.get("all_predicted_scores") or [],
+                "reason": cg_raw.get("plain_explanation") or ""
             }
 
         norm_penta = {
@@ -352,12 +356,56 @@ def lock_bet_to_ledger(req: LockBetRequest):
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
+class SettleMatchRequest(BaseModel):
+    league: str
+    home_team: str
+    away_team: str
+    score_h: int
+    score_a: int
+    cards_h: Optional[int] = 2
+    cards_a: Optional[int] = 2
+
+@app.post("/api/ledger/settle-match")
+def manual_settle_match(req: SettleMatchRequest):
+    """Updates fixture score and immediately grades all matching predictions in ledger."""
+    try:
+        res = update_match_final_score_in_fixtures(
+            league=req.league,
+            home_team=req.home_team,
+            away_team=req.away_team,
+            score_h=req.score_h,
+            score_a=req.score_a,
+            cards_h=req.cards_h or 2,
+            cards_a=req.cards_a or 2
+        )
+        return res
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
 @app.post("/api/ledger/auto-grade")
 def trigger_auto_grade():
-    """Auto-grades pending bets against official fixture results."""
+    """Auto-grades pending bets against official fixture results and live score feeds."""
     try:
         result = auto_grade_pending_predictions_from_live_feed()
+        summary = get_ledger_summary()
+        result["summary"] = summary
         return result
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.get("/api/intelligence/{league}/{home_team}/{away_team}")
+def get_match_tactical_intelligence(league: str, home_team: str, away_team: str):
+    """
+    Returns real-time multi-desk intelligence, manager reliability & hot-seat index,
+    squad morale score (0-100%), 5-game recent form splits, and tactical atmospheric edge.
+    """
+    try:
+        intel = fetch_match_tactical_intelligence(
+            home_team=home_team,
+            away_team=away_team,
+            league_code=league
+        )
+        return intel
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 

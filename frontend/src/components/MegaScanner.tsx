@@ -45,6 +45,9 @@ export const MegaScanner: React.FC<MegaScannerProps> = ({ onAddToSlip, slipItems
     if (categoryFilter === 'OVERS_UNDERS') {
       return cat.includes('Goals') || pick.includes('Match Goals');
     }
+    if (categoryFilter === 'CORNERS') {
+      return cat.includes('Corners') || pick.includes('Corner');
+    }
     if (categoryFilter === 'CARDS_BTTS') {
       return cat.includes('Yellow Cards') || cat.includes('BTTS') || pick.includes('Card') || pick.includes('BTTS');
     }
@@ -65,6 +68,8 @@ export const MegaScanner: React.FC<MegaScannerProps> = ({ onAddToSlip, slipItems
         return 'bg-cyan-500/10 border-cyan-500/30 text-cyan-400';
       case 'Yellow Cards':
         return 'bg-yellow-500/10 border-yellow-500/30 text-yellow-300';
+      case 'Corners':
+        return 'bg-teal-500/10 border-teal-500/30 text-teal-400';
       case 'BTTS':
         return 'bg-rose-500/10 border-rose-500/30 text-rose-400';
       default:
@@ -156,6 +161,7 @@ export const MegaScanner: React.FC<MegaScannerProps> = ({ onAddToSlip, slipItems
           { id: 'DNB_DC', label: '🛡️ Double Chance & DNB' },
           { id: 'TEAM', label: '🥅 Team Goals' },
           { id: 'OVERS_UNDERS', label: '📈 Overs & 📉 Unders' },
+          { id: 'CORNERS', label: '🚩 Corner Kicks' },
           { id: 'CARDS_BTTS', label: '🟨 Cards & Derbies' },
         ].map((f) => (
           <button

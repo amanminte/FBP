@@ -6,6 +6,7 @@ Outputs calibrated 1X2 %, goal totals, exact scorelines, EV %, Quarter-Kelly sta
 """
 import os
 import sys
+import math
 import argparse
 import json
 import joblib
@@ -29,6 +30,7 @@ from src.models.football_whispers import compute_football_whispers
 from src.models.football_predictions_com import compute_football_predictions_com
 from src.models.consensus_engine import evaluate_penta_consensus, evaluate_hepta_consensus
 from src.features.league_tables import LeagueManager
+from src.features.team_atmosphere_engine import fetch_match_tactical_intelligence
 
 sys.modules['__main__'].ModelBundleV2 = ModelBundleV2
 sys.modules['__main__'].PlattCalibrator = PlattCalibrator
@@ -544,16 +546,200 @@ class FootballPredictorV2:
             lambda_a=lambda_a
         )
 
+        # -------------------------------------------------------------
+        # MATHEMATICAL HEPTA FUSION (ENSEMBLE ACROSS ALL 7 PLATFORMS)
+        # Weights: Syndicate ML (0.25), Forebet (0.15), Understat (0.15),
+        #          WhoScored (0.12), FootballPredictions.com (0.12),
+        #          Football Whispers (0.11), FootballPredictor (0.10)
+        # -------------------------------------------------------------
+        fb_h = float(forebet_pred.get("forebet_probs", {}).get("home", 45.0))
+        fb_d = float(forebet_pred.get("forebet_probs", {}).get("draw", 25.0))
+        fb_a = float(forebet_pred.get("forebet_probs", {}).get("away", 30.0))
+
+        us_diff = float(understat_pred.get("xg_diff", lambda_h - lambda_a))
+        us_raw_h = 100.0 / (1.0 + math.exp(-max(-6.0, min(6.0, 1.35 * us_diff))))
+        us_raw_a = 100.0 / (1.0 + math.exp(max(-6.0, min(6.0, 1.35 * us_diff))))
+        us_raw_d = max(16.0, 100.0 - (us_raw_h * 0.72 + us_raw_a * 0.72))
+        us_norm = us_raw_h + us_raw_d + us_raw_a
+        us_h, us_d, us_a = (us_raw_h / us_norm) * 100.0, (us_raw_d / us_norm) * 100.0, (us_raw_a / us_norm) * 100.0
+
+        ws_h = float(whoscored_pred.get("prob_h", 45.0))
+        ws_d = float(whoscored_pred.get("prob_d", 25.0))
+        ws_a = float(whoscored_pred.get("prob_a", 30.0))
+
+        fp_h = float(football_pred.get("home_win_pct", 45.0))
+        fp_d = float(football_pred.get("draw_pct", 25.0))
+        fp_a = float(football_pred.get("away_win_pct", 30.0))
+
+        fw_raw_h = float(whispers_pred.get("home_prob", 0.45))
+        fw_h = fw_raw_h * 100.0 if fw_raw_h <= 1.0 else fw_raw_h
+        fw_raw_d = float(whispers_pred.get("draw_prob", 0.25))
+        fw_d = fw_raw_d * 100.0 if fw_raw_d <= 1.0 else fw_raw_d
+        fw_raw_a = float(whispers_pred.get("away_prob", 0.30))
+        fw_a = fw_raw_a * 100.0 if fw_raw_a <= 1.0 else fw_raw_a
+
+        fpc_raw_h = float(fpc_pred.get("prob_home", 0.45))
+        fpc_h = fpc_raw_h * 100.0 if fpc_raw_h <= 1.0 else fpc_raw_h
+        fpc_raw_d = float(fpc_pred.get("prob_draw", 0.25))
+        fpc_d = fpc_raw_d * 100.0 if fpc_raw_d <= 1.0 else fpc_raw_d
+        fpc_raw_a = float(fpc_pred.get("prob_away", 0.30))
+        fpc_a = fpc_raw_a * 100.0 if fpc_raw_a <= 1.0 else fpc_raw_a
+
+        hepta_prob_h = (
+            0.25 * (p_h * 100.0) +
+            0.15 * fb_h +
+            0.15 * us_h +
+            0.12 * ws_h +
+            0.12 * fpc_h +
+            0.11 * fw_h +
+            0.10 * fp_h
+        )
+        hepta_prob_d = (
+            0.25 * (p_d * 100.0) +
+            0.15 * fb_d +
+            0.15 * us_d +
+            0.12 * ws_d +
+            0.12 * fpc_d +
+            0.11 * fw_d +
+            0.10 * fp_d
+        )
+        hepta_prob_a = (
+            0.25 * (p_a * 100.0) +
+            0.15 * fb_a +
+            0.15 * us_a +
+            0.12 * ws_a +
+            0.12 * fpc_a +
+            0.11 * fw_a +
+            0.10 * fp_a
+        )
+        norm_total = hepta_prob_h + hepta_prob_d + hepta_prob_a
+        hepta_prob_h = round(hepta_prob_h / norm_total * 100.0, 1)
+        hepta_prob_d = round(hepta_prob_d / norm_total * 100.0, 1)
+        hepta_prob_a = round(100.0 - hepta_prob_h - hepta_prob_d, 1)
+
+        # Synthesize dynamic expected goals across Understat xG, Forebet, and Dixon-Coles
+        hepta_lambda_h = round(
+            0.40 * lambda_h +
+            0.30 * float(understat_pred.get("xg_h", lambda_h)) +
+            0.30 * float(football_pred.get("lambda_h", lambda_h)),
+            2
+        )
+        hepta_lambda_a = round(
+            0.40 * lambda_a +
+            0.30 * float(understat_pred.get("xg_a", lambda_a)) +
+            0.30 * float(football_pred.get("lambda_a", lambda_a)),
+            2
+        )
+        hepta_lambda_h = max(0.45, min(4.8, hepta_lambda_h))
+        hepta_lambda_a = max(0.35, min(4.2, hepta_lambda_a))
+
+        # Dynamic Dixon-Coles Bivariate Poisson Score Matrix
+        def _poisson_calc(k: int, lamb: float) -> float:
+            if lamb <= 0: return 1.0 if k == 0 else 0.0
+            return (lamb ** k) * math.exp(-lamb) / math.factorial(k)
+
+        sc_mat = np.zeros((8, 8))
+        for h in range(8):
+            ph = _poisson_calc(h, hepta_lambda_h)
+            for a in range(8):
+                pa = _poisson_calc(a, hepta_lambda_a)
+                sc_mat[h, a] = ph * pa
+
+        rho_dc = -0.11
+        sc_mat[0, 0] = max(0.0, sc_mat[0, 0] * (1.0 - hepta_lambda_h * hepta_lambda_a * rho_dc))
+        sc_mat[0, 1] = max(0.0, sc_mat[0, 1] * (1.0 + hepta_lambda_h * rho_dc))
+        sc_mat[1, 0] = max(0.0, sc_mat[1, 0] * (1.0 + hepta_lambda_a * rho_dc))
+        sc_mat[1, 1] = max(0.0, sc_mat[1, 1] * (1.0 - rho_dc))
+        if sc_mat.sum() > 0:
+            sc_mat /= sc_mat.sum()
+
+        dynamic_scores = []
+        for h in range(8):
+            for a in range(8):
+                p_val = round(float(sc_mat[h, a]) * 100.0, 1)
+                dynamic_scores.append({
+                    "score": f"{h} - {a}",
+                    "probability_pct": p_val,
+                    "prob": p_val
+                })
+        dynamic_scores.sort(key=lambda x: x["probability_pct"], reverse=True)
+        dynamic_top_3 = dynamic_scores[:3]
+
+        # 1X2 Tactical Suggestion
+        if hepta_prob_h >= 45.0:
+            tactical_1x2 = {
+                "bet": f"1X2: {home_team} to Win (1)",
+                "market": "Home Win (1)",
+                "outcome_code": "1",
+                "probability": hepta_prob_h,
+                "fair_odds": round(100.0 / hepta_prob_h, 2),
+                "badge": "🟢 High Conviction Winner" if hepta_prob_h >= 60.0 else "🟡 Moderate 1X2 Value",
+                "reasoning": f"All 7 Hepta engines synthesize {hepta_prob_h}% win probability with {hepta_lambda_h:.2f} projected goals."
+            }
+        elif hepta_prob_a >= 45.0:
+            tactical_1x2 = {
+                "bet": f"1X2: {away_team} to Win (2)",
+                "market": "Away Win (2)",
+                "outcome_code": "2",
+                "probability": hepta_prob_a,
+                "fair_odds": round(100.0 / hepta_prob_a, 2),
+                "badge": "🟢 High Conviction Winner" if hepta_prob_a >= 60.0 else "🟡 Moderate 1X2 Value",
+                "reasoning": f"All 7 Hepta engines project {hepta_prob_a}% away win probability with {hepta_lambda_a:.2f} goals."
+            }
+        else:
+            tactical_1x2 = {
+                "bet": f"Double Chance: {home_team} or Draw (1X)",
+                "market": "Draw / Double Chance Preferred",
+                "outcome_code": "1X",
+                "probability": round(hepta_prob_h + hepta_prob_d, 1),
+                "fair_odds": round(100.0 / max(1.0, hepta_prob_h + hepta_prob_d), 2),
+                "badge": "🟡 Value Equilibrium",
+                "reasoning": f"Tight contest ({hepta_prob_h}% H vs {hepta_prob_a}% A). Double chance is the mathematically optimal pick."
+            }
+
+        # Double Chance Tactical Suggestion
+        p_1x_val = round(hepta_prob_h + hepta_prob_d, 1)
+        p_x2_val = round(hepta_prob_a + hepta_prob_d, 1)
+        if p_1x_val >= p_x2_val:
+            tactical_dc = {
+                "bet": f"Double Chance: {home_team} or Draw (1X)",
+                "market": "1X",
+                "probability": p_1x_val,
+                "fair_odds": round(100.0 / max(1.0, p_1x_val), 2),
+                "badge": "🛡️ Ultra Safe Lock",
+                "reasoning": f"{home_team} needs only to avoid defeat. {p_1x_val}% mathematical safety coverage."
+            }
+        else:
+            tactical_dc = {
+                "bet": f"Double Chance: {away_team} or Draw (X2)",
+                "market": "X2",
+                "probability": p_x2_val,
+                "fair_odds": round(100.0 / max(1.0, p_x2_val), 2),
+                "badge": "🛡️ Ultra Safe Lock",
+                "reasoning": f"{away_team} needs only to avoid defeat away from home. {p_x2_val}% mathematical safety coverage."
+            }
+
+        # Tactical Atmosphere & Manager Intelligence Engine
+        try:
+            tactical_intel = fetch_match_tactical_intelligence(
+                home_team=home_team,
+                away_team=away_team,
+                league_code=fix_league
+            )
+        except Exception:
+            tactical_intel = None
+
         return {
             "fixture": f"{home_team} vs {away_team}",
             "competition": str(fixture_row["League"].values[0]) if "League" in fixture_row else "Top 5 European",
             "model_track": f"Track {track_upper}",
-            "prediction": pred_outcome,
+            "prediction": "Home Win" if hepta_prob_h >= max(hepta_prob_d, hepta_prob_a) else ("Away Win" if hepta_prob_a >= max(hepta_prob_d, hepta_prob_h) else "Draw"),
             "tier_badge": badge,
             "actionable_ticket_candidate": actionable,
             "top_3_safe_picks": safe_picks,
             "all_markets": all_markets,
             "yellow_cards": all_markets.get("yellow_cards", {}),
+            "corners": all_markets.get("corners", {}),
             "alternative_bet_ideas": alt_ideas,
             "forebet_prediction": forebet_pred,
             "forebet_fusion": forebet_fuse,
@@ -565,10 +751,13 @@ class FootballPredictorV2:
             "quad_consensus": quad_consensus,
             "penta_consensus": hepta_consensus,
             "hepta_consensus": hepta_consensus,
+            "tactical_intelligence": tactical_intel,
+            "tactical_1x2_recommendation": tactical_1x2,
+            "tactical_dc_recommendation": tactical_dc,
             "calibrated_probabilities": {
-                "home_win": round(p_h * 100.0, 1),
-                "draw": round(p_d * 100.0, 1),
-                "away_win": round(p_a * 100.0, 1)
+                "home_win": hepta_prob_h,
+                "draw": hepta_prob_d,
+                "away_win": hepta_prob_a
             },
             "market_odds": {"home": odds_h, "draw": odds_d, "away": odds_a},
             "expected_value_pct": round(ev_pct, 2),
@@ -579,10 +768,13 @@ class FootballPredictorV2:
                 "btts": round(p_btts * 100.0, 1)
             },
             "expected_goals": {
-                "lambda_home": round(lambda_h, 2),
-                "lambda_away": round(lambda_a, 2)
+                "home_xg": hepta_lambda_h,
+                "away_xg": hepta_lambda_a,
+                "total_xg": round(hepta_lambda_h + hepta_lambda_a, 2),
+                "lambda_home": hepta_lambda_h,
+                "lambda_away": hepta_lambda_a
             },
-            "top_3_scorelines": top_scores,
+            "top_3_scorelines": dynamic_top_3,
             "online_learning": {
                 "active": True,
                 "home_elo_drift": h_elo_boost,

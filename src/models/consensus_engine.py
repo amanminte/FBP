@@ -58,6 +58,8 @@ def find_common_ground_market(
         scores = [(1, 1)]
         tot_scores = 1
 
+    tot_xg = lambda_h + lambda_a
+
     # Evaluate candidate common ground markets
     # 1. Over 1.5 Goals
     o15_hits = sum(1 for h, a in scores if (h + a) >= 2)
@@ -75,7 +77,7 @@ def find_common_ground_market(
     u35_hits = sum(1 for h, a in scores if (h + a) <= 3)
     u35_pct = round(u35_hits / tot_scores * 100.0, 1)
 
-    # 5. Under 4.5 Goals (Ultra Safe)
+    # 5. Under 4.5 Goals (Emergency Defensive Ceiling Fallback)
     u45_hits = sum(1 for h, a in scores if (h + a) <= 4)
     u45_pct = round(u45_hits / tot_scores * 100.0, 1)
 
@@ -105,19 +107,35 @@ def find_common_ground_market(
 
     candidates = [
         {
+            "market": f"Double Chance: {home_team} or Draw (1X)",
+            "category": "Double Chance",
+            "agreement_pct": dc_1x_pct,
+            "hits": f"{dc_1x_hits}/{tot_scores}",
+            "fair_odds": round(max(1.15, min(1.42, 1.0 / max(0.01, dc_1x_pct / 100.0) * 1.10)), 2),
+            "reason": f"7-Platform consensus establishes {home_team} avoiding defeat ({dc_1x_hits}/{tot_scores} predicted scorelines)."
+        },
+        {
+            "market": f"Double Chance: {away_team} or Draw (X2)",
+            "category": "Double Chance",
+            "agreement_pct": dc_x2_pct,
+            "hits": f"{dc_x2_hits}/{tot_scores}",
+            "fair_odds": round(max(1.15, min(1.42, 1.0 / max(0.01, dc_x2_pct / 100.0) * 1.10)), 2),
+            "reason": f"7-Platform consensus establishes {away_team} avoiding defeat ({dc_x2_hits}/{tot_scores} predicted scorelines)."
+        },
+        {
             "market": "Over 1.5 Total Match Goals",
             "category": "Over Goals",
             "agreement_pct": o15_pct,
             "hits": f"{o15_hits}/{tot_scores}",
-            "fair_odds": round(max(1.10, 1.0 / max(0.01, o15_pct / 100.0)), 2),
-            "reason": f"Although 1X2 winner picks are divided, {o15_hits} of {tot_scores} predicted scorelines ({', '.join([f'{h}-{a}' for h,a in scores])}) contain 2+ goals."
+            "fair_odds": round(max(1.18, min(1.35, 1.0 / max(0.01, o15_pct / 100.0) * 1.12)), 2),
+            "reason": f"{o15_hits} of {tot_scores} predictive engines project 2+ match goals ({', '.join([f'{h}-{a}' for h,a in scores])})."
         },
         {
             "market": f"{home_team} to Score (Over 0.5 Team Goals)",
             "category": "Team Goals",
             "agreement_pct": h_score_pct,
             "hits": f"{h_score_hits}/{tot_scores}",
-            "fair_odds": round(max(1.08, 1.0 / max(0.01, h_score_pct / 100.0)), 2),
+            "fair_odds": round(max(1.12, min(1.30, 1.0 / max(0.01, h_score_pct / 100.0) * 1.08)), 2),
             "reason": f"{h_score_hits} of {tot_scores} predictive engines project {home_team} finding the back of the net."
         },
         {
@@ -125,7 +143,7 @@ def find_common_ground_market(
             "category": "Team Goals",
             "agreement_pct": a_score_pct,
             "hits": f"{a_score_hits}/{tot_scores}",
-            "fair_odds": round(max(1.08, 1.0 / max(0.01, a_score_pct / 100.0)), 2),
+            "fair_odds": round(max(1.12, min(1.30, 1.0 / max(0.01, a_score_pct / 100.0) * 1.08)), 2),
             "reason": f"{a_score_hits} of {tot_scores} predictive engines project {away_team} finding the back of the net."
         },
         {
@@ -133,32 +151,24 @@ def find_common_ground_market(
             "category": "Under Goals",
             "agreement_pct": u35_pct,
             "hits": f"{u35_hits}/{tot_scores}",
-            "fair_odds": round(max(1.08, 1.0 / max(0.01, u35_pct / 100.0)), 2),
+            "fair_odds": round(max(1.20, min(1.40, 1.0 / max(0.01, u35_pct / 100.0) * 1.15)), 2),
             "reason": f"High statistical ceiling: {u35_hits} of {tot_scores} models keep match scorelines capped at 3 goals or fewer."
-        },
-        {
-            "market": "Under 4.5 Total Match Goals",
-            "category": "Under Goals",
-            "agreement_pct": u45_pct,
-            "hits": f"{u45_hits}/{tot_scores}",
-            "fair_odds": round(max(1.04, 1.0 / max(0.01, u45_pct / 100.0)), 2),
-            "reason": f"Ultra-safe defensive blanket: {u45_hits} of {tot_scores} systems project total goals staying strictly under 5."
-        },
-        {
-            "market": "Under 2.5 Total Match Goals",
-            "category": "Under Goals",
-            "agreement_pct": u25_pct,
-            "hits": f"{u25_hits}/{tot_scores}",
-            "fair_odds": round(max(1.15, 1.0 / max(0.01, u25_pct / 100.0)), 2),
-            "reason": f"Engines project defensive friction; {u25_hits} of {tot_scores} models predict 2 or fewer total goals."
         },
         {
             "market": "Both Teams To Score: YES (BTTS)",
             "category": "BTTS",
             "agreement_pct": btts_pct,
             "hits": f"{btts_hits}/{tot_scores}",
-            "fair_odds": round(max(1.20, 1.0 / max(0.01, btts_pct / 100.0)), 2),
+            "fair_odds": round(max(1.25, 1.0 / max(0.01, btts_pct / 100.0)), 2),
             "reason": f"Both attacks are projected to score ({btts_hits}/{tot_scores} scorelines have both teams scoring)."
+        },
+        {
+            "market": "Under 2.5 Total Match Goals",
+            "category": "Under Goals",
+            "agreement_pct": u25_pct,
+            "hits": f"{u25_hits}/{tot_scores}",
+            "fair_odds": round(max(1.25, 1.0 / max(0.01, u25_pct / 100.0)), 2),
+            "reason": f"Engines project defensive friction; {u25_hits} of {tot_scores} models predict 2 or fewer total goals."
         },
         {
             "market": "Both Teams To Score: NO (Clean Sheet Expected)",
@@ -169,25 +179,76 @@ def find_common_ground_market(
             "reason": f"{btts_no_hits} of {tot_scores} models anticipate a defensive shutout or blank."
         },
         {
-            "market": f"Double Chance: {home_team} or Draw (1X)",
-            "category": "Double Chance",
-            "agreement_pct": dc_1x_pct,
-            "hits": f"{dc_1x_hits}/{tot_scores}",
-            "fair_odds": round(max(1.10, 1.0 / max(0.01, dc_1x_pct / 100.0)), 2),
-            "reason": f"Unites both Home Win and Draw predictions ({dc_1x_hits}/{tot_scores} systems avoid away defeat)."
-        },
-        {
-            "market": f"Double Chance: {away_team} or Draw (X2)",
-            "category": "Double Chance",
-            "agreement_pct": dc_x2_pct,
-            "hits": f"{dc_x2_hits}/{tot_scores}",
-            "fair_odds": round(max(1.10, 1.0 / max(0.01, dc_x2_pct / 100.0)), 2),
-            "reason": f"Unites both Away Win and Draw predictions ({dc_x2_hits}/{tot_scores} systems avoid home defeat)."
+            "market": "Under 4.5 Total Match Goals",
+            "category": "Under Goals",
+            "agreement_pct": u45_pct,
+            "hits": f"{u45_hits}/{tot_scores}",
+            "fair_odds": round(max(1.05, 1.0 / max(0.01, u45_pct / 100.0)), 2),
+            "reason": f"Emergency defensive ceiling: {u45_hits} of {tot_scores} systems project total goals staying strictly under 5."
         }
     ]
 
-    # Sort by highest agreement percentage, then lower odds
-    ranked = sorted(candidates, key=lambda x: (x["agreement_pct"], -x["fair_odds"]), reverse=True)
+    # Tactical Priority Weighting
+    # Prevents Under 4.5 from monopolizing consensus when Double Chance, Over 1.5,
+    # or Team Goals reach strong agreement across the 7 models.
+    def _calc_tactical_weight(cand_market: str, cand_pct: float) -> float:
+        if cand_pct < 65.0:
+            return 0.0
+
+        if "Double Chance" in cand_market:
+            if cand_pct >= 85.0:
+                return 100.0
+            if cand_pct >= 70.0:
+                return 88.0
+            return 60.0
+
+        if "Over 1.5" in cand_market:
+            if cand_pct >= 85.0 and tot_xg >= 2.1:
+                return 98.0
+            if cand_pct >= 85.0:
+                return 94.0
+            if cand_pct >= 70.0 and tot_xg >= 2.3:
+                return 82.0
+            return 55.0
+
+        if "to Score (Over 0.5" in cand_market:
+            team_xg = lambda_h if home_team in cand_market else lambda_a
+            if cand_pct >= 85.0 and team_xg >= 1.25:
+                return 92.0
+            if cand_pct >= 85.0:
+                return 86.0
+            return 50.0
+
+        if "Under 3.5" in cand_market:
+            if cand_pct >= 85.0 and tot_xg <= 2.8:
+                return 90.0
+            if cand_pct >= 85.0:
+                return 80.0
+            return 50.0
+
+        if "Under 2.5" in cand_market:
+            if cand_pct >= 85.0 and tot_xg <= 2.2:
+                return 84.0
+            return 40.0
+
+        if "Both Teams To Score: YES" in cand_market:
+            if cand_pct >= 85.0 and lambda_h >= 1.05 and lambda_a >= 1.0:
+                return 82.0
+            return 45.0
+
+        if "Under 4.5" in cand_market:
+            # Low tactical weight: only chosen when active markets fail to achieve consensus
+            return 25.0
+
+        return 30.0
+
+    for c in candidates:
+        weight = _calc_tactical_weight(c["market"], c["agreement_pct"])
+        c["tactical_weight"] = weight
+        c["selection_score"] = round(c["agreement_pct"] * 1.5 + weight, 2)
+
+    # Sort by composite selection score (agreement + tactical quality), then higher fair odds
+    ranked = sorted(candidates, key=lambda x: (x["selection_score"], x["fair_odds"]), reverse=True)
     best = ranked[0]
 
     return {
